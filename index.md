@@ -1,36 +1,3 @@
-By Ted Tschopp
-
-Copyright © 2023 Ziefen Presse
-
-Märchen Engine and Ziefen Press are trademarks of Ted Tschopp
-
-**Crowns**
-
-**Proofreading**: Ted Tschopp
-
-**Designation of Open Game Content**
-
-All the text in this document is designated as Open Gaming Content,
-except for the titles of products published by Ziefen Presse, and the
-trademarks “Märchen Engine” and “Ziefen Presse”.
-
-**Designation of Product Identity**
-
-Any title of a product published by Ziefen Presse is designated as
-Product Identity.
-
-**Please Note**: This Product is derived from the Cepheus System
-Reference Document, The Sword of Cepheus Reference Document, Traveller
-System Reference Document and other Open Gaming Content made available
-by the Open Gaming License and does not contain closed content from
-products published by either Mongoose Publishing or Far Future
-Enterprises. This Product is not affiliated with either Samardan Press,
-Mongoose Publishing or Far Future Enterprises, and it makes no claim to
-or challenge to any trademarks held by either entity. The use of the any
-of these Documents does not convey the endorsement of this Product by
-either Samardan Press, Mongoose Publishing or Far Future Enterprises as
-a product of either of their product lines.
-
 # INTRODUCTION
 
 Welcome to the ***Märchen Engine System Reference Document***, which
@@ -25350,6 +25317,41 @@ entity. The use of the Traveller System Reference Document does not
 convey the endorsement of this Product by either Mongoose Publishing or
 Far Future Enterprises as a product of either of their product lines.
 
+## Legal
+
+By Ted Tschopp
+
+Copyright © 2023 Ziefen Presse
+
+Märchen Engine and Ziefen Press are trademarks of Ted Tschopp
+
+**Crowns**
+
+**Proofreading**: Ted Tschopp
+
+**Designation of Open Game Content**
+
+All the text in this document is designated as Open Gaming Content,
+except for the titles of products published by Ziefen Presse, and the
+trademarks “Märchen Engine” and “Ziefen Presse”.
+
+**Designation of Product Identity**
+
+Any title of a product published by Ziefen Presse is designated as
+Product Identity.
+
+**Please Note**: This Product is derived from the Cepheus System
+Reference Document, The Sword of Cepheus Reference Document, Traveller
+System Reference Document and other Open Gaming Content made available
+by the Open Gaming License and does not contain closed content from
+products published by either Mongoose Publishing or Far Future
+Enterprises. This Product is not affiliated with either Samardan Press,
+Mongoose Publishing or Far Future Enterprises, and it makes no claim to
+or challenge to any trademarks held by either entity. The use of the any
+of these Documents does not convey the endorsement of this Product by
+either Samardan Press, Mongoose Publishing or Far Future Enterprises as
+a product of either of their product lines.
+
 ## Publishing Your Own Materials
 
 As you can see at the beginning of this System Reference Document, all
@@ -25444,7 +25446,7 @@ trade dress; artifacts; creatures characters; stories, storylines,
 plots, thematic elements, dialogue, incidents, language, artwork,
 symbols, designs, depictions, likenesses, formats, poses, concepts,
 themes and graphic, photographic and other visual or audio
-representations; names and descriptions of characters, spells,
+representations; proper nouned or unique names and descriptions of characters, spells,
 enchantments, personalities, teams, personas, likenesses and special
 abilities; places, locations, environments, creatures, equipment,
 magical or supernatural abilities or effects, logos, symbols, or graphic
@@ -25565,5 +25567,5 @@ character, names, and distinctive likenesses thereof are trademarks of
 Far Future Enterprises unless otherwise noted. All Rights Reserved.
 Mongoose Publishing Ltd Authorized User.
 
-Märchen Engine System Reference Document, Copyright © 2016 Ziefen
-Presse; Author Jason "Flynn" Kemp
+Märchen Engine System Reference Document, Copyright © 2023 Ziefen
+Presse; Ted Tschopp
