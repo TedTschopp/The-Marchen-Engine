@@ -1,0 +1,8 @@
+title: Märchen Engine System Reference Document
+description: Welcome to the „Märchen Engine System Reference Document“, which outlines the core rules used by this Open Gaming System. This Introduction provides you with an overview of what the Märchen Engine is and how it works, while the later chapters show you how to create characters and embark on your own exciting adventures.
+theme: just-the-docs
+
+url: https://tedtschopp.github.io/The-Marchen-Engine/
+
+aux_links: # remove if you don't want this link to appear on your pages
+  Template Repository: https://github.com/TedTschopp/The-Marchen-Engine/
