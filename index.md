@@ -347,9 +347,9 @@ of that other skill formally.
 
 ### Social Aspects
 
-#### Convention Characteristics
+#### Manners Characteristics
 
-**Convention** represents the overall ability of the being to socially
+**Manners** represents the overall ability of the being to socially
 understand the world around them
 
 ##### Style Skill 
@@ -593,16 +593,16 @@ action, it will typically follow the core system of a 2D6 roll plus
 modifiers versus a target of 8+ (read as eight or higher). This is
 called a check. You always want to roll high on a check. Rolling 12
 before adding modifiers (where two sixes appear on the dice naturally)
-is not an automatic success, and rolling 2 before adding modifiers
-(where both dice show a one naturally) is not an automatic failure.
+is not an automatic success and rolling 2 before adding modifiers (where
+both dice show a one naturally) is not an automatic failure.
 
 #### Difficulty and Effect
 
 A check's Difficulty is a number set by the Referee that modifies your
-check result. When no Difficulty is given, the assumed Difficulty is +0.
-So, for a task with a Difficulty of +2, you must add +2 to the check
-result. You succeed on a total of 8 or better. The list of Difficulty
-ratings can be found in the Task Difficulty table
+check result. When no Difficulty is given, the assumed Difficulty is
+DM+0. So, for a task with a Difficulty of DM+2, you must add +2 to the
+check result. You succeed on a total of 8 or better. The list of
+Difficulty ratings can be found in the Task Difficulty table
 
 ##### Table: Task Difficulties
 
@@ -625,12 +625,131 @@ See **Chapter 2: Skills** for more details.
 
 ##### Table: Degrees of Success
 
-| Effect Range | Degree of Success   |
-|--------------|---------------------|
-| -6 or lower  | Exceptional Failure |
-| -1 to -5     | Failure             |
-| 0 to +5      | Success             |
-| +6 or higher | Exceptional Success |
+| **σ**  | **2d6** | **3d6** | **4d7**        | **8D4(dreidels)** | **Degree of Success** |
+|--------|---------|---------|----------------|-------------------|-----------------------|
+| -4     | NA      | -8      | -12            | -12, -11          | Catastrophic          |
+| -3     | -5      | -7, -6  | -11, -10, -9   | -10, -9           | Costly                |
+| -2     | -3, -4  | -5, -4  | -8, -7, -6, -5 | -8, -7, -6, -5    | Fail                  |
+| -1     | -2      | -3, -2  | -4, -3, -2     | -4, -5, -2        | Minor Fail            |
+| almost | -1      | -1      | -1             | -1                | Fail in Style         |
+| 0      | 0       | 0       | 0              | 0                 | Tie                   |
+| 1      | 1,2     | 1,2     | 1,2,3,4,       | 4, 3, 2, 1        | Succeed               |
+| 2      | 3,4     | 3,4     | 5,6,7,8        | 8, 7, 6, 5        | Succeed In Style      |
+| 3      | 5       | 5,6     | 9,10,11        | 10, 9             | Critical              |
+| 4      | NA      | 7       | 12             | 12, 11            | Serendipitous         |
+
+#### Degrees of Success Defined
+
+There are nine separate ways a predicament can be resolved:
+
+##### Fail Catastrophically 
+
+This is a critical failure. The cost for this sort of failure means the
+outcome the actor was intending failed. Additionally, things have turned
+worse for that actor as well in unrelated areas or with a sense of
+finality.
+
+> For example, if a thief was attempting to pick the lock of a door,
+> then it should be determined that they did not pick the lock. The trap
+> in the door was triggered. Everyone in the party must now determine if
+> they are now poisoned, and no further attempts may be made (finality).
+> In the event that overcoming this complication was required for the
+> party to accomplish their overall objectives, the GM must instead make
+> the events turn to the worse in other areas. In the above example this
+> would mean that in their attempts to pick the lock, the thief slipped,
+> and knocked the torch out of the hands of the person carrying it, and
+> the tapestry the door is behind is now on fire. Or the torch is now
+> out and no one can see. The idea here is to heighten tension and make
+> the attempt require larger efforts of heroics.
+
+##### Costly
+
+This is one step away from a critical failure. The cost should be
+related to the outcome the player or monster was attempting.
+
+> For example if the thief was attempting to pick the lock of a door,
+> then it should be determined that they did not pick the lock, but they
+> did trigger the trap in the door, and everyone in the party must now
+> determine if they are poisoned.
+
+##### Fail
+
+This is a normal failure.
+
+> In the example of our thief would not have been able to pick the lock,
+> but the lock would not be jammed, and he would still have his pick.
+
+##### Fail in Style
+
+This is one step above a failure. It is still a failure, but something
+else has happened that moves the story forward in a more difficult path,
+but without accomplishing the goals.
+
+> In the example of the thief, he wouldn't have picked the lock, but he
+> did spring the trap and the door was opened, but everyone in the party
+> must determine if they are poisoned. This is the classic fail forward
+> approach.
+
+##### Tie
+
+A tie succeeds unless this was a contest between two parties, in which
+case the outcome is that neither party gets what they want, and it
+should be treated as a fail in style for both sides. This is useful for
+social interactions or for contests of strength or agility.
+
+> In the example of our thief the parties in question are the designer
+> of the lock or door and the party trying to get in. The thief would
+> not get what they want, the lock to be picked, and the designer of the
+> lock would not get what they want, to keep the lock secure. The
+> resolution on this would be that the thief can’t open the lock with
+> this action, but he has gained knowledge of the lock, which will make
+> it easier for him next time. This wouldn’t be a problem for the thief
+> uness he was doing this under a stress.
+
+##### Succeed
+
+The individual who attempted to do something accomplishes what they set
+out to do.
+
+> In the example of the thief, the door is unlocked, and is no longer
+> being held shut by the locking mechanism.
+
+##### Succeed in Style
+
+The individual who attempted to do something accomplishes what they set
+out to do, and they got some hidden bonus or style out of it.
+
+> In the example of the thief, the door is unlocked, and is no longer
+> being held shut by the locking mechanism, and the thief now
+> understands how that lock is constructed and the next one that is just
+> like it will be easier to open.
+
+##### Critical Success
+
+The individual who attempted to do something accomplishes what they set
+out todo, and they got a substantial hidden bonus or style out of it.
+
+> In the example of the thief, the door is unlocked, and is no longer
+> being held shut by the locking mechanism, and the thief now
+> understands how locks made by that locksmith are constructed so any
+> lock within this facility will be easier to open.
+
+##### Serendipitous Success
+
+The individual who attempted to do something accomplishes what they set
+out todo, and they got a substantial hidden bonus or style out of it
+that is completely unrelated to the task being attempted.
+
+> In the example of the thief, the door is unlocked, and is no longer
+> being held shut by the locking mechanism, and the thief now
+> understands how locks made by that locksmith are constructed so any
+> lock within this facility will be easier to open. In addition, the
+> thief see's the trap on the door as well, and has a normal success to
+> disarm it. The best way to see a Serendipitous success is to see this
+> as two completely independent successes on one die roll. In the event
+> that a complication requires more than one success a Serendipitous
+> success will, in addition to everything above, add an additional
+> success to the success pool.
 
 #### Opposed Checks
 
@@ -658,11 +777,11 @@ or penalty that is added to the check result. The Referee can alter the
 odds of success in two ways:
 
 - If a character has help, such as good tools, competent aids or other
-  beneficial circumstances, he receives a +1 bonus to his skill check.
+  beneficial circumstances, he receives a DM+1 bonus to his skill check.
 
 - If a character is hampered, such as having defective tools,
   incompetent assistance or other negative circumstances, he receives a
-  -1 penalty to his skill check.
+  DM-1 penalty to his skill check.
 
 #### Time and Checks
 
@@ -740,7 +859,7 @@ you can do one of the following:
 
 - Take a significant action and a minor action.
 
-- Take three minor actions, and forego taking a significant action this
+- Take three minor actions and forego taking a significant action this
   turn.
 
 You can perform as many free actions and reactions in a round as you
@@ -761,281 +880,42 @@ quick reference for converting values for use in Märchen Engine.
 
 #### Table: Pseudo-Hexadecimal Notation
 
-| Actual Value | PseudoHex | Actual Value | PseudoHex | Actual Value | PseudoHex |
-|--------------|-----------|--------------|-----------|--------------|-----------|
-| **0**        | 0         | **12**       | C         | **24**       | Q         |
-| **1**        | 1         | **13**       | D         | **25**       | R         |
-| **2**        | 2         | **14**       | E         | **26**       | S         |
-| **3**        | 3         | **15**       | F         | **27**       | T         |
-| **4**        | 4         | **16**       | G         | **28**       | U         |
-| **5**        | 5         | **17**       | H         | **29**       | V         |
-| **6**        | 6         | **18**       | J         | **30**       | W         |
-| **7**        | 7         | **19**       | K         | **31**       | X         |
-| **8**        | 8         | **20**       | L         | **32**       | Y         |
-| **9**        | 9         | **21**       | M         | **33**       | Z         |
-| **10**       | A         | **22**       | N         |              |           |
-| **11**       | B         | **23**       | P         |              |           |
-
-## Important Terms
-
-The Märchen Engine uses certain words and abbreviations throughout the
-rules system. In order properly understand the Märchen Engine rules,
-both players and Referees should become familiar with these terms. The
-following words, phrases and abbreviations are commonly used in The
-Märchen Engine:
-
-**2D6**: Two six-sided dice, used to resolve all actions in the Märchen
-Engine.
-
-**Action**: A character activity. There are significant actions, minor
-actions, extended actions, free actions, and reactions.
-
-**Adventure**: A story created by the Referee and players, comprised of
-a series of related scenes or encounters.
-
-**Attack bonus**: A modifier used to measure a character's combat skill.
-
-**Attack roll**: A skill check used to determine whether an attack hits.
-
-**Attack**: Any of numerous actions intended to harm, disable, or
-neutralize an opponent.
-
-**Bonus**: A positive modifier to a die roll.
-
-**Campaign**: A series of linked adventures.
-
-**Character**: A fictional individual in the game. The players control
-characters, while the Referee controls non-player characters.
-
-**Characteristic modifier**: A modifier determined by the value of the
-characteristic score, applied as a bonus or penalty to checks as needed.
-
-**Characteristic score**: One of the six basic character traits --
-Strength (Str), Dexterity (Dex), Endurance (End), Intelligence (Int),
-Education (Edu), and Social Standing (Soc).
-
-**Check (or Throw)**: A method of deciding the result of a character's
-action. Checks are based on a relevant ability, skill, or other trait.
-To make a check, roll 2D6 and add any relevant modifiers. If the check
-result equals or exceeds a target of 8 or the result of an opponent's
-check, it succeeds.
-
-**Coreward**: An astrographical term indicating the direction of
-Sagittarius A\* (pronounced "Sagittarius A-star", standard abbreviation
-Sgr A\*), a bright and very compact astronomical radio source at the
-center of the Milky Way galaxy.
-
-**Crown (₢)**: The primary unit of currency used in the Märchen Engine.
-For very large amounts of money, the kilocrown (K₢) represents one
-thousand crown and the megacrown (M₢) represents one million cowns.
-
-**Critical hit (crit)**: An attack inflicting extra damage. Critical
-hits are only involved in vehicular and space combat.
-
-**D66**: A special die roll generated by rolling two six-sided dice of
-different colors (or rolling one die twice, noting each number rolled),
-multiplying the first die by 10 and then adding the second die, to
-create a number between 11 and 66.
-
-**Damage bonus**: A modifier used to determine the damage of an attack.
-
-**Damage**: Harm caused to a character by injury, illness, or some other
-source.
-
-**Dice modifier (DM)**: A modifier applied to a check.
-
-**Die (plural is dice)**: A small polyhedron, typically a cube, with
-each side having a different number on it, ranging from one to the
-number of sides of the polyhedron, thrown and used in gambling and other
-games involving chance. The Märchen Engine uses six-sided dice
-exclusively to create random results during play.
-
-**Difficulty**: A modifier applied to a check that is assigned by the
-Referee, reflecting the relative ease or difficulty of a given action.
-
-**Dominant race**: A sentient species capable of interstellar travel via
-jump drive technology, and that has used that technology to expand their
-presence over a significant region of space. Dominant Races typically
-control a fairly expansive interstellar government, and have settlements
-and significant populations more than ten parsecs away from their planet
-of origin.
-
-**Dying**: Near death and unconscious. A dying character can take no
-actions.
-
-**Effect**: The difference between a check result and the target of 8
-(i.e. how much higher or lower the result is).
-
-**Encounter**: An unexpected or casual meeting with someone or
-something. A large part of the Referee’s job is the administration of
-encounters.
-
-**Explorer's Society**: A private interstellar travel service which
-maintains exclusive resorts and facilities at various starports. Several
-interstellar organizations provide membership to the Explorer's Society
-as a reward for outstanding service.
-
-**Exceptional failure**: Any check that fails by 6 or greater (i.e. has
-an Effect of -6 or worse).
-
-**Exceptional success**: Any check that succeeds by 6 or greater (i.e.
-has an Effect of +6 or better).
-
-**Extended action**: An action in combat that takes longer than a single
-combat round to complete.
-
-**Free action**: An extremely fast activity, requiring very little time
-and effort.
-
-**Homeworld**: **1)** The world that serves as a character’s place of
-origin, usually the world on which the character was raised and which
-had the most impact on their development during their pre-adult life.
-**2)** The world of origin for an non-human species, i.e. Earth is the
-homeworld for the human species.
-
-**Jump**: A form of faster-than-light movement using Jump drives, which
-always takes one week to travel a number of parsecs equal to its Jump
-rating and consumes a vast amount of fuel.
-
-**Jump point**: A point in space more than 100 diameters out from any
-nearby celestial body, chosen by a navigator as the point from which a
-ship will enter into Jump space.
-
-**Jump space**: The alternate dimension through which starships travel
-when transitioning from one point in normal space to another.
-
-**Lesser race**: A sentient species that has not developed jump drive
-technology on its own. While individuals of the Lesser races can and do
-engage in interstellar travel, settled populations of any given Lesser
-Race are rarely encountered further than ten parsecs from their
-homeworld.
-
-**Lethal damage**: Damage that can potentially disable or kill a target.
-
-**Mainworld**: The primary world of a star system; the world represented
-by the UWP in a list of worlds for a given region of space.
-
-**Melee attack**: A physical attack in close combat.
-
-**Melee weapon**: A handheld weapon designed for close combat.
-
-**Minor action**: An action intended to move a distance or to manipulate
-or move an object. You can take up to three minor actions per round, at
-the loss of a significant action.
-
-**Misjump**: A mishap caused by an inaccurate jump, which results in
-jumping to a random location with damage to the vessel and potentially
-the crew. Common causes for misjumps include bad Jump plots, damaged
-Jump drives, diverting energy into the Jump drive improperly, jumping
-from within the hundred-diameter limit and using unrefined fuel.
-
-**Modifier**: Any bonus or penalty applied to a die roll.
-
-**Natural**: A natural result on a roll or check is the actual number
-appearing on the die, not the modified result obtained by adding bonuses
-or subtracting penalties.
-
-**Non-lethal damage**: Damage that can potentially stun or knock out a
-target, but does no permanent harm.
-
-**Non-player character (NPC)**: A character controlled by the Referee
-(as opposed to a character controlled by a player).
-
-**Non-starship**: A spaceship without a jump drive, and thus incapable
-of interstellar travel on its own.
-
-**Patron**: A non-player character who gives financial or other support
-to a person, organization, cause, or activity. Referees often use
-patrons as a tool to attempt to engage player characters in adventures.
-
-**Penalty**: A negative modifier to a die roll.
-
-**Player character (PC)**: A character controlled by a player, one of
-the protagonists of an adventure or campaign.
-
-**Psion**: A character with psionic abilities.
-
-**Ranged attack**: Any attack made at a distance.
-
-**Ranged weapon**: A projectile or thrown weapon designed for attacking
-at a distance.
-
-**Reaction**: An action taken in response to the action of another. You
-can perform as many reactions as you want per round in Personal Combat,
-but the number of Reactions that a vessel can undertake is based on
-Initiviative in Space Combat.
-
-**Referee**: The player who portrays characters not controlled by the
-other players, arbitrates the rules, and makes up the story and setting
-for the game.
-
-**Rimward**: An astrographical term indicating the direction opposite of
-Coreward, or directly away from the radio source of Sagittarius A\*.
-
-**Round**: A six-second unit of game time used to manage actions,
-usually in combat.
-
-**Significant action**: An action intended to do something within about
-3 seconds. You can perform a single significant action per round, or
-forego it to perform a total of three minor actions.
-
-**Seriously wounded**: If you have lost at least one point from all
-three of your physical characteristics, you are considered seriously
-wounded. When conscious, you cannot move except to hobble or crawl along
-at 1.5 meters per combat round. You also lose your minor action in
-combat. You can only regain characteristic points equal to your
-Endurance DM per day of rest through natural healing. You require
-surgery.
-
-**Skill**: An ability to perform a set action, such as navigating a
-starship, operating a rifle, or programming a computer. Skills are
-attained in levels (Navigation-1, Computer-2, etc); the higher the level
-of a skill, the more expertise a character has in that area. Many
-different individual skills are available to characters.
-
-**Small Craft**: A vessel under 100 tons, capable of interplanetary
-travel.
-
-**Sophont**: A sentient being with a base reasoning capacity roughly
-equivalent to or greater than that of an average human being.
-
-**Spinward**: An astrographical term indicating the direction of the
-galaxy’s rotation.
-
-**Standard Day**: A unit of time that is 24 hours long.
-
-**Standard Year**: A unit of time that is 365 Standard Days in length.
-
-**Starport**: A port where interstellar and interplanetary vessels load
-or unload, especially one where customs officers are stationed.
-
-**Starship**: A spaceship with a jump drive, capable of interstellar
-travel on its own.
-
-**Target (also subject)**: The intended recipient of an attack, action,
-or effect.
-
-**Trailing**: An astrographical term indicating the direction opposite
-of the galaxy's rotation.
-
-**Trained**: Having knowledge of, and therefore levels in, a skill.
-
-**Unarmed attack**: A melee attack made with no weapon.
-
-**Universe**: The setting presented by a Referee, in which characters
-play out adventures and campaigns. A Referee may use a published setting
-for their adventures or create their own with the Märchen Engine rules.
-
-**Untrained**: Having no ranks in a skill. Some skills cannot be used
-untrained. Unskilled skill checks suffer a DM-3 penalty.
-
-**Vessel**: General term used to starships, small craft, or vehicles as
-a general inclusive group. Most commonly, it refers to any vehicle or
-ship capable of interplanetary or interstellar travel.
-
-**World**: A generic term in the Märchen Engine for any inhabitable
-celestial body or similar location represented by a Universal World
-Profile.
+| Actual Value | PseudoHex |
+|--------------|-----------|
+| **0**        | 0         |
+| **1**        | 1         |
+| **2**        | 2         |
+| **3**        | 3         |
+| **4**        | 4         |
+| **5**        | 5         |
+| **6**        | 6         |
+| **7**        | 7         |
+| **8**        | 8         |
+| **9**        | 9         |
+| **10**       | A         |
+| **11**       | B         |
+| **12**       | C         |
+| **13**       | D         |
+| **14**       | E         |
+| **15**       | F         |
+| **16**       | G         |
+| **17**       | H         |
+| **18**       | J         |
+| **19**       | K         |
+| **20**       | L         |
+| **21**       | M         |
+| **22**       | N         |
+| **23**       | P         |
+| **24**       | Q         |
+| **25**       | R         |
+| **26**       | S         |
+| **27**       | T         |
+| **28**       | U         |
+| **29**       | V         |
+| **30**       | W         |
+| **31**       | X         |
+| **32**       | Y         |
+| **33**       | Z         |
 
 # BOOK ONE: CHARACTERS
 
@@ -1245,7 +1125,7 @@ parentheses.
 | 17 (H)          | ₢25,000       | ₢2,000      | Crown Prince (Crown Princess)   |                                          |                      |                         |     |
 | 18 (J)          | ₢25,000       | ₢2,000      | Emperor (Empress)               |                                          |                      |                         |     |
 
-### ~~Psionic Strength, the Seventh Characteristic~~
+### Psionic Strength, the Seventh Characteristic
 
 ~~Within the Märchen Engine, characters can sometimes have a seventh
 characteristic score. When a character learns psionics, they generate a
@@ -2462,15 +2342,15 @@ aging at 42, stand 155+(2D6x5) centimeters tall, and have a mass of
   from such effects.
 
 - **Acute Hearing**: Members of this species possess excellent hearing,
-  and receive a +2 DM on any perception–based skill checks dependent on
+  and receive a DM+2 on any perception–based skill checks dependent on
   hearing.
 
 - **Acute Vision**: Members of this species possess excellent vision,
-  and receive a +2 DM on any perception–based skill checks dependent on
+  and receive a DM+2 on any perception–based skill checks dependent on
   sight.
 
 - **Alertness**: Members of this species are keenly aware of their
-  surroundings, and gain a +2 DM on any perception–based skill check.
+  surroundings, and gain a DM+2 on any perception–based skill check.
 
 - **Altitude Adaptation**: Members of this species are adapted to life
   at high altitudes, and thus don't suffer altitude sickness. They are
@@ -2511,7 +2391,7 @@ aging at 42, stand 155+(2D6x5) centimeters tall, and have a mass of
   bony exoskeleton or other natural protection that gives it one point
   of natural armour.
 
-- **Athletic**: Members of this species very athletic, and gain a +2 DM
+- **Athletic**: Members of this species very athletic, and gain a DM+2
   on any Athletics skill check.
 
 - **Atmospheric Requirements**: Members of this species cannot survive
@@ -2617,11 +2497,11 @@ aging at 42, stand 155+(2D6x5) centimeters tall, and have a mass of
   species breathes air instead of water, it cannot survive out of water
   unless it also has the Amphibious Non-Human species trait.
 
-- **Desert Adaptation**: Members of this species gain a +2 DM on any
+- **Desert Adaptation**: Members of this species gain a DM+2 on any
   survival or wilderness–based skill checks made in a desert
   environment, due to growing up on a desert world.
 
-- **Eidetic Memory**: Members of this species gain a +2 DM on recalling
+- **Eidetic Memory**: Members of this species gain a DM+2 on recalling
   anything they have directly witnessed. Being able to remember seeing
   something written down (such as flipping through a book or scanning a
   thousand lines of code in seconds) does not immediately grant
@@ -2660,7 +2540,7 @@ aging at 42, stand 155+(2D6x5) centimeters tall, and have a mass of
   speeds greater than that of normal humans.
 
 - **Fast Talker**: Members of this species can easily influence others,
-  and gain a +2 DM on any Persuade skill check.
+  and gain a DM+2 on any Persuade skill check.
 
 - **Feral**: Feral species are uncivilized, regardless of their
   technological knowledge. Feral species roll Education on 1d6 only.
@@ -2692,11 +2572,11 @@ aging at 42, stand 155+(2D6x5) centimeters tall, and have a mass of
   opponent can resist the effects with an opposed Persuade skill check.
   An opponent that succeeds in this check is immune to the Non-Human
   specie’s frightful presence for 24 hours. The Non-Human species gains
-  a +2 DM on opposed Persuade skill checks for the purposes of this
-  trait only.
+  a DM+2 on opposed Persuade skill checks for the purposes of this trait
+  only.
 
 - **Gearhead**: Members of this species are talented builders, and gain
-  a +2 DM on any Trade skill check.
+  a DM+2 on any Trade skill check.
 
 - **Gendermorphic**: Members of this species can enter into a state of
   hibernation lasting a number of days equal to 2d6 – Endurance
@@ -2727,7 +2607,7 @@ aging at 42, stand 155+(2D6x5) centimeters tall, and have a mass of
   of this species are treated as having the Athletics skill at level 0.
 
 - **Haggler**: Members of this species are exceptional traders, and gain
-  a +2 DM on any Broker skill check.
+  a DM+2 on any Broker skill check.
 
 - **Heat Endurance**: Members of this species do not suffer hourly
   damage from the effects of hot weather and exposure.
@@ -2765,7 +2645,7 @@ aging at 42, stand 155+(2D6x5) centimeters tall, and have a mass of
   sophonts. Huge creatures generally have a Strength and Endurance of
   3d6 or even 4d6, and a Dexterity of 1d6. Life support requirements for
   Huge creatures are doubled. Attacks against Huge creatures receive a
-  +1 DM to hit.
+  DM+1 to hit.
 
 - **Improved Grab**: Members of this species gain a +2 on Melee(unarmed)
   skill checks that involve grappling.
@@ -2774,7 +2654,7 @@ aging at 42, stand 155+(2D6x5) centimeters tall, and have a mass of
   extends 1.5m longer than normal for their size and symmetry.
 
 - **Interrogator**: Members of this species are highly intuitive about
-  the psychology of others, and gain a +2 DM on any checks related to
+  the psychology of others, and gain a DM+2 on any checks related to
   extracting information from others.
 
 - **Intolerant**: Members of this species are intolerant of other races.
@@ -2820,34 +2700,34 @@ aging at 42, stand 155+(2D6x5) centimeters tall, and have a mass of
   species traits.
 
 - **Natural Advocate**: Members of this species follow highly codified
-  social interaction practices, and thus gain a +2 DM on any Advocate
+  social interaction practices, and thus gain a DM+2 on any Advocate
   skill check.
 
 - **Natural Born Leader**: Members of this species have an innate
   natural charisma or bearing that promotes respect and obedience, and
-  gain a +2 DM on any Leadership skill check.
+  gain a DM+2 on any Leadership skill check.
 
 - **Natural Climber**: Members of this species are natural climbers and
-  gain a +2 DM on all skill checks related to climbing.
+  gain a DM+2 on all skill checks related to climbing.
 
 - **Natural Compass**: Members of this species have an innate sense of
   planetary magnetic fields and can always identify the north pole of a
-  planet. They gain a +2 DM on any navigation or orienteering–based
-  check to avoid becoming lost on a planetary surface.
+  planet. They gain a DM+2 on any navigation or orienteering–based check
+  to avoid becoming lost on a planetary surface.
 
 - **Natural Pilot**: Members of this species have an innate
-  understanding of multi–dimensional space, and so receive a +2 DM to
+  understanding of multi–dimensional space, and so receive a DM+2 to
   their Pilot and Astrogation checks.
 
-- **Natural Survivalist**: Members of this species gain a +2 DM on
+- **Natural Survivalist**: Members of this species gain a DM+2 on
   Survival checks made in environments similar to their natural
   conditions. Such characters are naturally adept at staying alive in
   the harsh conditions of their homeworld.
 
 - **Natural Swimmer**: Members of this species are natural swimmers and
-  gain a +2 DM on all skill checks related to swimming.
+  gain a DM+2 on all skill checks related to swimming.
 
-- **Natural Thief**: Members of this species get a +2 DM on Deception
+- **Natural Thief**: Members of this species get a DM+2 on Deception
   skill checks.
 
 - **Natural Weapon**: The species has a natural weapon, such as claws, a
@@ -2899,11 +2779,11 @@ aging at 42, stand 155+(2D6x5) centimeters tall, and have a mass of
   this range up to 50 km.
 
 - **Overly Aggressive**: Members of this species are always ready to
-  leap into violent action, and gain a +2 DM on Initiative checks.
+  leap into violent action, and gain a DM+2 on Initiative checks.
 
 - **Pleasant Odor**: Members of this species have a strong odor that
   most creatures find pleasing. Any creature with a sense of smell gains
-  a +2 DM on skill checks to detect the character. Creatures that smell
+  a DM+2 on skill checks to detect the character. Creatures that smell
   the character's pleasant odor find it difficult to harm the character,
   and must make an Routine (DM +0) Intelligence check to take hostile
   action against the character within olfactory range.
@@ -2931,7 +2811,7 @@ aging at 42, stand 155+(2D6x5) centimeters tall, and have a mass of
   personal combat with members of that species, the offending species
   suffer a –2 DM on attacks against this species.
 
-- **Racial Enemy**: Members of this species gain a +1 DM on attack rolls
+- **Racial Enemy**: Members of this species gain a DM+1 on attack rolls
   against members of another species, as determined by the history and
   culture of the species.
 
@@ -2944,10 +2824,9 @@ aging at 42, stand 155+(2D6x5) centimeters tall, and have a mass of
   arise where the difficulty ranges from Routine (DM +2) to Difficult
   (DM –2) or even worse for extreme confrontations.)
 
-- **Racial Weapon**: Members of this species gain a +1 DM on attack
-  rolls when using specific weapons of significant importance to the
-  species' society, as determined by the history and culture of the
-  species.
+- **Racial Weapon**: Members of this species gain a DM+1 on attack rolls
+  when using specific weapons of significant importance to the species'
+  society, as determined by the history and culture of the species.
 
 - **Radiation Resistance**: A member of this species reduces all
   radiation damage received by 100 rads.
@@ -2967,25 +2846,25 @@ aging at 42, stand 155+(2D6x5) centimeters tall, and have a mass of
   may not be used to counteract aging.
 
 - **Resistant to Diseases**: Members of this species are highly
-  resistant to infection, gaining a +2 DM on Endurance checks to resist
+  resistant to infection, gaining a DM+2 on Endurance checks to resist
   the effects of diseases.
 
-- **Resistant to Fear**: Members of this species gain a +2 DM on any
+- **Resistant to Fear**: Members of this species gain a DM+2 on any
   skill check or attribute check to resist fear–based effects.
 
 - **Resistant to Poisons**: Members of this species are highly resistant
-  to toxins, gaining a +2 DM on Endurance checks to resist the effects
-  of diseases.
+  to toxins, gaining a DM+2 on Endurance checks to resist the effects of
+  diseases.
 
 - **Resistant to Psionics**: Members of this species are innately
-  resistant to psionics. They gain a +2 DM on any skill check or
+  resistant to psionics. They gain a DM+2 on any skill check or
   attribute check to resist psionic abilities, and suffer a –2 DM to
   their Psionic Strength rating. A species cannot have this Non-Human
   species trait and the Anti–Psionic Non-Human species trait at the same
   time.
 
 - **Scent**: Members of this species have a powerful sense of smell, and
-  gain a +2 DM on any skill check or attribute check involving the sense
+  gain a DM+2 on any skill check or attribute check involving the sense
   of smell. This DM also applies to any situation where scent can help
   in tracking others.
 
@@ -3003,9 +2882,9 @@ aging at 42, stand 155+(2D6x5) centimeters tall, and have a mass of
   attack, requiring a successful Athletics (throwing) skill check up to
   a range of Short, which deals 1d6 points of damage.
 
-- **Stability**: Members of this species gain a +2 DM on skill checks
-  and ability checks to resist forced physical movement when standing on
-  the ground (but not when climbing, flying, riding, or otherwise not
+- **Stability**: Members of this species gain a DM+2 on skill checks and
+  ability checks to resist forced physical movement when standing on the
+  ground (but not when climbing, flying, riding, or otherwise not
   standing firmly on the ground).
 
 - **Stalwart Movement**: Members of this species can move at their base
@@ -3014,7 +2893,7 @@ aging at 42, stand 155+(2D6x5) centimeters tall, and have a mass of
   in such situations).
 
 - **Stealthy**: Members of this species are particularly sneaky, and
-  gain a +2 DM on any Stealth skill check.
+  gain a DM+2 on any Stealth skill check.
 
 - **Taint Immunity**: Members of this species are immune to most
   atmospheric taints.
@@ -3056,7 +2935,7 @@ aging at 42, stand 155+(2D6x5) centimeters tall, and have a mass of
   atmosphere without difficulty.
 
 - **Trustworthy**: Members of this species are particularly trustworthy,
-  and gain a +2 DM on any Diplomat skill check.
+  and gain a DM+2 on any Diplomat skill check.
 
 - **Unusual Hand Structure**: The articulation of this species’
   manipulators (hands, tentacles, etc.) are sufficiently different
@@ -3130,14 +3009,14 @@ aging at 42, stand 155+(2D6x5) centimeters tall, and have a mass of
   their racial maximum for that characteristic is decreased by the same
   amount.
 
-- **Well–Traveled**: Members of this species receive a +2 DM on Sense
+- **Well–Traveled**: Members of this species receive a DM+2 on Sense
   Motive and Gather Information checks.
 
 - **Xeno–Empathy**: Members of this species possess a natural empathy
-  for other species, and gain a +2 DM on any Carouse skill check.
+  for other species, and gain a DM+2 on any Carouse skill check.
 
 - **Zero–Gravity Adaptation**: Members of this species evolved on a
-  world with little or no discernible gravity and gain a +2 DM on any
+  world with little or no discernible gravity and gain a DM+2 on any
   Zero–G skill check. In addition, they are treated as having the Zero–G
   skill at level 0.
 
@@ -3811,7 +3690,7 @@ reference below.
   sophonts. Huge creatures generally have a Strength and Endurance of
   3d6 or even 4d6, and a Dexterity of 1d6. Life support requirements for
   Huge creatures are doubled. Attacks against Huge creatures receive a
-  +1 DM to hit.
+  DM+1 to hit.
 
 ### DETERMINE MOVEMENT 
 
@@ -4148,10 +4027,10 @@ Scavenger/Reducer, DM +0
 <table>
 <colgroup>
 <col style="width: 21%" />
-<col style="width: 30%" />
+<col style="width: 31%" />
 <col style="width: 14%" />
 <col style="width: 21%" />
-<col style="width: 11%" />
+<col style="width: 10%" />
 </colgroup>
 <thead>
 <tr class="header">
@@ -4246,7 +4125,7 @@ Scavenger/Reducer, DM +0
 <col style="width: 31%" />
 <col style="width: 15%" />
 <col style="width: 21%" />
-<col style="width: 10%" />
+<col style="width: 9%" />
 </colgroup>
 <thead>
 <tr class="header">
@@ -6377,7 +6256,7 @@ World Size A+ (High Gravity), DM –3
 > finalize the non-human species before releasing this information to
 > his players.
 
-### RECORD NON-HUMAN SPECIES DETAILS 
+### Record Non-Human Species Details 
 
 After the Referee has completed the Non-human species Generation
 process, he will need to take the time to record the details of the
@@ -6396,31 +6275,24 @@ is most encouraged to be as creative as he desires.
 > section is intended to propose a method that provides the Referee (or
 > interested and involved Players) with the tools to easily develop a
 > rich and vibrant culture for this new non-human species.
->
-> This method was inspired by a series of articles entitled "Distilled
-> Cultural Essence," which were written by Mike Bourke. Although this
-> guide provides a distillation of that wonderful advice, Referees
-> curious for more information and details may wish to review this work
-> at the following URL:
-> <http://www.campaignmastery.com/blog/cultural-essence-1/>
 
 #### STEP ONE 
 
-> To begin this approach to cultural development, the Referee needs to
-> identify the primary difference between the non-human species' culture
-> and the common or baseline culture of the campaign setting. This may
-> be inspired by one or more of the non-human species traits determined
-> for this race, an existing modern or historical Terran culture, or
-> ever some element of the setting's history or geography that imposes
-> an external influence on this species. Common science fiction tropes
-> include a race that embraces psionics, a warrior culture inspired by
-> the mongol hordes of Asia, or a race of stoic xeno–phobic scholars
-> devoted to the pursuit of knowledge. The Referee is encouraged to be
-> creative, but should also be focused on playability.
->
-> Once determined, this should be recorded at the beginning of a
-> document as either a single sentence or short paragraph that easily
-> captures this detail for the Referee.
+To begin this approach to cultural development, the Referee needs to
+identify the primary difference between the non-human species' culture
+and the common or baseline culture of the campaign setting. This may be
+inspired by one or more of the non-human species traits determined for
+this race, an existing modern or historical Terran culture, or ever some
+element of the setting's history or geography that imposes an external
+influence on this species. Common science fiction tropes include a race
+that embraces psionics, a warrior culture inspired by the mongol hordes
+of Asia, or a race of stoic xeno–phobic scholars devoted to the pursuit
+of knowledge. The Referee is encouraged to be creative, but should also
+be focused on playability.
+
+Once determined, this should be recorded at the beginning of a document
+as either a single sentence or short paragraph that easily captures this
+detail for the Referee.
 
 #### STEP TWO 
 
@@ -6450,28 +6322,28 @@ is most encouraged to be as creative as he desires.
 > encouraged to note only major consequences (perhaps only one per
 > element of society), so as to better capture an overall picture of the
 > culture without becoming bogged down in the minutia.
->
-> Once this step is complete, the Referee should have some solid ideas
-> that are forming in regards to this non-human species culture. With
-> this more solidified mental picture, the Referee should move on to the
-> next step in the process.
+
+Once this step is complete, the Referee should have some solid ideas
+that are forming in regards to this non-human species culture. With this
+more solidified mental picture, the Referee should move on to the next
+step in the process.
 
 #### STEP FOUR 
 
-> This step is perhaps the most arduous, but also the most rewarding.
-> Here, the Referee must consider the ramifications of the data gathered
-> together in the first three steps of this process. Stepping back
-> through the elements written down in Step Three, the Referee should
-> add a sentence or two, perhaps more, of ramifications to each social
-> element based on the other consequences outlined in Step Three. Not
-> every consequence will have ramifications, but many of them will as
-> the mental picture of the culture continues to solidify.
->
-> Be aware that occasionally, another primary difference may evolve as
-> the culture becomes more and more developed. That's perfectly fine.
-> The Referee should make a note, and continue with this process. It is
-> imperative not to start over, but rather simply make the notation and
-> continue.
+This step is perhaps the most arduous, but also the most rewarding.
+Here, the Referee must consider the ramifications of the data gathered
+together in the first three steps of this process. Stepping back through
+the elements written down in Step Three, the Referee should add a
+sentence or two, perhaps more, of ramifications to each social element
+based on the other consequences outlined in Step Three. Not every
+consequence will have ramifications, but many of them will as the mental
+picture of the culture continues to solidify.
+
+Be aware that occasionally, another primary difference may evolve as the
+culture becomes more and more developed. That's perfectly fine. The
+Referee should make a note, and continue with this process. It is
+imperative not to start over, but rather simply make the notation and
+continue.
 
 #### STEP FIVE 
 
@@ -6493,52 +6365,48 @@ is most encouraged to be as creative as he desires.
 
 #### ADDITIONAL OPTIONS 
 
-> Once the six steps of the process have been complete, the Referee can
-> easily stop the exercise, with a complete write–up of the non-human
-> species culture. However, there are other options that the Referee
-> could pursue in order to even further develop this new society for
-> their campaign setting.
->
-> For example, the Referee could skim through the cultural write–up,
-> selecting the most important elements to write a single paragraph that
-> serves as an introduction and a summary of the non-human species
-> culture created through this process. This simple note should help
-> serve as a reminder to the Referee, providing the tools necessary to
-> help address details that come up during the gaming session that have
-> not yet been addressed by the initial write–up.
->
-> The Referee can create a series of expressions that help capture the
-> philosophy of the non-human species culture.
->
-> Whether these are written in a constructed language or a modern Terran
-> tongue, these little gems can add additional flavor to the culture.
-> Some Referees find it very rewarding to hear their players quote the
-> Great Philosopher of a culture they've created and portrayed years
-> later as they recount their tales of adventure during the lull of a
-> future gaming session.
->
-> Speaking of constructed languages, there's a lot of information on the
-> Internet regarding the creation of constructed languages, both for
-> gaming and for writing. Building a small lexicon, or even a simply
-> name generation system, for an non-human species tongue can add a
-> consistent flavor and depth to a setting.
->
-> In terms of game mechanics, the Referee may also consider creating new
-> career paths specifically for the non-human species culture they’ve
-> created. New weapons, starships and other equipment add additional
-> flavor to the setting, and help flesh out the presence of this culture
-> in the campaign setting.
+Once the six steps of the process have been complete, the Referee can
+easily stop the exercise, with a complete write–up of the non-human
+species culture. However, there are other options that the Referee could
+pursue in order to even further develop this new society for their
+campaign setting.
 
-|     |
-|-----|
+For example, the Referee could skim through the cultural write–up,
+selecting the most important elements to write a single paragraph that
+serves as an introduction and a summary of the non-human species culture
+created through this process. This simple note should help serve as a
+reminder to the Referee, providing the tools necessary to help address
+details that come up during the gaming session that have not yet been
+addressed by the initial write–up.
 
-> By reviewing any favorite gaming materials for settings that possess
-> different races or cultures, whether for science fiction gaming or
-> otherwise, may present other options for continuing the development of
-> an non-human species culture or society. Whatever method the Referee
-> chooses to pursue, developing an non-human species culture can be a
-> rich and rewarding experience that pays for itself over and over
-> again.
+The Referee can create a series of expressions that help capture the
+philosophy of the non-human species culture.
+
+Whether these are written in a constructed language or a modern Terran
+tongue, these little gems can add additional flavor to the culture. Some
+Referees find it very rewarding to hear their players quote the Great
+Philosopher of a culture they've created and portrayed years later as
+they recount their tales of adventure during the lull of a future gaming
+session.
+
+Speaking of constructed languages, there's a lot of information on the
+Internet regarding the creation of constructed languages, both for
+gaming and for writing. Building a small lexicon, or even a simply name
+generation system, for an non-human species tongue can add a consistent
+flavor and depth to a setting.
+
+In terms of game mechanics, the Referee may also consider creating new
+career paths specifically for the non-human species culture they’ve
+created. New weapons, starships and other equipment add additional
+flavor to the setting, and help flesh out the presence of this culture
+in the campaign setting.
+
+By reviewing any favorite gaming materials for settings that possess
+different races or cultures, whether for science fiction gaming or
+otherwise, may present other options for continuing the development of
+an non-human species culture or society. Whatever method the Referee
+chooses to pursue, developing an non-human species culture can be a rich
+and rewarding experience that pays for itself over and over again.
 
 ## Species Mutations
 
@@ -7163,17 +7031,13 @@ use the mutation and an additional 1d4 rounds for the effects to
 manifest. The mutant calls forth weather appropriate to the climate and
 season of the area.
 
-Season Possible Weather
-
-Spring Tornado, thunderstorm, sleet storm, or hot weather
-
-Summer Torrential rain, heat wave, or hailstorm
-
-Autumn Hot or cold weather, fog, or sleet
-
-Winter Frigid cold, blizzard, or thaw
-
-Late winter Hurricane-force winds or early spring (coastal area)
+| Season      | Possible Weather                                     |
+|-------------|------------------------------------------------------|
+| Spring      | Tornado, thunderstorm, sleet storm, or hot weather   |
+| Summer      | Torrential rain, heat wave, or hailstorm             |
+| Autumn      | Hot or cold weather, fog, or sleet                   |
+| Winter      | Frigid cold, blizzard, or thaw                       |
+| Late winter | Hurricane-force winds or early spring (coastal area) |
 
 The mutant controls the general tendencies of the weather, such as the
 direction and intensity of the wind, but cannot control specific
@@ -7713,9 +7577,9 @@ poison randomly.
 
 #### Radioactive Emissions 
 
-The plant has become irradiated through mutation, and is capable of
+The plant has become irradiated through mutation and is capable of
 giving off a randomly determined class of radiation at a range of 150’.
-A good sized patch of these plants is capable of clearing a large area
+A good-sized patch of these plants is capable of clearing a large area
 of animals and other radiation sensitive creatures, and will often
 become a safe haven for creatures that are immune to the effects of
 radiation.
@@ -7860,7 +7724,7 @@ the penalty for being untrained.
 You can choose, before you roll, to move up or down one or two rows on
 the Time Frames table. Moving up (reducing the time increment) gives you
 a –1 DM for every row you move; moving down and increasing the time
-taken gives you a +1 DM for every row you move. Your Referee will help
+taken gives you a DM+1 for every row you move. Your Referee will help
 adjudicate any issues that might arise from a change in the time frame.
 
 #### Table: Time Frames
@@ -8059,7 +7923,7 @@ Bribery Checks By Offense table.
 
 If the bribe is less than the minimum bribe required, the attempt will
 automatically fail. Characters may offer more than the minimum bribe
-required and receive a +1 DM for each multiple of the bribe offered. If
+required and receive a DM+1 for each multiple of the bribe offered. If
 the first offer is refused, a character may make a second attempt at
 twice the previous value of the bribe. If both attempts are refused
 (failed), the Referee should have the character make a Social Standing
@@ -8069,8 +7933,8 @@ attempted bribery.
 
 For example, a character trying to bribe an official to ignore a minor
 smuggling infraction would have to offer a minimum bribe of ₢200. If the
-character offered ₢400 instead the character could gain a +1 DM on the
-check. If ₢600 were offered, the character could gain a +2 DM, etc.
+character offered ₢400 instead the character could gain a DM+1 on the
+check. If ₢600 were offered, the character could gain a DM+2, etc.
 
 ### Broker
 
@@ -8254,8 +8118,8 @@ possible.
 to combine their efforts (i.e. Teamwork; each makes a skill or ability
 check towards a common goal), the character gains a pool of points equal
 to the Effect of the skill check (minimum of 1), which can be
-distributed by the leader to individual team members as DMs (grant a +1
-DM per point) on skill or ability checks made toward the common goal.
+distributed by the leader to individual team members as DMs (grant a
+DM+1 per point) on skill or ability checks made toward the common goal.
 
 **Improving Initiative**: The Leadership skill can be used to increase
 another character's Initiative. The character with Leadership makes a
@@ -8554,7 +8418,7 @@ skill in a given week.
 
 The Jack of all Trades skill cannot be learned.
 
-# CHAPTER 3: PSIONICS
+# CHAPTER 4: PSIONICS
 
 For characters in Märchen Engine campaigns, psionics covers a broad
 category of mental disciplines and paranormal abilities originating from
@@ -8770,9 +8634,7 @@ some displaced point. Rather than the ‘snapshot' that sense gives,
 clairvoyance allows the psion to observe as if he was there in person.
 The clairvoyant character must state the range at which he is applying
 his talent. The Effect of the check determines the level of detail
-perceived and the duration in rounds the vision
-
-can be maintained for.
+perceived and the duration in rounds the vision can be maintained for.
 
 ### Clairaudience
 
@@ -8904,8 +8766,6 @@ When a shielded mind is assaulted the two telepaths make opposed
 Telepathy checks. If the attacker wins, the victim suffers damage as
 normal.
 
-###  
-
 ### Shield
 
 All telepathically able characters learn how to create a mental shield
@@ -8990,7 +8850,7 @@ to generate psychic effects. A character who takes (or, more often, is
 forcibly injected with) an inhibitor drug suffers a –4 DM to all Psionic
 Strength checks and cannot regain Psionic Strength points. Each hour the
 character may make an Endurance check to throw off the effects of the
-drug with a +1 DM for every previous check. Inhibitor drugs have no
+drug with a DM+1 for every previous check. Inhibitor drugs have no
 effect on non-psionic individuals. The drugs cost ₢500 per dose.
 
 **Psi-Drugs** (TL 8+): These drugs restore Psionic Strength if taken
@@ -9007,7 +8867,7 @@ table.
 <col style="width: 7%" />
 <col style="width: 28%" />
 <col style="width: 28%" />
-<col style="width: 16%" />
+<col style="width: 17%" />
 </colgroup>
 <thead>
 <tr class="header">
@@ -9458,7 +9318,7 @@ corruption points, and then at 36, 45, and 54 points, and so on.
 | 65      | You are haunted by nightmares from beyond the grave and find it difficult to sleep. Each time you attempt to sleep, throw 1D; on 1, you cannot sleep; you are Fatigued for the next day.                                                                                                                                                                                        |
 | 66      | You grow vampiric fangs and can only sustain yourself from the blood of other sapient beings. You must drink blood (cause 1D damage) to one person per day to sustain yourself, in lieu of food. This can come from a willing donor, or from hapless victims (a resisting victim requires a Grapple, per the Combat chapter). Other than that, you do not need to eat or drink. |
 
-##  Mutations
+## Mutations
 
 The following is the mutation table referred by various rules in this
 chapter and the Magic Items chapter.
@@ -9549,9 +9409,9 @@ Circle to create a new spell. Variations of existing spells reduce the
 time and gold required to months instead of years, and 1000₢, per
 circle.
 
-### Spell lists
+### Spells by Circle
 
-**1<sup>st</sup> Circle spell list**
+#### 1<sup>st</sup> Circle spell list
 
 |     | **White Magic**       | **Grey Magic** | **Black Magic**     |
 |-----|-----------------------|----------------|---------------------|
@@ -9562,7 +9422,7 @@ circle.
 | 5   | Remove fear           | Thunderclap    | Conjure demon spawn |
 | 6   | Respite               | Unseen servant | Darkness            |
 
-**2<sup>nd</sup> Circle spell list**
+#### 2<sup>nd</sup> Circle spell list
 
 |     | **White Magic**    | **Grey Magic**   | **Black Magic**       |
 |-----|--------------------|------------------|-----------------------|
@@ -9573,7 +9433,7 @@ circle.
 | 5   | Resist Elements    | Phantasmal force | Drain life            |
 | 6   | Speak with Animals | Snake charm      | Summon insect swarm   |
 
-**3<sup>rd</sup> circle spell list**
+#### 3<sup>rd</sup> circle spell list
 
 |     | **White Magic** | **Grey Magic**   | **Black Magic**      |
 |-----|-----------------|------------------|----------------------|
@@ -9584,7 +9444,7 @@ circle.
 | 5   | Remove curse    | Noxious Cloud    | Speak with dead      |
 | 6   | Water breathing | Telepathy        | Summon ooze          |
 
-**4<sup>th</sup> circle spell list**
+#### 4<sup>th</sup> circle spell list
 
 |     | **White Magic**      | **Grey Magic**        | **Black Magic** |
 |-----|----------------------|-----------------------|-----------------|
@@ -9595,7 +9455,7 @@ circle.
 | 5   | Smite undead         | Scry                  | Poison          |
 | 6   | Speak with plants    | Sticks to snakes      | Summon shadows  |
 
-**5<sup>th</sup> circle spell list**
+#### 5<sup>th</sup> circle spell list
 
 |     | **White Magic** | **Grey Magic** | **Black Magic**          |
 |-----|-----------------|----------------|--------------------------|
@@ -9606,7 +9466,7 @@ circle.
 | 5   | True seeing     | Summon weather | Magic jar                |
 | 6   | Winged flight   | Tremor         | Summon hell hounds       |
 
-**6<sup>th</sup> circle spell list**
+#### 6<sup>th</sup> circle spell list
 
 |     | **White Magic**          | **Grey Magic**  | **Black Magic**          |
 |-----|--------------------------|-----------------|--------------------------|
@@ -9617,9 +9477,9 @@ circle.
 | 5   | Restoration              | Move earth      | Rebirth                  |
 | 6   | Stone to flesh           | Starfall        | Summon invisible stalker |
 
-### Spells
+### Full Spell List
 
-**Animate Dead**
+#### Animate Dead
 
 4<sup>th</sup> Circle (Black)
 
@@ -9634,7 +9494,7 @@ skill, or half that number in zombies. An animated skeleton requires a
 relatively intact skeleton; an animated zombie requires a relatively
 intact corpse. The undead crumble to dust once the spell expires.
 
-**Anti-Magic Shell**
+#### Anti-Magic Shell
 
 6<sup>th</sup> Circle (White)
 
@@ -9649,7 +9509,7 @@ spell. Spells with a range of "self" or "touch" cast by the sorcerer are
 not blocked. The **anti-magic shell** itself may not be **dispelled** by
 a **dispel** spell or similar effect.
 
-**Augury**
+#### Augury
 
 3<sup>rd</sup> Circle (White)
 
@@ -9663,7 +9523,7 @@ up to 3 turns (30 minutes) into the future. Anything which would happen
 after that, such as long-term consequences of a contemplated action,
 will not affect the result of **Augury**.
 
-**Bane**
+#### Bane
 
 2nd Circle (Black)
 
@@ -9675,7 +9535,7 @@ This spell fills the sorcerer's enemies (within a 15m radius around the
 sorcerer) with doubt and dread, causing them DM-1 to attack, damage, and
 morale throws, as well as throws to resist fear.
 
-**Bestow Curse**
+#### Bestow Curse
 
 3<sup>rd</sup> Circle (Black)
 
@@ -9699,7 +9559,7 @@ than the examples above; this is at the Referee's discretion.
 
 The curse is permanent, unless removed by the **remove curse** spell.
 
-**Bless**
+#### Bless
 
 2<sup>nd</sup> Circle (White)
 
@@ -9711,7 +9571,7 @@ This spell grants the sorcerer and their allies (within a 15m radius
 around the sorcerer) DM+1 to attack, damage, and morale throws, as well
 as throws to resist fear.
 
-**Blood Boil**
+#### Blood Boil
 
 5<sup>th</sup> Circle (Black)
 
@@ -9730,7 +9590,7 @@ physical characteristics to zero, the target detonates, killing it
 immediately. Each creature or object within 2m of the target suffers 1D
 damage.
 
-**Call galloping herd**
+#### Call galloping herd
 
 4<sup>th</sup> Circle (White)
 
@@ -9760,7 +9620,7 @@ Note that this spell only calls animals, and not saddle and tack; it
 also does not grant anyone the Riding skill, though the animals are
 quite used to being ridden.
 
-**Call great cats**
+#### Call great cats
 
 5<sup>th</sup> Circle (White)
 
@@ -9783,7 +9643,7 @@ The spell persists until it is **dispelled**, or one day passes (at the
 end of which the cats depart). The sorcerer may increase the spell's
 duration by casting it again a sort time before that day ends
 
-**Call Leviathan**
+#### Call Leviathan
 
 6<sup>th</sup> Circle (White)
 
@@ -9804,7 +9664,7 @@ or one day passes (at that time, the whale departs). The sorcerer may
 increase the spell's duration by casting it again a sort time before
 that day ends
 
-**Call Lightning**
+#### Call Lightning
 
 3<sup>rd</sup> Circle (Grey)
 
@@ -9822,7 +9682,7 @@ available until either the storm or the spells end.
 **Call lightning** may damage vehicles – it has an AV value of 3D and
 will set wooden ships on fire.
 
-**Call Animal**
+#### Call Animal
 
 1<sup>st</sup> Circle (White)
 
@@ -9848,7 +9708,7 @@ The spell persists until it is **dispelled**, or one day passes (at the
 end of which the animal departs). The sorcerer may increase the spell's
 duration by casting it again a sort time before that day ends.
 
-**Call Animal Pack**
+#### Call Animal Pack
 
 2<sup>nd</sup> Circle (White)
 
@@ -9862,7 +9722,7 @@ respond to the call plus two additional wolves per Sorcery skill rank
 the sorcerer possesses. Other than the number of animals, this spell is
 identical to **call animal**.
 
-**Capsizing Wave**
+#### Capsizing Wave
 
 6<sup>th</sup> Circle (Grey)
 
@@ -9879,7 +9739,7 @@ Watercraft throw fails, the vessel is stricken – throw once on the
 Critical damage table (see the naval combat rules in the Combat
 chapter).
 
-**Cause Disease**
+#### Cause Disease
 
 3<sup>rd</sup> Circle (Black)
 
@@ -9892,7 +9752,7 @@ The sorcerer infests the target with a horrid wasting disease, virulence
 all skill and attack throws and cannot heal or be healed. A **cure
 disease** or **restoration** spell is the only way to cure this illness.
 
-**Cause fear**
+#### Cause fear
 
 1<sup>st</sup> Circle (White)
 
@@ -9903,7 +9763,7 @@ Duration: 2 turns per Sorcery skill rank
 The sorcerer scares one creature within 40m; the creature must throw END
 8+ or flee for the duration.
 
-**Cause minor wounds**
+#### Cause minor wounds
 
 1<sup>st</sup> Circle (Black)
 
@@ -9913,7 +9773,7 @@ Duration: Instantaneous
 
 The sorcerer causes 2D damage to the target.
 
-**Cause serious wounds**
+#### Cause serious wounds
 
 3<sup>rd</sup> Circle (Black)
 
@@ -9923,7 +9783,7 @@ Duration: Instantaneous
 
 The sorcerer causes 5D damage to the target.
 
-**Charm Animal**
+#### Charm Animal
 
 2<sup>nd</sup> Circle (Grey)
 
@@ -9939,7 +9799,7 @@ as whales or apes, may throw INT 8+ to resist the spell. Once in place,
 the charm lasts until the animal successfully resists the spell or the
 effect is **dispelled**. One throw is allowed every month.
 
-**Charm Person**
+#### Charm Person
 
 1<sup>st</sup> Circle (Black)
 
@@ -9961,7 +9821,7 @@ subject receives another INT 8+ to resist the effect once a day if it
 has INT 9 or better, every week if it has INT 6-8, or every month if it
 has INT 5 or less. A **dispel magic** removes the charm.
 
-**Chimerical Force**
+#### Chimerical Force
 
 3<sup>rd</sup> Circle (Grey)
 
@@ -9983,7 +9843,7 @@ will void this damage. The damage, in any case, is unreal; those
 "killed" or "injured" by this spell will realize they are unharmed
 within 1D rounds.
 
-**Choking Grip**
+#### Choking Grip
 
 1<sup>st</sup> Circle (Black)
 
@@ -10004,7 +9864,7 @@ choking, and takes another 1D damage.
 The spell lasts until **dispelled**, the sorcerer stops concentrating on
 it, or the target makes a successful STR 8+ throw to end the spell.
 
-**Cloud of Poison**
+#### Cloud of Poison
 
 6<sup>th</sup> Circle (Grey)
 
@@ -10023,7 +9883,7 @@ Any character staying within the cloud must throw against its virulence
 again each round it remains in the cloud, and thus slowly suffocate if
 unlucky.
 
-**Command Plants**
+#### Command Plants
 
 4<sup>th</sup> Circle (Grey)
 
@@ -10039,7 +9899,7 @@ spellcaster's commands and may move even if they are usually immobile.
 The effect lasts as long as the sorcerer concentrates. Intelligent
 plants will be very hostile to the sorcerer once the spell ends.
 
-**Commune**
+#### Commune
 
 6<sup>th</sup> Circle (White)
 
@@ -10052,7 +9912,7 @@ three yes-or-no questions. The being contacted may or may not be
 omniscient but will provide truthful answers. The sorcerer may cast this
 spell once a week at most.
 
-**Conjure demon spawn**
+#### Conjure demon spawn
 
 1<sup>st</sup> Circle (Black)
 
@@ -10074,7 +9934,7 @@ will banish it one it is uncontrolled. An uncontrolled demon can return
 to its home dimension at will, but some would love to stay in the mortal
 world to wreak havoc and spread Chaos.
 
-**Conjure dybbuk**
+#### Conjure dybbuk
 
 4<sup>th</sup> Circle (Black)
 
@@ -10087,7 +9947,7 @@ The sorcerer opens a portal to the Outer Dark, calling forth a
 the Monsters chapter. Otherwise, the spell is identical to Conjure demon
 spawn.
 
-**Conjure Elemental**
+#### Conjure Elemental
 
 5<sup>th</sup> Circle (Black)
 
@@ -10108,7 +9968,7 @@ elemental rampages and attacks all in its path. Eventually – typically
 within 1D turns – it returns to its native plane on its own volition,
 but always after wreaking havoc on the Material Plane.
 
-**Conjure fiend**
+#### Conjure fiend
 
 6<sup>th</sup> Circle (Black)
 
@@ -10120,7 +9980,7 @@ The sorcerer opens a portal to the Outer Dark, calling forth a **fiend**
 with four special abilities per the Random Demon rules in the Monsters
 chapter. Otherwise, the spell is identical to Conjure demon spawn.
 
-**Conjure hellion**
+#### Conjure hellion
 
 3<sup>rd</sup> Circle (Black)
 
@@ -10133,7 +9993,7 @@ The sorcerer opens a portal to the Outer Dark, calling forth a
 Monsters chapter. Otherwise, the spell is identical to Conjure demon
 spawn.
 
-**Conjure imp**
+#### Conjure imp
 
 2<sup>nd</sup> Circle (Black)
 
@@ -10145,7 +10005,7 @@ The sorcerer opens a portal to the Outer Dark, calling forth an **imp**
 with two special abilities per the Random Demon rules in the Monsters
 chapter. Otherwise, the spell is identical to Conjure demon spawn.
 
-**Contact Other Dimensions**
+#### Contact Other Dimensions
 
 5<sup>th</sup> Circle (Black)
 
@@ -10168,7 +10028,7 @@ information (Referee's choice).
 Upon the spell's completion, the sorcerer must throw INT 8+ or go insane
 for 1D weeks from the shock and horror of conversing with an alien god.
 
-**Control Weather**
+#### Control Weather
 
 6<sup>th</sup> Circle (Grey)
 
@@ -10191,7 +10051,7 @@ potential weather conditions.
 | Rainy        | Ranged attacks suffer DM-1 to hit. Mud forms within 3 turns, which halves movement rates.                                                                         |
 | Blizzard     | Visibility drops to 6m. Movement halved. Characters take damage as per Arctic conditions.                                                                         |
 
-**Control Winds**
+#### Control Winds
 
 5<sup>th</sup> Circle (Grey)
 
@@ -10212,7 +10072,7 @@ weapon use is impossible; flying creatures crash to the ground, and
 creatures on the ground move at half their speed. In sandy or dusty
 terrain, clouds of dust will reduce visibility to a range of 6m.
 
-**Convalescence**
+#### Convalescence
 
 3<sup>rd</sup> Circle (White)
 
@@ -10222,7 +10082,7 @@ Duration: Instantaneous
 
 The subject heals as if they have rested for 5D days.
 
-**Cure Disease**
+#### Cure Disease
 
 3<sup>rd</sup> Circle (White)
 
@@ -10234,7 +10094,7 @@ This spell cures all diseases the subject is suffering from, including
 magical ones, as well as parasites such as green slime. This spell does
 not prevent reinfection after a new exposure to the same disease.
 
-**Curse of Swine**
+#### Curse of Swine
 
 5<sup>th</sup> Circle (Black)
 
@@ -10252,7 +10112,7 @@ expires, the target regains its original form, intelligence, and
 memories. Note that undead, incorporeal or gaseous creatures, or
 creatures with natural shapeshifting abilities are immune to this spell.
 
-**Darkness**
+#### Darkness
 
 1<sup>st</sup> Circle (Black)
 
@@ -10265,7 +10125,7 @@ target location or object, darkening a 10m radius from it, as dark as a
 moonless night. The effect is immobile if cast on an area but mobile if
 cast on an object.
 
-**Deathless Minion**
+#### Deathless Minion
 
 2<sup>nd</sup> Circle (Black)
 
@@ -10279,7 +10139,7 @@ state). See the Monsters chapter for these monsters' stats. However,
 unlike **animate dead**, this spell only lasts for one hour, after which
 the undead minion crumbles to dust.
 
-**Death Spell**
+#### Death Spell
 
 6<sup>th</sup> Circle (Black)
 
@@ -10292,7 +10152,7 @@ the sorcerer's Sorcery skill ranks, within a 10m radius sphere centered
 on any point the sorcerer wishes within range. Each affected creature
 must throw END 12+ or die immediately.
 
-**Destroy Dead**
+#### Destroy Dead
 
 1<sup>st</sup> Circle (White)
 
@@ -10306,7 +10166,7 @@ cast on an inanimate body or skeleton, they crumble as well. This spell
 has no effect on the living or on undead other than skeletons, zombies,
 or ghouls.
 
-**Detect Invisible**
+#### Detect Invisible
 
 2<sup>nd</sup> Circle (White)
 
@@ -10317,7 +10177,7 @@ Duration: 6 turns
 This spell allows the sorcerer to see invisible characters, creatures,
 or objects, as translucent shapes, within the spell's range.
 
-**Disintegrate**
+#### Disintegrate
 
 6<sup>th</sup> Circle (Black)
 
@@ -10331,7 +10191,7 @@ including the creature’s carried equipment. A target creature may throw
 END 10+ to avoid being disintegrated. A creature making this throw still
 suffers 3D damage Objects, obviously, do not enjoy such throws.
 
-**Dispel Evil**
+#### Dispel Evil
 
 5<sup>th</sup> Circle (White)
 
@@ -10349,7 +10209,7 @@ will have to make an END 10+ throw instead or be destroyed.
 Additionally, **dispel evil** may remove a curse from a single creature
 or object in range; doing so ends the spell.
 
-**Dispel Magic**
+#### Dispel Magic
 
 3<sup>rd</sup> Circle (White)
 
@@ -10368,7 +10228,7 @@ all ongoing spells in that area are dispelled.
 Some spells are immune to dispel magic, for example, all magical
 diseases and curses, and the results of the **flesh to stone** spell.
 
-**Divination**
+#### Divination
 
 5<sup>th</sup> Circle (White)
 
@@ -10384,7 +10244,7 @@ and the information may become irrelevant. The Referee secretly throws
 Sorcery 6+ using the spellcaster's skill; if successful, the information
 is correct; if failed, the information is false.
 
-**Drain Life**
+#### Drain Life
 
 2<sup>nd</sup> Circle (Black)
 
@@ -10400,7 +10260,7 @@ it suffers only 2D damage. In either case, the sorcerer is
 simultaneously healed by half the amount of characteristic points the
 target loses, to the maximum of the sorcerer's initial characteristics.
 
-**Ensorcellement**
+#### Ensorcellement
 
 1<sup>st</sup> Circle (Grey)
 
@@ -10414,7 +10274,7 @@ spells, move, or speak. It always loses initiative and Surprise rolls,
 and attacking it is at DM+2 to hit. The ensorcellement ends when the
 creature is slain, the effect is **dispelled**, or the duration expires.
 
-**Faerie fire**
+#### Faerie fire
 
 1<sup>st</sup> Circle (Grey)
 
@@ -10428,7 +10288,7 @@ damage, but renders the creature obviously visible (in case it is
 invisible or otherwise hidden). Anyone attacking a creature with Faerie
 Fire on it gains a DM+2 bonus to hit.
 
-**Feeblemind**
+#### Feeblemind
 
 5<sup>th</sup> Circle (Black)
 
@@ -10443,7 +10303,7 @@ fighting effectively. The victim only dimly remembers who its friends
 are and may follow their simple instructions. This state lasts until
 **dispelled** or until **restoration** is cast on the victim.
 
-**Flesh to Ashes**
+#### Flesh to Ashes
 
 4<sup>th</sup> Circle (Black)
 
@@ -10454,7 +10314,7 @@ Duration: Instantaneous
 The target creature must throw END 8+ or immediately turn to ashes. Only
 living creatures made from flesh may be targeted by this spell.
 
-**Flesh to Stone**
+#### Flesh to Stone
 
 6<sup>th</sup> Circle (Black)
 
@@ -10471,7 +10331,7 @@ flesh are vulnerable to this spell. **Dispel magic** or **restoration**
 will not return the target creature back to flesh; only a **stone to
 flesh** spell will reverse this effect.
 
-**Globe of Invulnerability**
+#### Globe of Invulnerability
 
 6<sup>th</sup> Circle (White)
 
@@ -10488,7 +10348,7 @@ However, unlike **anti-magic shell**, the **globe of invulnerability**
 allows the sorcerer to freely cast spells *out* from the globe. The
 **globe of invulnerability** may be **dispelled**.
 
-**Glyph of Warding**
+#### Glyph of Warding
 
 3<sup>rd</sup> Circle (Grey)
 
@@ -10515,7 +10375,7 @@ much in the same manner as a focus can be charged with a spell. Popular
 choices include, but are not limited to, **cause disease**, **bestow
 curse**, and **hold person**.
 
-**Hallucinatory Terrain**
+#### Hallucinatory Terrain
 
 4<sup>th</sup> Circle (Grey)
 
@@ -10530,7 +10390,7 @@ The illusion affects the senses of vision, hearing, and smell. The spell
 ends when **dispelled** or when an intelligent creature enters the area
 or touches it.
 
-**Haste**
+#### Haste
 
 5<sup>th</sup> Circle (Grey)
 
@@ -10549,7 +10409,7 @@ still may only be used once per round. This spell ages each of its
 affected targets by one year, each time it is cast. This may result in
 the targets having to make Aging throws.
 
-**Hypnotic Pattern**
+#### Hypnotic Pattern
 
 3<sup>rd</sup> Circle (Grey)
 
@@ -10563,7 +10423,7 @@ throw INT 8+. Affected creatures will stand motionless without action
 and may not even parry or dodge. The effect lasts as long as the
 sorcerer concentrates on it or until **dispelled**.
 
-**Hold Person**
+#### Hold Person
 
 2<sup>nd</sup> Circle (Grey)
 
@@ -10581,7 +10441,7 @@ speak.
 A winged creature which is held during flight falls. A paralyzed swimmer
 cannot swim and sinks – and will drown without any outside assistance.
 
-**Hold Monster**
+#### Hold Monster
 
 4<sup>th</sup> Circle (Grey)
 
@@ -10592,7 +10452,7 @@ Duration: 3D turns
 This spell functions like **hold person**, except that it affects any
 living creature which fails an STR 8+ throw.
 
-**Ice Storm**
+#### Ice Storm
 
 6<sup>th</sup> Circle (Grey)
 
@@ -10616,7 +10476,7 @@ The sorcerer gains a DM+2 when casting this spell in icy or stormy
 weather. If cast under a clear sky, the sorcerer is incurs a DM-2
 penalty to the throw.
 
-**Immunity to Elements**
+#### Immunity to Elements
 
 4<sup>th</sup> Circle (White)
 
@@ -10628,7 +10488,7 @@ This spell grants one creature complete immunity to one elemental force:
 cold, electricity, or fire for its duration. The immunity also protects
 any items the creature is carrying.
 
-**Invisibility**
+#### Invisibility
 
 4<sup>th</sup> Circle (Grey)
 
@@ -10645,7 +10505,7 @@ spell ends after the invisible creature attacks any creature or casts
 any spell. Other actions do not end the spell. The spell lasts 24 hours,
 or until the caster dispels the effect.
 
-**Kindle flame**
+#### Kindle flame
 
 1<sup>st</sup> Circle (Grey)
 
@@ -10661,7 +10521,7 @@ must throw DEX 8+ suffer 2D damage per round. The target continues to
 take 2D damage per round, until they make a DEX 8+ roll to extinguish
 the flames, or immerse themselves in water.
 
-**Knock**
+#### Knock
 
 2<sup>nd</sup> Circle (White)
 
@@ -10675,7 +10535,7 @@ chests, and other locked objects. This includes magically locked items.
 mechanisms, or affect ropes, vines, etc. Apply DM-1 to the spellcasting
 roll when dealing with a magical lock.
 
-**Levitate**
+#### Levitate
 
 4<sup>th</sup> Circle (White)
 
@@ -10690,7 +10550,7 @@ much as 5m per round. This spell does not allow horizontal travel, but
 the target may clamber or push themselves against surfaces to move
 laterally.
 
-**Magic Jar**
+#### Magic Jar
 
 5<sup>th</sup> Circle (Black)
 
@@ -10739,7 +10599,7 @@ host's spirit returns to their body while the sorcerer's soul goes to
 the underworld. If it is outside range, the disembodied spirit goes to
 the underworld.
 
-**Mind Probe**
+#### Mind Probe
 
 2<sup>nd</sup> Circle (Grey)
 
@@ -10757,7 +10617,7 @@ Two or more inches of rock, or a thin coating of lead or gold, will
 block this spell. All undead – including intelligent ones – are immune
 to this spell, as are all mindless creatures.
 
-**Mirage**
+#### Mirage
 
 5<sup>th</sup> Circle (Grey)
 
@@ -10772,7 +10632,7 @@ sounds, and smells exactly like the illusory form. Intelligent creatures
 who suspect that this is an illusion may throw INT 8+ to disbelieve it.
 The mirage lasts until **dispelled**.
 
-**Mirror Image**
+#### Mirror Image
 
 2<sup>nd</sup> Circle (Grey)
 
@@ -10792,7 +10652,7 @@ destroys it. However, until all figments are removed, or until the
 effect is **dispelled**, or the spell expires, the sorcerer cannot not
 be harmed by melee or ranged attacks.
 
-**Move Earth**
+#### Move Earth
 
 6<sup>th</sup> Circle (Grey)
 
@@ -10805,7 +10665,7 @@ x 10m x 10m in volume, including altering surface features within range.
 The sorcerer may move earth at a rate of 20m per turn, as desired. The
 spell cannot affect stone, only soil.
 
-**Neutralize Poison**
+#### Neutralize Poison
 
 4<sup>th</sup> Circle (White)
 
@@ -10819,7 +10679,7 @@ no further damage. If cast on a poisoned object, the poison is removed.
 If cast on a creature that died from poisoning in the last 10 rounds,
 the target is revived with a score of 1 in all physical characteristics.
 
-**Noxious Cloud**
+#### Noxious Cloud
 
 3<sup>rd</sup> Circle (Grey)
 
@@ -10839,7 +10699,7 @@ cloud and 1D rounds after exiting it. Any creature that succeeds in the
 END 8+ throw but remains in the cloud or re-enters it must make this
 throw again or be affected as long as the cloud persists.
 
-**Phantasmal Force**
+#### Phantasmal Force
 
 2<sup>nd</sup> Circle (Grey)
 
@@ -10860,7 +10720,7 @@ target will void this damage. The damage, in any case, is unreal; those
 "killed" or "injured" by this spell fall unconscious and will awake
 within 1D rounds, without a scratch.
 
-**Pillar of Fire**
+#### Pillar of Fire
 
 5<sup>th</sup> Circle (Grey)
 
@@ -10880,7 +10740,7 @@ its destination only if it breaks through it.
 **Pillar of fire** may damage vehicles – it has an AV value of 5D and
 will almost certainly set wooden ships on fire.
 
-**Poison**
+#### Poison
 
 4<sup>th</sup> Circle (Black)
 
@@ -10892,7 +10752,7 @@ When casting this spell, the sorcerer must attack a target; if the
 attack is successful, the target is poisoned and must resist a Virulence
 10+, Damage 4D poison.
 
-**Protection from Chaos**
+#### Protection from Chaos
 
 1<sup>st</sup> Circle (White)
 
@@ -10915,7 +10775,7 @@ another spell or attack Chaotic beings; if the caster moves; or if the
 caster loses concentration, such as by casting another spell or being
 injured..
 
-**Purify food and water**
+#### Purify food and water
 
 1<sup>st</sup> Circle (White)
 
@@ -10928,7 +10788,7 @@ water pure and ready for consumption. This spell will purify enough food
 and water to sustain a dozen humans or human-sized creatures for one
 day. The spell, however, cannot affect poisons.
 
-**Rebirth**
+#### Rebirth
 
 6<sup>th</sup> Circle (Black)
 
@@ -11001,7 +10861,7 @@ demon and prevents any further bouts of rage; if failed, the character
 becomes permanently controlled by the demon – and from that point on is
 considered an NPC monster controlled by the Referee.
 
-**Remove curse**
+#### Remove curse
 
 3<sup>rd</sup> Circle (White)
 
@@ -11013,7 +10873,7 @@ This spell instantaneously removes all curses from a single creature. If
 cast on a cursed item, the spell does not remove the curse from the item
 itself but allows the item's bearer to get rid of it.
 
-**Remove fear**
+#### Remove fear
 
 1<sup>st</sup> Circle (White)
 
@@ -11024,7 +10884,7 @@ Duration: Instantaneous
 This spell calms down and removes fear from a touched creature,
 including magical fear.
 
-**Resist Elements**
+#### Resist Elements
 
 2<sup>nd</sup> Circle (White)
 
@@ -11039,7 +10899,7 @@ to arctic weather with inadequate clothing). The target also gains DM+2
 to throws to resist more significant forms of that element, such as an
 ice dragon's cold breath or a **call lightning** spell.
 
-**Respite**
+#### Respite
 
 1<sup>st</sup> Circle (White)
 
@@ -11049,7 +10909,7 @@ Duration: Instantaneous
 
 The subject heals as if they have rested for one full day.
 
-**Restoration**
+#### Restoration
 
 6<sup>th</sup> Circle (White)
 
@@ -11068,7 +10928,7 @@ must throw END 8+ or be forced to roll on the Mutation Table.
 This spell cannot cure mutations, and nor can it bring dead creatures
 back to life.
 
-**Scrying**
+#### Scrying
 
 4<sup>th</sup> Circle (Grey)
 
@@ -11083,7 +10943,7 @@ object, or place viewed, or have a sample of the creature or object such
 as hair clipping or paint chip. The vision lasts 1 turn and the sorcerer
 must remain concentrated and motionless while scrying.
 
-**Sleep**
+#### Sleep
 
 1<sup>st</sup> Circle (Grey)
 
@@ -11099,7 +10959,7 @@ not engaged in combat with another creature, they may slay a sleeping
 creature automatically. Attacking, damaging, or otherwise moving a
 sleeping creature awakens them.
 
-**Smite Undead**
+#### Smite Undead
 
 4<sup>th</sup> Circle (White)
 
@@ -11114,7 +10974,7 @@ sorcerer. Skeletons and zombies turn to dust automatically. Other undead
 must throw END 8+ or crumble to dust. Undead with the Sorcery skill,
 such as vampires, are immune to this spell.
 
-**Snake Charm**
+#### Snake Charm
 
 2<sup>nd</sup> Circle (Grey)
 
@@ -11136,7 +10996,7 @@ last for 1D turns.
 The sorcerer may command the charmed snakes to attack a target, for the
 duration given above.
 
-**Speak with animals**
+#### Speak with animals
 
 2<sup>nd</sup> Circle (White)
 
@@ -11150,7 +11010,7 @@ not affect intelligent animals or fantastic creatures. This spell does
 not automatically change the animal's attitude towards the sorcerer, it
 only allows communication.
 
-**Speak with Dead**
+#### Speak with Dead
 
 3<sup>rd</sup> Circle (Black)
 
@@ -11167,7 +11027,7 @@ repetitive. The corpse must have a mouth in order to respond. The spell
 does not work on undead—even dead undead. Only one **speak with dead**
 spell will affect a given corpse in a week.
 
-**Speak with Plants**
+#### Speak with Plants
 
 4<sup>th</sup> Circle (White)
 
@@ -11186,7 +11046,7 @@ sentient plant creatures towards the sorcerer, follow the normal
 Reaction rules. Friendly plant creatures may assist the sorcerer in
 various tasks; ordinary plants may only converse.
 
-**Starfall**
+#### Starfall
 
 6<sup>th</sup> Circle (Grey)
 
@@ -11206,7 +11066,7 @@ blocks the meteorite's fall, it will explode prematurely. However, the
 spell might cause damage indirectly from falling debris as the ceiling
 collapses.
 
-**Sticks to Snakes**
+#### Sticks to Snakes
 
 4<sup>th</sup> Circle (Grey)
 
@@ -11219,7 +11079,7 @@ into normal venomous snakes (see the Monsters chapter). The snakes
 follow the sorcerer's commands. The snakes revert to wooden sticks when
 slain, **dispelled**, or when the spell ends.
 
-**Stone to Flesh**
+#### Stone to Flesh
 
 6<sup>th</sup> Circle (White)
 
@@ -11233,7 +11093,7 @@ various monsters. If it is cast on stone which is not a petrified
 creature, it will merely transform a human-sized volume of stone into a
 gooey pile of primordial organic matter.
 
-**Summon insect swarm**
+#### Summon insect swarm
 
 2<sup>nd</sup> Circle (Black)
 
@@ -11246,7 +11106,7 @@ which forms anywhere within range. The swarm will mindlessly respond to
 the sorcerer's will. It will dissipate when **dispelled**, or when the
 spell ends.
 
-**Summon Hell Hounds**
+#### Summon Hell Hounds
 
 5<sup>th</sup> Circle (Black)
 
@@ -11263,7 +11123,7 @@ creatures of Chaos, and thus will interpret commands in the most
 destructive manner possible. The hounds will disappear when the spell
 ends, when they are slain, or when they are **dispelled**.
 
-**Summon Invisible Stalker**
+#### Summon Invisible Stalker
 
 6<sup>th</sup> Circle (Black)
 
@@ -11281,7 +11141,7 @@ destroyed, **dispelled**, or when the task is complete. Because of the
 soul-blasting nature of this spell, a sorcerer cannot cast it more than
 once a week.
 
-**Summon Ooze**
+#### Summon Ooze
 
 3<sup>rd</sup> Circle (Black)
 
@@ -11296,7 +11156,7 @@ will disappear when **dispelled**, or when the spell ends. Because the
 soul-wrenching nature of this spell, it cannot be cast more than once a
 day.
 
-**Summon Shadows**
+#### Summon Shadows
 
 4<sup>th</sup> Circle (Black)
 
@@ -11312,7 +11172,7 @@ will try to twist any order to wreak maximum possible havoc. The shadows
 vanish when **dispelled** or when the spell ends. Note that due to the
 soul-wrecking nature of this spell, it may only be cast once every week.
 
-**Summon Weather**
+#### Summon Weather
 
 5<sup>th</sup> Circle (Grey)
 
@@ -11328,7 +11188,7 @@ weather arrives within 1 turn.
 This spell is particularly potent when combined with **call lightning**,
 a combination sometimes called the *Storm of the Century*.
 
-**Telepathy**
+#### Telepathy
 
 3<sup>rd</sup> Circle (Grey)
 
@@ -11342,7 +11202,7 @@ to any character whose thoughts they are reading, which allows for
 bidirectional communication. While using this spell, the sorcerer must
 concentrate and cannot otherwise move or act.
 
-**Thunderclap**
+#### Thunderclap
 
 1<sup>st</sup> Circle (Grey)
 
@@ -11357,7 +11217,7 @@ DEX 8+ or suffer 1D damage and be deafened for 1D turns. Deafened
 creatures suffer DM-2 to Surprise and Stealth rolls, as well as to any
 Spellcasting throw.
 
-**Tremor**
+#### Tremor
 
 5<sup>th</sup> Circle (Grey)
 
@@ -11377,7 +11237,7 @@ has an AV 5D ability vs. vehicles. Note that a sorcerer may only cast
 this spell on the ground; Casting this spell in deep water creates a
 small tsunami, which may cause the AV 5D attack vs. ships!
 
-**True Seeing**
+#### True Seeing
 
 5<sup>th</sup> Circle (White)
 
@@ -11392,7 +11252,7 @@ illusions, normal and magical disguises, and various polymorph effects.
 This sight has a 50m range but does not penetrate solid objects and does
 not negate actual concealment such as fog (even magically conjured fog).
 
-**Unseen servant**
+#### Unseen servant
 
 1<sup>st</sup> Circle (Grey)
 
@@ -11407,7 +11267,7 @@ can trigger traps, if desired, or deliver bombs to enemy positions. A
 **dispel magic** ends this effect, but the "servant" is immune to
 ordinary attacks.
 
-**Water Breathing**
+#### Water Breathing
 
 3<sup>rd</sup> Circle (White)
 
@@ -11419,7 +11279,7 @@ This spell allows the target to breathe underwater at any depth; it does
 not prevent the target from breathing air, nor does it provide any
 special ability to move underwater.
 
-**Winged Flight**
+#### Winged Flight
 
 5<sup>th</sup> Circle (White)
 
@@ -11717,7 +11577,7 @@ non-trivial amount of bandwidth to transfer.
 | Intelligent Interface | 1      | 11  | ₢100           | “Low autonomous” artificial intelligence allows voice control and displays data intelligently. Required for using Expert programs.                                                                                                                                                                                                                     |
 |                       | 2      | 13  | ₢1,000         | “High autonomous” artificial intelligence allows a primitive artificial intelligence to self-initiate and learn on its own.                                                                                                                                                                                                                            |
 |                       | 3      | 17  | ₢10,000        | True artificial intelligence capable of independent creative thought.                                                                                                                                                                                                                                                                                  |
-| Expert                | 1      | 11  | ₢1,000         | Expert programs mimic skills. A character using an expert system may make a skill check as if he had the skill at the program’s Rating –1. Only Intelligence and Education-based checks can be attempted. If the character already has the skill at a higher level, then an Expert program grants a +1 DM instead.                                     |
+| Expert                | 1      | 11  | ₢1,000         | Expert programs mimic skills. A character using an expert system may make a skill check as if he had the skill at the program’s Rating –1. Only Intelligence and Education-based checks can be attempted. If the character already has the skill at a higher level, then an Expert program grants a DM+1 instead.                                      |
 |                       | 2      | 12  | ₢10,000        |                                                                                                                                                                                                                                                                                                                                                        |
 |                       | 3      | 13  | ₢100,000       |                                                                                                                                                                                                                                                                                                                                                        |
 | Agent                 | 0      | 11  | ₢500           | Agent programs have a Computer skill equal to their Rating, and can carry out tasks assigned to them with a modicum of intelligence. For example, an agent program might be commanded to hack into an enemy computer system and steal a particular data file. They are effectively specialized combinations of Computer Expert and Intellect programs. |
@@ -11873,9 +11733,9 @@ the inside and outside of an object.
 
 **Electromagnetic Probe**: This handy device detects the electromagnetic
 emissions of technological devices, and can be used as a diagnostic tool
-when examining equipment (+1 DM to work out what’s wrong with it) or
-when searching for hidden bugs or devices. The Comms skill can be used
-to sweep a room for bugs.
+when examining equipment (DM+1 to work out what’s wrong with it) or when
+searching for hidden bugs or devices. The Comms skill can be used to
+sweep a room for bugs.
 
 **Hand Calculator**: Allows the user to perform mathematical
 calculations quickly.
@@ -12797,7 +12657,7 @@ reducing the recoil penalty by one point (to DM-1).
 **Intelligent Weapon**: This adds a Model/ 0 computer to any weapon. The
 TL 13 upgrade adds Model /1 to any weapon, for ₢5,000.
 
-**Laser Sight**: Integrated optics and laser sights give an extra +1 DM
+**Laser Sight**: Integrated optics and laser sights give an extra DM+1
 bonus to any attack that has been aimed. At TL 10, x-ray lasers and
 improved display technology removes the tell-tale ‘red dot’ of a
 vislight laser. ₢200.
@@ -12824,9 +12684,9 @@ less, masking the sound produced by firing. (–4 DM to detect.)
 
 **Telescopic Sights**: High-quality telescopic sights for attachment to
 weapons, for increasing their accuracy, especially at longer ranges. A
-weapon equipped with such sights gains an extra +1 DM bonus to any
-attack that has been aimed. Telescopic sights are delicate, however, and
-may be jarred out of alignment by any violent action (such as being left
+weapon equipped with such sights gains an extra DM+1 bonus to any attack
+that has been aimed. Telescopic sights are delicate, however, and may be
+jarred out of alignment by any violent action (such as being left
 untended in a moving truck, a close explosion, or being dropped) on an
 8+ on 2D6. When the sights go out of adjustment, the firer will always
 miss.
@@ -13004,8 +12864,6 @@ chance (4+ on 1D6) of detonating upon impact with the ground (6 – Effect
 meters away in a random direction). Otherwise it will miss completely
 and leave the battlefield without striking anything or detonating.
 
-## 
-
 ## CHAPTER 5.5 LOW TECH EQUIPMENT
 
 This chapter describes common tools, weapons, and other items used by
@@ -13042,9 +12900,9 @@ Märchen Engine uses Credits(₢). However many role playing games use the
 well-known "fantasy coinage" system of gold pieces (₢) and silver pieces
 (sp). This allows compatibility with many other games and adventures,
 which use similar coinage. The Märchen Engine equates 1 credit(₢) equal
-to 1 gold piece. A gold piece is very valuable and equals ten silver
-pieces. A single gold piece can keep a peasant family alive for a month
-at subsistence level. Beginning adventurers can live reasonably
+to 1 gold piece / “Crown”. A gold piece is very valuable and equals ten
+silver pieces. A single gold piece can keep a peasant family alive for a
+month at subsistence level. Beginning adventurers can live reasonably
 comfortably from several dozen gold pieces a month – paying for
 accommodations and food at inns rather than living on their own land.
 
@@ -14063,8 +13921,8 @@ the loss of a significant action.
 
 ### Aiming 
 
-A character that spends a minor action aiming at a target gets a +1 DM
-to his next attack on the target, as long as the character does nothing
+A character that spends a minor action aiming at a target gets a DM+1 to
+his next attack on the target, as long as the character does nothing
 except aim until he makes his attack. A character may spend multiple
 actions on aiming, gaining a maximum aiming DM of +6 if he spends six
 minor actions on aiming.
@@ -14509,7 +14367,7 @@ cover rather than 1/2 cover.
 make improved use of cover like a crouching character and he may still
 parry melee attacks. All ranged attacks targeting him suffer a –2 DM
 penalty. At Close range, the penalty is reduced to +0; a prone character
-being attacked at Personal range grants a +2 DM to attacks against him.
+being attacked at Personal range grants a DM+2 to attacks against him.
 
 ### Tactics and Leadership 
 
@@ -14598,7 +14456,7 @@ the character ends up prone, as noted above.
 
 An unconscious character may make an Endurance check after every minute
 of unconsciousness – if successful, he regains consciousness. If he
-fails he must wait another minute and can then try again with a +1 DM on
+fails he must wait another minute and can then try again with a DM+1 on
 the check for every check previously failed.
 
 ### Optional Rule: Heroes vs. Grunts
@@ -14839,7 +14697,7 @@ differences are as follows:
   a significant action to navigate obstacles, conduct evasion or
   pursuit, or dodge incoming fire.
 
-- Attackers gain a +1 DM to hit most vehicles because of their size.
+- Attackers gain a DM+1 to hit most vehicles because of their size.
 
 ### Closed and Open Vehicles
 
@@ -15235,9 +15093,5441 @@ inflict damage. Every additional ground weapon beyond the first can add
 half its damage dice to the total before dividing the total by 50 in
 order to calculate damage.
 
+# CHAPTER 8: ENVIRONMENTS AND HAZARDS
+
+The following are common environmental hazards that are can be
+encountered in a Märchen Engine game.
+
+## Acid
+
+Corrosive acids deal 1D6 damage per round of exposure, except in the
+case of total immersion (such as into a vat of acid), which deals 10D6
+damage per round. An attack with acid, such as from a hurled vial or an
+animal's acidic spittle, counts as a round of exposure.
+
+The fumes from most acids are poisonous. Those who come close enough to
+a large body of acid to dunk a creature in it must make an Average (+0)
+Endurance check or take 1D6 point of damage. All such characters must
+make a second Average (+0) Endurance check one minute later or take
+another 1D6 point of damage.
+
+Creatures that are immune to acid's caustic properties might still drown
+in it if they are totally immersed and need to breathe. For more
+details, see **Suffocation**.
+
+## Carrying Capacity
+
+Strength determines how much weight characters can lift and how much any
+additional encumbrance slows them down. Characters carrying more than
+their Light Load suffer penalties.
+
+**Light Load**: As a light load, a character can life and carry up to
+twice their Strength characteristic score in kilograms without any
+penalties or difficulties. For example, an average character with a
+Strength score of 7 can carry up to 14 kilograms as a light load.
+
+**Medium Load**: A medium load is considered to be twice a character's
+light load, or four times their Strength characteristic score in
+kilograms. Characters carrying a medium load suffer a DM-1 to all
+physically based checks, including skill checks. In addition, they move
+at 75% of their base speed. For example, an average character with a
+Strength score of 7 can carry up to 28 kilograms as a medium load. Such
+a character would suffer a DM-1 on all physical checks, and move at 4.5
+meters, or 3 squares, per round.
+
+**Heavy Load**: A heavy load is three times the character's light load,
+or six times their Strength characteristic score in kilograms.
+Characters can lift up to a heavy load overhead. Characters carrying a
+heavy load suffer a DM-2 to all physically based checks, including skill
+checks. In addition, they move at 75% of their base speed. For example,
+an average character with a Strength score of 7 can lift up to 42
+kilograms as a heavy load. Such a character would suffer a DM-2 on all
+physical checks, and move at 4.5 meters, or 3 squares, per round.
+
+**Maximum Load**: A character's maximum load is six times that of their
+light load, or twelve times their Strength score in kilograms.
+Characters can lift up to the maximum load off the ground, but can only
+stagger around with it. While overloaded in this way, characters cannot
+undertake any other actions, and can only move 1.5 meters, or 1 square,
+per round. For example, an average character with a Strength score of 7
+can barely lift up to 94 kilograms as a maximum load. Such a character
+could perform no other actions while struggling with the load, except to
+move 1.5 meters per round.
+
+**Push/Drag**: Characters can push or drag up to five times their heavy
+load weight, moving at half their normal speed. Favorable conditions
+(smooth ground, dragging a slick object) double these numbers, and bad
+circumstances (broken ground, pushing an object that snags) can reduce
+them to one-half or less.
+
+### Gravity and Carrying Capacity
+
+The above assumes the character is operating at a standard 1.0 gravity.
+When operating under a different gravitational pull (or within an
+artificial gravity set to a non-standard value), simply divide a
+character's load weight by the gravitational pull to determine the new
+load weight value under those conditions.
+
+## Diseases
+
+Diseases reduce a character’s Characteristics, usually Endurance. The
+character must make an Endurance check with the listed DM to resist the
+effects of the disease. If the character fails the Endurance check then
+he takes the listed damage and must make another Endurance check a few
+hours or days later, depending on the interval of the disease. Once an
+Endurance check has been passed, the character has fought off the
+disease.
+
+#### Table: Sample Diseases
+
+| Disease           | DM  | Damage | Interval  |
+|-------------------|-----|--------|-----------|
+| Pneumonia         | +0  | 1D6+4  | 1D6 weeks |
+| Anthrax           | –3  | 1D6+2  | 1D6 days  |
+| Regina Flu        | +1  | 1D6–2  | 1D6 days  |
+| Biological Weapon | –6  | 1D6+8  | 1D6 hours |
+
+## Extremes of Temperature
+
+Unusually hot or cold worlds can cause damage unless the characters are
+suitably protected. Temperatures are in Celsius.
+
+#### Table: Extreme Temperatures
+
+| Temperature | Damage    | Example                  |
+|-------------|-----------|--------------------------|
+| Below -200˚ | 3D6/round | Absolute Zero, Pluto     |
+| -200˚       | 2D6/round | Liquid nitrogen, Neptune |
+| -100˚       | 1D6/round | Ceres                    |
+| -50˚        | 2D6/hour  | Mars                     |
+| -25˚        | 1D6/hour  | Arctic                   |
+| 0˚          | None      | Water melting point      |
+| 50˚         | 1D6/hour  | Very hot desert          |
+| 100˚        | 2D6/hour  | Water boiling point      |
+| 200˚        | 1D6/round | Mercury                  |
+| 500˚        | 2D6/round | Venus                    |
+| Above 500˚  | 3D6/round | Surface of the sun       |
+
+### Catching on Fire
+
+Characters touching a fire source might find their clothes, hair, or
+equipment on fire. Those at risk of catching fire are allowed a
+Difficult (-2) Dexterity check to avoid this fate. If a character's
+clothes or hair catch fire, he takes 2D6 damage immediately. In each
+subsequent round, the burning character must make another Difficult (-2)
+Dexterity check. Failure means he takes another 2D6 damage that round.
+Success means the fire has gone out.
+
+A character on fire may automatically extinguish the flames by jumping
+into enough water to douse himself, spraying himself down with a fire
+extinguisher, vent all atmosphere or otherwise smother the flames. If
+the character has no such means, rolling on the ground or smothering the
+fire with cloaks or the like permits the character a DM+2 on his next
+Dexterity check.
+
+## Falling and Gravity
+
+A character who falls on a 1-gravity world suffers 1D6 damage per two
+meters fallen. High- or low-gravity worlds will increase or decrease the
+damage. Look up the size code for the world and the gravity level
+associated with it and multiply the falling damage by the gravity
+number.
+
+## Poisons
+
+Poisons operate in the same way as diseases, but generally work much
+faster and often have a wider range of effects. Most poisons do not have
+an interval but apply their damage immediately.
+
+#### Table: Sample Poisons
+
+| Poison     | DM   | Damage                                       |
+|------------|------|----------------------------------------------|
+| Arsenic    | –2   | 2D6                                          |
+| Tranq Gas  | –1D6 | Unconsciousness if Endurance check is failed |
+| Neurotoxin | –4   | 1D6 Intelligence                             |
+
+## Radiation Exposure
+
+Radiation exposure is measured in rads. Once a character has absorbed a
+certain number of rads, he will suffer certain effects. One problem with
+radiation exposure is that while physical symptoms can be treated and
+may heal, the radiation never goes away. The character’s rads must be
+tracked. Further exposure adds to what the character is already carrying
+around until a deadly level is reached. Accumulated rads can be removed
+using anti-radiation drugs. Characters exposed to a radiation weapon
+will receive a one-time dose of radiation. Entering a radioactive area
+or being exposed to a leak or solar flare will cause exposure each round
+or hour. Every time a character experiences exposure to radiation, they
+must check to see if they’ve come down with radiation sickness, as
+outlined on the Radiation Effects table. The character must make an
+Endurance check at the listed DM, and if he fails, he takes the damage
+listed and must make another Endurance check after the listed interval
+has passed. This cycle continues until the character succeeds at an
+Endurance check.
+
+At any Radiation Level below Mild, the character is treated as having a
+lower Endurance characteristic score. If a character should accumulate
+enough rads to move to a higher Radiation Level, the new Endurance
+characteristic score immediately goes into effect. On the other hand, if
+a character moves to a lower Radiation Level, such as through
+anti-radiation drugs, the character heals the difference between the
+former level and the current level over time, as if it were physical
+damage. If a character’s Effective endurance falls below zero, the
+character goes unconscious and cannot recover until their Radiation
+Level drops enough to allow healing to take place.
+
+#### Table: Common Radiation Exposure Sources
+
+| Situation                       | Instant (rads) | Extended (rads) |
+|---------------------------------|----------------|-----------------|
+| Irradiated area, low level      | --             | 1D6/hour        |
+| Irradiated area, moderate level | --             | 2D6/hour        |
+| Irradiated area, high level     | --             | 6D6/hour        |
+| Irradiated area, severe level   | --             | 12D6/hour       |
+| Active exposure, low level      | 3D6            | 3D6x10/hour     |
+| Active exposure, moderate level | 1D6x10         | 1D6x100/hour    |
+| Active exposure, high level     | 2D6x10         | 2D6x100/hour    |
+| Active exposure, severe level   | 4D6x10         | 3D6x100/hour    |
+
+#### Table: Radiation Effects
+
+| Radiation Level | Rads    | Effective Endurance | DM   | Damage | Interval  |
+|-----------------|---------|---------------------|------|--------|-----------|
+| Mild            | \<100   | --                  | None | None   | None      |
+| Low             | 100-199 | Endurance-1         | +1   | 1D6    | 1D6 weeks |
+| Moderate        | 200-599 | Endurance-3         | +0   | 1D6+2  | 2D6 days  |
+| High            | 600-999 | Endurance-6         | -1   | 1D6+4  | 1D6 days  |
+| Severe          | 1000+   | Endurance-10        | -2   | 1D6+6  | 1D6 hours |
+
+## Starvation and Dehydration
+
+Characters might find themselves without food or water and with no means
+to obtain them. In normal climates, a character needs at least a gallon
+of fluids and about a pound of food per day to avoid starvation. In very
+hot climates, characters need two or three times as much water to avoid
+dehydration.
+
+A character can go without water for a number of hours equal to 20 plus
+twice his Endurance score. After this time, the character must make a
+Routine (+2) Endurance check each hour (DM-1 for each previous check) or
+take 1D6 damage.
+
+A character can go without food for 3 days, in growing discomfort. After
+this time, the character must make a Routine (+2) Endurance check each
+day (DM-1 for each previous check) or take 1D6 damage.
+
+Damage from thirst or starvation cannot be recovered until the character
+gets food or water.
+
+## Suffocation
+
+In an area where sufficient oxygen is not long available, such as on
+board a starship without life support, a character begins to suffocate,
+suffering 1D6 damage each minute. A character who is utterly without air
+(such as one who is being smothered or strangled, or who has been dumped
+out an airlock) suffers 1D6 damage each round instead.
+
+## Vacuum Exposure
+
+Beings exposed to the airless cold of space are not immediately doomed.
+Contrary to popular belief, characters exposed to vacuum do not
+immediately freeze or explode, and their blood does not boil in their
+veins. While space is very cold, heat does not transfer away from a body
+that quickly. The real danger comes from suffocation and ionizing
+radiation.
+
+On the third round of exposure to vacuum, a character must succeed on a
+Very Difficult (-4) Endurance check each round or suffer from
+aeroembolism ("the bends"). A character that fails the check experiences
+excruciating pain as small air bubbles form in its bloodstream; such a
+character is considered stunned and generally unable to move, and
+remains so until returned to normal atmospheric pressure. A character
+that fails the check with an Exceptional Failure (Effect -6 or lower)
+falls unconscious.
+
+The real danger of vacuum comes from suffocation, though holding one's
+breath in vacuum damages the lungs. Treat anyone trapped in a hard
+vacuum as being utterly without air under the **Suffocation** rules.
+
+Unfiltered radiation bombards any character trapped in the vacuum of
+space without protective gear. A character exposed to this ionizing
+radiation suffers from severe sunburn as well as the effects equivalent
+to a high level irradiated area. See **Radiation Exposure** for specific
+details.
+
+## Weather
+
+Driving wind, rain, snowstorms and so forth give a –1 DM to ranged
+attacks from poor visibility and a –1 DM to ranged attacks from
+environmental interference. Sensors can be used to avoid the visibility
+penalty. Extremely high winds and torrential rain can inflict a negative
+Dice Modifier of –1 to –4 to all skill checks.
+
+# CHAPTER 9: WORLDS
+
+The basic planetary characteristics are Size, Atmosphere, Hydrology,
+Population, Government, Law Level, Technology Level, Starport and Bases,
+and are generated using two-dice throws, with DMs applied based on other
+characteristics. These characteristics establish the basic identity of a
+world, and are referred to as the Universal World Profile (UWP).
+Additional information can be generated, and should be, to more fully
+describe a world.
+
+## The Universal World Profile (UWP)
+
+The Märchen Engine utilizes a concise one-line coding to encapsulate
+data on an individual world in a manner that, with a little practice,
+can be quickly and easily read. The specifics of the Universal World
+Profile can be found below:
+
+WorldName 0000 A123456-7x Ni R 123 Na
+
+### The Explanation
+
+“**WorldName**” indicates the common name for the world that is being
+profiled.
+
+“**0000**” provides the location of the world’s hex (column, then row)
+on the sector or subsector map.
+
+“**A123456-7**” is the classic world profile. Each number or letter is a
+pseudo-hexadecimal code representing a specific value on the
+corresponding world data charts. In order, the profile defines the
+following elements: Starport, World Size, Atmosphere, Hydrographics,
+Population, Government, Law Level, followed by a hyphen and finally
+Technology Level.
+
+“**X**” indicates where information about a world’s bases are noted. A
+space here indicates that the world has no bases worthy of note on an
+interstellar level.
+
+“**Ni**” is used here to indicate where special remarks and trade codes
+are displayed as part of the world data profile.
+
+“**R**” provides information about the world’s Travel Zone
+classification. A space indicates a world that is generally safe to
+visit. An “A” represents an Amber Zone, indicating a world that
+adventurers should approach with more caution than normal. An “R”
+indicates a Red Zone, a world where travel is prohibited for any of a
+number of reasons, from physical dangers to political secrecy.
+
+“**123**” represents a brief synopsis of three pieces of data: a
+Population Multiplier for the main world, the number of Planetoid Belts
+in the system, and the number of Gas Giants in the system.
+
+“**Na**” indicates the system’s interstellar allegiance. “Na” is used
+for non-aligned worlds.
+
+## Star Mapping
+
+For Märchen Engine universes, the presence of star systems is marked on
+hex maps, each hex representing one parsec. For each system, generate a
+Universal World Profile for the primary world of the system. The
+smallest astrogation map size, the subsector, measures 8 hexes wide by
+10 hexes high. An intermediate map size, the quadrant, measures two
+subsectors by two subsectors, while the largest map size, the sector,
+measures two quadrants by two quadrants.
+
+There is a basic one-half chance normally that a world (and its
+attendant stellar system) will be in a hex. Systematically check each
+hex on the subsector map, throwing one die and marking the hex with a
+circle if the result is a 4, 5, or 6. This indicates that a world is
+present; otherwise, leave the hex blank. The Referee may elect to alter
+the normal chances of worlds, making them more frequent or less frequent
+to correspond to specific regions of the galaxy. A 50% density (no DM)
+is appropriate for the spiral arms of the galaxy. Apply a –2 DM for
+‘rift sectors’, a –1 DM for sparse sectors and a DM+1 for densely
+populated sectors.
+
+## World Size
+
+The Size characteristic for inhabitable worlds ranges from 0 to 10, and
+is determined by rolling 2D6–2.
+
+#### Table: World Size
+
+| Digit  | World Size                     | Surface Gravity (gs) |
+|--------|--------------------------------|----------------------|
+| 0      | 800 km (typically an asteroid) | Negligible           |
+| 1      | 1,600 km                       | 0.05                 |
+| 2      | 3,200 km                       | 0.15                 |
+| 3      | 4,800 km                       | 0.25                 |
+| 4      | 6,400 km                       | 0.35                 |
+| 5      | 8,000 km                       | 0.45                 |
+| 6      | 9,600 km                       | 0.7                  |
+| 7      | 11,200 km                      | 0.9                  |
+| 8      | 12,800 km                      | 1.0                  |
+| 9      | 14,400 km                      | 1.25                 |
+| 10 (A) | 16,000 km                      | 1.4                  |
+
+### High and Low Gravity Worlds
+
+Worlds where the gravity is 0.75 or less are low-gravity worlds. Common
+features include improbable-looking rock formations, thin and spindly
+life forms and flying as a common form of locomotion (assuming the
+atmosphere is thick enough to support flyers). Humans tend to find life
+on low-gravity worlds to be initially pleasant, but regular exercise
+regimes and medicinal supplements are required to prevent bone and
+muscle degradation. Those who spent too long on low-gravity worlds
+cannot tolerate higher gravities. Characters on low-gravity worlds
+suffer a –1 DM to all skill checks until they acclimatize, a process
+which takes 1D6 weeks. Characters with the Zero-G skill at level 0 or
+better acclimatize instantly.
+
+High-gravity worlds have a gravity 1.25 times or more than of Earth.
+They tend to be extremely dense worlds; common features include wide
+rocky plains, squat, muscular creatures, and plant life that spreads out
+like lichen instead of growing up. Crawling, burrowing or swimming are
+the commonest forms of locomotion. Humans find high-gravity worlds
+unpleasant. Especially high-gravity worlds require the use of pressured
+or powered suits to support the human frame. Characters on high-gravity
+worlds suffer a –1 DM to all skill checks until they acclimatize, a
+process which takes 1D6 weeks.
+
+## Atmosphere
+
+A planet’s Atmosphere is generated by rolling 2D6–7 and adding the
+planet’s Size. If a world's Size equals 0, then the world's Atmosphere
+equals 0. The Atmosphere code should never be higher than 15(F).
+
+#### Table: Atmosphere
+
+| Digit  | Atmosphere         | Pressure      | Survival Gear Required |
+|--------|--------------------|---------------|------------------------|
+| 0      | None               | 0.00          | Vacc Suit              |
+| 1      | Trace              | 0.001 to 0.09 | Vacc Suit              |
+| 2      | Very Thin, Tainted | 0.1 to 0.42   | Respirator, Filter     |
+| 3      | Very Thin          | 0.1 to 0.42   | Respirator             |
+| 4      | Thin, Tainted      | 0.43 to 0.7   | Filter                 |
+| 5      | Thin               | 0.43 to 0.7   |                        |
+| 6      | Standard           | 0.71–1.49     |                        |
+| 7      | Standard, Tainted  | 0.71–1.49     | Filter                 |
+| 8      | Dense              | 1.5 to 2.49   |                        |
+| 9      | Dense, Tainted     | 1.5 to 2.49   | Filter                 |
+| 10 (A) | Exotic             | Varies        | Air Supply             |
+| 11 (B) | Corrosive          | Varies        | Vacc Suit              |
+| 12 (C) | Insidious          | Varies        | Vacc Suit              |
+| 13 (D) | Dense, High        | 2.5+          |                        |
+| 14 (E) | Thin, Low          | 0.5 or less   |                        |
+| 15 (F) | Unusual            | Varies        | Varies                 |
+
+### Atmosphere Types
+
+**Tainted**: Tainted atmospheres contain some element that is harmful to
+humans, such as an unusually high proportion of carbon dioxide. A
+character who breathes a tainted atmosphere without a filter will suffer
+1D6 damage every few minutes (or hours, depending on the level of
+taint).
+
+**Exotic**: An exotic atmosphere is unbreathable by humans, but is not
+otherwise hazardous. A character needs an air supply to breath in an
+exotic atmosphere.
+
+**Corrosive**: Corrosive atmospheres are highly dangerous. A character
+who breathes in a corrosive atmosphere will suffer 1D6 damage each
+round.
+
+**Insidious**: An insidious atmosphere is like a corrosive one, but it
+is so corrosive that it attacks equipment as well. The chief danger in
+an insidious atmosphere is that the toxic gases will destroy the seals
+and filters on the character’s protective gear. An insidious atmosphere
+worms its way past protection after 2D6 hours on average, although
+vigilant maintenance or advanced protective gear can prolong survival
+times.
+
+**Dense, High** (D): These worlds have thick N2/O2 atmospheres, but
+their mean surface pressure is too high to support unprotected human
+life (high pressure nitrogen and oxygen are deadly to humans). However,
+pressure naturally decreases with increasing altitude, so if there are
+highlands at the right altitude the pressure may drop enough to support
+human life. Alternatively, there may not be any topography high enough
+for humans to inhabit, necessitating floating gravitic or dirigible
+habitats or sealed habitats on the surface.
+
+**Thin, Low** (E): The opposite of the Dense, High atmosphere, these
+massive worlds have thin N2/O2 atmospheres that settle in the lowlands
+and depressions and are only breathable there – the pressure drops off
+so rapidly with altitude that the highest topographic points of the
+surface may be close to vacuum.
+
+**Unusual** (F): An Unusual atmosphere is a catchall term for an
+atmosphere that behaves in a strange manner. Examples include
+ellipsoidal atmospheres, which are thin at the poles and dense at the
+equator; Panthalassic worlds composed of a rocky core surrounded by a
+water layer hundreds of kilometers thick; worlds wracked by storms so
+intense that that the local air pressure changes from dense to thin
+depending on the current weather; and other planets with unusual and
+hazardous atmospheric conditions.
+
+## Hydrographics
+
+Hydrographic percentage is obtained by rolling 2D6–7 and adding the
+world’s Size, modified by the world’s atmosphere or size as described in
+the Hydrographic DMs by Size and Atmosphere table.
+
+#### Table: Hydrographic DMs by Size and Atmosphere
+
+| Condition                  | DM                      |
+|----------------------------|-------------------------|
+| Size 0 or 1                | Hydrographics must be 0 |
+| Atmosphere 0, 1, A, B or C | –4                      |
+| Atmosphere E               | –2                      |
+
+A world's Hydrographics value should never exceed 10 (A), nor may it be
+lower than 0.
+
+#### Table: Hydrographics
+
+| Digit  | Hydrographic Percentage | Description                                |
+|--------|-------------------------|--------------------------------------------|
+| 0      | 0%–5%                   | Desert world                               |
+| 1      | 6%–15%                  | Dry world                                  |
+| 2      | 16%–25%                 | A few small seas.                          |
+| 3      | 26%–35%                 | Small seas and oceans.                     |
+| 4      | 36%–45%                 | Wet world                                  |
+| 5      | 46%–55%                 | Large oceans                               |
+| 6      | 56%–65%                 |                                            |
+| 7      | 66%–75%                 | Earth-like world                           |
+| 8      | 76%–85%                 | Water world                                |
+| 9      | 86%–95%                 | Only a few small islands and archipelagos. |
+| 10 (A) | 96–100%                 | Almost entirely water.                     |
+
+## World Population
+
+A world's Population is generated by rolling 2D6–2, modified by the
+world’s Size, Atmosphere and Hydrographics as described in the
+Population DMs table. A world's Population value should never exceed 10
+(A). If a world has a population of 0, it is uninhabited and the world
+also has a Government, Law Level and Technology Level of 0.
+
+#### Table: Population DMs
+
+| Condition                                     | DM  |
+|-----------------------------------------------|-----|
+| Size is 2 or less                             | -1  |
+| Atmosphere is A or greater                    | -2  |
+| Atmosphere is 6                               | +3  |
+| Atmosphere is 5 or 8                          | +1  |
+| Hydrographics is 0 and Atmosphere less than 3 | -2  |
+
+#### Table: World Population
+
+| Digit  | Population            | Range           | Comparison                          |
+|--------|-----------------------|-----------------|-------------------------------------|
+| 0      | None                  | 0               |                                     |
+| 1      | Few                   | 10+             | A tiny farmstead or a single family |
+| 2      | Hundreds              | 100+            | A village                           |
+| 3      | Thousands             | 1,000+          |                                     |
+| 4      | Tens of thousands     | 10,000+         | Small town                          |
+| 5      | Hundreds of thousands | 100,000+        | Average city                        |
+| 6      | Millions              | 1,000,000+      |                                     |
+| 7      | Tens of millions      | 10,000,000+     | Large city                          |
+| 8      | Hundreds of millions  | 100,000,000+    |                                     |
+| 9      | Billions              | 1,000,000,000+  | Present day Earth                   |
+| 10 (A) | Tens of billions      | 10,000,000,000+ |                                     |
+
+### Population Modifier
+
+Sometimes it is enough just to know that a world has hundreds of
+millions of people on it (Population 8). Other times, a Referee or
+player may want a more specific number. The Population Modifier is
+determined by rolling 2D6-2. If the Population is greater than 0, the
+minimum Population Modifier value is 1. If the Population code is 0,
+then the Population Modifier is also 0. The Population Modifier is
+multiplied by 10 raised to the power of the Population code to determine
+a more specific number of people living on the world. For example, if
+the Referee generates a Population Modifier of 4 for a world with a
+Population code of 8, then he knows that (**4**x10**<sup>8</sup>**,
+which is…) 400,000,000 people live on that world.
+
+## Primary Starport
+
+Many worlds have starports, their presence being essential to
+interstellar trade and commerce. To determine the world’s primary
+starport, roll 2D6-7 and add the world’s Population value. Compare the
+result to the Primary Starport table to determine the starport class for
+the world. Each starport class offers different levels of service. The
+Starport Class Services table provides more specific details.
+
+#### Table: Primary Starport
+
+| Roll      | Starport Class |
+|-----------|----------------|
+| 2 or less | X              |
+| 3         | E              |
+| 4         | E              |
+| 5         | D              |
+| 6         | D              |
+| 7         | C              |
+| 8         | C              |
+| 9         | B              |
+| 10        | B              |
+| 11+       | A              |
+
+#### Table: Starport Class Services
+
+| Class | Descriptor | Best Fuel | Annual Maint. | Shipyard Capacity                         | Possible Bases |
+|-------|------------|-----------|---------------|-------------------------------------------|----------------|
+| A     | Excellent  | Refined   | Yes           | Can construct starships and non-starships | Naval, Scout   |
+| B     | Good       | Refined   | Yes           | Can construct non-starships               | Naval, Scout   |
+| C     | Routine    | Unrefined | No            | Can perform reasonable repairs            | Scout          |
+| D     | Poor       | Unrefined | No            | None                                      | Scout          |
+| E     | Frontier   | None      | No            | None                                      | None           |
+| X     | None       | None      | No            | None                                      | None           |
+
+## World Government
+
+The Government characteristic is determined by rolling 2D6–7 and adding
+the world’s Population. If a world's Population equals 0, then the
+world's Government equals 0. The Government code should never be higher
+than 15(F), nor lower than 0.
+
+#### Table: World Government
+
+| Type   | Government                  |
+|--------|-----------------------------|
+| 0      | None                        |
+| 1      | Company/Corporation         |
+| 2      | Participating Democracy     |
+| 3      | Self-Perpetuating Oligarchy |
+| 4      | Representative Democracy    |
+| 5      | Feudal Technocracy          |
+| 6      | Captive Government          |
+| 7      | Balkanization               |
+| 8      | Civil Service Bureaucracy   |
+| 9      | Impersonal Bureaucracy      |
+| 10 (A) | Charismatic Dictator        |
+| 11 (B) | Non-Charismatic Leader      |
+| 12 (C) | Charismatic Oligarchy       |
+| 13 (D) | Religious Dictatorship      |
+| 14 (E) | Religious Autocracy         |
+| 15 (F) | Totalitarian Oligarchy      |
+
+## Law Level
+
+Law level is determined by rolling 2D6–7 and adding the Government
+characteristic. If the world’s Government is 0, then the world’s Law
+Level is also 0. Law Level should never be less than 0.
+
+#### Table: Law Level
+
+| Digit  | Descriptor  | Not Allowed                                                               |
+|--------|-------------|---------------------------------------------------------------------------|
+| 0      | No Law      | No restrictions; candidate for Amber Zone status                          |
+| 1      | Low Law     | Poison gas, explosives, undetectable weapons, weapons or mass destruction |
+| 2      | Low Law     | Portable energy weapons (except ship-mounted weapons)                     |
+| 3      | Low Law     | Heavy weapons                                                             |
+| 4      | Medium Law  | Light assault weapons and submachine guns                                 |
+| 5      | Medium Law  | Personal concealable weapons                                              |
+| 6      | Medium Law  | All firearms except shotguns and stunners; carrying weapons discouraged   |
+| 7      | High Law    | Shotguns                                                                  |
+| 8      | High Law    | All bladed weapons, stunners                                              |
+| 9      | High Law    | Any weapons outside one’s residence; candidate for Amber Zone status      |
+| 10(A)+ | Extreme Law | Any weapons allowed at all; candidate for Amber Zone status               |
+
+## Technology Level
+
+The Technology Level (also called “tech level” or TL) of the world is
+determined by rolling 1D6 and adding DMs per the Technology Level DMs by
+UWP Values table. A world’s Technology Level may not be below 0.
+
+#### Table: Technology Level DMs by UWP Values
+
+| Value  | Starport | Size | Atmosphere | Hydrographics | Population | Government |
+|--------|----------|------|------------|---------------|------------|------------|
+| 0      |          | +2   | +1         | +1            |            | +1         |
+| 1      |          | +2   | +1         |               | +1         |            |
+| 2      | \`       | +1   | +1         |               | +1         |            |
+| 3      |          | +1   | +1         |               | +1         |            |
+| 4      |          | +1   |            |               | +1         |            |
+| 5      |          |      |            |               | +1         | +1         |
+| 6      |          |      |            |               |            |            |
+| 7      |          |      |            |               |            | +2         |
+| 8      |          |      |            |               |            |            |
+| 9      |          |      |            | +1            | +1         |            |
+| 10 (A) | +6       |      | +1         | +2            | +2         |            |
+| 11 (B) | +4       |      | +1         |               | +3         |            |
+| 12 (C) | +2       |      | +1         |               | +4         |            |
+| 13 (D) |          |      | +1         |               |            | –2         |
+| 14 (E) |          |      | +1         |               |            | –2         |
+| 15 (F) |          |      | +1         |               |            |            |
+| X      | –4       |      |            |               |            |            |
+
+Certain world conditions must meet a minimum Technology Level
+requirement. If the world possesses a lower technology level, then the
+Referee should increase the world’s tech level to the required minimum.
+
+#### Table: Technology Level Minimums
+
+| Conditions                                            | Minimum TL |
+|-------------------------------------------------------|------------|
+| Hydrographics is 0 or 10(A), Population is at least 6 | 4          |
+| Atmosphere is 4, 7 or 9                               | 5          |
+| Atmosphere is 3 or less, or 10(A)-12(C)               | 7          |
+| Atmosphere is 13(D) or 14(E), Hydrographics is 10(A)  | 7          |
+
+## Trade Codes
+
+Trade codes are assigned based on a world’s UWP values, as noted in the
+UWP Values for Trade Codes table.
+
+#### Table: UWP Values for Trade Codes
+
+| Classification   | Code | Size | Atmos.       | Hydro | Pop. | Gov. | Law | TL  |
+|------------------|------|------|--------------|-------|------|------|-----|-----|
+| Agricultural     | Ag   |      | 4–9          | 4–8   | 5–7  |      |     |     |
+| Asteroid         | As   | 0    | 0            | 0     |      |      |     |     |
+| Barren           | Ba   |      |              |       | 0    | 0    | 0   |     |
+| Desert           | De   |      | 2+           | 0     |      |      |     |     |
+| Fluid Oceans     | Fl   |      | 10+          | 1+    |      |      |     |     |
+| Garden           | Ga   |      | 5, 6, 8      | 4–9   | 4–8  |      |     |     |
+| High Population  | Hi   |      |              |       | 9+   |      |     |     |
+| High Technology  | Ht   |      |              |       |      |      |     | 12+ |
+| Ice-Capped       | Ic   |      | 0–1          | 1+    |      |      |     |     |
+| Industrial       | In   |      | 0–2, 4, 7, 9 |       | 9+   |      |     |     |
+| Low Population   | Lo   |      |              |       | 1–3  |      |     |     |
+| Low Technology   | Lt   |      |              |       |      |      |     | 5-  |
+| Non-Agricultural | Na   |      | 0–3          | 0–3   | 6+   |      |     |     |
+| Non-Industrial   | Ni   |      |              |       | 4–6  |      |     |     |
+| Poor             | Po   |      | 2–5          | 0–3   |      |      |     |     |
+| Rich             | Ri   |      | 6, 8         |       | 6–8  |      |     |     |
+| Water World      | Wa   |      |              | 10    |      |      |     |     |
+| Vacuum           | Va   |      | 0            |       |      |      |     |     |
+
+## Planetoid Belt Presence
+
+Planetoid belts exist in many systems, and are mined by belters for ice,
+ore and other interesting things. To determine the presence of planetoid
+belts in a given star system, throw 4+ on 2D6 for at least one planetoid
+belt to be present in the system. If planetoid belts are present, then
+the number of planetoid belts in the system is 1D6-3, minimum of 1. If
+the primary world of the system is Size 0, then there’s at least one
+planetoid belt in the system automatically.
+
+## Gas Giant Presence
+
+A star system may have one or more gas giant planets. The presence of a
+gas giant allows starships equipped with fuel scoops to refuel by
+skimming; this eliminates fuel cost for the vessel and increases profit.
+It also allows refueling at systems that do not have starports.
+Refueling in this fashion requires 1D6 hours per 40 tons of fuel.
+
+Gas giants are relatively common. For each system throw 5+ on 2D6 for at
+least one gas giant to be present in the system. If gas giants are
+present, then the number of gas giants in the system is 1D6-2, minimum
+of 1.
+
+## Bases
+
+Stellar systems may have bases for military forces, the navy, the
+scouts, or for other arms of interstellar government. Bases can help
+determine political boundaries within a given region of space. An
+interstellar government will place bases along its borders to guard
+against aggression from rival states, or to control local systems. The
+presence of multiple bases within a few parsecs might indicate a
+contested border, or a mighty stronghold. While other bases may exist,
+the two primary bases are the Naval Base and the Scout Base.
+
+### Naval Base
+
+A naval base is a supply depot, refueling station, repair yard or
+fortress of the Navy. Naval vessels can obtain refined fuel and supplies
+here. If a world possesses a Class-A or Class-B starport, throw 8+ on
+2D6 to determine the presence of a naval base in the system.
+
+### Scout Base
+
+A scout base or outpost offers refined fuel and supplies to scout ships.
+If a world does not possess a Class-E or Class-X starport, throw 7+ on
+2D6 to determine the presence of a scout base in the system. This roll
+suffers a DM -1 if the world has a Class-C starport, a DM -2 for a
+Class-B starport and a DM -3 for a Class-A starport.
+
+### Pirate Base
+
+A pirate base serves as a haven for interstellar pirates. If a world
+does not possess a Class-A starport or a naval base, throw 12+ on 2D6 to
+determine the presence of a pirate base in the system.
+
+### Base Codes
+
+The presence of one or more bases is designated on the hex map with a
+base code in the upper-left of the world hex. The Base Codes table
+identifies which note-worthy bases, if any, are present.
+
+#### Table: Base Codes
+
+| Code | Description                        |
+|------|------------------------------------|
+| A    | Naval Base and Scout Base/Outpost  |
+| G    | Scout Base/Outpost and Pirate Base |
+| N    | Naval Base                         |
+| P    | Pirate Base                        |
+| S    | Scout Base/Outpost                 |
+
+## Travel Zones
+
+Most worlds are assumed to be civilized, or at least amenable to
+adventurers and other visitors. Some, however, are caught in the throes
+of war, plagued by disease, or simply not ready for interstellar
+visitors. Such worlds are classified by travel zones to denote such
+status. In most cases, the Referee should indicate travel zones based on
+the information available. Two such zone types exist: amber and red.
+
+### Amber Zone
+
+An Amber world has been deemed dangerous, and travelers are warned to be
+on their guard. Amber worlds are often undergoing upheaval or
+revolution, or else are naturally hazardous environments. A world with
+an Atmosphere of 10+, a government of 0, 7 or 10, or a Law Level of 0 or
+9+ should be considered for Amber status.
+
+### Red Zone
+
+Red worlds are interdicted and travel to them is forbidden.
+Interdictions are enforced by the Navy. Red zones can indicate that the
+world is too dangerous to allow visitors. The Referee assigns Red worlds
+at his discretion.
+
+## Polities and World Allegiance
+
+Worlds may be independent, or part of a larger polity that spans a
+system or more. Polities range from loose confederations of a few worlds
+with common trade or defense policies or cultural links, to vast star
+empires containing thousands of systems and trillions of citizens.
+Polity borders should be drawn on the map. Note that larger polities
+will usually have sub-domains, which should also be marked.
+
+## Communications Routes and Trade Routes
+
+Within the subsector, governments will have established communications
+and trade routes connecting some (but not all) worlds. Messages between
+businesses, governments and people generally follow these routes.
+
+Communications routes should be carefully drawn so as to avoid making
+all parts of the subsector accessible; a subsector should have some
+areas as backwaters for exploration and adventure. Communications routes
+are drawn as single lines connecting hexes on the subsector grid.
+
+Trade routes link worlds that have strong commercial ties. Consult the
+Trade Route Worlds table– if any pair of worlds matching the two columns
+lay within four parsecs of each other, and there is a Jump–1 or Jump–2
+route between them, then mark a trade route connecting those two worlds.
+
+#### Table: Trade Route Worlds
+
+| First End Point         | Second End Point                             |
+|-------------------------|----------------------------------------------|
+| Industrial or High Tech | Asteroid, Desert, Ice Capped, Non-Industrial |
+| High Population or Rich | Agricultural, Garden, Water World            |
+
+# CHAPTER 10 MONSTERS
+
+Insidious beasts stalk the jungles and mountains. Horrors lurk deep
+beneath the cities. And, of course, the natural world itself has a
+bounty of creatures, ranging from the useful to the wondrous to the
+terrible. Some of the most difficult and memorable opponents a band of
+adventurers may encounter are the monsters and creatures that inhabit
+the game world. This chapter details monsters ready for use in a Märchen
+Engine game, from the humble hunting dog to the mightiest dragon.
+
+## Monster entries use the following format:
+
+*Size, Type, Terrain Locomotion, UPP, \#Appearing Treasure*
+
+*Skills*
+
+*Behavior*
+
+*Attacks; Armor; Speed*
+
+*Alignment; Morale*
+
+- Various creatures have further powers and abilities given in
+  bullet-points in their description
+
+A creature’s UPP, just as for an ordinary human character, lists, as a
+string of "pseudo-hexadecimal" digits, the monster's STR, DEX, END, INT,
+INS, and PAC (for a beast) or the monster's STR, DEX, END, INT, EDU, and
+SOC (for a more civilized creature)
+
+> ***For example:***
+>
+> ***Dinosaur, Deinonychus***
+>
+> *100kg Beast (Chaser), plains walker, 9G9198 \#App: 2D Treasure: None*
+>
+> *Atheltics-2, Melee Combat-2, Survival-0, Recon-0, Tactics-1*
+>
+> *Attacks if outnumbering the characters; flees on 5-*
+>
+> *Claws (2D), teeth (2D); armor 1; speed 30m/action*
+>
+> *Neutral; Morale DM+1*
+
+*This means that a deinonychus weighs 100kg on average, lives in open
+plains, walks (well, runs), has STR 9, DEX 16, END 9, INT 1, INS 9 and
+PAC 8; 2D Deinonychuses will appear in an encounter; and it carries no
+treasure.*
+
+*It has Atheltics-2, Melee Combat-2, Survival-0, Recon-0, and Tactics-1
+skills.*
+
+*The deinonychuses will attack if they outnumber the characters, but
+otherwise will flee on a throw of 5- on 2D.*
+
+*It has claws causing 2D damage, teeth causing 2D damage, 1 point of
+armor, and a speed of 30m per action (triple the human speed).*
+
+*Its alignment is Neutral, and its Morale DM is +1.*
+
+## Monster Entries
+
+While a large and varied number of monsters are listed here, Referees
+are strongly encouraged to alter these monsters, or create entirely new
+ones to fit their setting.
+
+### Allip
+
+*0kg Undead, urban flyer, CAG0A0 \#App: 1 Treasure: Small*
+
+*Athletics-1, Melee-0, Recon-1, Tactics-1*
+
+*Attacks all living beings*
+
+*Special attack; armor 0; flying speed 10m/action*
+
+*Chaotic; Morale DM+2*
+
+An Allip is an undead creatures that is the result of when a living
+creature is driven to madness and suicide by enemies or circumstances.
+Now, the remnant soul - the allip - haunts its former environs, seeking
+revenge on all living creatures.
+
+- Undead: immune to poison, disease, and suffocation.
+
+- Incorporeal: immune to non-silver, non-magical weapons.
+
+- Immune to mind-affecting magic.
+
+- On a successful attack, an allip drains 1 INT point from its victim; a
+  victim reduced to 0 INT becomes permanently insane (only curable by
+  the **Restoration** spell). INT points otherwise regenerate at a rate
+  of 1 point per day.
+
+- Voice – anyone who hears the allip's babble must throw INT 10+ or be
+  hypnotized and paralyzed for 1D rounds.
+
+- Night vision.
+
+### Ankheg
+
+*400kg Beast (Pouncer), forest walker, KAG0A3 \#App: 1D Treasure: Small*
+
+*Athletics-2, Melee Combat-2, Recon-1, Survival-0, Tactics-2*
+
+*Attacks if it has surprise; flees if surprised*
+
+*Claws (3D), Mandibles (3D); armor 6; speed 10m/action*
+
+*Neutral; Morale DM-1*
+
+The ankheg is a burrowing insectoid predator, hiding underground and
+waiting for prey to pass over its burrow. It then leaps out of the
+ground, grabs its prey, and drags it back to its lair to feed.
+
+- Acid Spit: once every 6 hours, the ankheg may spit acid up to 15m
+  causing 2D damage upon impact; it has DM+3 to hit with this acid
+  projectile.
+
+- Night vision.
+
+- Improved grab: DM+2 to Grapple throws.
+
+### Ant, Giant, Worker
+
+*100kg Beast (Eater), plains walker, A7C07C \#App: 4D Treasure:
+Incidental*
+
+*Atheltics-1, Melee Combat-0*
+
+*Attacks on 5+; flees on 4-*
+
+*Mandibles (2D); armor 3; speed 10m/action*
+
+*Neutral; Morale DM-2*
+
+An enormous and hardy insect, the giant ant lives in massive nests and
+eat almost anything, hapless adventurers included. Note that the
+behavior notes above are for a wilderness encounter; giant ants will
+defend their nest to the death if invaded.
+
+### Ant, Giant, Soldier
+
+*100kg Beast (Eater), plains walker, A7C07C \#App: 4D Treasure:
+Incidental*
+
+*Atheltics-2, Melee Combat-2, Survival-1*
+
+*Attacks on 5+; flees on 4-*
+
+*Mandibles (2D); armor 5; speed 10m/action*
+
+*Neutral; Morale DM+1*
+
+Giant ant soldiers are hardier than their worker sisters, and possess
+acidic venom, making their bite much more dangerous.
+
+- *Venom:* 8+/2D delivered by bite.
+
+### Ant, Giant, Queen
+
+*800kg Beast (Eater), plains walker, F5F091 \#App: 1 Treasure:
+Incidental*
+
+*Melee Combat-2*
+
+*Always attacks if threatened in its nest*
+
+*Mandibles (3D); armor 5; speed 10m/action*
+
+*Neutral; Morale DM+2*
+
+The queen of a giant ant colony is a bloated insect, several times the
+size of a worker or soldier giant ant.
+
+- Venom*:* 8+/3D delivered by bite.
+
+### Ape, Flying
+
+*150kg Beast (Hunter), mountain flier, E8F2A7 \#App: 2D Treasure:
+Incidental*
+
+*Athletics-1, Melee Combat-1, Recon-1, Stealth-1, Survival-1, Tactics-1*
+
+*If larger than its prey, attacks on 6+; otherwise, attacks on 10+ and
+flees on 5-*
+
+*Fists (2D), Teeth (2D); armor 3; walking speed 10m/action, flying speed
+20m/action*
+
+*Neutral; Morale DM-1*
+
+A fantastic omnivorous winged ape capable of flight; it is intelligent
+enough to use tactics such as dropping rocks from the air on potential
+prey.
+
+- DM-2 to hit the ape when it is flying.
+
+### Assassin Vine
+
+*800kg Beast (Trapper), forest walker, 79E060 \#App: 1 Treasure:
+Incidental*
+
+*Melee Combat-1, Stealth-2, Tactics-1*
+
+*Attacks if it has surprise; does not flee*
+
+*3D vines (1D each); armor 4; speed 5m/action*
+
+*Neutral; Morale DM+0*
+
+A horrid semi-mobile carnivorous plant, the assassin vine creates its
+own fertilizer by crushing passers-by and depositing their carcasses
+near its roots.
+
+- On a successful attack with Effect 2+, it grapples its victim, causing
+  an additional 1D damage.
+
+- Each vine takes 1D damage (after armor) to sever.
+
+- An assassin vine that has lost all its vines cannot attack.
+
+### Baboon
+
+*50kg Beast (Intermittent), jungle walker, 48829A \#App: 3D Treasure:
+None*
+
+*Athletics-1, Melee Combat-1, Recon-0, Stealth-0, Survival-1*
+
+*Attacks on 10+; flees on 4-*
+
+*Teeth (1D); armor 1; speed 10m/action*
+
+*Neutral; Morale DM+0*
+
+The baboon is a powerful and aggressive primate roughly the size of a
+large dog, and well-adapted to living on the ground.
+
+### Basilisk
+
+*200kg Beast (Trapper), desert walker, E8C070 \#App: 1 Treasure: Small*
+
+*Athletics-1, Melee Combat-2, Recon-1, Stealth-1, Survival-1, Tactics-1*
+
+*Attacks if it has surprise; flees on 5-*
+
+*Claws (2D), Teeth (2D); armor 3; speed 5m/action*
+
+*Neutral; Morale DM+1*
+
+The basilisk is a horrid lizard-like monster capable of turning its prey
+into stone; it then eats and digests that stone.
+
+- Any creature caught in the basilisk's gaze must throw END 8+ or be
+  turned to stone.
+
+- Night vision.
+
+### Bat, Giant
+
+*100kg Beast (Hunter), hill and cave flyer, C8D197 \#App: 2D Treasure:
+None*
+
+*Athletics-0, Melee Combat-1, Recon-1, Survival-1*
+
+*Attacks on 6+ if it is larger than at least one of its prey; otherwise,
+attacks on 10+ and flees on 5-.*
+
+*Teeth (2D); armor 1; flying speed 30m/action*
+
+*Neutral; Morale DM+0*
+
+One hundred times the size of an ordinary bat, this monstrosity dwells
+in ruins and caves and preys upon the weak – including humans.
+
+- Sonar vision. Giant Bats do not suffer negative DMs for low light and
+  darkness.
+
+### Bear, Black
+
+*200kg Beast (Hunter), forest walker, G8C093 \#App: 1D Treasure: None*
+
+*Athletics-1, Melee Combat-1, Recon-1, Survival-1*
+
+*Attacks on 10+ and flees on 5-.*
+
+*Claws (2D), Teeth (2D); armor 2; speed 20m/action*
+
+*Neutral; Morale DM-1*
+
+The forest-dwelling black bear is a major threat to adventurers,
+especially if its cubs are threatened.
+
+### Bear, Brown
+
+*400kg Beast (Hunter), forest walker, J8C093 \#App: 1D Treasure: None*
+
+*Athletics-1, Melee Combat-1, Recon-1, Survival-1*
+
+*Attacks on 6+ if it is larger than at least one of its prey; otherwise,
+attacks on 10+ and flees on 5-.*
+
+*Claws (2D), Teeth (3D); armor 3; speed 20m/action*
+
+*Neutral; Morale DM+0*
+
+Much larger than black bear, the brown bear is a fearsome hunter – a
+particularly large subspecies, such as the grizzly or Kodiak bear (as
+depicted above) is a force to be reckoned with.
+
+### Bear, Polar
+
+*800kg Beast (Pouncer), arctic walker and swimmer, LAI0A2 \#App: 1D
+Treasure: None*
+
+*Athletics-2, Melee Combat-2, Recon-1, Survival-1, Tactics-1*
+
+*Attacks on 6+ if it is larger than at least one of its prey; otherwise,
+attacks on 10+ and flees on 5-.*
+
+*Claws (3D), Teeth (3D); armor 3; walking speed 10m/action, swimming
+speed 20m/action*
+
+*Neutral; Morale DM+1*
+
+One of the largest bear species, the polar bear is a majestic predator
+at home both on snow, ice and underwater. The same game statistics can
+also serve to describe the prehistoric cave and short-faced bears, which
+were similar in size.
+
+### Beetle, Giant Fire
+
+*50kg Beast (Eater), subterranean walker, 9AA075 \#App: 1D Treasure:
+Incidental*
+
+*Athletics-1 Melee Combat-1, Recon-1, Survival-0*
+
+*Attacks on 5+; flees on 4-*
+
+*Bite (2D); armor 4; speed 20m/action*
+
+*Neutral; Morale DM+1*
+
+This well-armored giant insect carries a light gland glowing with red
+light, which will continue to glow for 1D days after the gland is
+removed from the beetle (providing light in a 3m radius).
+
+### Bison
+
+*800kg Beast (Grazer), plains walker, M7H09G \#App: 5D Treasure: None*
+
+*Athletics-2, Melee Combat-0, Survival-0*
+
+*Attacks on 8+; flees on 6-*
+
+*Trample (3D), Horns (3D); armor 2; speed 20m/action*
+
+*Neutral; Morale DM-2*
+
+A large wild bovine, the bison is a prime game animal. However, hunters
+should take care: bison are dangerous when angered.
+
+### Black Pudding
+
+*200kg Beast (Reducer), subterranean walker, A58080 \#App: 1 Treasure:
+None*
+
+*Athletics-0, Melee-0, Recon-0, Survival-0*
+
+*Attacks on 10+, flees on 7-*
+
+*Special attack; armor 0; speed 5m/action*
+
+*Neutral; Morale DM: automatic success*
+
+The black pudding is a dark, oily, amorphous glob with an acidic surface
+living off the detritus of the underground.
+
+- Acid: any creature coming into contact with the black pudding – either
+  on the pudding's successful attack or by touching it otherwise –
+  suffers 2D damage per round. Contact with the black pudding will
+  corrode metal in 1D rounds.
+
+- Immune to magic, cold, and lightning. Not immune to fire.
+
+### Boar
+
+*100kg Beast (Gatherer), forest walker, C9C199 \#App: 3D Treasure: None*
+
+*Athletics-1, Melee Combat-1, Recon-1, Survival-0*
+
+*Attacks on 9+; flees on 7-*
+
+*Tusks (2D); armor 3; speed 20m/round*
+
+*Neutral; Morale DM+2*
+
+The wild boar is a tough, hot-tempered beast that roams the forests. It
+is a real prize for an ambitious hunter, and a source of great fear to
+all but the most foolhardy of hunters.
+
+### Camel
+
+*800kg Beast (Grazer), desert walker, I7C09A \#App: 3D Treasure: None*
+
+*Athletics-1, Melee Combat-0, Recon-1, Survival-3*
+
+*A wild camel attacks on 10+; flees on 8-; a domesticated camel rarely
+attacks*
+
+*Trample (3D); armor 1; speed 20m/action*
+
+*Neutral; Morale DM-1*
+
+The "ship of the desert", the camel is prized by desert dwellers as a
+beast of burden and provider of wool and milk.
+
+### Cat, Great, Lion
+
+*200kg Beast ( Hijacker), plains walker, EAB0A7 \#App: 2D Treasure:
+None*
+
+*Atheltics-1, Natural Weapons-3, Recon-1, Stealth-1, Survival-0*
+
+*Attacks on 6+ if it is larger than at least one of its prey; otherwise,
+attacks on 10+ and flees on 5-.*
+
+*Claws (2D), Teeth (3D); armor 1; speed 20m/round*
+
+*Neutral; Morale DM+1*
+
+The "King of the Jungle", this massive great cat actually rules the
+savannah and plains with majestic might.
+
+### Cat, Great, Mountain Lion
+
+*50kg Beast (Pouncer), plains walker, 8C80A1 \#App: 1 or 2 Treasure:
+None*
+
+*Atheltics-1, Natural Weapons-1, Recon-1, Stealth-1, Survival-0*
+
+*Attacks on 6+ if it is larger than at least one of its prey; otherwise,
+attacks on 10+ and flees on 5-.*
+
+*Claws (2d6), Teeth (2d6); armor 1; speed 20m/round*
+
+*Neutral; Morale DM+0*
+
+The mountain lion, also known as a puma or cougar, is a large feline
+nocturnal predator.
+
+### Cat, Great, Panther
+
+*50kg Beast (Pouncer), plains walker, 9B80A1 \#App: 1 or 2 Treasure:
+None*
+
+*Atheltics-1, Natural Weapons-1, Recon-1, Stealth-1, Survival-0*
+
+*Attacks on 6+ if it is larger than at least one of its prey; otherwise,
+attacks on 10+ and flees on 5-.*
+
+*Claws (2d6), Teeth (2d6); armor 1; speed 20m/round*
+
+*Neutral; Morale DM+0*
+
+The panther, also known as a leopard, is the lion's smaller relative and
+an apex predator on its own right.
+
+### Cat, Great, Smilodon
+
+*200kg Beast (Pouncer), plains walker, F7C0A3 \#App: 1D Treasure: None*
+
+*Atheltics-1, Natural Weapons-3, Recon-1, Stealth-1, Survival-0*
+
+*Attacks on 6+ if it is larger than at least one of its prey; otherwise,
+attacks on 10+ and flees on 5-.*
+
+*Teeth (4D); armor 2; speed 20m/round*
+
+*Neutral; Morale DM+1*
+
+A prehistoric great cat, the Smilodon was (probably) a pack hunter
+similar to lions; it preyed upon the great beasts of its day, including
+mammoths.
+
+### Cat, Great, Tiger
+
+*200kg Beast (Pouncer), plains walker, EAB0A1 \#App: 1 or 2 Treasure:
+None*
+
+*Atheltics-1, Natural Weapons-3, Recon-1, Stealth-1, Survival-0*
+
+*Attacks on 6+ if it is larger than at least one of its prey; otherwise,
+attacks on 10+ and flees on 5-.*
+
+*Claws (3D), Teeth (3D); armor 1; speed 20m/round*
+
+*Neutral; Morale DM+1*
+
+The heaviest of the great cats, the tiger is as deadly as it is
+beautiful, the ultimate apex predator of the forest.
+
+### Centipede, Giant
+
+*50kg Beast (Pouncer), subterranean walker, 6A60355 \#App: 1D Treasure:
+None*
+
+*Athletics-0, Melee Combat-0, Recon-0, Survival-1, Tactics-0*
+
+*Attacks if it has surprise; flees if surprised*
+
+*Mandibles (1D); armor 3; move 10m/action*
+
+*Neutral; Morale DM-1*
+
+This enormous chitinous nightmare resembles an ordinary centipede, grown
+by sorcery or fate to man-eating proportions.
+
+- Venom*:* 6+/2D delivered by bite.
+
+### Cockroach, Giant
+
+*12kg Beast (Reducer), subterranean walker and flier, 37407A \#App: 3D
+Treasure: None*
+
+*Athletics-0, Melee Combat-0, Recon-0, Stealth-1, Survival-1*
+
+*Attacks on 10+; flees on 7-*
+
+*Mandibles (1D); armor 1; walk 10m/action; fly 30m/action*
+
+*Neutral; Morale DM-2*
+
+As large as it is disgusting, this insect monstrosity favors cesspits
+and trash heaps.
+
+- Immune to disease; enjoys DM+3 to resist poison.
+
+### Crocodile
+
+*400kg Beast (Killer), riverbank swimmer/walker G9A0A3, \#App: 1D
+Treasure: None*
+
+*Athletics-1, Melee Combat-2, Recon-1, Stealth-2, Survival-0*
+
+*Attacks on 6+; flees on 3-*
+
+*Teeth (3D); armor 3; swim/walk 10m/action*
+
+*Neutral; Morale DM-1*
+
+This modern relative of the dinosaurs is an aquatic horror, a born
+predator superior to other extant reptiles in its stamina and strength.
+
+### Darkmantle
+
+*12kg Beast (Trapper), subterranean walker 595173 \#App: 1D, Treasure:
+Small*
+
+*Athletics-0, Melee Combat-1, Recon-0, Stealth-3, Survival-1, Tactics-1*
+
+*Attacks if it has surprise; hides otherwise*
+
+*Teeth (1D); armor 3; move 10m/action*
+
+*Neutral; Morale DM-1*
+
+This "cave octopus" hangs from the cave ceiling by its muscular "foot",
+looking like a stalactite with its tentacles wrapped around itself,
+changing its color to that of the environment. When prey passes under
+the darkmantle, it falls upon it and attempts to constrict it.
+
+- Has sonar vision.
+
+- On a successful attack with an effect of 2+, it grapples its victim
+  automatically and strangles it for 2D damage/round.
+
+### Demons
+
+Demons are powerful creatures of utter Chaos, possessing a malign
+intelligence and bent on bringing destruction and suffering to mortals.
+Demons come in a wide variety of shapes and with varying special
+abilities; when summoning a demon, first choose the demon type.
+Afterwards generate its abilities, as dictated by its type (see below),
+from the following random table:
+
+##### Demon Special Abilities
+
+| **D66** | **Demon Special Ability**                                                                                                                                                                                                                                                                                                              |
+|---------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 11      | The demon's attack is acidic and can destroy non-magical armor or clothing with a successful hit. A non-magical weapon striking the demon dissolves immediately after dealing damage. Magical arms and armor throw 6+ when coming into contact with the acid; if they fail, they dissolve as well.                                     |
+| 12      | The demon is surrounded by a horrid aura with the radius of 3m, dealing 1D damage per round to surrounding creatures.                                                                                                                                                                                                                  |
+| 13      | The demon can go berserk! This provides DM+1 to hit; the demon is immune to fear; and it enjoys DM+2 to Morale.                                                                                                                                                                                                                        |
+| 14      | The demon possesses a breath weapon, usable 3 times a day, causing 3D fire damage to all within a 10m long, 5m wide cone emanating from its mouth or other frontal orifice. Victims may throw DEX 8+ to only suffer half damage (rounded down).                                                                                        |
+| 15      | The demon may charge its target; this grants DM+2 to hit and +1D to damage. However, during the round in which the demon charges, attacks against the demon gain a DM+2 bonus to hit.                                                                                                                                                  |
+| 16      | The demon may mentally enslave victims 3 times a day. The target must throw INT 8+ or be enthralled by the demon for 1D hours.                                                                                                                                                                                                         |
+| 21      | The demon can heal itself by dealing damage with its bite attack; for every 2 points of damage (rounded up) caused by the demon, it heals 1 point of its own injuries.                                                                                                                                                                 |
+| 22      | If flying at a 10m or higher height above ground, the demon may perform dive attacks, causing +2D damage. The demon may grab creatures smaller than itself and fly away with them, unless they succeed in a DEX 8+ or STR 8+ throw.                                                                                                    |
+| 23      | Victims hit by the demon's claws are grabbed, and thus helpless until they succeed in an opposed STR throw (one throw allowed per round).                                                                                                                                                                                              |
+| 24      | Throw 1D: 1-2 – the demon is immune to fire; 3-4 – the demon is immune to cold; 5 – the demon is immune to electricity; 6 – the demon is immune to mind-affecting magic.                                                                                                                                                               |
+| 25      | The demon is incorporeal, and thus weightless, formless, and unable to interact with physical objects except for by its attack and special abilities. It may pass through walls. If not originally immune to silver weapons, it also gains such immunity.                                                                              |
+| 26      | The demon can transform its victims into others of its own wretched kind. Creatures slain by the demon will rise as demons of its kind unless their corpse is **blessed** (as per the spell).                                                                                                                                          |
+| 31      | The demon always acts first in a combat round, regardless of any initiative throw.                                                                                                                                                                                                                                                     |
+| 32      | The demon is naturally invisible. It may act as it wishes, including attacking, without becoming visible.                                                                                                                                                                                                                              |
+| 33      | The demon gains DM+2 to resist hostile magic. This bonus is cumulative with any inherent magic resistance bonus the demon already possesses.                                                                                                                                                                                           |
+| 34      | Victims of the demon's bite attack must throw END 8+ or be paralyzed for 1D rounds.                                                                                                                                                                                                                                                    |
+| 35      | The demon is venomous. Its bite delivers a potent poison: virulence 10+, damage 2D.                                                                                                                                                                                                                                                    |
+| 36      | The demon regenerates 2D damage per round, and may reattach severed limbs, unless damaged by fire or acid.                                                                                                                                                                                                                             |
+| 41      | The demon is difficult to notice, gaining DM+2 to surprise rolls and has the Stealth-3 skill.                                                                                                                                                                                                                                          |
+| 42      | The demon may swallow its victim whole if it hits its victim with an Effect of +4 or better. A swallowed victim takes damage equal to that of the demon's bite per round, until the demon is killed or the victim dies.                                                                                                                |
+| 43      | Double the demon's movement speed.                                                                                                                                                                                                                                                                                                     |
+| 44      | Any being that sees the demon must throw INT 8+ or be paralyzed with dread. This effect ends when the demon leaves the victim's line of sight, or one round after the demon engages in combat.                                                                                                                                         |
+| 45      | Increase the demon's armor by 5 points.                                                                                                                                                                                                                                                                                                |
+| 46      | The demon may use a trample attack in lieu of both its natural attacks, causing damage equal to both attacks at once, at DM+2 to hit human-sized targets.                                                                                                                                                                              |
+| 51      | The demon may teleport at will once per round. This does not use an action. The range is 10m in any direction.                                                                                                                                                                                                                         |
+| 52      | The demon emits a nauseating aura; any creature coming within a 10m radius from the demon must throw END 8+ or be nauseated (DM-2 to all actions and only have one Action per round).                                                                                                                                                  |
+| 53      | As an action, the demon may animate a dead body to fight for it as a **skeleton** or a **zombie**. There is no limit to how many such undead the demon may control in a round. The body crumbles to dust within 1D turns.                                                                                                              |
+| 54      | As an action, the demon may cause one dead body within 10m to explode in fire, cause 2D damage to all creatures within 3m of the body.                                                                                                                                                                                                 |
+| 55      | As an action, the demon may instill temporary madness in a victim. The victim must throw INT 8+ or become insane for 2D rounds; an insane victim must throw 1D every round; on 1-3, they may not act; on 4-5, they must attack the nearest enemy; on 6, they must attack their nearest ally.                                           |
+| 56      | When the demon is slain, throw INT 10+ using the demon's INT DM; if successful, it re-forms by sheer willpower with all its characteristics at half maximum value. Demons may do so multiple times until they fail the INT 10+ throw, in which case they perish.                                                                       |
+| 61      | The demon may possess a target. The target must throw INT 8+ or be possessed and controlled by the demon. The target may attempt another INT 8+ throw once a week to cast off the possession; **Dispel Evil** exorcises the demon immediately and forces it to leave the victim's body. A demon may only possess one victim at a time. |
+| 62      | Possession, as above.                                                                                                                                                                                                                                                                                                                  |
+| 63      | Possession, as above.                                                                                                                                                                                                                                                                                                                  |
+| 64      | Possession, as above.                                                                                                                                                                                                                                                                                                                  |
+| 65      | Possession, as above.                                                                                                                                                                                                                                                                                                                  |
+| 66      | The demon has a unique power, at the Referee's discretion.                                                                                                                                                                                                                                                                             |
+
+### Demon, Demon Spawn
+
+*50kg Outsider, extraplanar flyer 666771 \#App: 1 Treasure: None*
+
+*Athletics-1, Melee Combat -1, Recon-1, Survival-1*
+
+*Behaves as an NPC at the Referee's discretion, as per the summoner's
+orders (if summoned), or per the Reaction rules*
+
+*Claws (1D), maw (2D); armor 1; flies 10m/action*
+
+*Chaotic; Morale DM+0*
+
+Demon spawn are wretched underlings of the demonic spheres, foot
+soldiers of horror and corruption.
+
+- Immune to poison and disease.
+
+- The Demon Spawn possesses one special ability, per the table above.
+
+### Demon, Dybbuk
+
+*100kg Outsider, extraplanar flyer BBBAA0 \#App: 1 Treasure: None*
+
+*Athletics-1, Melee Combat-2, Sorcery-2 Recon-1, Survival-1, Tactics-1*
+
+*Behaves as an NPC at the Referee's discretion, as per the summoner's
+orders (if summoned), or per the Reaction rules*
+
+*Claws (3D), maw (3D); armor 5; flies 20m/action*
+
+*Chaotic; Morale DM+1*
+
+The dybbuk is only one rank below a fiend – a captain of hell!
+
+- Immune to all weapons except for magical or silvered weapons
+
+- Immune to poison and disease.
+
+- Knows 1D spells. In addition to using them itself, it may also teach
+  them to its mortal allies or summoners.
+
+- Enjoys DM+2 to resist hostile magic.
+
+- The Dybbuk possesses three special abilities, per the table above.
+
+### Demon, Fiend
+
+*100kg Outsider, extraplanar flyer KCKCA0 \#App: 1 Treasure: None*
+
+*Athletics-2, Sorcery-3, Melee Combat-2, Recon-2, Stealth-2, Tactics-2*
+
+*Behaves as an NPC at the Referee's discretion, as per the summoner's
+orders (if summoned), or per the Reaction rules*
+
+*Claws (3D), maw (4D); armor 9; flies 20m/action*
+
+*Chaotic; Morale DM+2*
+
+Fiends are the mightiest of demons, a scourge upon the earth – princes
+of destruction and corruption.
+
+- Immune to all weapons except for magical weapons
+
+- Immune to poison and disease.
+
+- Knows 2D spells. In addition to using them itself, it may also teach
+  them to its mortal allies or summoners.
+
+- Enjoys DM+3 to resist hostile magic.
+
+- The Fiend possesses four special abilities, per the table above.
+
+### Demon, Hellion
+
+*100kg Outsider, extraplanar flyer BBBAA0 \#App: 1 Treasure: None*
+
+*Athletics-1, Melee Combat -2, Sorcery-1 Recon-1, Survival-1, Tactics-1*
+
+*Behaves as an NPC at the Referee's discretion, as per the summoner's
+orders (if summoned), or per the Reaction rules*
+
+*Claws (2D), maw (3D); armor 5; flies 20m/action*
+
+*Chaotic; Morale DM+0*
+
+The hellion is a mighty demon, a horror to behold.
+
+- Immune to all weapons except for magical or silvered weapons
+
+- Immune to poison and disease.
+
+- Knows 1D spells. In addition to using them itself, it may also teach
+  them to its mortal allies or summoners.
+
+- Enjoys DM+1 to resist hostile magic.
+
+- The Hellion possesses two special abilities, per the table above.
+
+#### Demon, Imp
+
+*50kg Outsider, extraplanar flyer 78C791 \#App: 1 Treasure: None*
+
+*Athletics-1, Melee Combat -1, Recon-1, Survival-1, Tactics-1*
+
+*Behaves as an NPC at the Referee's discretion, as per the summoner's
+orders (if summoned), or per the Reaction rules*
+
+*Claws (2D), maw (2D); armor 3; flies 20m/action*
+
+*Chaotic; Morale DM+0*
+
+The Imp is a relatively weak demon, though mightier than its Demon Spawn
+brethren.
+
+- Immune to poison and disease.
+
+- The Imp possesses two special abilities, per the table above.
+
+### Dinosaur, Ankylosaurus
+
+5000kg Beast (Grazer), forest walker, M2M078 \#App: 2D
+
+*Athletics-2, Melee Combat-0, Recon-0, Survival-1*
+
+*Attacks on 8+; flees on 6-*
+
+*Neutral; Morale DM-1*
+
+Trample (3D), Tail (4D); armor 7; speed 10m/action
+
+The ankylosaurus is an armored herbivore that feeds mainly on pine
+trees. It can grow up to 6m in length. Occasionally, an ankylosaurus
+will eat herbs that will cause it to be deranged and go on a rampage.
+
+### Dinosaur, Deinonychus
+
+*50kg Beast (Chaser), plains walker, 9G9198 \#App: 2D Treasure: None*
+
+*Atheltics-2, Melee Combat-2, Survival-0, Recon-0, Tactics-1*
+
+*Attacks if it outnumbers the characters; flees on 5-*
+
+*Claws (2D), teeth (2D); armor 1; speed 30m/action*
+
+*Neutral; Morale DM+1*
+
+Often confused with the much smaller velociraptor, the deinonychus is a
+medium-sized carnivorous theropod dinosaur. It grows up to 3 meters in
+length. Deinonychus is a pack hunter with a keen mind and instincts as
+sharp as its claws. The pack will use sophisticated hunting tactics to
+bring down prey.
+
+### Dinosaur, Edmontosaurus
+
+*3200kg Beast (Grazer), plains walker, P6P07C \#App: 4D Treasure: None*
+
+*Athletics-2, Melee Combat-0, Recon-0, Survival-1*
+
+*Attacks on 8+; flees on 6-*
+
+*Trample (2D); armor 2; speed 30m/action*
+
+*Neutral; Morale DM-1*
+
+A herd herbivore, the Edmontosaurus sometimes serves as a riding beast
+for barbarian tribes, depending on the locale.
+
+### Dinosaur, Triceratops
+
+*10000kg Beast (Intermittent), plains walker M5M07A \#App: 3D Treasure:
+None*
+
+*Athletics-1, Melee Combat-0, Recon-0, Survival-1*
+
+*Attacks on 10+; flees on 4+*
+
+*Trample (3D), horns (4D); Armor 5; speed 10m/action*
+
+*Neutral; Morale DM+0*
+
+The mighty triceratops is a medium-sized (for a dinosaur, that is)
+herbivore, sometimes tamed by barbarian tribes as a beast of burden.
+
+### Dinosaur, Tyrannosaurus Rex
+
+*15000kg Beast (Hijacker), plains walker, M6M090 \#App: 1 Treasure:
+None*
+
+*Athletics-0, Melee Combat-3, Recon-1, Survival-1*
+
+*Attacks on 5+; flees on 3-*
+
+*Bite (5D); armor 4; speed 20m/action*
+
+*Neutral; Morale DM+2*
+
+The king of the reptiles, the tyrannosaurus rex is the apex predator of
+the prehistoric steppes, and a true horror to behold.
+
+### Dinosaur, Velociraptor
+
+*12kg Beast (Chaser), plains walker, 3A619A \#App: 3D Treasure: None*
+
+*Atheltics-2, Melee Combat-1, Tactics-1*
+
+*Attacks if it outnumbers the characters; flees on 5-*
+
+*Claws (1D), teeth (1D); armor 0; speed 30m/action*
+
+*Neutral; Morale DM-1*
+
+The velociraptor is a small, nimble, feathered predatory dinosaur. It
+survives by chasing down prey across the prehistoric savannahs. What it
+lacks in size it makes up for in intelligence and hunting tactics. A
+pack of velociraptors can be the bane of many much larger creatures.
+
+### Djinn
+
+*0kg Outsider, extraplanar flyer, GBJAA0 \#App: 1 Treasure: None*
+
+*Athletics-1, Sorcery-2, Melee Combat-1, Recon-1, Survival-1*
+
+*Behaves as an NPC at the Referee's discretion or per the Reaction
+rules*
+
+*Special attack; armor 0; flies 20m/action*
+
+*Neutral; Morale DM+4*
+
+The djinn is an elemental spirit of the Winds, famous for its might and
+guile.
+
+- Immune to non-magical weapons.
+
+- Immune to poison and disease.
+
+- Knows 2D spells. In addition to using them itself, it may also teach
+  them to its mortal allies or summoners.
+
+- Can create food and water of high quality, enough to sustain 2D
+  persons per day.
+
+- Can become invisible at will.
+
+- Whirlwind: may create a whirlwind around itself at will, causing 1D
+  damage to anyone within 2m range.
+
+### Dog, Hunting
+
+*25kg Beast (Chaser), forest walker, 3A70A7 \#App: 2D Treasure: None*
+
+*Athletics-1, Melee Combat-1, Recon-3, Survival-3, Tactics-1*
+
+*A tamed dog attacks as instructed by its master. A wild dog attacks
+when it outnumbers its prey; flees on 5-*
+
+*Bite (1D); armor 0; speed 30m/action*
+
+*Neutral; Morale DM+0*
+
+The hunting dog is a lean, fast hound, bred to chase and catch prey.
+
+### Dog, War
+
+*50kg Beast (Chaser), forest walker, B7A087 \#App: 2D Treasure: None*
+
+*Athletics-1, Melee Combat-2, Recon-1, Survival-1, Tactics-0*
+
+*A tamed dog attacks as instructed by its master. A wild dog attacks
+when it outnumbers its prey; flees on 5-*
+
+*Bite (2D); armor 1; speed 20m/action*
+
+*Neutral; Morale DM+2*
+
+A massive dog bred for combat, capable of bringing down much larger
+creatures. An adventurer's best friend.
+
+### Doppelganger
+
+*100kg Humanoid, urban walker, 97A990 \#App: 1 Treasure: Small*
+
+*Athletics-0, Deception-2, Melee Combat-1, Recon-1, Stealth-2,
+Survival-0*
+
+*Behaves as an NPC at the Referee's discretion or per the Reaction
+rules*
+
+*Claws (1D) or by weapon; armor 0 or as worn; speed 10m/action*
+
+*Chaotic; Moral DM+2*
+
+The doppelganger is an intelligent shapeshifting monster capable of
+replacing and mimicking persons for its own nefarious and murderous
+purposes.
+
+- Can change shape into another creature within 1D rounds. Requires an
+  INT 10+ throw to detect.
+
+### Dragon
+
+*10000kg Beast (Killer), mountains flyer N9PFF0 \#App: 1 Treasure:
+Hoard*
+
+*Athletics-1, Sorcery-3, Melee Combat-3, Recon-1, Survival-0, Tactics-1*
+
+*Behaves as an NPC at the Referee's discretion or per the Reaction
+rules.*
+
+*Teeth (4D), claws (3D); armor 8; fly 30m/action*
+
+*Neutral; Morale DM+2*
+
+The majestic dragon is one of the greatest monsters of legend, a
+fire-breathing reptile of great size and even greater greed.
+
+- 3 times a day may breathe fire, causing 5D fire damage to all within a
+  10m long, 5m wide cone emanating from its mouth. Victims may throw DEX
+  8+ to only suffer half damage (rounded down). A dragon’s fire has an
+  AV 4D rating vs. vehicles and may set them ablaze as described in the
+  Combat chapter.
+
+- Knows 2D spells. In addition to using them itself, it may also teach
+  them to its mortal allies.
+
+### Drake
+
+*400kg Beast (Killer), mountain flyer, G9G1A3 \#App: 1D Treasure:
+Incidental*
+
+*Athletics-1, Melee Combat-2, Recon-1, Survival-1*
+
+*Attacks on 6+; flees on 3-*
+
+*Teeth (3D), claws (2D); armor 6; fly 30m/action*
+
+*Neutral; Moral DM+0*
+
+Sometimes called a "dragon" by villagers, the drake is a non-sentient
+relative of true dragons, yet still capable of breathing fire. Perfect
+for a knight looking for bragging rights about "slaying a dragon".
+
+- 3 times a day may breathe fire, causing 3D fire damage to all within a
+  10m long, 5m wide cone emanating from its mouth. Victims may throw DEX
+  8+ to only suffer half damage (rounded down). A drake’s fire has an AV
+  2D rating vs. vehicles and may set them ablaze as described in the
+  Combat chapter.
+
+### Elemental, Air
+
+*0kg Outsider, urban flyer, I9M190 \#App: 1 Treasure: None*
+
+*Athletics-1, Melee Combat-1, Recon-1, Tactics-1*
+
+*Attacks on 8+, flees on 6-; or by summoner’s command*
+
+*Special (see below); armor 0; fly 30m/action*
+
+*Neutral; Morale DM+4*
+
+An air elemental is an extraplanar exemplar of the Classic Element of
+Air. It appears as a twirling air mass, crackling with electricity.
+
+- Immune to non-magical weapons.
+
+- Once per round, using one action, the air elemental may form a
+  whirlwind, causing 2D damage to any creature within 3m of the
+  elemental.
+
+### Elemental, Earth
+
+*0kg Outsider, urban walker, I9M190 \#App: 1 Treasure: None*
+
+*Athletics-1, Melee Combat-2, Recon-1, Tactics-1*
+
+*Attacks on 8+, flees on 6-; or by summoner’s command*
+
+*Crush (4D); armor 5; walk 5m/action*
+
+*Neutral; Morale DM+4*
+
+An earth elemental is an extraplanar exemplar of the Classic Element of
+Earth. It appears as a massive humanoid made of rock and soil.
+
+- Immune to non-magical weapons.
+
+### Elemental, Fire
+
+*0kg Outsider, urban flyer, I9M190 \#App: 1 Treasure: None*
+
+*Athletics-1, Melee Combat-1, Recon-1, Tactics-1*
+
+*Attacks on 8+, flees on 6-; or by summoner’s command*
+
+*Fire lash (2D); armor 0; fly 10m/action*
+
+*Neutral; Morale DM+4*
+
+A fire elemental is an extraplanar exemplar of the Classic Element of
+Fire. It appears as a mass of flames and smoke forming a vaguely
+humanoid form.
+
+- Immune to non-magical weapons.
+
+- Once per round, using one action, the fire elemental may generate a
+  firestorm, causing 2D fire damage to any creature within 2m range.
+
+### Elemental, Water
+
+*0kg Outsider, ocean, river, or lake swimmer, I9M190 \#App: 1 Treasure:
+None*
+
+*Athletics-1, Melee Combat-1, Recon-1, Tactics-1*
+
+*Attacks on 8+, flees on 6-; or by summoner’s command*
+
+*Water jet (3D); armor 0; swim 20m/action*
+
+*Neutral; Morale DM+4*
+
+A water elemental is an extraplanar exemplar of the Classic Element of
+Water. It appears as a standing wave of water with a vaguely humanoid
+form.
+
+- Immune to non-magical weapons.
+
+- The water elemental may, as an action, try to draw its victims
+  underwater and drown them. Treat it as a grapple (see the Combat
+  chapter) and causes 1D damage per round the victim is held by the
+  elemental. The elemental may grapple up to two creatures at a time in
+  this manner.
+
+### Elephant
+
+*3,200kg Beast (Intermittent), plains or forest walker, M4M1EA \#App: 3D
+Treasure: None*
+
+*Athletics-1, Melee Combat-1, Recon-0, Survival-1, Tactics-0*
+
+*Attacks on 10+; flees on 4-*
+
+*Trample (3D), tusks (2D); armor 3; walk 10m/action*
+
+*Neutral; Morale DM+0*
+
+A majestic mammal, the elephant rules the forest or savannah. Even great
+cats are wary of attacking a herd of elephants, unless they manage to
+separate one from its herd.
+
+### Fish, Carnivorous
+
+*1kg Beast (Killer), river, lake, or ocean swimmer, 15307C \#App: 4D
+Treasure: None*
+
+*Athletics-1, Melee Combat-2, Recon-1, Survival-0*
+
+*Attacks on 6+; flees on 3-*
+
+*Teeth (1 damage); armor 0; swim 10m/action*
+
+*Neutral; Morale DM+0*
+
+This entry represents small, nasty fish stalking the ocean for prey.
+Individually, they are a negligible threat to adventurers; however, a
+school of such fish is bad news even to the toughest heroes.
+
+### Ghost
+
+*0kg Undead, urban flyer, CAK0A0 \#App: 1 Treasure: Small*
+
+*Athletics-0, Melee-0, Recon-3, Stealth-3, Tactics-1*
+
+*Attacks all living beings*
+
+*Special attack; armor 0; flying speed 10m/action*
+
+*Chaotic; Morale DM+4*
+
+Incorporeal spirits of the dead, ghosts often haunt places related to
+their death, such as a cemetery, gallows, or an abandoned location.
+
+- Undead: immune to poison, disease, and suffocation.
+
+- Incorporeal: immune to non-silver, non-magical weapons.
+
+- Immune to mind-affecting magic.
+
+- The ghost may possess a target. The target must throw INT 8+ or be
+  possessed and controlled by the ghost. The target may attempt another
+  INT 8+ throw once a week to remove the possession; **Dispel Evil**
+  exorcises the ghost immediately and forces it to leave the victim's
+  body. A ghost may only possess one victim at a time.
+
+- Ghosts always haunt for a reason, be it murder, unjust execution, or
+  improper burial. Without remedying this reason, a defeated ghost will
+  reappear within 3D nights. **Dispel Evil**, however, will permanently
+  remove a ghost from its haunt and sent its spirit straight to Hell.
+
+### Ghoul
+
+*100kg Undead, urban walker, B89197 \#App: 2D Treasure: Small*
+
+*Athletics-1, Melee Combat-1, Recon-2, Tactics-1, Survival-1*
+
+*Attacks on 6+; flees on 3-*
+
+*Claws (1D), Bite (2D); armor 1; walks 10m/action*
+
+*Chaotic; Morale DM+1*
+
+The ghoul is a predatory undead being, a walking, hungry, corpse. It
+seeks to feast on the flesh of the living and transform them into its
+likeness.
+
+- Undead: immune to poison, disease, and suffocation.
+
+- Only takes half damage (rounded down) from non-silver, non-magical
+  weapons.
+
+- A character bitten by a ghoul must throw END 8+ or be paralyzed for 1D
+  rounds.
+
+- A creature slain by a ghoul will rise as a ghoul on the next midnight,
+  unless its body is **blessed** or cremated.
+
+### Gorilla
+
+*150kg Beast (Intermittent), mountains walker, G7A2AA \#App: 3D
+Treasure: None*
+
+*Athletics-1, Melee Combat-1, Recon-1, Stealth-1, Survival-1*
+
+*Attacks on 10+; flees on 4-*
+
+*Fists (1D), Teeth (2D); armor 3; speed 10m/action*
+
+*Neutral; Morale DM-1*
+
+The gorilla is a large herbivorous ape, native to mountain jungles.
+Despite its powerful build, it is not particularly aggressive, unlike
+some of its smaller relatives such as chimpanzees.
+
+### Green Slime
+
+*100kg Beast (Reducer), subterranean crawler, A5B80 \#App: 1 Treasure:
+None*
+
+*Athletics-0, Melee-0, Recon-0, Survival-0*
+
+*Attacks on 10+, flees on 7-*
+
+*Special attack; armor 0; speed 1.5m/action*
+
+*Neutral; Morale DM: automatic success*
+
+This mobile viscous green slime feeds on plants, animals, and metals,
+including weapons and armor, but does not digest stone. The slime will
+typically lurk upon a ceiling or other high place, then drop upon an
+unsuspecting victim and attempt to engulf it.
+
+- The victim of dropping green slime must throw DEX 8+ or be engulfed.
+
+- The slime will completely digest an engulfed creature within 2D
+  rounds. No magic can bring back a digested creature or its
+  possessions.
+
+- The slime is immune to all non-magical weapons but suffers double
+  damage from any source of fire; even a lit torch will cause it 2D
+  damage per attack; the engulfed victim, however, also suffers from
+  such fire damage at a rate of 1 point of damage per 2 points of fire
+  damage caused to the engulfing slime (rounded up).
+
+- A **cure disease** spell will immediately remove the slime from its
+  victim.
+
+- Immune to mind-affecting spells.
+
+### Grey Ooze
+
+*400kg Beast (Reducer), subterranean crawler, A7A080 \#App: 1 Treasure:
+None*
+
+*Athletics-0, Melee Combat-1, Recon-0, Survival-0*
+
+*Attacks on 10+, flees on 7-*
+
+*Pseudopod 2D; armor 0; speed 1.5m/action*
+
+*Neutral; Morale DM: automatic success*
+
+The grey ooze resembles a 3m-wide pool of grey liquid, capable of
+slashing at its victims with its acidic pseudopods.
+
+- Destroys non-magical clothes and armor upon a successful hit. Any
+  non-magical weapon striking the ooze dissolves after dealing damage.
+  For magical arms and armor, throw 6+; on failure, they dissolve as
+  well.
+
+- Enjoys DM+2 to surprise throws thanks to its excellent camouflage
+  (appears as a damp stone surface).
+
+- Immune to mind-affecting spells.
+
+### Hell Hound
+
+*50kg Beast (Chaser), urban walker, 8AE293 \#App: 1D Treasure: None*
+
+*Athletics-1, Melee Combat-1, Recon-0, Survival-1, Tactics-1*
+
+*If encountered, attacks if the hell hounds outnumber their prey;
+otherwise flees on 5-. If summoned, it will obey its summoner's orders.*
+
+*Teeth (2D); armor 3; speed 30m/action*
+
+*Chaotic; Morale DM+2*
+
+A canine monstrosity born in the fires of hell, the hellhound is a
+vicious and cruel hunter. Sorcerers often summon hell hounds to do their
+dark biddings.
+
+- Three times a day, the hell hound may breathe fire, dealing 2D fire
+  damage to all targets within a 10m long, 3m wide cone.
+
+### Horse
+
+*800kg Beast (Grazer), plains walker, G9L09A \#App: 3D Treasure: None*
+
+*Athletics-3, Melee Combat-0, Recon-1, Survival-2*
+
+*A wild horse attacks on 10+; flees on 8-; a domesticated horse rarely
+attacks unless it is trained for war*
+
+*Trample (3D); armor 1; speed 40m/action*
+
+*Neutral; Morale DM-1 (DM+2 for a war horse)*
+
+A trusty mount, the horse is a common beast of burden, work, and war.
+
+### Hydra
+
+*1600kg Beast (Killer), mountains walker G4G1A0 \#App: 1 Treasure:
+Large*
+
+*Athletics-1, Melee Combat-2, Recon-1, Survival-0, Tactics-0*
+
+*Attacks on 6+, flees on 3-*
+
+*6x Teeth (3D); armor 7; walk 10m/action*
+
+*Neutral; Morale DM+2*
+
+The hydra is a reptilian beast with six heads, each with its own vicious
+maw and voracious appetite.
+
+- The hydra attacks once per head per round. Every time a hydra suffers
+  a full 6 points of damage, it loses a head, and thus an attack. A
+  hydra dies when it loses all six heads.
+
+### Hydra, Greater
+
+*3200kg Beast (Killer), mountains walker M4M5C0 \#App: 1 Treasure:
+Hoard*
+
+*Athletics-1, Melee Combat-2, Recon-1, Survival-0, Tactics-0*
+
+*Attacks on 6+, flees on 3-*
+
+*8x Teeth (3D); armor 7; walk 10m/action*
+
+*Neutral; Morale DM+2*
+
+The greater hydra is a reptilian beast with eight heads, each with its
+own vicious maw and voracious appetite. However, unlike an ordinary
+hydra, the greater hydra possesses the uncanny ability to regenerate its
+heads, making it an almost invincible enemy.
+
+- The hydra attacks once per head per round. Every time it suffers a
+  full 6 points of damage, however, it loses a head, and thus an attack.
+  A greater hydra dies when it loses all eight heads.
+
+- However, after losing a head, a greater hydra will grow *two* heads
+  within 1D rounds. The maximum number of heads a greater hydra may have
+  at any given time is twelve. The only way to prevent new heads from
+  growing is to cauterize the severed head's stump with fire or acid
+  before it regrows.
+
+### Insect Swarm
+
+*25kg Beast (Reducer), plains walker or flyer, 8C8070 \#App: 1 Treasure:
+None*
+
+*Athletics-3, Melee Combat-0, Recon-0, Tactics-0, Survival-1*
+
+*Attacks on 10+; flees on 7-*
+
+*Special (see below); armor 1; crawl or fly 10m/action*
+
+*Neutral; Morale DM+3*
+
+An insect swarm is a special type of monster representing a huge mass of
+insects, such as mosquitos, locusts, or cockroaches acting as one unit.
+The swarm typically occupies a space of 3m by 3m but may expand or
+shrink as conditions dictate.
+
+- Swarms do not need to roll to hit. They automatically cause 1 point of
+  damage per round to characters engulfed by the swarm. A character who
+  fleets from the swarm will require 2 more rounds to drive away the
+  swarm's remnants and swat insects, during which they will continue to
+  suffer damage. If the character damaged the swarm, it will chase the
+  attacker.
+
+- The swarm causes double damage to unarmored characters.
+
+- Swarms are immune to regular damage. They are only damaged by fire (a
+  successful hit with a torch causes 1D damage to a swarm) or any fire,
+  gas, or ice magical area effects, which automatically dissipate the
+  swarm.
+
+### Invisible Stalker
+
+*25kg Outsider, urban flyer, ACA0C0 \#App: 1 Treasure: None*
+
+*Athletics-3, Melee Combat-2, Recon-1, Tactics-1*
+
+*Acts as instructed by its summoner.*
+
+*Tentacle (4D); armor 5; fly 10m/action*
+
+*Chaotic; Morale DM+4*
+
+The invisible creature is a being summoned from another plane of
+existence to do a sorcerer's biddings – such as assassinate an opponent
+or guard a location. It will relentlessly pursue its quarry, even across
+continents.
+
+- Automatically surprises opponents who cannot see invisible creatures.
+
+- DM-2 to be hit by opponents who cannot see invisible creatures.
+
+- Vulnerable to **dispel magic** – if dispelled, it will return to the
+  Outer Dark immediately.
+
+### Leech, Giant
+
+*25kg Beast (Pouncer), swamp swimmer, 5A70355 \#App: 1D Treasure: None*
+
+*Athletics-1, Melee Combat-1, Recon-0, Survival-1, Tactics-0*
+
+*Attacks if it has surprise; flees if surprised*
+
+*Mouth parts (1D); armor 1; swim 10m/action*
+
+*Neutral; Morale DM+2*
+
+A giant parasitic worm native to swamps and other bodies of stagnant
+water.
+
+- Upon a successful attack, the leech immediately **grapples** its
+  victim. The victim may try to break the grapple on the next round, or
+  any subsequent round, but the leech enjoys DM+1 to grapple throws.
+  Each round it grapples a victim, the leech automatically causes 1D
+  damage via blood drain to its opponent.
+
+### Lich
+
+*100kg Undead, urban walker, C9NPP0 \#App: 1 Treasure: Hoard*
+
+*Athletics-1, Melee Combat-2, Recon-2, Stealth-2, Tactics-1, Sorcery-5,
+Survival-1*
+
+*Behaves as an NPC at the Referee's discretion or per the Reaction
+rules.*
+
+*Claws (3D), armor 3; walks 10m/action*
+
+*Chaotic; Morale DM+3*
+
+An undead sorcerer of vast eldritch power, a lich is one of the
+mightiest monsters one may encounter. Strengthened beyond measure by its
+sorcerous might, a lich is also well-versed in the most powerful of
+spells.
+
+- Undead: immune to poison, disease, and suffocation.
+
+- Immune to mind-affecting magic.
+
+- Lichs may only be harmed by magical weapons.
+
+- The lich knows 3D spells.
+
+### Lizardfolk, savage
+
+*100kg Humanoid, swamp walker and swimmer, 9795A5 \#App: 1D, Treasure:
+Small*
+
+*Athletics-1, Melee Combat-1, Recon-2, Survival-2, Tactics-1*
+
+*Attacks on 8+; flees on 4-*
+
+*Claws (1D), Bite (1D) or by weapon; Armor 2 or by worn armor; walk of
+swim 10m/action*
+
+*Neutral; Morale DM+1*
+
+Savage lizardfolk, unlike their more civilized relatives, are a menace
+to anyone invading their swamps or otherwise living around them.
+
+- May hold its breath for one turn.
+
+- In swamp or jungle environments, lizardfolk enjoy DM+1 to stealth,
+  recon, and surprise throws thanks to their adaptive coloration.
+
+### Lizard, Giant
+
+*800kg Beast (Hunter), desert walker, G7F093 \#App: 1D Treasure: None*
+
+*Athletics-0, Melee Combat-2, Recon-1, Survival-1*
+
+*Attacks on 5+; flees on 4-*
+
+*Teeth (3D), Claws (2D); armor 3; speed 20m/action*
+
+*Neutral; Morale DM-1*
+
+A gigantic variant of an agamid or lacertid lizard, this monstrosity
+stalks deserts for prey and plant material. Some giant lizards exist in
+warm caverns as well, and some barbaric tribes occasionally tame them as
+riding and war beasts.
+
+### Lizard, Komodo Dragon
+
+*100kg Beast (Pouncer), jungle walker, C6C1C3 \#App: 1D Treasure: None*
+
+*Athletics-3, Melee Combat-2, Recon-2, Survival-2, Tactics-1*
+
+*Attacks on 5+; flees on 4-*
+
+*Teeth (2D); armor 2; speed 10m/action*
+
+*Neutral; Morale DM+0*
+
+The Komodo dragon is a large venomous lizard, stalking prey on jungle
+islands. It is highly intelligent and capable of complex hunting
+tactics. Its preferred hunting method is to envenom its prey, retreat,
+and wait for the venom to kill the hapless victim.
+
+- Venom*:* 10+/4D delivered by bite. Takes 1D turns to take effect.
+
+### Lizard, Megalania
+
+*800kg Beast (Pouncer), desert walker, F6F1C0 \#App: 1 Treasure: None*
+
+*Athletics-3, Melee Combat-3, Recon-2, Survival-2, Tactics-1*
+
+*Attacks on 5+; flees on 4-*
+
+*Teeth (4D); armor 3; walk 10m/action*
+
+*Neutral; Morale DM+0*
+
+The Komodo dragon's enormous prehistoric relative, this massive lizard
+may grow up to 7m in length and has teeth as large and as sharp as
+swords – coupled with deadly venom.
+
+- Venom*:* 10+/5D delivered by bite. Takes 1D turns to take effect.
+
+### Lizard, Water Monitor
+
+*12kg Beast (Hunter), river walker and swimmer, 4841A3 \#App: 1D
+Treasure: None*
+
+*Athletics-2, Melee Combat-1, Recon-1, Survival-1*
+
+*Attacks on 10+; flees on 5-*
+
+*Teeth (1D); armor 1; walk or swim 10m/action*
+
+*Neutral; Morale DM-2*
+
+The water monitor is a large lizard native to tropical rivers and
+jungles. It is quite intelligent and trainable as a pet.
+
+### Mammoth
+
+*5,000kg Beast (Intermittent), steppe walker, P3P1EA \#App: 3D Treasure:
+None*
+
+*Athletics-1, Melee Combat-1, Recon-0, Survival-2, Tactics-0*
+
+*Attacks on 10+; flees on 4-*
+
+*Trample (3D), tusks (2D); armor 3; walk 20m/action*
+
+*Neutral; Morale DM+0*
+
+A prehistoric elephant, the mammoth exceeds the size of modern elephants
+and enjoys a thick coat of wool, protecting it from its frigid arctic
+habitat.
+
+### Mummy
+
+*50kg Undead, desert walker, F6KAA3 \#App: 1D Treasure: Large*
+
+*Athletics-1, Melee Combat-3, Recon-1, Stealth-1, Tactics-1*
+
+*Behaves as an NPC at the Referee's discretion or per the Reaction
+rules.*
+
+*Claws (2D); armor 4; walks 10m/action*
+
+*Chaotic; Morale DM+4*
+
+Mummified remains of ancient sorcerers and kings may walk the dead halls
+of their tombs, forever guarding against interlopers.
+
+- Undead: immune to poison, disease, and suffocation.
+
+- Immune to mind-affecting spells.
+
+- On a successful attack, the mummy exposes the target to a vile,
+  wasting magical disease (9+/2D/1 day). An infected character cannot
+  heal or enjoy the benefits of magical healing. **Cure disease** cannot
+  remove this illness; only **remove curse** can reverse it.
+
+- Immune to non-magical weapons.
+
+- Takes double damage from fire-based attacks. A lit torch causes 1D
+  damage to mummies.
+
+### Octopus, Giant
+
+*5000kg Beast (Pouncer), ocean swimmer, M6K1A0 \#App: 1 Treasure: None*
+
+*Athletics-2, Melee Combat-2, Recon-2, Survival-2, Stealth-3, Tactics-1*
+
+*Attacks on 6+; flees on 3-*
+
+*Beak (3D); armor 0; swim 20m/action*
+
+*Neutral; Morale DM-1*
+
+A monstrous, giant cephalopod prowling the deep seas in search of prey.
+
+- As an action, the giant octopus may choose to grapple prey, such as
+  adventurers, enjoying DM+2 to such grapple throws. The giant octopus
+  crushes its grappled prey, causing 1D damage per round until the
+  grapple is broken. A giant octopus may grapple up to 8 victims at the
+  same time.
+
+- The giant octopus may attack ships and boats, using its tentacles to
+  try and capsize them. Such an attack has an AV 2D rating.
+
+### Pteranodon
+
+*200kg Beast (Pouncer), mountain flyer, BCA093 \#App: 1D Treasure: None*
+
+*Athletics-2, Melee Combat-1, Recon-2, Survival-1*
+
+*Attacks on 8+; flees on 5-*
+
+*Bite (2D); armor 0; fly 30m/action*
+
+*Neutral; Morale DM+0*
+
+A giant winged reptile. The Pteranodon has a wingspan of over 8 meters
+and attacks large prey, including human-sized creatures. Some barbarian
+tribes have tamed Pteranodons as flying mounts.
+
+### Pterodactyl
+
+*25kg Beast (Pouncer), mountain flyer, 6C7096 \#App: 2D Treasure: None*
+
+*Athletics-2, Melee Combat-0, Recon-2, Survival-1*
+
+*Attacks on 10+; flees on 6-*
+
+*Bite (1D); armor 0; fly 30m/action*
+
+*Neutral; Morale DM-1*
+
+A large winged reptile, the pterodactyl is typically harmless to
+humanoids, but may attack them if it is particularly hungry.
+
+### Plesiosaur
+
+*10000kg Beast (Killer), ocean swimmer, M3M1A3 \#App: 1D Treasure:
+Incidental*
+
+*Athletics-3, Melee Combat-3, Recon-2, Survival-2, Tactics-1*
+
+*Attacks on 6+; flees on 3-*
+
+*Teeth (4D); armor 5; swim 10m/action*
+
+*Neutral; Morale DM-1*
+
+The plesiosaur is an enormous prehistoric marine reptile, an apex
+predator and the terror of the Jurassic seas. The above data refer to
+the largest species of short-necked plesiosaurs, which could reach up to
+17m in length.
+
+- The plesiosaur may swallow its victim whole if its attack lands with
+  an Effect of +4 or better. A swallowed victim takes damage equal to
+  that of the plesiosaur's bite per round, until the beast is killed or
+  the victim dies.
+
+- Plesiosauri may, on rare occasions (or if attacked), attack ships.
+  Their attacks have an AV rating of 2D against wooden ships.
+
+### Purple Worm
+
+*20000kg Beast (Reducer), subterranean walker, P4P060 \#App: 1 Treasure:
+Incidental*
+
+*Athletics-1, Melee Combat-2, Recon-1, Survival-2*
+
+*Attacks on 10+; flees on 4-*
+
+*Teeth (4D); armor 6; walk 5m/action*
+
+*Neutral; Morale DM-1*
+
+The dreaded purple worm is a borrowing invertebrate that sometimes
+reaches a length of 30m or more. It burrows deep underground and
+surfaces only to consume unsuspecting prey. An unsubstantiated rumor
+states that a few barbarian tribes have learned a way to climb and ride
+such beasts, using them as mighty mounts to traverse the deep deserts.
+
+- The purple worm senses surface vibrations and is attracted to them.
+
+- The purple worm may swallow its victim whole if its attack lands with
+  an Effect of +4 or better. A swallowed victim takes damage equal to
+  that of the worm's bite per round, until the beast is killed or the
+  victim dies.
+
+### Rat, Giant
+
+*25kg Beast (Reducer), urban walker, 78709A \#App: 3D Treasure:
+Incidental*
+
+*Athletics-0, Melee Combat-0, Recon-1, Stealth-1, Survival-1*
+
+*Attacks on 8+; flees on 5-*
+
+*Bite (1D); armor 1; speed 20m/action*
+
+*Neutral; Morale DM-2*
+
+A giant – and utterly disgusting – version of the common rat, this
+massive rodent infests sewers and dungeons alike.
+
+### Rhinoceros
+
+*5,000kg Beast (Intermittent), plains walker, P6K09A \#App: 3D Treasure:
+None*
+
+*Athletics-1, Melee Combat-1, Recon-1, Survival-1*
+
+*Attacks on 10+; flees on 4-*
+
+*Trample (3D), horn (3D); armor 3; walk 20m/action*
+
+*Neutral; Morale DM-2*
+
+A large land mammal, the rhinoceros is notorious for its bad temper.
+
+- A rhinoceros may **charge** at a target at least 20m away from it. A
+  successful charge attack causes double horn and trample (both!)
+  damage.
+
+### Roc
+
+*5000kg Beast (Hunter), mountain flyer, M6P090 \#App: 1 Treasure: Small*
+
+*Athletics-1, Melee Combat-2, Recon-1, Survival-1*
+
+*Attacks on 6+; flees on 3-*
+
+*Teeth (2D), claws (3D); armor 2; fly 30m/action*
+
+*Neutral; Morale DM+0*
+
+A roc looks like a giant eagle, with an appetite to match. Rocs will eat
+anything, including livestock and humans – all are easy prey to such a
+majestic predator of the air.
+
+- On a successful attack, the roc automatically grapples its victim, and
+  may take them up into the air, and back to their nests for dinner.
+
+### Shadow
+
+*0kg Undead, urban "Walker", 7AF0A0 \#App: 1 Treasure: None*
+
+*Athletics-1, Melee Combat-1, Recon-3, Stealth-3, Tactics-1*
+
+*Attacks if it has surprise, or as instructed by its summoner*
+
+*Life drain (2D); armor 0; walks 10m/action*
+
+*Chaotic; Morale DM+4*
+
+A shadow is a soul cursed so that only its shadow remains. It creeps
+along walls and floors, seemingly a shade cast by the play of darkness
+and light. However, it is a malicious spirit thirsting for the life
+force of hapless, unsuspecting mortals.
+
+- Undead: immune to poison, disease, and suffocation.
+
+- Incorporeal: immune to non-silver, non-magical weapons.
+
+- Immune to mind-affecting magic.
+
+- On a successful attack, the shadow heals itself half the damage it
+  dealt to its victim, rounded down.
+
+- Any creature slain by a shadow rises as a shadow on the next midnight,
+  unless its body is **blessed** or cremated.
+
+### Shark, Great White
+
+*1600kg Beast (Killer), ocean swimmer, K9C073 \#App: 1D Treasure: None*
+
+*Athletics-1, Melee Combat-2, Recon-1, Survival-0*
+
+*Attacks on 6+; flees on 3-*
+
+*Teeth (3D); armor 0; swim 20m/action*
+
+*Neutral; Morale DM+0*
+
+While humans are not the natural prey of the great white shark, sharks
+will readily attack them with its monstrous teeth.
+
+### Skeleton
+
+*12kg Undead, urban walker, 673055 \#App: 1D Treasure: None*
+
+*Athletics-0, Melee Combat-0, Recon-0, Tactics-1, Survival-0*
+
+*Attacks as commanded by the necromancer; skeletons raised by other
+means attack all living creatures on sight.*
+
+*Claws (1D) or by weapon, armor 1; walk 10m/action*
+
+*Chaotic; Morale DM: automatic success*
+
+A long-dead skeleton animated by black magic or by foul curses.
+
+- Undead: immune to poison, disease, and suffocation.
+
+- Immune to mind-affecting spells.
+
+- Immune to arrows and bolts.
+
+- Takes half damage from non-bludgeoning weapons (such as swords).
+
+### Snake, Giant Constrictor
+
+*200kg Beast (Pouncer), jungle walker, FAG083 \#App: 1D Treasure:
+Incidental*
+
+*Athletics-1, Melee Combat-1, Recon-1, Survival-1*
+
+*Attacks on 8+; flees on 5-*
+
+*Teeth (2D); armor 2; walk 10m/action*
+
+*Neutral; Morale DM-1*
+
+The giant constrictor is an enormous version of ordinary pythons or
+anacondas, large enough to constrict a human-sized, or even horse-sized,
+victim.
+
+- Upon a successful hit, the giant constrictor automatically
+  **grapples** its victim (see the Combat chapter for details); unless
+  the victim breaks free, it suffers 1D constriction damage per round.
+  The giant constrictor enjoys a DM+2 to grapple throws.
+
+### Snake, Venomous
+
+*3kg Beast (Pouncer), jungle walker, 262083 \#App: 1D Treasure: None*
+
+*Athletics-1, Melee Combat-1, Recon-1, Survival-1*
+
+*Attacks human-sized or larger creatures if threatened or cornered;
+flees otherwise*
+
+*Teeth (1D); armor 0; walk 10m/action*
+
+*Neutral; Morale DM-1*
+
+A viper, adder, or other ordinary venomous snake, possessing a lethal
+bite. Snakes of this size feed on rodents, small mammals, and birds.
+They will only attack a larger creature if they are threatened or
+cornered.
+
+- Venom: a 10+/3D toxin.
+
+### Spider, Giant
+
+*50kg Beast (Trapper), underground or forest walker, 5C5085 \#App: 1D
+Treasure: Incidental*
+
+*Athletics-0, Melee Combat-1, Recon-2, Stealth-2, Survival-1, Tactics-0*
+
+*If the spider has surprise, it attacks; flees on 5-*
+
+*Fangs (1D); armor 1; walk 10m/action*
+
+*Neutral; Morale DM-1*
+
+A giant variant of a black widow, this arachnid is a horror to behold.
+
+- May walk on walls and ceilings; may "rappel" down a string of web to
+  long distances.
+
+- Enjoys DM+2 to Grapple checks due to its web.
+
+- Venom: 8+/3D toxin.
+
+### Toad, Giant
+
+*400kg Beast (Pouncer), swamp walker, FAH083 \#App: 1D Treasure:
+Incidental*
+
+*Athletics-1, Melee Combat-1, Recon-1, Survival-1, Stealth-2*
+
+*Attacks on 8+; flees on 5-*
+
+*Teeth (2D); armor 2; walk 10m/action*
+
+*Neutral; Morale DM-1*
+
+A giant amphibian capable of swallowing quite large prey, adventurers
+included.
+
+- The toad swallows its victim whole if it hits its victim with an
+  Effect of +4 or better. A swallowed victim takes damage equal to that
+  of the toad’s bite per round, until the toad is killed or the victim
+  dies.
+
+### Treant
+
+*3200kg Beast ("Grazer - Sentient"), forest walker, P1P8C3 \#App: 1D
+Treasure: Medium*
+
+*Athletics-3, Melee Combat-2, Recon-3, Survival-3*
+
+*Attacks on 8+; flees on 6-. Will always attack creatures harming its
+forest*
+
+*Slam (4D); armor 6; walk 5m/action*
+
+*Neutral; Morale DM-2*
+
+A treant is a sentient and mobile tree. It is approximately 6m tall. A
+treant’s leaves are deep green in the spring and summer. In the fall and
+winter the leaves change to yellow, orange, or red, but they rarely fall
+out. A treant’s legs fit together when closed to look like the trunk of
+a tree, and a motionless treant is nearly indistinguishable from a tree.
+
+- Treants suffer double damage from fire attacks.
+
+- Treants can control up to 3 normal trees within 20m. They attack with
+  the same characteristics of the treant but move at 2m/action. If these
+  trees are felled, the treant may animate new trees every round.
+
+### Vampire
+
+*100kg Undead, urban walker, CBNC95 \#App: 1D Treasure: Large*
+
+*Athletics-3, Melee Combat-2, Recon-2, Stealth-2, Tactics-2, Sorcery-2,
+Survival-2*
+
+*Behaves as an NPC at the Referee's discretion or per the Reaction
+rules.*
+
+*Claws (2D), Bite (3D); armor 5; walks 10m/action, flies 10m/action*
+
+*Chaotic; Morale DM+3*
+
+One of the greatest and most fearsome undead beings, the vampire is a
+sophisticated predatory corpse. Vampires are cursed to persist for
+eternity and sustain themselves on the blood of innocents, possessing
+inhuman fortitude.
+
+- Undead: immune to poison, disease, and suffocation.
+
+- Immune to mind-affecting magic.
+
+- Vampires may only be harmed by silver or magical weapons.
+
+- On a successful bite attack, the vampire heals itself half as much
+  damage (rounded down) as it has caused its victim.
+
+- Vampires suffer 1D damage per round of exposure to direct sunlight or
+  submersion in running water.
+
+- If confidently confronted by a Lawful holy symbol, a mirror, or
+  garlic, a vampire will keep a 3m distance from the offending item, and
+  will try to circumvent it with a ranged or flanking attack (or spell).
+
+- Vampires posses 1D spells, chosen randomly.
+
+- Any character slain by a vampire - will rise as a vampire - under
+  control of the original vampire -on the next midnight, unless
+  decapitated or its heart is impaled by a wooden stake.
+
+- Vampires may, three times a day, attempt to **charm** a target, as per
+  the **charm person** spell. The target must throw INT 6+ or be
+  **charmed**.
+
+- A vampire may shapechange, at will into either a dire wolf or a giant
+  bat.
+
+- Three times a day, a vampire may summon 1D bat swarms (treat as
+  **insect swarms**) when underground or 1D dire wolves when above
+  ground. The monsters will arrive within 2D rounds.
+
+- Reducing a vampire's three physical characteristics to zero does not
+  slay it. It merely forces the vampire into a gaseous form. A gaseous
+  vampire may pass through any crack, is immune to all damage except for
+  direct sunlight (which will slay it instantly) and will attempt to
+  reach its coffin as soon as possible. It will reform into its
+  corporeal form, with full characteristics, after one day's rest in its
+  coffin. Even if all its coffins are destroyed, the vampire will not be
+  destroyed, but rather forced into gaseous form until a minion builds a
+  new coffin for it.
+
+- Driving a stake into a resting vampire's hear will paralyze it, but
+  not destroy it. It will revive once the stake is removed.
+
+- Decapitating a resting vampire in its coffin after its heart has been
+  staked will destroy the monster.
+
+### Whale, Killer
+
+*5000kg Beast (Chaser), ocean swimmer, K6K6F3 \#App: 1D Treasure: None*
+
+*Athletics-3, Melee Combat-3, Recon-2, Survival-2, Tactics-1*
+
+*Attacks humanoids on 9+; flees on 3-*
+
+*Teeth (3D); armor 3; swim 20m/action*
+
+*Neutral; Morale DM+2*
+
+The killer whale, or orca, is a large ocean dolphin occupying the
+ecological niche of apex predator in the seas. Orcas are voracious
+carnivores that prey on fish, seals, or even other whales, but they
+rarely attacks humanoids, whom they does not see as prey.
+
+### Whale, Sperm
+
+*40000kg Beast (Chaser), ocean swimmer, Z3ZAF3 \#App: 1D Treasure:
+Incidental*
+
+*Athletics-3, Melee Combat-3, Recon-2, Survival-2, Tactics-0*
+
+*Attacks humanoids or ships on 10+; flees on 3-*
+
+*Teeth (4D); armor 5; swim 10m/action*
+
+*Neutral; Morale DM-1*
+
+The sperm whale is a large marine mammalian predator, capable of long
+stays underwater. Sperm whales and giant squids are natural enemies –
+with the whale preying on such deep-ocean monstrosities!.
+
+- The sperm whale may swallow its victim whole if it hits its victim
+  with an Effect of +4 or better. A swallowed victim takes damage equal
+  to that of the whale's bite per round, until the beast is killed or
+  the victim dies.
+
+- Sperm whales may, on rare occasions (or if attacked), attack ships,
+  having an AV rating of 3D against wooden ships.
+
+### Wight
+
+*100kg Undead, urban walker, C9P1A5 \#App: 1D Treasure: Medium*
+
+*Athletics-1, Melee Combat-1, Sorcery-1, Recon-1, Stealth-1*
+
+*If the wight feels it has the advantage, it will attack/flees on 5-*
+
+*Claws (2D); armor 0; walks 10m/action*
+
+*Chaotic; Morale DM+1*
+
+Wights are restless undead forever haunting their barrow-mounds, cursed
+to wander these tombs for eternity. A wight’s appearance is a weird and
+twisted reflection of the form it had in life. A wight is about the
+height and weight of a human. It is a powerful undead being, so terrible
+that those struck by its claws might age prematurely.
+
+- Undead: immune to poison, disease, and suffocation.
+
+- Immune to mind-affecting magic.
+
+- Immune to non-silver, non-magical weapons.
+
+- A character bitten by a wight must throw END 6+ or permanently age 4
+  years (which may entail Aging Table throws).
+
+- A creature slain by a wight will rise as a wight on the next midnight,
+  unless its body is **blessed** or cremated.
+
+### Wolf
+
+*50kg Beast (Chaser), forest walker, 7A7097 \#App: 2D Treasure: None*
+
+*Athletics-1, Melee Combat-1, Recon-1, Survival-1, Tactics-1*
+
+*Attacks if the wolves outnumber their prey; flees on 5-*
+
+*Bite (1D); armor 1; speed 20m/action*
+
+*Neutral; Morale DM+0*
+
+A canine pack hunter and the ancestor of the hound. Wolves are
+persistent and cunning. Herders despise wolves, who often prey upon
+their herds; nomadic hunters, on the other hand, tend to venerate wolves
+or even tame them as war animals.
+
+### Wolf, Dire
+
+*100kg Beast (Chaser), forest walker, AAA1B4 \#App: 1D Treasure: None*
+
+*Athletics-2, Melee Combat-2, Recon-1, Survival-1, Tactics-1*
+
+*Attacks on 6+; flees on 3-*
+
+*Bite (2D); armor 2; speed 20m/action*
+
+*Neutral; Morale DM+0*
+
+These massive prehistoric wolves are more intelligent and far more
+vicious than their modern relatives, and hunt in smaller packs.
+
+### Wraith
+
+*0kg Undead, urban flyer, EAP9A0 \#App: 1 Treasure: Large*
+
+*Athletics-1, Melee Combat-1, Sorcery-1, Recon-3, Stealth-3*
+
+*Attacks all living beings*
+
+*Special attack; armor 0; flying speed 10m/action*
+
+*Chaotic; Morale DM+4*
+
+A spectral soul of the dead haunting this world, a wraith is a sorcerous
+undead monster
+
+- Undead: immune to poison, disease, and suffocation.
+
+- Immune to mind-affecting magic
+
+- Incorporeal: immune to non-silver, non-magical weapons.
+
+- Knows 1D spells, chosen randomly from the Black Magic lists.
+
+- A character bitten by a wraith must throw END 6+ or permanently age 4
+  years (which may entail Aging Table throws).
+
+- A creature slain by a wraith will rise as a wraith on the next
+  midnight, unless its body is **blessed** or cremated.
+
+### Yellow Mold
+
+*100kg Beast (Reducer), subterranean crawler, C0C080 \#App: 1 Treasure:
+None*
+
+*Melee Combat-0, Survival-0*
+
+*Attacks if touched*
+
+*Acid (1D); automatically hit if attacked; sedentary*
+
+*Neutral; Morale DM: automatic success*
+
+Yellow mold, a sessile monstrous fungus, typically covers an approximate
+area of 3m by 3m. It does not move or attack, but it causes 1D acid
+damage if touched.
+
+- While all attacks automatically hit a yellow mold, it is immune to all
+  damage except for fire damage. A torch causes it 1D damage, while
+  fire-based magic or burning oil will cause their normal damage to a
+  yellow mold.
+
+- Every time a creature or object touches the yellow mold, throw 1D; on
+  4-6, it emits a cloud of poisonous spores, filling a 3m-cubed area.
+  Any creature caught within this cloud suffers the effect of a 8+/3D
+  poison.
+
+- Immune to mind-affecting spells.
+
+### Zombie
+
+*50kg Undead, urban walker, 777055 \#App: 1D Treasure: None*
+
+*Athletics-0, Melee Combat-0, Recon-0, Tactics-1, Survival-0*
+
+*Attacks as commanded by the necromancer; zombies raised by other means
+attack all living creatures on sight.*
+
+*Claws (2D), armor 0; walk 5m/action*
+
+*Chaotic; Morale DM: automatic success*
+
+A reanimated corpse, reeking with rot and shambling along. Contrary to
+popular belief, zombies do not crave brains; it is ghouls that crave
+that delicacy.
+
+- Undead: immune to poison, disease, and suffocation.
+
+- Immune to mind-affecting magic.
+
+# CHAPTER 11: PLANETARY WILDERNESS ENCOUNTERS
+
+Characters in the uncivilized areas on the planet’s surface quickly find
+out that they are not alone. So long as a world can support life, animal
+encounters and other natural events are common, regardless of the
+current terrain. This chapter discusses various encounters that can
+occur in the wilderness on a planet’s surface.
+
+## Animal Encounters
+
+Animals in any ecological system interact with each other, forming food
+chains, obeying instincts, defending territory, and generally living out
+their lives. When people enter such an ecological system, they will
+encounter the animals of the system, prompting natural reactions, such
+as attack or flight.
+
+Although the precise nature of animals may change, and they may prove
+quite alien to ordinary experience, most will conform to the broad
+classifications given below. A Referee may choose to establish his own
+ecological system on a specific world, ignoring the encounter system
+outlined here. This system, however, is intended to allow broad latitude
+in both animal types and attack/defense mechanisms, while remaining
+essentially logical and reasonable.
+
+**Animal Types**: Nearly all animals may be classified into four basic
+categories: herbivore, omnivore, carnivore, and scavenger. Specific
+definitions for these terms are provided in a later section of these
+rules, and differ from the precise scientific definitions in current
+use. Within each category, a variety of animal types exist, based on
+specific feeding/hunting habits; examples of this concept are grazers,
+chasers, and pouncers.
+
+Animals which are encountered may be further classified into various
+categories and types, and specific attack and defense mechanisms
+determined. The resulting description indicates the actions an animal
+will take without resorting to such confining labels as bear or tiger.
+While a Referee may well elect to use such names, this system also
+allows the players freedom to encounter truly alien beasts as well.
+
+### Animals and Characteristics
+
+Animals have a similar range of characteristics to humans, but there are
+several differences:
+
+**Instinct**: Instinct is the animal equivalent of Education. Animals
+apply their Instinct DM to tasks such as sensing prey or solving
+problems.
+
+**Pack**: Pack is the animal equivalent of Social Standing. The higher a
+creature’s Pack score, the larger the group that it is associated with,
+and the more standing the creature has in that group.
+
+### Planetary Themes
+
+A world's ecology can be extremely diverse. However, the Referee may
+elect to implement specific themes on a planetary basis, to create
+consistency and flavor in presentation. Distinctive features help make
+each world stand out to the players as unique experiences. These could
+range from basic symmetry to reproductive methods (and the associated
+genders), from the number of limb pairs to the common sensory organs.
+The implementation of a planetary theme lies at the discretion of the
+Referee.
+
+### Step One: Choose a Terrain
+
+Terrain has an impact on the type of animals one might encounter. Giant
+aquatic creatures are not found in forests, after all, nor are feathered
+flying creatures found flying at the bottom of the ocean. The first step
+in the rules for creating animals in the Märchen Engine is to choose the
+creature’s terrain, as terrain can have a significant impact on an
+animal’s statistics.
+
+The Terrain DM Chart details modifiers for animal subtypes and sizes, In
+addition, the result of 1D6 determines the basic movement for a given
+creature (A for Amphibious, F for Flight, S for Swimming, and W for
+Walking). Some movement codes have a number after them; these are an
+additional Size DM for the animal.
+
+#### Table: Terrain DM Chart
+
+| Terrain              | Subtype DM | Size DM | 1    | 2    | 3    | 4    | 5    | 6    |
+|----------------------|------------|---------|------|------|------|------|------|------|
+| Clear                | +3         | \-      | W    | W    | W    | W    | W+2  | F –6 |
+| Plain or Prairie     | +4         | \-      | W    | W    | W    | W +2 | W +4 | F –6 |
+| Desert (hot or cold) | +3         | –3      | W    | W    | W    | W    | F –4 | F –6 |
+| Hills, Foothills     | \-         | \-      | W    | W    | W    | W +2 | F –4 | F –6 |
+| Mountain             | \-         | \-      | W    | W    | W    | F–2  | F –4 | F –6 |
+| Forest               | –4         | –4      | W    | W    | W    | W    | F –4 | F –6 |
+| Woods                | –2         | –1      | W    | W    | W    | W    | W    | F –6 |
+| Jungle               | –4         | –3      | W    | W    | W    | W    | W +2 | F –6 |
+| Rainforest           | –2         | –2      | W    | W    | W    | W +2 | W +4 | F –6 |
+| Rough, Broken        | –3         | –3      | W    | W    | W    | W +2 | F –4 | F –6 |
+| Swamp, Marsh         | –2         | +4      | S –6 | A +2 | W    | W    | F –4 | F –6 |
+| Beach, Shore         | +3         | +2      | S +1 | A+2  | W    | W    | F –4 | F –6 |
+| Riverbank            | +1         | +1      | S –4 | A    | W    | W    | W    | F –6 |
+| Ocean shallows       | +4         | +1      | S +4 | S +2 | S    | S    | F –4 | F –6 |
+| Open ocean           | +4         | –4      | S +6 | S +4 | S +2 | S    | F –4 | F –6 |
+| Deep ocean           | +4         | +2      | S +8 | S +6 | S +4 | S +2 | S    | S –2 |
+
+### Step Two: Determine the Animal’s Type and Subtype
+
+The Referee should then determine the animal’s type and subtype. If the
+Referee is building up an encounter table, the animal’s type is obvious:
+the type necessary to fill in this entry on the encounter table.
+Otherwise, the Referee must choose an appropriate type: Carnivore,
+Herbivore, Omnivore or Scavenger. The Referee might also roll on the 1D6
+Animal Encounter Table Template to randomly choose an animal type.
+
+Once the animal type has been determined, the Referee rolls 2D6, and add
+in the terrain’s Subtype DM. After that, the Referee consults the
+Subtype by Animal Type table under the column of the animal’s type to
+determine the animal’s subtype.
+
+#### Table: Subtype by Animal Type
+
+| 2D6        | Herbivore    | Omnivore | Carnivore | Scavenger     |
+|------------|--------------|----------|-----------|---------------|
+| 1 or less  | Filter       | Gatherer | Pouncer   | Carrion-Eater |
+| 2          | Filter       | Eater    | Siren     | Reducer       |
+| 3          | Intermittent | Gatherer | Pouncer   | Hijacker      |
+| 4          | Intermittent | Eater    | Killer    | Carrion-Eater |
+| 5          | Intermittent | Gatherer | Trapper   | Intimidator   |
+| 6          | Intermittent | Hunter   | Pouncer   | Reducer       |
+| 7          | Grazer       | Hunter   | Chaser    | Carrion-Eater |
+| 8          | Grazer       | Hunter   | Chaser    | Reducer       |
+| 9          | Grazer       | Gatherer | Chaser    | Hijacker      |
+| 10         | Grazer       | Eater    | Killer    | Intimidator   |
+| 11         | Grazer       | Hunter   | Chaser    | Reducer       |
+| 12         | Grazer       | Gatherer | Siren     | Hijacker      |
+| 13 or more | Grazer       | Gatherer | Chaser    | Intimidator   |
+
+### Step Three: Note Modifiers and Skills by Subtype
+
+Terran creatures that exemplify these specific subtypes are noted in
+brackets after the name. The Referee should make note of the
+characteristic modifiers and skills that are noted after the description
+– the exact level of skills varies depending on the particular creature.
+
+**Carrion-Eater** (vulture): Scavengers which wait for all other threats
+to disperse before beginning. Carrion-eaters have Recon. Instinct +2.
+
+**Chaser** (wolf): Animals which kill their prey by attacking and
+exhausting it after a chase. Chasers have Athletics. Dexterity +4,
+Instinct +2, Pack +2.
+
+**Eater** (army ant): Eaters will eat anything they encounter, including
+characters. Endurance +4. Pack +2.
+
+**Filter** (earthworm): Herbivores which pass their environment through
+their bodies are termed filters. Unlike grazers, which move to food,
+filters move a flow of matter through themselves and filter out the
+food. Endurance +4.
+
+**Gatherer** (raccoon, chimpanzee): Gatherers are herbivores that
+collect and store food. Gatherers have Recon. Pack +2.
+
+**Grazer** (antelope): Grazers move from food source to food source,
+often in large packs. Their primary form of defense tends to be fleeing
+danger. Instinct +2, Pack +4.
+
+**Hijacker** (lion): Scavengers which steal the kills of others through
+brute force or weight of numbers are hijackers. Strength +2, Pack +2.
+
+**Hunter** (baboon): Opportunistic predators that stalk easy prey.
+Hunters have Survival. Instinct +2.
+
+**Intermittent** (elephant): Herbivores that do not devote their entire
+time to searching for food. Intermittents have Pack +4.
+
+**Intimidator** (coyote): Scavengers which establish their claim to food
+by frightening or intimidating other creatures.
+
+**Killer** (shark): Carnivores that possess a raw killing instinct,
+attacking in a frenzied manner. Killers have Natural Weapons and either
+Strength or Dexterity +4, Instinct +4, Pack –2.
+
+**Pouncer** (cat): Pouncers kill by stalking and ambushing their prey.
+Pouncers have Recon and Athletics. Dexterity +4, Instinct +4.
+
+**Reducer** (vermin): Reducers are scavengers that act constantly on all
+available food, devouring even the remains left by other scavengers.
+Pack +4
+
+**Siren** (venus fly-trap): Sirens create a lure to attract prey.
+Usually, this lure will be specific to the species the siren preys on,
+but some rare lures are universal. Pack –4.
+
+**Trapper** (spider): An animal which allows its prey to enter a trap.
+Generally, any creature surprised by a trapper is caught in its trap.
+Pack –2.
+
+### Step Four: Determine Animal Size and Characteristics
+
+For each creature, roll 2D6 for its Size and apply any Size DMs based on
+terrain and movement. The creature’s Size determines its Weight,
+Strength, Dexterity and Endurance – for example, a roll of 7 means that
+the creature has a mass of 100kg, a Strength score of 3D6, a Dexterity
+score of 3D6 and an Endurance of 3D6.
+
+Intelligence for most animals is 0 or 1. Roll 2D6+DMs for the animal’s
+Instinct and Pack. To determine the number appearing value, consult the
+Number Appearing by Pack Characteristic Score table.
+
+All animals have at least Athletics 0, Recon 0, and Survival 0, and most
+will have 1D6 ranks split among these skills, Natural Weapons, and any
+skills listed in their behavior.
+
+#### Table: Animal Size
+
+| 2D6       | Weight (kg) | Strength | Dexterity | Endurance |
+|-----------|-------------|----------|-----------|-----------|
+| 1 or less | 1           | 1        | 1D6       | 1         |
+| 2         | 3           | 2        | 1D6       | 2         |
+| 3         | 6           | 1D6      | 2D6       | 1D6       |
+| 4         | 12          | 1D6      | 2D6       | 1D6       |
+| 5         | 25          | 2D6      | 3D6       | 2D6       |
+| 6         | 50          | 2D6      | 4D6       | 2D6       |
+| 7         | 100         | 3D6      | 3D6       | 3D6       |
+| 8         | 200         | 3D6      | 3D6       | 3D6       |
+| 9         | 400         | 4D6      | 2D6       | 4D6       |
+| 10        | 800         | 4D6      | 2D6       | 4D6       |
+| 11        | 1,600       | 5D6      | 2D6       | 5D6       |
+| 12        | 3,200       | 5D6      | 1D6       | 5D6       |
+| 13        | 5,000       | 6D6      | 1D6       | 6D6       |
+| 14        | 10,000      | 6D6      | 1D6       | 6D6       |
+| 15        | 15,000      | 7D6      | 1D6       | 7D6       |
+| 16        | 20,000      | 7D6      | 1D6       | 7D6       |
+| 17        | 25,000      | 8D6      | 1D6       | 8D6       |
+| 18        | 30,000      | 8D6      | 1D6       | 8D6       |
+| 19        | 35,000      | 9D6      | 1D6       | 9D6       |
+| 20+       | 40,000      | 9D6      | 1D6       | 9D6       |
+
+#### Table: Number Appearing by Pack Characteristic Score
+
+| Pack  | Number Appearing |
+|-------|------------------|
+| 0     | 1                |
+| 1–2   | 1D3              |
+| 3–5   | 1D6              |
+| 6–8   | 2D6              |
+| 9–11  | 3D6              |
+| 12–14 | 4D6              |
+| 15+   | 5D6              |
+
+### Step Five: Determine Animal’s Weapons, Armor and Base Speed
+
+Roll 2D6 separately for the animal’s Weapons and Armor.
+
+**Weapons**: When generating weapons, roll 2D6 and consult the Animal
+Weapons table. Add a DM+8 if the animal is a Carnivore, and a DM+4 if it
+is an Omnivore; subtract a DM-6 if the animal is a Herbivore. Scavengers
+automatically have Teeth in addition to any other weapons. If a number
+is present after the Weapons type, then add that number to the number of
+damage dice the creature rolls. Damage from attacks depends on the
+creature’s Strength score, as shown in the Damage by Strength table.
+
+**Armor**: When generating an animal’s armor, roll 2D6-7, and add the
+animal’s Size result (the die roll result that determined the animal’s
+size, not the actual weight of the animal.) Add a DM+4 when rolling for
+armor if the animal is a Herbivore, and a DM+2 if it is an Scavenger;
+apply a DM-2 if the animal is a Carnivore. Also, Flyers suffer a DM-2
+when determining armor. Consult the Animal Armor table for the animal’s
+armor rating.
+
+**Base Speed**: An animal’s base speed is determined by generating a
+Speed Multiplier, as per the Animal Speed Multiplier by Subtype table,
+and multiplying that by 6, which is the average speed of a human in
+meters per minor action. If an Animal Speed Multiplier value falls below
+the value found in the Minimum Speed column, round it up to the Minimum
+Speed value.
+
+#### Table: Animal Weapons
+
+| 2D6       | Weapons                 |
+|-----------|-------------------------|
+| 1 or less | Hooves                  |
+| 2         | Hooves and Horns        |
+| 3         | Horns                   |
+| 4         | Hooves and Teeth        |
+| 5         | Horns and Teeth         |
+| 6         | Thrasher                |
+| 7         | Claws                   |
+| 8         | Teeth                   |
+| 9         | Claws and Teeth         |
+| 10        | Claws +1                |
+| 11        | Stinger                 |
+| 12        | Teeth +1                |
+| 13        | Claws +1 and Teeth +1   |
+| 14        | Claws +1 and Stinger +1 |
+| 15        | Claws +2                |
+| 16        | Teeth +2                |
+| 17        | Claws +2 and Teeth +2   |
+| 18        | Claws +2 and Stinger +2 |
+| 19+       | Projectile              |
+
+#### Table: Animal Armor
+
+| 2D6       | Armor |
+|-----------|-------|
+| 1 or less | 0     |
+| 2         | 0     |
+| 3         | 0     |
+| 4         | 1     |
+| 5         | 1     |
+| 6         | 2     |
+| 7         | 2     |
+| 8         | 3     |
+| 9         | 3     |
+| 10        | 4     |
+| 11        | 4     |
+| 12        | 5     |
+| 13        | 5     |
+| 14        | 6     |
+| 15        | 6     |
+| 16        | 7     |
+| 17+       | 7     |
+
+#### Table: Damage by Strength
+
+| Strength | Damage |
+|----------|--------|
+| 1–10     | 1D6    |
+| 11–20    | 2D6    |
+| 21–30    | 3D6    |
+| 31–40    | 4D6    |
+| 41–50    | 5D6    |
+| 51–60    | 6D6    |
+| 61-70    | 7D6    |
+| 71-80    | 8D6    |
+| 81-90    | 9D6    |
+| 91+      | 10D6   |
+
+#### Table: Animal Speed Multiplier by Subtype
+
+| Type          | Speed Multiplier | Minimum Speed |
+|---------------|------------------|---------------|
+| Carnivore     |                  |               |
+| Chaser        | 1D6-2            | 2             |
+| Killer        | 1D6-3            | 1             |
+| Pouncer       | 1D6-4            | 1             |
+| Siren         | 1D6-4            | 0             |
+| Trapper       | 1D6-5            | 0             |
+| Herbivore     |                  |               |
+| Filter        | 1D6-5            | 0             |
+| Grazer        | 1D6-2            | 2             |
+| Intermittent  | 1D6-4            | 1             |
+| Omnivore      |                  |               |
+| Eater         | 1D6-3            | 1             |
+| Gatherer      | 1D6-3            | 1             |
+| Hunter        | 1D6-4            | 1             |
+| Scavenger     |                  |               |
+| Carrion-eater | 1D6-3            | 1             |
+| Hijacker      | 1D6-4            | 1             |
+| Intimidator   | 1D6-4            | 1             |
+| Reducer       | 1D6-4            | 1             |
+
+## Universal Animal Format
+
+The following format is used to represent animal’s basic game statistics
+in the Märchen Engine rules.
+
+\[Animal Name; optional\]
+
+\[Size\]kg \[Subtype\] (\[Type\]), \[Terrain\] \[Locomotion\], \[Animal
+UPP, replacing Education with Instinct and Social Standing with Pack\],
+\#App: \[Number Appearing\]
+
+\[Animal Skill List, in alphabetical order, with skill levels listed
+after skill names\]
+
+\[Animal weapons\]; \[Animal armor\]; Speed: \[Speed\]m
+
+\[Animal Description; optional\]
+
+For example, this creature could represent a tough little flying alien
+pest that loves to shred things and eat them:
+
+6kg Eater (Omnivore), Hill Flyer, 6A5168, \#App: 2d6
+
+Athletics-0, Melee(Natural Weapons)-1, Recon-1, Survival-2
+
+Claws (2d6); Hide (1); Speed: 6m
+
+## Animals in Combat
+
+Unless otherwise noted, animals operate just like characters in combat.
+The range category of an animal’s weapons can be found in the Animal
+Weapon Ranges table.
+
+#### Table: Animal Weapon Ranges
+
+| Weapon     | Range                  |
+|------------|------------------------|
+| Claws      | melee (extended reach) |
+| Hooves     | melee (extended reach) |
+| Horns      | melee (extended reach) |
+| Projectile | ranged (thrown)        |
+| Stinger    | melee (close quarters) |
+| Teeth      | melee (close quarters) |
+| Thrasher   | melee (close quarters) |
+
+## Creating Encounter Tables
+
+The system for creating animals in the Märchen Engine rules can be used
+to generate creatures on the fly. However, the system works best when
+the Referee prepares an encounter table for each terrain likely to be
+encountered. This not only gives the Referee statistics for wilderness
+adventuring, but also provided a large amount of potential background
+data for expanding the world within the universe the Referee has
+created.
+
+To create an encounter table, first the Referee should select a table
+format. Although an encounter table can be in whatever format the
+Referee desires, the two formats most commonly used are represented in
+these rules as the 1D6 Animal Encounter Table Template and the 2D6
+Animal Encounter Table Template. Note that the Templates only provide an
+animal's type (carnivore, herbivore, omnivore or scavenger), and in the
+case of the 2D6 table, event.
+
+Each entry should be generated in turn. When an encounter table
+indicates that an event will occur, the Referee should create an event
+appropriate to the world and terrain. An event may be almost anything,
+including a natural disaster or seismic event, an interesting terrain
+feature or curiosity, unusual flora or weather. The Hills Terrain
+Encounter Table is an example of a completed encounter table.
+
+#### 1D6 Animal Encounter Table Template
+
+| 1D6 | Animal Type |
+|-----|-------------|
+| 1   | Scavenger   |
+| 2   | Herbivore   |
+| 3   | Herbivore   |
+| 4   | Herbivore   |
+| 5   | Omnivore    |
+| 6   | Carnivore   |
+
+#### 2D6 Animal Encounter Table Template
+
+| 2D6 | Result    |
+|-----|-----------|
+| 2   | Scavenger |
+| 3   | Omnivore  |
+| 4   | Scavenger |
+| 5   | Omnivore  |
+| 6   | Herbivore |
+| 7   | Herbivore |
+| 8   | Herbivore |
+| 9   | Carnivore |
+| 10  | Event     |
+| 11  | Carnivore |
+| 12  | Carnivore |
+
+#### Table: Hills Terrain Encounter Table
+
+| 2d6 | \#App                                                                                          | Size    | Subtype          | Move  | UPP    | Weapons                    | Armor      |
+|-----|------------------------------------------------------------------------------------------------|---------|------------------|-------|--------|----------------------------|------------|
+| 2   | 2d6                                                                                            | 100kg   | Hijacker (S)     | W 12m | 9H91A7 | Teeth (1d6)                | Fur (2)    |
+| 3   | 4d6                                                                                            | 200kg   | Gatherer (O)     | W 6m  | CC816D | Teeth (2d6)                | Scales (3) |
+| 4   | 1d6                                                                                            | 25kg    | Intimidator (S)  | W 6m  | 995174 | Claws (1d6), teeth (1d6)   | Hide (3)   |
+| 5   | 3d6                                                                                            | 100kg   | Hunter (O)       | W 6m  | D94184 | Stinger (2d6)              | Hide (2)   |
+| 6   | 3d6                                                                                            | 25kg    | Grazer (H)       | W 12m | 34A1DB | Hooves (1d6), horns (1d6)  | Shell (2)  |
+| 7   | 3d6                                                                                            | 6kg     | Intermittent (H) | F 6m  | 38217B | Horns (1d6)                | Fur (1)    |
+| 8   | 3d6                                                                                            | 5,000kg | Grazer (H)       | W 12m | N3M16B | Hooves (3d6), horns (3d6)  | Shell (7)  |
+| 9   | 4d6                                                                                            | 400kg   | Chaser (C)       | W 12m | E8B1AE | Claws (3d6), stinger (3d6) | Fur (1)    |
+| 10  | **Event**: Cliff, standing 1d6x5 meters tall (Randomly determine if group is at top or bottom) |         |                  |       |        |                            |            |
+| 11  | 2d6                                                                                            | 800kg   | Chaser (C)       | W 12m | AAD1A6 | Projectile (2d6)           | Hide (2)   |
+| 12  | 1d6                                                                                            | 3,200kg | Killer (C)       | W 12m | B7G18A | Teeth (3d6)                | Fur (3)    |
+
+## Using the Encounter Tables
+
+Each day an adventuring band may possibly have one or more encounters
+with some animal life forms. As a general rule, the Referee will check
+for an encounter once while the band is travelling and once while the
+band is halted (for rest, exercise, encampment, or whatever). There is a
+one-third chance (5+ on 1D6) that an animal encounter will occur in any
+of the specified terrain types. The Referee may choose to modify this
+frequency depending on planetary or local conditions.
+
+In addition, specific encounters at specific locations are always
+possible. For example, the Referee may already have populated a location
+(perhaps a ruin) with specific animals. These are not subject to normal
+random encounter rules.
+
+By their lifeless nature, vacuum worlds (and any other world without
+life) tend to have encounter tables comprised primarily of events. On an
+airless world, events could include silt pools that operate like
+quicksand, magnetic anomalies, solar flares, or possibly tracks left by
+previous explorers.
+
+## Animal Reactions in Encounters
+
+When characters disturb an animal or otherwise draw attention to
+themselves while within its territory roll 2D6 and consult the Animal
+Reactions by Subtype table. If the result on the table is neither attack
+nor flee, then the animal stands still until provoked again, in which
+case roll again.
+
+#### Table: Animal Reactions by Subtype
+
+| Type          | Attack                                                                                                       | Flee                                   |
+|---------------|--------------------------------------------------------------------------------------------------------------|----------------------------------------|
+| Carnivore     |                                                                                                              |                                        |
+| Chaser        | If the chasers outnumber the characters, they attack.                                                        | 5-                                     |
+| Killer        | 6+                                                                                                           | 3-                                     |
+| Pouncer       | If the pouncer has surprise, it attacks.                                                                     | If the pouncer is surprised, it flees. |
+| Siren         | If the siren has surprise, it attacks.                                                                       | 4-                                     |
+| Trapper       | If the trapper has surprise, it attacks.                                                                     | 5-                                     |
+| Herbivore     |                                                                                                              |                                        |
+| Filter        | 10+ if possible                                                                                              | 5-                                     |
+| Grazer        | 8+                                                                                                           | 6-                                     |
+| Intermittent  | 10+                                                                                                          | 4-                                     |
+| Omnivore      |                                                                                                              |                                        |
+| Eater         | 5+                                                                                                           | 4-                                     |
+| Gatherer      | 9+                                                                                                           | 7-                                     |
+| Hunter        | If the hunter is bigger than at least one character, then it attacks on a 6+. Otherwise, it attacks on a 10+ | 5-                                     |
+| Scavenger     |                                                                                                              |                                        |
+| Carrion-eater | 11+                                                                                                          | 7-                                     |
+| Hijacker      | 7+                                                                                                           | 6-                                     |
+| Intimidator   | 8+                                                                                                           | 7-                                     |
+| Reducer       | 10+                                                                                                          | 7-                                     |
+
+# CHAPTER 12: SOCIAL ENCOUNTERS
+
+In the Märchen Engine, an encounter is defined as an unexpected or
+casual meeting with someone or something. A large part of the Referee’s
+job is the administration of encounters. Through encounters, the Referee
+presents information, opportunities and conflicts for the players to
+interact with, which is the core of any gaming session.
+
+There are a number of different types of social encounters: routine,
+legal, patron, random, rumor and scenario. The Encounter Types Overview
+table offers suggestions on the frequency of various encounters, and the
+chance associated with the occurrence of such an encounter.
+
+**Encounter Tables**: This chapter provides a number of encounter tables
+to serve as inspiration for the Referee. The Referee is encouraged to
+create tables more in line with their Märchen Engine universe or with
+the specific adventure they are running.
+
+#### Table: Encounter Types Overview
+
+| Encounter Type | Frequency | Chance                   |
+|----------------|-----------|--------------------------|
+| Routine        | As needed | As needed                |
+| Scenario       | As needed | As needed                |
+| Legal          | Daily     | Law Level or less on 2D6 |
+| Random         | Daily     | 8+ on 2D6                |
+| Patron         | Weekly    | 9+ on 2D6                |
+| Rumor          | Weekly    | 7+ on 2D6                |
+
+## Routine Encounters
+
+Routine encounters involve meeting normal people while doing normal
+activities, such as interviewing potential crew members in a starport
+diner or buying new ammunition from the clerk in a gun shop. Such scenes
+are rarely important in and of themselves. From a roleplaying
+perspective, routine encounters create a background of expected behavior
+that makes scenario encounters and random encounters stand out in
+comparison because of their unexpected content. Routine encounters help
+move characters logically from the time and place of one important scene
+to the next.
+
+## Scenario Encounters
+
+Within the Märchen Engine rules, an adventure is defined as a story for
+players to experience, comprised of a series of related scenes or
+encounters. These related encounters are called scenario encounters,
+because they serve to further the plot of the adventure toward its
+climax. The Referee creates scenario encounters as dictated by the story
+they will tell.
+
+## Random Encounters
+
+Random encounters offer players a sense of variety in their gaming
+experience. These colorful encounters often include individuals pursuing
+goals that are unrelated to those of the adventurers themselves. From a
+roleplaying perspective, random encounters help create the illusion of a
+universe that exists outside of the adventurers' experiences, thus
+creating a sense of verisimilitude.
+
+Random encounters can be determined by rolling a D66 on a table such as
+the Random Encounters table presented in these rules. Unique tables
+might be created for specific worlds or adventures. As with other social
+encounters, non-player character reactions may be determined randomly by
+the Referee or selected according to the nature of the situation.
+
+#### Table: Random Encounters
+
+| D66 | Encounter                       |
+|-----|---------------------------------|
+| 11  | Adventurers                     |
+| 12  | Non-human species Starship Crew |
+| 13  | Ambushing Brigands              |
+| 14  | Bandits                         |
+| 15  | Beggars                         |
+| 16  | Belters                         |
+| 21  | Drunken Crew                    |
+| 22  | Fugitives                       |
+| 23  | Government Officials            |
+| 24  | Guards                          |
+| 25  | Hunters and Guides              |
+| 26  | Law Enforcers on Patrol         |
+| 31  | Local Performers                |
+| 32  | Maintenance Robots              |
+| 33  | Merchants                       |
+| 34  | Military Personnel on Leave     |
+| 35  | Noble with Retinue              |
+| 36  | Peasants                        |
+| 41  | Political Dissident             |
+| 42  | Potential Patron                |
+| 43  | Public Demonstration            |
+| 44  | Religious Pilgrims              |
+| 45  | Reporters                       |
+| 46  | Researchers                     |
+| 51  | Riotous Mob                     |
+| 52  | Security Troops                 |
+| 53  | Servant Robots                  |
+| 54  | Soldiers on Patrol              |
+| 55  | Street Vendors                  |
+| 56  | Technicians                     |
+| 61  | Thugs                           |
+| 62  | Tourists                        |
+| 63  | Traders                         |
+| 64  | Vigilantes                      |
+| 65  | Workers                         |
+| 66  | Referee’s Choice                |
+
+## Legal Encounters
+
+Legal encounters involve interactions with local planetary law
+enforcement. Some worlds have stricter laws than others. This is
+represented by the world's Law Level value. The higher the Law Level,
+the more likely that offworld visitors will be harassed by local law
+enforcement. When the Referee determines that a legal encounter happens,
+a local police officer will stop the adventurers and require
+identification. Further complications are at the Referee's discretion.
+
+## Patron Encounters
+
+A patron is a non-player character that gives financial or other support
+to a person, organization, cause, or activity. Referees often use
+patrons as a tool to attempt to engage player characters in adventures.
+Patron encounters represent the beginning of an open-ended adventure
+idea, aka the hook. The patron provides the mission that serves as the
+basis for an adventure, as well as the reward for successfully
+completing it.
+
+Adventurers frequently seek out patrons as a source of employment. Less
+frequently, a patron may seek out the adventurers, based on their
+reputation. The Referee may roll a D66 on the Patron Encounters table or
+create one independently. Unique Patron Encounter tables might be
+created for specific worlds or adventures.
+
+#### Table: Patron Encounters
+
+| D66 | Potential Patron       |
+|-----|------------------------|
+| 11  | Agent                  |
+| 12  | Athlete                |
+| 13  | Barbarian              |
+| 14  | Belter                 |
+| 15  | Broker                 |
+| 16  | Bureaucrat             |
+| 21  | Celebrity              |
+| 22  | Colonist               |
+| 23  | Con Artist             |
+| 24  | Corporate Executive    |
+| 25  | Courier                |
+| 26  | Diplomat               |
+| 31  | Drifter                |
+| 32  | Educator               |
+| 33  | Entertainer            |
+| 34  | Financier              |
+| 35  | Fugitive               |
+| 36  | Hijacker               |
+| 41  | Hunter                 |
+| 42  | Marine                 |
+| 43  | Mercenary              |
+| 44  | Merchant               |
+| 45  | Navy                   |
+| 46  | Noble                  |
+| 51  | Physician              |
+| 52  | Pirate                 |
+| 53  | Politician             |
+| 54  | Rogue                  |
+| 55  | Scientist              |
+| 56  | Scout                  |
+| 61  | Smuggler               |
+| 62  | System Defense Officer |
+| 63  | Technician             |
+| 64  | Terrorist              |
+| 65  | Tourist                |
+| 66  | Referee's Choice       |
+
+### Format for Patron Encounters
+
+Some Referees prefer to “wing it,” and consider little more than a
+patron’s name and the mission at hand. However, for those seeking a more
+detailed way of creating reusable patron encounters, the Märchen Engine
+rules offers a fairly comprehensive format for recording patron
+encounters. This format identifies five specific elements for a given
+patron. These are:
+
+- The patron’s name and role. Names can be changed if the patron
+  encounter is reused.
+
+- The skills and resources required to complete the mission
+
+- The suggested reward for the mission
+
+- The mission as described to the characters
+
+- What’s really going on. Several possible variants are presented –
+  either pick or roll for which is the real situation. This is the key
+  element that allows reusability.
+
+Here is an example of a patron encounter captured in this format:
+
+### Bruce Ayala, Interplanetary Playboy
+
+**Required**: Investigate, Streetwise; No special equipment required.
+
+**Reward**: ₢500 a day, plus expenses; minimum of two weeks.
+
+#### Players’ Information
+
+Word on the street is that the famous holovid star and interplanetary
+playboy Bruce Ayala is cruising the local bar scene. That night, Bruce
+Ayala, along with his entourage of publicists and models, staggers into
+the same locale as the party and buys a round for every offworlder. Over
+the course of the evening, he continually hounds the party for details
+of their exploits, always comparing their adventures to roles he's
+portrayed. Late into the evening, Ayala corners one of the party members
+and offers the crew a job, if it can be handled with discretion. He
+provides contact information, and arranges a meeting to discuss terms,
+if they are interested.
+
+#### Referee’s Information
+
+When Bruce Ayala achieved system-wide fame as a holovid star, he admits
+that it went right to his head, and it cost him the love of a wonderful
+young woman by the name of Martha McKernan. He's kept tabs on Martha
+over the years through private investigators and the like, one of whom
+has reported that she's gone missing a few days ago. Ayala wants to hire
+the party to discretely investigate Martha's disappearance, locate the
+young woman and rescue her from whatever situation she might be in. He's
+concerned that his current media distributor, Penultimate Productions,
+have pulled something, as he has been secretly planning to sign a new
+contract with a competitor, System Media Studios. That represents a
+great loss for Penultimate Productions, and Ayala feels that they are
+not above coercion to insure the holovid star continues to bring them
+money. In all of the options presented below, further development is
+left to the discretion of the Referee.
+
+1.  All is as it appears. Bruce Ayala is correct; Penultimate
+    Productions has discovered their star's clandestine plans. Slowly
+    moving away from the verge of bankruptcy, the media distributor owes
+    their recovery to Bruce Ayala's success in the box office. Worried
+    that the star's departure could cost them everything, the executive
+    producers have hired thugs to kidnap Martha McKernan and use her to
+    force him to extend his current contract.
+
+2.  Sadly, Bruce Ayala is incorrect. His own agent, Cornelius Brass, has
+    a gambling problem, a huge gambling problem. He's fallen in so much
+    debt to the local crime syndicate that they've started threatening
+    his life and the lives of his family, and the man has become
+    desperate. Brass has arranged for the kidnapping of Martha McKernan,
+    hoping to ransom her to enough Crowns to pay off his debt and tuck
+    away a tidy bankroll so he can continue his gambling habit.
+
+3.  Bruce Ayala has been less than truthful. He's been stalking the
+    innocent Martha McKernan for years, using his fame and fortune to
+    attempt to force her into marrying him. In an act of desperation,
+    Martha has gone on the run, trying to make her way out of the star
+    system undetected in an effort to find safety from Ayala's
+    overwhelming attentions.
+
+4.  System Media Studios has kidnapped Martha McKernan as a form of
+    leverage to use on Bruce Ayala in the event he changes his mind and
+    backs out of the secret negotiations. They believe he is unaware of
+    her disappearance, and only intend to reveal her status as a
+    prisoner should he start entertaining the thought of extending his
+    current contract with Penultimate Productions.
+
+5.  Martha McKernan has watched Bruce Ayala's meteoric rise to success
+    with envy and jealousy. She feels scorned by the holovid star, and
+    every image of Bruce Ayala with some starlet has pushed her further
+    into the depths of hatred and loathing. Martha has arranged her own
+    "kidnapping", so that she can demand a costly ransom from Bruce. Any
+    extended contact with Martha will reveal that she is not completely
+    sane, and will likely go to extreme lengths to harm and humiliate
+    Bruce Ayala.
+
+6.  Martha McKernan is actually on vacation, hiking deep in a wilderness
+    preserve to get away from civilization for a few weeks. Edmund Sang,
+    a private investigator employed by Bruce Ayala, has reported her
+    missing simply to get more money from Mr. Ayala to "locate" her.
+    When the party shows up and begins investigating, he realizes that
+    he might get caught and so desperately attempts to redirect them, to
+    avoid having his deception discovered. Sang's efforts to create a
+    false trail points to the local crime syndicate, who do not take
+    kindly to the party investigating their illicit activities looking
+    for a girl they've never heard of.
+
+## Rumors
+
+Rumors are best thought of as encounters with information rather than
+with people or events. Rumors often fill one of two different roles:
+they plant the seed for a potential new adventure, or they provide
+background information that makes the universe seem larger than just the
+character's experiences. Rumors can take many forms, including, but not
+limited to, graffiti on the walls, newspaper or online articles,
+overheard conversations, secret notes, and televised broadcasts.
+
+Because rumors are encounters with information, the player character has
+no patron should they decide to pursue the rumor itself. If the matter
+doesn't pan out, the player character has no one to blame but himself.
+However, given the promise of potential reward, enterprising characters
+are likely to attempt to exploit the information they've uncovered.
+
+Random encounters are often determined by rolling a D66 on a table such
+as the Random Rumor Content table presented in these rules. As with
+other encounter types, unique tables might be created for specific
+worlds or adventures.
+
+#### Table: Random Rumor Content
+
+| D66 | Encounter                                    |
+|-----|----------------------------------------------|
+| 11  | Background information                       |
+| 12  | Background information                       |
+| 13  | Broad background information                 |
+| 14  | Broad background information                 |
+| 15  | Broad background information                 |
+| 16  | Completely false information                 |
+| 21  | General location data                        |
+| 22  | General location data                        |
+| 23  | General location data                        |
+| 24  | Helpful data                                 |
+| 25  | Important fact                               |
+| 26  | Information leading to trap                  |
+| 31  | Library data reference                       |
+| 32  | Library data reference (general information) |
+| 33  | Library data reference (general information) |
+| 34  | Major fact                                   |
+| 35  | Major fact                                   |
+| 36  | Minor fact                                   |
+| 41  | Minor fact                                   |
+| 42  | Misleading background data                   |
+| 43  | Misleading background data                   |
+| 44  | Misleading background information            |
+| 45  | Misleading background information            |
+| 46  | Misleading background information            |
+| 51  | Misleading clue                              |
+| 52  | Obvious clue                                 |
+| 53  | Partial (potentially misleading) fact        |
+| 54  | Reliable recommendation to action            |
+| 55  | Specific background data                     |
+| 56  | Specific background data                     |
+| 61  | Specific location data                       |
+| 62  | Specific location data                       |
+| 63  | Terminology                                  |
+| 64  | Veiled clue                                  |
+| 65  | Veiled clue                                  |
+| 66  | Referee’s Choice                             |
+
+## Influencing Attitudes
+
+The Referee determines the starting attitude of any character the
+characters encounter during the game. The characters can then try to
+influence the character's attitude using Social Standing and various
+interaction skills, such as Liaison and Carousing. The Attitude
+Descriptions table describes the effects of character attitudes.
+
+#### Table: Attitude Descriptions
+
+| Attitude    | Means                         | Possible Actions                                   |
+|-------------|-------------------------------|----------------------------------------------------|
+| Hostile     | Will take risks to oppose you | Attack, interfere, berate, flee                    |
+| Unfriendly  | Wishes you ill                | Mislead, gossip, avoid, watch suspiciously, insult |
+| Indifferent | Doesn't care either way       | Socially acceptable interaction                    |
+| Friendly    | Wishes you well               | Chat, advise, offer limited help, advocate         |
+| Helpful     | Will take risks to aid you    | Protect, back up, heal, aid, support               |
+
+Characters can attempt to improve another's attitude, using a Difficult
+(-2) Social Standing-based check using the appropriate skill, usually
+Liaison. With a success, the character's attitude is improved by one
+step; with an exceptional success, the attitude improves by two steps.
+Note that a particularly bad influence check can actually make a
+character's attitude worse. On an exceptional failure, the character's
+attitude shifts one step more Hostile. In general, a character can
+attempt to influence another character only once in any given scene.
+
+Players get to choose their characters’ attitudes, and so interaction
+skills cannot force a player-character to behave in a specific way.
+Typically, the only way a player character can be forced into a
+particular behavior is through the use of psionics or some other
+external force.
+
+# CHAPTER 13: MAGICAL TREASURE
+
+Piles of golden coins and precious gems glimmer under torchlight.
+Wondrous weapons stick at odd angles out of a dragon's hoard gold.
+Potions gleam in an alchemist's laboratory. In Swords and Sorcery tales,
+adventurers pursue treasure. Treasure may come in many forms: coins,
+gemstones, jewelry, or magnificent magical items. This chapter presents
+simple rules for generating treasures belonging to monsters, found
+underground, or in ruins. It also presents rules detailing how skilled
+characters may brew positions, scribe scrolls, and create magical items.
+
+## Magical Research
+
+The most coveted of treasures are magical items – from potions and
+glowing swords to even more wondrous and mysterious objects. This
+sub-chapter contains rules for identifying existing magical items, as
+well as producing them. It also shows how sorcerers may research new,
+original, spells to add to their vast arcane knowledge.
+
+### Researching New Spells
+
+A sorcerer may research new spells. This takes two weeks of intensive
+research and costs 1000₢ per Circle. After spending the time and gold,
+throw Sorcery 4+ with a -DM equal to the spells Circle (e.g. a
+1<sup>st</sup> Circle spell will be at DM-1 while a 6<sup>th</sup>
+Circle spell will be at DM-6). If successful, the sorcerer gains the new
+spell. If failed, the time and gold are wasted but the sorcerer may try
+again to research the spell. A throw of "Snake Eyes" (a result of 2
+before modifiers are added) is a Critical Failure and may entail a
+mishap. A throw with an Effect of -4 and worse is also a Critical
+Failure may entail a mishap. In such cases of Critical Failure, the
+sorcerer must make a Sorcery 5+ throw with the same -DM; if failed
+again, they suffer a Mishap as per the Sorcery chapter.
+
+A sorcerer requires a **library** of at least 4000₢ in value to research
+new spells. This cost increases by 2000₢ per Circle beyond the
+1<sup>st</sup> for the new spell being researched. Furthermore, for
+every 10000₢ invested in the library beyond the spell’s Circle base
+requirement, the sorcerer gains DM+1 to the spell research throw, up to
+DM+3.
+
+The Referee is the final and absolute arbiter of what spells would be
+permissible in their campaign and which Circle and Shade a proposed new
+spell would be at. The Referee should note that in such a sword &
+sorcery setting as entailed by these rules, direct damage "blast" spells
+should be rare, teleportation (or worse – time travel!) should be
+avoided like the plague, and scrying spells should be significantly
+limited in power. Flying wizards who teleport and throw fireballs around
+are elements quite far from the spirit of the **Märchen Engine** rules.
+Though this, of course, is at the Referee's discretion.
+
+### Identifying Magical Items
+
+Identifying magical items depends on the item's rarity.
+
+Identifying common magical items requires a day of undisturbed careful
+investigation and an Artifice 6+ or Sorcery 9+ throw.
+
+Identifying common potions requires a day of undisturbed careful
+investigation and an Alchemy 6+ or Sorcery 9+ throw.
+
+The Referee is the final arbiter of what constitutes a common magical
+item or potion, and which items and potions are rare. However, the
+probabilities of finding each item or potion on the treasure tables (see
+below) can serve as a useful guideline.
+
+In those cases of rare magical items and potions, or when trying to
+identify an item or potion after failing the above investigation throws,
+the sorcerer must research the item. Researching an item, just like a
+spell, takes 2 weeks and costs 1000₢. Throw Artifice 6+ or Alchemy 6+
+(Sorcery will not suffice here) to identify the item or potion. There is
+no risk of mishap in this case, but if the throw fails, the sorcerer
+wastes the time and money invested in the research. Further attempts to
+identify the item are allowed. The sorcerer may try again at the same
+costs of time and money.
+
+### Creating Magical Items and Brewing Potions
+
+Artificers may create magical items. To create an item, the artificer
+must know a spell with an effect like that of the item, research this
+effect as if it were a spell, or find a formula for that item.
+Artificers may also copy the design of any magical item they possess.
+
+To create a magical item, make an Artifice 6+ throw. The Referee should
+enact a DM penalty to this throw depending on the item's complexity or
+its equivalent spell Circle. Magical item costs and creation times
+depend on their type, as given in the table below, but should be
+multiplied, at the Referee's discretion, by the item's equivalent spell
+Circle or based on its complexity, to a maximum multiplier of x6.
+
+Creating magical items is a dangerous process. A throw of "Snake Eyes"
+(an unmodified result of two) is always a Critical Failure and may
+entail a mishap. A throw with an Effect of -4 and worse is also
+considered a Critical Failure may entail a mishap. In such cases of
+Critical Failure, the sorcerer must make a Sorcery 5+ throw with the
+same -DM; if failed again, they suffer a Mishap as per the Sorcery
+chapter.
+
+An artificer requires a **workshop** of at least 4000₢ in value to
+create magical items, with this cost increased by 2000₢ per equivalent
+spell Circle beyond the 1<sup>st</sup>. Furthermore, for every 10000₢ in
+workshop worth beyond the equivalent spell’s Circle base requirement in
+gold, the sorcerer gains DM+1 to the item creation throw, up to DM+3.
+
+Brewing potions follows the same procedure as detailed above for magical
+items but uses the Alchemy skill instead of Artifice and requires a
+separate **laboratory** rather than a **workshop**.
+
+We encourage the Referee to require rare components – those that require
+an adventure to obtain – for creating powerful magical items and
+position. This is especially true for permanent-effect magical items.
+
+**Magic Item Costs and Times**
+
+| **Item Type**                          | **Cost**                                      | **Time**                                           |
+|----------------------------------------|-----------------------------------------------|----------------------------------------------------|
+| One use effect (including all potions) | 500₢                                          | 1 week                                             |
+| Charged effect                         | 500₢ per charge                               | 2 days per charge                                  |
+| Permanent effect (unlimited use)       | 25000₢                                        | 100 days                                           |
+| Permanent effect (1 use/turn)          | 16000₢                                        | 80 days                                            |
+| Permanent effect (1 use/hour)          | 12000₢                                        | 70 days                                            |
+| Permanent effect (1 use /day)          | 5000₢                                         | 40 days                                            |
+| Permanent effect (1/ use week)         | 3000₢                                         | 1 month                                            |
+| Magical weapon                         | 5000₢ for DM+1 to hit; 15,000 for DM+2 to hit | 3 months for DM+1 to hit; 9 months for DM+2 to hit |
+| Magical armor                          | 5000₢                                         | 1 month per Armor protection point                 |
+
+## Generating Treasures
+
+The following tables for the random generation of treasures refer to the
+five types of treasure noted in the monster descriptions in the previous
+chapter. The Referee may use these tables to randomly generate treasure,
+modify the results as they see fit, or hand-craft treasures. We
+encourage the Referee to hand-craft important or famous treasures, while
+randomly generating more common treasures, such as those found after
+defeating monsters.
+
+Monsters' treasures are usually found in their lairs. There are certain
+exceptions, such as those monsters who swallow enemies whole and thus
+may carry treasure in their bellies. Sentient monsters will use magical
+items in their possession to their best effect, or bestow them as gifts
+to their most trusted minions.
+
+Treasures come in **five** types:
+
+**Incidental:** treasure collected by happenstance by creatures
+otherwise uninterested in treasure, such as the remnants of swallowed
+adventurers in a monster's belly or remains of the dead near a giant
+carnivorous plant.
+
+**Small:** a small treasure, as sometimes hoarded by lesser sentient
+monsters.
+
+**Medium:** a moderately-sized treasure, as occasionally found in the
+tombs of undead.
+
+**Large:** a significant treasure, as found in the lairs of more
+powerful monsters.
+
+**Hoard:** a treasure worthy of a king or a dragon!
+
+When generating a treasure, note that each column usually gives a throw
+on 2D necessary for that part of a treasure to exist in the given loot.
+Note that in rare cases, monsters who are normally supposed to possess
+treasure may have none!
+
+**Treasures**
+
+| **Treasure Type** | **1000s of Silver** | **1000s of Gold**   | **Gems and Jewelry**      | **Magic Items**                                                                                                                               |
+|-------------------|---------------------|---------------------|---------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------|
+| Incidental        | 1D on a throw of 9+ | 1D on a throw of 9+ | 1D Minor on a throw of 7+ | 1 on a throw of 10+                                                                                                                           |
+| Small             | 1D on a throw of 4+ | None                | 1D Minor on a throw of 5+ | 2 on a throw of 11+                                                                                                                           |
+| Medium            | 1D on a throw of 9+ | 1D on a throw of 6+ | 2D Minor on a throw of 4+ | 1D potion + scroll on a throw of 10+                                                                                                          |
+| Large             | 2D on a throw of 6+ | 1D on a throw of 3+ | 1D Major on a throw of 6+ | 1D + 3 potion + scroll on a throw of 6+                                                                                                       |
+| Hoard             | 5D on a throw of 5+ | 3D on a throw of 4+ | 2D Major at a throw of 5+ | 2D potions; 2D scrolls; throw 5+ for one from each of the following categories: weapons, armor, miscellaneous items, wands/staves/rods, rings |
+
+**Minor Gems and Jewelry**
+
+| **1D** | **Value** | **Average** | **Example**                                                                                  |
+|--------|-----------|-------------|----------------------------------------------------------------------------------------------|
+| 1-2    | 4D ₢      | 14₢         | Azurite, hematite, malachite, bone, scrimshaw, beast parts                                   |
+| 3      | 3Dx10₢    | 105₢        | Amber, amethyst, coral, glass, shells, or wrought copper, brass, or bronze                   |
+| 4      | 2Dx100₢   | 700₢        | Opal, star ruby, star sapphire, alabaster, chryselephantine, ivory, or wrought gold          |
+| 5      | 3Dx100₢   | 1050₢       | Black sapphire, diamond, emerald, carved jade or wrought platinum                            |
+| 6      | 1Dx1000₢  | 3500₢       | Black pearl, baroque pearl, crystal geode, silver studded with turquoise, moonstone, or opal |
+
+**Major Gems and Jewelry**
+
+| **1D** | **Value** | **Average** | **Example**                                                                               |
+|--------|-----------|-------------|-------------------------------------------------------------------------------------------|
+| 1-2    | 2Dx1000₢  | 7000₢       | Facet cut star sapphire or star ruby, gold studded with topaz, jacinth, ruby              |
+| 3      | 3Dx1000₢  | 10500₢      | Flawless facet cut black sapphire or blue diamond, electrum or silver pendant with pearls |
+| 4      | 4Dx1000₢  | 14000₢      | Gold or platinum with diamonds and sapphires                                              |
+| 5      | 1Dx5000₢  | 17500₢      | Gold encrusted with flawless facet cut diamonds                                           |
+| 6      | 1Dx10000₢ | 35000₢      | Platinum encrusted with flawless black sapphires or blue diamonds                         |
+
+**Magical Item Categories**
+
+| **2D** | **Item Category**           |
+|--------|-----------------------------|
+| 2      | Rings                       |
+| 3      | Miscellaneous weapons       |
+| 4      | Swords                      |
+| 5-7    | Potions                     |
+| 8-9    | Scrolls                     |
+| 10     | Armor                       |
+| 11     | Rods, staves, and wands     |
+| 12     | Miscellaneous magical items |
+
+### Potions
+
+Potions take effect on the same round they are imbibed, and their effect
+– unless noted otherwise - lasts for 1D+6 turns.
+
+Drinking multiple potions at once is dangerous! If a character drinks
+one potion while another is active on them, they must throw END 4+ or
+suffer a roll on the Mutation table (in the Sorcery chapter)!
+
+| **D66** | **Potion**                                                                                                                                                                                                                                                                                                                                                                                                                 |
+|---------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 11      | **Animal Control:** the imbiber may control 2D normal animals or 1D giant animals within 20m as per **charm monster**.                                                                                                                                                                                                                                                                                                     |
+| 12      | **Clairaudience:** the imbiber may hear up to 20m, including through walls, through the ears of any creatures in the area. If there are no creatures in the target area, this effect fails, and the potion is wasted.                                                                                                                                                                                                      |
+| 13      | **Clairvoyance:** the imbiber may see up to 20m, including through walls, through the eyes of creatures in the area.                                                                                                                                                                                                                                                                                                       |
+| 14      | **Climbing:** the imbiber may climb sheer surfaces and cling to ceilings like a gecko.                                                                                                                                                                                                                                                                                                                                     |
+| 15      | **Delusion:** the imbiber is absolutely convinced that they have drunk a potion of another kind.                                                                                                                                                                                                                                                                                                                           |
+| 16      | **Diminution:** shrinks the imbiber and everything they carry to 15cm tall. The character gains DM+4 to all Stealth throws but cannot damage larger creatures with any attack.                                                                                                                                                                                                                                             |
+| 21      | **Dragon Control:** the imbiber may control one dragon or drake within 20m as per **Charm Monster**.                                                                                                                                                                                                                                                                                                                       |
+| 22      | **ESP:** the imbiber may "hear" thoughts up to 20m.                                                                                                                                                                                                                                                                                                                                                                        |
+| 23      | **Extra Healing:** the imbiber heals as if they rested for 5D days under a healer's care.                                                                                                                                                                                                                                                                                                                                  |
+| 24      | **Fire Resistance:** the imbiber is immune to all forms of normal flame and gains DM+2 to resist magical fire.                                                                                                                                                                                                                                                                                                             |
+| 25      | **Flying:** the imbiber may fly at a speed of 20m/action per the **Fly** spell.                                                                                                                                                                                                                                                                                                                                            |
+| 26      | **Gaseous Form:** the imbiber takes the form of a translucent cloud of gas; all equipment carried by them falls on the floor. While in gaseous form, a creature may not attack but may move 5m per action through cracks and below doors. Gaseous creatures are immune to non-magical weapons.                                                                                                                             |
+| 31      | **Inhuman Strength:** the imbiber of this potion gains STR 23 (N) with all it entails for the duration.                                                                                                                                                                                                                                                                                                                    |
+| 32      | **Growth:** the imbiber doubles in size, with STR doubling up to 23 (N) for the duration.                                                                                                                                                                                                                                                                                                                                  |
+| 33      | **Healing:** the imbiber heals as if they rested for a full day under a healer's care.                                                                                                                                                                                                                                                                                                                                     |
+| 34      | **Healing:** as above.                                                                                                                                                                                                                                                                                                                                                                                                     |
+| 35      | **Heroism:** the imbiber gains a temporary Melee Combat-3 skill, or adds DM+1 to their Melee Combat skill, whichever is higher.                                                                                                                                                                                                                                                                                            |
+| 36      | **Human Control:** the imbiber may control 2D human beings or similar humanoids as per the **Charm Person** spell.                                                                                                                                                                                                                                                                                                         |
+| 41      | **Invisibility:** the imbiber, along their equipment, becomes invisible as per the **Invisibility** spell. It is possible to consume this potion in 1/6 increments, in which the invisibility lasts for 1 turn per dose. Any combat ends this invisibility.                                                                                                                                                                |
+| 42      | **Invulnerability:** the imbiber gains DM+2 to resist all magic, poisons, diseases, and similar effects, and gains 5 additional points of armor protection.                                                                                                                                                                                                                                                                |
+| 43      | **Levitation:** the imbiber may levitate up or down at 5m per action. The potion does not grant the ability to move horizontally, although it is possible to clamber sideways by holding onto walls and pushing.                                                                                                                                                                                                           |
+| 44      | **Longevity:** the imbiber becomes 10 years younger, to a minimum of 18 years. This reverses any Aging Table effects suffered in these years. However, every time one consumes this potion after the first one, they must throw 3+ to avoid a mishap, which reverses all previous longevity potion effects, returning the character to the age they would have been without the potion.                                    |
+| 45      | **Oil of Sharpness:** when applied to a blade, the oil temporarily enhances its power to that of a lesser magical weapon, granting DM+1 to hit and allowing it to harm creatures only harmed by magical weapons.                                                                                                                                                                                                           |
+| 46      | **Oil of Slipperiness:** a character coated with this oil cannot be grappled; any grapple attempt against it will automatically fail. They will also automatically escape any ropes or manacles. Furthermore, if used to coat the floor, any creature attempting to transverse the oiled area must throw DEX 12+ or fall prone. The effect lasts for 8 hours, until **dispelled**, or until cleaned off by enough alcohol. |
+| 51      | **Love:** the imbiber becomes charmed by the next sentient creature they lay eyes on. Furthermore, if the creature belongs to a similar species to that of the drinker and to their preferred sex, the imbiber will be deeply enamored with it. The charm effect only lasts 1D+6 turns. Only **dispel magic** will cause the imbiber to cease to be enamored by a creature it fell in love with due to this potion.        |
+| 52      | **Plant Control:** the imbiber may control plants and plant-like creatures (including fungi) within a 10m by 10m area in a 20m range. Intelligent plants may throw INT 8+ to resist this effect or be **charmed** for 1D+6 turns. Non-sentient plants will bend to the imbiber's will. Even otherwise immobile plants will move at the drinker's whim!                                                                     |
+| 53      | **Poison:** this "potion" is a potent poison rated at 10+/4D.                                                                                                                                                                                                                                                                                                                                                              |
+| 54      | **Poison:** as above.                                                                                                                                                                                                                                                                                                                                                                                                      |
+| 55      | **Polymorph**: the imbiber may shapeshift to a new form for the potion's duration.                                                                                                                                                                                                                                                                                                                                         |
+| 56      | **Speed:** the imbiber will move at double their regular speed and enjoy 3 actions per round rather than the usual 2. However, the imbiber will permanently age one year due to the strain on their body.                                                                                                                                                                                                                  |
+| 61      | **Super-heroism:** the imbiber gains a temporary Melee Combat-5 skill, or DM+2 to their Melee Combat skill, whichever is higher.                                                                                                                                                                                                                                                                                           |
+| 62      | **Sweet Water:** when poured into water, it will turn up to 10,000 cubic meters of contaminated water or other liquid into potable water; it may also turn 100 cubed meters of acid into potable water.                                                                                                                                                                                                                    |
+| 63      | **Treasure Finding:** the imbiber may concentrate for one turn to find the direction and distance of the most valuable treasure within 120m. This effect will work through any barrier or wall.                                                                                                                                                                                                                            |
+| 64      | **Undead Control:** the imbiber may control 2D undead as per the **charm monster** spell. Controlled undead will become hostile when the potion's duration ends.                                                                                                                                                                                                                                                           |
+| 65      | **Water Breathing**: the imbiber of this potion may breathe underwater, in any depth, for 4 hours.                                                                                                                                                                                                                                                                                                                         |
+| 66      | **Mutation!** Throw on the Mutation table in the Sorcery chapter. This mutation, unlike many other potion effects, is permanent.                                                                                                                                                                                                                                                                                           |
+
+### Rings
+
+A character may wear up to two active magical rings at one; further
+rings worn at the same time will not function.
+
+| **2D** | **Ring**                                                                                                                                                                                                                                                                                                                                                             |
+|--------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 2      | **Spell Turning:** the ring may be used for 2D times. Each time the wearer uses it, it negates a single spell's effect on the wearer. Once all uses are spent, the ring turns to dust.                                                                                                                                                                               |
+| 3      | **Djinn Calling:** one a week, the wearer may summon a **djinn**, who will serve him for up to one day. If the **djinn** is slain, the ring turns to dust.                                                                                                                                                                                                           |
+| 4      | **Regeneration:** the wearer regenerates one characteristic point of injury per round and will regrow severed or mangled body parts. However, the ring may not cure damage or injury caused by fire or acid.                                                                                                                                                         |
+| 5      | **Fire Resistance:** renders the wearer immune to all forms of ordinary flame and grants DM+2 to resist magical fire.                                                                                                                                                                                                                                                |
+| 6      | **Delusion:** the wearer absolutely believes that the ring is of another magical type (rolled randomly).                                                                                                                                                                                                                                                             |
+| 7      | **Protection:** any who attacks the wearer suffers DM-1 to hit and the wearer gains DM+1 to all throws to resist magic, disease, or poison.                                                                                                                                                                                                                          |
+| 8      | **Invisibility:** one per turn, the wearer may become **invisible**, per the spell of the same name.                                                                                                                                                                                                                                                                 |
+| 9      | **Weakness:** once worn, the only way to remove this ring is by a **remove curse** spell. It reduces the wearer's STR to 2 as long as it is worn.                                                                                                                                                                                                                    |
+| 10     | **Water Walking:** the wearer may walk across water as if it was solid ground.                                                                                                                                                                                                                                                                                       |
+| 11     | **Telekinesis:** the ring grants its wearer the ability to move up to 100kg with his mind at will.                                                                                                                                                                                                                                                                   |
+| 12     | **Wishes:** the ring stores 1D **wishes**. A **wish** is the most powerful magic available – capable of altering reality and even resurrecting the dead with no risks entailed. However, we encourage the Referee to strictly limit, and nearly always subvert, such wishes to avoid absurdities or cheating. Once the ring runs out of wishes, it crumbles to dust. |
+
+### Scrolls
+
+A spell scroll is a piece of parchment of papyrus with eldritch spells
+inscribed on it. Any character with at least Sorcery-1 can read a scroll
+and cast the spell imbued in it. Once cast, the scroll crumbles to dust.
+
+Additional scrolls found in treasure include scrolls of ward, cursed
+scrolls, and – of course – non-magical treasure maps.
+
+| **2D** | **Scroll**                                  |
+|--------|---------------------------------------------|
+| 2      | 6<sup>th</sup> Circle spell                 |
+| 3      | Cursed scrolls                              |
+| 4      | 4<sup>th</sup> Circle spell                 |
+| 5      | 2<sup>nd</sup> Circle spell                 |
+| 6      | Treasure map (generate as a Large treasure) |
+| 7      | 1<sup>st</sup> Circle spell                 |
+| 8      | Ward against undead                         |
+| 9      | Ward against elementals                     |
+| 10     | 3<sup>rd</sup> Circle spell                 |
+| 11     | Ward against magic                          |
+| 12     | 5<sup>th</sup> Circle spell                 |
+
+**Cursed scrolls**
+
+The reader of a cursed scroll suffers a horrible curse upon reading it.
+**Remove curse** will reverse such affliction, except for the loss of a
+magic item, which is irreversible. Roll for the curse on the following
+table.
+
+| **1D** | **Curse**                                                  |
+|--------|------------------------------------------------------------|
+| 1      | One magic item in the victim's possession crumbles to dust |
+| 2      | One characteristic falls to 2                              |
+| 3      | The victim cannot gain new Experience                      |
+| 4      | The victim "forgets" one skill                             |
+| 5      | The victim is polymorphed into a tiny, slimy toad          |
+| 6      | The victim is blinded                                      |
+
+**Scrolls of Warding**
+
+Any literate character, even without the Sorcery skill, may use a scroll
+of warding. The scroll crumbles to dust after being read but grants a
+3m-radius area of protection against the creatures it wards against for
+1D turns, or until one of the creatures protected by the ward tries to
+attack the creature warded against. A creature warded against cannot
+enter the warded area or attack those within it.
+
+The only exception is a scroll of **ward against magic**, which protects
+not only from magical (usually summoned) creatures, but also prevents
+any spell or spell-like ability from penetrating the warded area.
+
+### Rods, Staves, and Wands
+
+Traditional implements of sorcery, wands are small and thin; staves are
+long; and rods are in between in size. Any character may use a rod. Only
+characters with at least Sorcery-1 may use a staff or a wand, but they
+do not to make any throw to use them (other than the throws needed to
+identify the item).
+
+Each of these items typically uses "charges", used to power activations.
+When found, a rod or wand will have 2D charges and a staff 3D charges.
+Each use expends one charge unless noted otherwise.
+
+One cannot recharge rods, staves, and wands. Once all charges are
+expended, the item becomes inert.
+
+**Throw 1D; on 1-2, roll on the rods and staves table. On 3-6, roll on
+the wands table.**
+
+**Rods and Staves**
+
+All magical staves may also act as weapons (as per the **staff**
+described in the **Equipment** chapter).
+
+| **2D** | **Rod or Staff**                                                                                                                                                                                                                                                                                                                                                                                                               |
+|--------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 2      | **Staff of Wizardry:** this staff has the powers of a staff of power and a **wand of paralysis**. In addition, it may serve to cast **invisibility**, **conjure elemental**, or summon a djinn as per the **ring of djinn summoning**. Finally, the user may break the staff in a **final blow**, dealing 1D damage per remaining charge to all creatures within 10m, including the user themselves, and destroying the staff. |
+| 3      | **Rod of Resurrection:** allows raising dead characters of creatures per the Rebirth spell. Each use expends three charges.                                                                                                                                                                                                                                                                                                    |
+| 4      | **Staff of Commanding:** commands animals, humans, and plants as a respective **ring of command**.                                                                                                                                                                                                                                                                                                                             |
+| 5      | **Staff of the Serpent:** this staff does not employ charges. It grants DM+1 to hit. Additionally, upon command, the staff can become a giant constrictor snake for 1D rounds, under the user's control. If the snake is slain, the staff crumbles to dust.                                                                                                                                                                    |
+| 6-7    | **Staff of Striking:** grants DM+1 to hit. Upon expending a charge when striking an opponent, it causes 4D damage.                                                                                                                                                                                                                                                                                                             |
+| 8-9    | **Staff of Healing**: heals any creature touched by it as if they have rested for 5D days under a healer's oversight.                                                                                                                                                                                                                                                                                                          |
+| 10     | **Rod of Cancellation:** if the rod strikes an item, that item permanently loses all magical powers.                                                                                                                                                                                                                                                                                                                           |
+| 11     | **Staff of Power:** can cast **death spell** or **telekinesis** (as per **ring of telekinesis**). Also functions as a **staff of striking**                                                                                                                                                                                                                                                                                    |
+| 12     | **Staff of Withering:** grants DM+1 to hit; causes 4D damage if a charge is used. By expended two charges, the struck victim ages by 12 years, forcing Aging Table throws as appropriate. By expending three charges, one of the victim's limbs withers into a useless, mummified member.                                                                                                                                      |
+
+**Wands**
+
+| **2D** | **Scroll**                                                                                                                                                                                 |
+|--------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 2      | **Wand of Polymorphing:** polymorphs the user as per a potion of polymorphing.                                                                                                             |
+| 3      | **Wand of Fear:** discharges a cone, 20m long and 10m wide. Any creature caught within the core suffers the effect of the **cause fear** spell.                                            |
+| 4      | **Wand of Negation:** choose any wand, rod, or staff wielded by an opponent, and render it powerless for 1D rounds.                                                                        |
+| 5      | **Wand of Detecting Enemies:** all enemies within 20m of the user become surrounded by a faint yellow aura for 2 turns. Only the wielder can see the aura.                                 |
+| 6-7    | **Wand of Detecting Traps:** all traps within 10m become surrounded by a faint blue aura for 2 turns. Only the wielder can see the aura.                                                   |
+| 8      | **Wand of Detecting Secret Doors:** all secret doors within 10m become surrounded by a faint blue aura for 2 turns. Only the wielder can see the aura.                                     |
+| 9      | **Wand of Detecting Metals:** the wand will point at the direction of any concentration of metal within 20m for up to 6 turns. The wielder instinctively knows the kind of metal detected. |
+| 10     | **Wand of Detecting Magic:** any magic item within 5m becomes surrounded by a faint yellow aura for 2 turns. Only the wielder can see the aura.                                            |
+| 11     | **Wand of Illusion:** can create the effects of the spell **phantasmal force**.                                                                                                            |
+| 12     | **Wand of Paralysis:** discharges a cone, 20m long and 10m wide. All creatures within the cone must throw INT 6+ or be paralyzed for 6 turns.                                              |
+
+### Enchanted Swords
+
+Swords are the most commonly enchanted weapon, and thus deserve their
+own section. First roll for the sword's type, then roll 1D; on 1-4, the
+sword is a common enchanted sword; on 5-6, it is a unique enchanted
+sword.
+
+**Sword Types**
+
+| **1D** | **Sword**  |
+|--------|------------|
+| 1      | Broadsword |
+| 2      | Cutlass    |
+| 3-4    | Sword      |
+| 5      | Shortsword |
+| 6      | Sabre      |
+
+**Common Enchanted Swords**
+
+| **2D** | **Sword's Power**                                           |
+|--------|-------------------------------------------------------------|
+| 2      | DM+2 to hit; those attacking the wielder suffer DM-1 to hit |
+| 3      | Cursed! DM-1 to hit                                         |
+| 4      | DM+1; DM+2 vs. dragons                                      |
+| 5      | DM+1; DM+2 vs. summoned creatures                           |
+| 6-7    | DM+1 to hit                                                 |
+| 8      | DM+1 to hit; upon command, illuminates up to 10m as a torch |
+| 9      | DM+1; DM+2 vs. regenerating monsters                        |
+| 10     | DM+1; DM+2 vs. undead                                       |
+| 11     | DM+2 to hit                                                 |
+| 12     | Cursed! DM-2 to hit                                         |
+
+**Unique Enchanted Swords**
+
+| **1D** | **Unique Sword**                                                                                                                                                                                                                                                     |
+|--------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 1      | **Flame Tongue:** DM+1 to hit; DM+2 against regenerating, avian, or plant-like monsters; upon command, will be covered by flames, providing light as a torch, and ignite anything flammable it touches.                                                              |
+| 2      | **Life Drinker:** DM+1 to hit; has 1D charges. Upon expending a charge, the wilder heals for the number of characteristic points inflicted on an enemy. After expending all charges, the sword still retains its DM+1 to hit.                                        |
+| 3      | **Luck Blade:** DM+1 to hit; grants DM+1 to all throws to resist magic, poison, or disease; contains 3 **wishes** as per a **ring of wishes**. After using the last wish, the sword retains its other abilities.                                                     |
+| 4      | **Charming Blade:** DM+1 to hit; may cast **charm person**, as per the spell, 3 times a week.                                                                                                                                                                        |
+| 5      | **Frost Brand:** DM+2 to hit; grants DM+3 to hit creatures living in hot environments or using fire-based attacks; sheds light as a torch when the temperature drops below the freezing point. Extinguishes all non-magical fires within 3m when touched by a flame. |
+| 6      | **Vorpal Sword:** DM+2 to hit; on a natural attack throw of 12, its victim must throw END 10+ or be decapitated, dying immediately. If they succeed in this throw, they still suffer double damage.                                                                  |
+
+### Miscellaneous Enchanted Weapons
+
+Roll on the following table:
+
+| **2D** | **Weapon**                                                                                                                            |
+|--------|---------------------------------------------------------------------------------------------------------------------------------------|
+| 2      | **Slaying arrow**. DM+2 to hit, keyed against a single creature type (Referee's choice); if it hits such creature, it instantly dies. |
+| 3      | Spear, DM+2 to hit                                                                                                                    |
+| 4      | Axe or Great Axe, DM+2 to hit                                                                                                         |
+| 5      | War hammer, DM+1 to hit                                                                                                               |
+| 6      | 3D arrows, DM+1 to hit                                                                                                                |
+| 7      | 3D crossbow bolts, DM+1 to hit                                                                                                        |
+| 8      | Axe or Great Axe, DM+1 to hit                                                                                                         |
+| 9      | Spear, DM+1 to hit                                                                                                                    |
+| 10     | War Hammer, DM+2 to hit                                                                                                               |
+| 11     | Lance, DM+2 to hit                                                                                                                    |
+| 12     | Maul, DM+1 to hit, DM+3 to hit and double damage vs. undead                                                                           |
+
+### Enchanted Armor
+
+When generating enchanted armor, first roll on the following table to
+determine its type, and then roll on the Enchanted Armor table.
+
+Enchanted armor always counts as half its Encumbrance, rounded down.
+
+**Armor Types**
+
+| **1D** | **Armor**   |
+|--------|-------------|
+| 1      | Hide or Fur |
+| 2      | Leather     |
+| 3      | Scale       |
+| 4      | Chain       |
+| 5      | Banded      |
+| 6      | Plate       |
+
+**Enchanted Armors**
+
+| **1D** | **Enchantment**                                 |
+|--------|-------------------------------------------------|
+| 1      | Cursed! DM+1 to enemies attacking the character |
+| 2      | +1 armor rating                                 |
+| 3      | +2 armor rating                                 |
+| 4      | +3 armor rating                                 |
+| 5      | +4 armor rating                                 |
+| 6      | +5 armor rating                                 |
+
+### Miscellaneous Magical Items
+
+The following magical items do not fit any of the above categories.
+
+| **D66** | **Item**                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+|---------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 11      | **Boat, folding:** folded, this item appears as a small wooden box, approximately 30cm long, 15cm wide, and 15cm deep. Upon command, it unfolds into a 3m long, 1m wide boat, or an 8m long, 3m wide, 2m deep ship. Upon another command, the ship folds back to the box.                                                                                                                                                                   |
+| 12      | **Boots of Levitation:** upon command, these boots allow the wearer to levitate as per a **ring of levitation**. The duration is infinite.                                                                                                                                                                                                                                                                                                  |
+| 13      | **Boots of Traveling and Sprinting:** while wearing the boots, the wearer does not need to rest if engaged in regular exploration movement; aboveground, their movement rate is doubled. The wearer may also jump 3m high, or 10m long.                                                                                                                                                                                                     |
+| 14      | **Bowl of Commanding Water Elementals:** upon command, the bowl summons one water elemental per day, requiring a turn to summon the elemental. Once the elemental appears, the user must concentrate to control it.                                                                                                                                                                                                                         |
+| 15      | **Bracers of Armor:** grant the wearer 5 points of armor protection. This is not cumulative with a worn suit of armor.                                                                                                                                                                                                                                                                                                                      |
+| 16      | **Bracers of Armor, Cursed:** when worn, these bracers grant no armor protection and prevent the user from wearing any armor. Only a **remove curse** spell can remove these cursed bracers.                                                                                                                                                                                                                                                |
+| 21      | **Brazier of Commanding Fire Elementals:** upon command, the brazier summons one fire elemental per day, requiring a turn to summon the elemental. Once the elemental appears, the user must concentrate to control it.                                                                                                                                                                                                                     |
+| 22      | **Broom of Flying:** may carry up to two riders at a speed of 80m per action in combat or up to 60km a day in overland travel.                                                                                                                                                                                                                                                                                                              |
+| 23      | **Censer of Commanding Air Elementals:** upon command, the bowl summons one air elemental per day. The summoning requires one turn. Once the elemental appears, the user must concentrate to control it.                                                                                                                                                                                                                                    |
+| 24      | **Chime of Opening:** when struck, the chime sends forth magical vibrations which open one lock of any kind per round.                                                                                                                                                                                                                                                                                                                      |
+| 25      | **Cloak of Shadows:** any creature wearing this cloak enjoys DM+3 to Stealth throws.                                                                                                                                                                                                                                                                                                                                                        |
+| 26      | **Crystal Ball:** any character with at least Sorcery-1 can use the ball to view images of distant objects, places, or creatures they are familiar with. The greater the familiarity with that object, place, or creatures, the clearer the image. The user may not communicate or cast spells through the crystal ball.                                                                                                                    |
+| 31      | **Crystal Ball of ESP:** in addition to the usual crystal ball characteristics, this crystal ball also allows its user to read the surface thoughts of any creature being observed.                                                                                                                                                                                                                                                         |
+| 32      | **Cube of Frost Resistance:** when activated, creates a cube-shaped area 3m on each side centered on the cube. The temperature within this cube is always 20 degrees centigrade. It also blocks all cold-based attacks.                                                                                                                                                                                                                     |
+| 33      | **Decanter of Endless Water:** removing the stopper from this flask and speaking the command word sends forth a stream of fresh water from it at the rate of 5 liters per round. Alternatively, it may be commanded to emit a "geyser", producing a 6m long, 30cm wide stream of water at 150 liters per round; any creature hit by the geyser must throw STR 8+ or fall prone. Creatures larger than human size are immune to this geyser. |
+| 34      | **Drum of Panic:** if sounded, all creatures within 80m of the drum must throw INT 8+ or become fearful and flee at running speed for 30 rounds. There exists a 3m safe zone around the drum itself.                                                                                                                                                                                                                                        |
+| 35      | **Dust of Appearance:** a handful of this material, when thrown into the air, covers all creatures within a 3m radius, rendering any invisible creature visible. A tube of this dust contains enough dust for 5D applications.                                                                                                                                                                                                              |
+| 36      | **Dust of Disappearance:** any creature touched by this dust becomes invisible for 2D turns and stays invisible even when attacking. A tube of this dust contains enough dust for 5D applications.                                                                                                                                                                                                                                          |
+| 41      | **Eyes of Charming:** these two crystal lenses fit over the user's eyes. The wearer may use them to apply **charm person** (as per the spell) merely by meeting their gaze.                                                                                                                                                                                                                                                                 |
+| 42      | **Eyes of the Eagle:** these two crystal lenses fit over the user's eyes. The lenses allow the user to see 100 times further than usual. Furthermore, this eliminates ranged attack penalties beyond Effective range.                                                                                                                                                                                                                       |
+| 43      | **Flying Carpet:** this fabled carpet may carry up to 3 human-sized passengers at a speed of 80m per action in combat or up to 60km a day in overland travel.                                                                                                                                                                                                                                                                               |
+| 44      | **Gauntlets of Power:** grant their user an effecting STR of 15 and upgrade their unarmed damage to 1D + STR DM.                                                                                                                                                                                                                                                                                                                            |
+| 45      | **Girdle of Heroic Strength:** increases the user's STR by 10 points, DM+2 to hit in melee combat, grants the ability to throw rocks up to 100m range for 3D damage, and grants DM+3 to forcing doors open.                                                                                                                                                                                                                                 |
+| 46      | **Helm of Comprehending Languages:** the wearer can understand and speak any language they encounter and read texts in any language.                                                                                                                                                                                                                                                                                                        |
+| 51      | **Helm of Telepathy:** the wearer can read the thoughts of any creature within 30m at will and may send telepathic messages to any whose thoughts they read (allowing two-way communication). Use of this helm requires full concentration, and the user cannot move or act otherwise while using it.                                                                                                                                       |
+| 52      | **Helm of the Deep:** any person who wears this helm can breathe underwater indefinitely and swim at their full movement speed.                                                                                                                                                                                                                                                                                                             |
+| 53      | **Helm of the Dunce:** reduces the wearer's INT to 2. Only a **remove curse** spell can remove this cursed helm.                                                                                                                                                                                                                                                                                                                            |
+| 54      | **Horn of Blasting:** when sounded, the horn emits a sonic wave dealing 2D damage to any creature within a 30m long, 6m wide cone. Any hit by the wave must throw END 8+ or be deafened for 2D rounds. The horn has an AV rating of 2D and may level structures at the Referee's discretion.                                                                                                                                                |
+| 55      | **Horn of Heroes:** when sounded, this horn calls forth 2D heroic warriors from the great beyond, who fight for the owner. These warriors possess a UWP of AAA777, and Atheltics-2, Archery-2, and Melee Combat-2 skills. They disappear within 2D rounds. This horn may be used only once a week.                                                                                                                                          |
+| 56      | **Lamp of the Djinn:** one a week, the when the user rubs the lamp, they may summon a **djinn**, who will serve them for up to one day. If the **djinn** is slain, the lamp turns to dust.                                                                                                                                                                                                                                                  |
+| 61      | **Mask of Adaptation:** any who wear this mask are immune to any harmful gases and vapors and may survive without air (including underwater) for one week.                                                                                                                                                                                                                                                                                  |
+| 62      | **Mirror of Opposition:** any creature who are reflected in the mirror are restlessly attacked by an exact duplicate of that creature. The creature’s own powers are duplicated as well. When either the duplicate or the original one perishes, the duplicate disappears.                                                                                                                                                                  |
+| 63      | **Rope of Climbing:** this 15m long rope is no thicker than a wand but may support up to 500kg of weight. Upon command, the rope snakes in any direction its owner desires at a speed of 5m per round, attaching itself to whatever its owner desires. The owner may command it to return at any time.                                                                                                                                      |
+| 64      | **Scarab of Protection:** renders its wearer immune to any curses and death spells and effects, regardless of their origin. After 2D such attacks, the scarab crumbles to dust.                                                                                                                                                                                                                                                             |
+| 65      | **Stone of Commanding Earth Elementals:** upon command, the bowl summons one earth elemental per day, requiring a turn to summon the elemental. Once the elemental appears, the user must concentrate to control it.                                                                                                                                                                                                                        |
+| 66      | **Stone of Luck:** grants any person who carries it DM+1 to all attack throws and any throws made to resist magic, poison, or disease.                                                                                                                                                                                                                                                                                                      |
+
+# CHAPTER 14: ADVENTURING
+
+Märchen Engine is a game of memorable adventure. However, before we can
+discuss heroic combat and eldritch sorcery, we must first outline
+several topics related to adventuring, including wilderness exploration,
+poison, sailing the high seas, and many other day-to-day realities that
+await the player characters.
+
+### NPC Reactions
+
+When the player characters encounter a group of NPCs, the Referee will
+have already determined the NPCs’ attitudes and plans concerning the
+adventurers. However, for any random encounters, or whenever the NPCs'
+intentions may not be so clearly defined, the Referee is encouraged to
+make a 2d6 Reaction throw and consult the table below. At the Referee's
+discretion, an appropriate social skill, or even the characters SOC DM,
+may serve as a +DM; for example, the Streetwise skill may positively
+affect the outcome of the Reaction roll when dealing with random
+criminal elements. Certain Traits may also modify this throw. Additional
+DMs may apply at the Referee's discretion subject to the NPCs'
+attitudes. Animals have their own reactions, as given in the Monsters
+chapter.
+
+Note that a result of 2 is always a violent reaction, and a result of 12
+on the dice is always a genuinely friendly reaction.
+
+**Reactions**
+
+| **2D** | **Reaction**              |
+|--------|---------------------------|
+| 2-     | Hostile, attacks          |
+| 3-5    | Unfriendly, may attack    |
+| 6-8    | Neutral, uncertain        |
+| 9-11   | Indifferent, uninterested |
+| 12+    | Friendly, helpful         |
+
+A **Hostile** reaction means that the NPC attacks immediately.
+
+An **Unfriendly** result means that the NPC does not like the PCs and
+will attack if they see an advantage and can win the fight.
+
+A **Neutral** result means that the NPC is suspicious and does not hold
+a positive attitude towards the PCs, yet can be enticed to begin a
+discussion.
+
+An **Indifferent** result means that the NPC will wish to avoid the PCs
+or negotiate with them if necessary.
+
+A **Friendly** result means that the NPC likes the PCs and may choose to
+cooperate with them voluntarily without promise of reward.
+
+### Time and Movement
+
+In addition to normal measurements of time, such as minutes, hours, and
+days, Märchen Engine uses two additional time intervals. The first is
+the **round**, often used in combat and spellcasting. A round is 6
+seconds. The second interval is the **turn**, which is often used when
+exploring ruins, or performing other tasks that are not fast paced, but
+still need a discrete measure. A turn is 10 minutes, or 100 rounds.
+
+A human or typical humanoid may move up to 10m in one round if walking,
+or 20m if sprinting. A character may sprint for a number of combat
+rounds equal to the character's END characteristic before becoming
+fatigued. A character may move up to 900m a turn if walking at full
+speed, or 1200m a turn if running a long distance (which is slower than
+sprinting). Characters may run for a number of turns equal to their END
+characteristic before becoming fatigued.
+
+However, when exploring ruins or moving carefully through other terrain
+(such as a jungle), characters move at one third of their full speed, 3m
+per round or 300m per turn. We recognize that round-to-round movement
+rates do not mathematically equate to turn-based movement rates and
+fully stand by this decision to make the Referee’s job simpler in
+combat.
+
+### Wilderness movement
+
+In the wilderness, an unencumbered human or humanoid may travel 30km a
+day on foot on open ground. The Equipment chapter provides details on
+travel speeds for mounts and land vehicles such as carts. In any case,
+the type of terrain modifies the speed of travel, as follows:
+
+**Terrain effects on wilderness movement**
+
+| **Terrain**              | **Multiplier** |
+|--------------------------|----------------|
+| Desert, hills, woods     | X0.75          |
+| Jungle, swamp, mountains | X0.5           |
+| Road                     | X1.5           |
+
+Note that some mounts may traverse difficult terrain more easily than
+others. For example, a giant lizard travels at full speed through
+swamps. See the Equipment chapter for details.
+
+### Getting Lost in the Wilderness
+
+When travelling away from roads, trails, or other known landmarks,
+characters may get lost. At the beginning of each day in the wilderness,
+make a Survival 6+ or Recon 6+ throw. Use the highest skill level among
+the group members. If no such skill is available to the group, it
+suffers the usual Unskilled penalty. Hiring a skilled guide might be a
+good option in this case.
+
+On a failed skill throw, for each point of Effect on failed the Survival
+or Recon throw, the party has gone off track by half a day’s normal
+travel distance. Thus, if the throw yielded an Effect of -2, the group
+will have lost a full day’s worth of travel in distance. The Referee
+could then determine in which direction they went, using a random
+direction (see above), or by simply deciding an interesting outcome.
+
+### Rations, Foraging, and Hunting
+
+A person must consume 1kg of food and approx. 4 liters of water per day
+of strenuous activity typical of adventuring. Characters may go without
+food for 2 days with no significant effect, after which the character
+becomes Fatigued and loses 1 point of Endurance per day. Characters who
+have not eaten for over 2 days cannot heal any wounds. Consuming enough
+food for a day (along the course of the day – not all at once.) restores
+the character's ability to heal and removes the Fatigue. Characters who
+go without water for a single day are Fatigued and suffer 1D damage per
+day afterwards; the character may heal only after consuming one day’s
+supply of water.
+
+In most arctic, temperate, or tropical wilderness settings, water is
+easy to locate, and should pose no problem to the characters. In a
+desert, finding a source of water requires a Survival 8+ throw, made
+once a day. Apply DM+1 to this throw in hospitable environments, and
+DM-1 in hostile ones, such as deserts.
+
+A character may forage for food while on the road without hindering
+travel. For each day of foraging while traveling, throw Survival 10+;
+success indicates finding enough food for 1D human-sized creatures. As
+above, apply DM+1 to this throw in hospitable environments, and DM-1 in
+hostile ones, such as deserts.
+
+In lieu of traveling, a character may attempt to hunt. Throw Survival 8+
+once a day to secure enough food for 2D human-sized omnivorous of
+carnivorous creatures. However, this is a sole activity per the day and
+precludes travel. Furthermore, this results in one wilderness encounter
+throw on the appropriate terrain travel while hunting. As above, apply
+DM+1 to this throw in hospitable environments, and DM-1 in hostile ones,
+such as deserts.
+
+### Climbing and Falling
+
+Assume that all characters can climb reasonable surfaces without much
+difficulty if they are not under duress. In a tense situation or when
+climbing a difficult surface, throw Athletics 6+ to climb. The Referee
+may add further DMs based on the surface being climbed. Generally
+speaking, a smooth surface without good handholds will incur DM-1 to
+DM-2, while good handholds may grant DM+1 or even DM+2. A slippery
+surface incurs a further DM-1.
+
+On a fall, a character suffers 1D damage per 2m fallen, up to 10D at
+terminal velocity.
+
+### Fatigue and Rest
+
+A character can become fatigued in numerous ways, including but not
+limited to, staying awake for over 24 hours, sprinting (using both
+actions for movement) for a number of combat rounds greater than the
+character's END characteristic, going without food for over two days, or
+even using certain herbs.
+
+A Fatigued character suffers DM-2 to all checks until they rest. The
+amount of rest needed is equal to 8 – the character's Endurance DM, in
+hours. A negative END modifier means a required rest of over 8 hours.
+For example, if a character has an Endurance DM of -1, they would
+require 9 hours of rest to remove Fatigue. If a character suffers
+fatigue while already fatigued, they suffer a DM-4 to all throws, and
+may fall unconscious at the Referee’s discretion.
+
+Periods of rest are also required for healing, as noted in the Damage
+and Healing chapter.
+
+### Swimming
+
+Assume that all adventurers know how to swim. Characters move at half
+speed when swimming: 5m per combat round or 450m per turn. A character
+may swim a number of turns equal to their half END score (rounded down)
+before becoming Fatigued. Characters who become Fatigued again (DM-4)
+must throw END 6+ every round or drown, unless they reach relative
+safety (solid ground or even flotsam).
+
+Note that encumbered characters may drown: A Heavy Loaded character
+attempting to swim must throw Athletics 6+ per turn or start drowning. A
+drowning character suffers 1D damage per round but may attempt an
+Athletics 8+ throw per round to surface again. If the character removes
+their load, they will reach the surface easily on an Athletics 6+ throw.
+
+### Light and Darkness
+
+Darkness incurs a DM-2 penalty to all attack throws, while dim light
+incurs a DM-1 penalty. A torch or lantern illuminates a 10m radius. A
+torch burns continually for one hour (6 turns) while a lantern burns one
+flask of oil per 4 hours (24 turns).
+
+Light and darkness affect surprise chances: see the Combat chapter.
+Characters carrying light sources in darkness cannot surprise opponents
+since their torches or lanterns makes them obvious targets. Characters
+in darkness without light sources gain a DM+1 bonus to surprise throws.
+
+### Dungeoneering
+
+Many old-school adventures, especially those written for the Original
+Fantasy Role-Playing Game and related games, often occur in underground
+dungeons, or ruins. Below are a few notes about running such adventures
+in Märchen Engine.
+
+**Breaking through a stock or locked door** requires an STR 8+ throw and
+takes 1d6 rounds; or 4+ with an appropriate item used as a battering
+ram. This, of course, is very noisy and may alert nearby creatures. The
+Referee may rule that the throw is higher or lower based on the door's
+strength. **Picking a lock** is a Craft 8+ throw, with modifiers subject
+to the Referee’s discretion, customarily based on the lock’s complexity.
+
+**Spotting a secret door or a concealed trap** requires a Recon 8+
+throw. This can be subject to modifiers, making the difficulty much
+higher in the case of very well-concealed traps. The Referee should not
+answer definitively that there are no traps present unless the Effect of
+the throw is 6 or higher. In all other cases, the players should be told
+that they have not “detected any traps” and proceed accordingly.
+
+### Light and Darkness
+
+Whether underground at any time or in the city’s back alleys at night,
+darkness is a common occurrence when adventuring. Well-prepared
+adventurers bring with them light sources, such as torches and lanterns.
+Such handheld light sources shed light to a 10m radius, with dim light
+extending 5m beyond that. Torches burn continuously for 6 turns, while a
+lantern burns a flask of oil in 24 turns.
+
+Full darkness incurs a DM-2 to hit targets or to perform other complex
+tasks based on sight. In dim light, the penalty is a mere DM-1.
+
+### Disease and Poison
+
+When a character is exposed to a disease or poison, they must make an
+END throw. The target is the pathogen’s Virulence number. If successful,
+the character shrugs off the effect. If the throw is failed, the disease
+damages the character’s END according to the listed damage. The infected
+character must repeat this throw after the pathogen’s listed interval.
+Success means recovery and failure causes the listed damage, again. If
+this damage reduces the character’s END to zero, additional damage
+applies to STR or DEX (player’s choice). The character cannot heal this
+damage until they recover from the illness or poisoning. Note that most
+poisons do not have an interval, but rather cause their damage
+immediately upon poisoning and only once.
+
+**Sample pathogens**
+
+|              |               |             |              |
+|--------------|---------------|-------------|--------------|
+| **Pathogen** | **Virulence** | **Damage**  | **Interval** |
+| Pneumonia    | 6+            | 1D          | 1D weeks     |
+| Black Death  | 9+            | 2D          | 1D days      |
+| Viper venom  | 10+           | 3D          | \-           |
+| Arsenic      | 8+            | 2D          | \-           |
+| Sleep poison | 10+           | Unconscious | \-           |
+
+### Extreme Temperatures
+
+Extreme environments damage unprotected characters, as noted in the
+table below. If adventurers are properly prepared, either with good
+cold-weather gear for arctic climes, or ample supplies of water and
+proper clothing for deserts, they can shift one row up or down towards
+no damage.
+
+**Extreme Temperatures**
+
+|                 |            |                       |
+|-----------------|------------|-----------------------|
+| **Temperature** | **Damage** | **Example**           |
+| -50°            | 2D/hour    | Deep arctic at winter |
+| -25°            | 1D/hour    | Arctic                |
+| -24° to 39°     | None       | Typical               |
+| 40°             | 1D/hour    | Searing desert        |
+| 100°            | 2D/minute  | Boiling point         |
+
+### Fire
+
+When exposed to fire, be that from a burning building or a dragon's
+breath, characters must throw DEX 8+ to avoid catching fire. A burning
+character takes 2D damage per round. Make another DEX 8+ throw each
+subsequent round; if successful, the character puts out the fire. If
+failed, the character suffers another 2D damage. Putting out the fire by
+other means, such as by jumping into water, will also stop this
+continuous damage.
+
+### Optional Rule: Hero Points
+
+The Märchen Engine rules present a world of gritty heroism – heroes
+could be, and usually are, mighty – but are still human and constrained
+by this harsh reality. However, if you desire larger-than-life heroes
+such as John Carter of Mars and the later iterations of Conan the
+Barbarian, use the following rule.
+
+Each player starts each game session with 2 personal Hero Points. The
+group also has an additional number of Hero Points equal to the number
+of player characters present that session.
+
+Each time a player succeeds in a skill or characteristic throw of at
+least 8+ with an Effect of 6 or more, the group Hero Points pool gains
+another point.
+
+All pools reset at the beginning of each session.
+
+A character may use their personal Hero Points, and with the other
+players' consent, points from the group pool.
+
+By spending Hero Points, a character may:
+
+- Reroll any single die throw (including damage). They may take the
+  better result.
+
+- Force the Referee to reroll a single NPC's die throw (including
+  damage). The second result stands.
+
+- Reroll a throw on a mortal wounds, mishap, mutation, or corruption
+  table. They may take the better result.
+
+## Roaming the Seas
+
+Setting sail on an open sea, or even a large river, is a complex
+operation. The following rules provide a simple outline for such
+adventures.
+
+Ships move across the seas at a daily speed as given on the vehicle
+table in the Equipment chapter. This distance is for 12 hours of travel
+per day, as is the case of rowed ships traveling along the coastline.
+When sailing under a sail, a ship carrying a navigator (Watercraft-3 or
+better) may cover twice its daily movement rate.
+
+At the beginning of each day at sea, throw 2D and consult the following
+table:
+
+**Sea wind conditions**
+
+| **2D** | **Wind**          | **Sailing speed**   |
+|--------|-------------------|---------------------|
+| 2-3    | Becalmed          | No sailing possible |
+| 5      | Light breeze      | 25%                 |
+| 6      | Moderate breeze   | 75%                 |
+| 7-8    | Average winds     | 100%                |
+| 9      | Strong winds      | 125%                |
+| 10     | Very strong winds | 175%                |
+| 11-12  | Gale              | 200% but see below  |
+
+In a gale, ships may be damaged or sunk. On a seaworthy ship, every
+hour, the captain throws Watercraft 8+; on failure, the ship takes one
+"hit" of damage (see vehicle combat in the Combat chapter). Galleys and
+other rowed vessels automatically take a "hit" every hour, and their
+captain must throw Watercraft 6+ every hour to avoid sinking. Galleys in
+sight of a coastline when the gale hits can beach to avoid the gale. The
+ship may automatically beach on a clear shore, but if the shore is rocky
+or otherwise not easily accessible, the captain or navigator must throw
+Watercraft 8+ to find a safe harbor and may retry this throw every hour.
+
+### Lost at Sea
+
+At the beginning of each day of water travel, the Referee should make a
+Watercraft throw, at a difficulty shown on the table below, using the
+ship's navigator's or captain's Watercraft skill. Failure will mean that
+the ship will deviate from its course at the Referee's discretion.
+
+**Watercraft navigation**
+
+| **Body of water**   | **Navigation** |
+|---------------------|----------------|
+| Lake of major river | Watercraft 4+  |
+| Coast               | Watercraft 5+  |
+| Open sea            | Watercraft 7+  |
+
+### Rations and fishing
+
+Just as in land travel, characters traveling at sea must consume food
+and water as noted above. Rowers require 12 liters of water a day rather
+than 4 liters. Standard rations are perishable and inedible after a
+week, and thus on longer journeys there is need to consume preserved
+"iron rations". After one month at sea eating only "iron rations"
+without consuming fresh fruit, onions, or potatoes, scurvy takes effect
+and the character loses 1 point of END per week; if it reaches zero, the
+character dies. A character suffering from scurvy regains 3 points of
+lost END per week of eating fresh food.
+
+Characters on a ship which is anchored or floating in relatively mild
+seas may fish. Throw Survival 8+ to catch enough fish to feed 2D
+human-sized creatures.
+
+# CHAPTER 15: REFEREEING THE GAME
+
+The Referee is the person who takes responsibility for running a Märchen
+Engine game. The Referee creates the adventure, runs the players through
+it, takes on the roles of the various characters the characters meet,
+and handles any questions about the rules. While running the game is a
+big responsibility, it's not as hard as it might seem, and providing a
+fun and entertaining game for your friends can be quite rewarding.
+
+The rules of Märchen Engine provide a comprehensive outline for the
+basic activities confronting any character in the universe you are
+creating. These rules are necessarily brief and admittedly omit many
+possible activities. After all, a roleplaying game cannot ever attempt
+to provide adequate rules that govern the entire universe. In the hands
+of players and a Referee, however, the Märchen Engine rules are the
+start of dynamic adventures that can range across the universe.
+
+This chapter is about helping you as the Referee run your games. The
+advice found within this chapter is completely optional; feel free to
+use it or ignore it as you like.
+
+## Rule Zero
+
+Remember that it is just a game. The most important thing in it is to
+have fun, both for you and your players, and everything else is
+secondary to that. So if a rule, a plot, or even realism and consistency
+get in the way of your fun or that of your players, it is your right and
+duty as the Referee to change it. As a Referee, you, not the rulebooks,
+are the final arbiter in your game. This is a serious responsibility,
+but also a great freedom: the freedom to create and run an entertaining
+game that suits your needs and the needs of your group. If you and your
+players are enjoying yourself, you are doing things right, even if you
+are ignoring or modifying the rules and even if your game is not
+necessarily realistic or even self-consistent.
+
+With that in mind, the most important rule of the game, dubbed Rule Zero
+in the Märchen Engine rules, is that the Referee always has the right to
+modify the rules. As a Referee, your rules modifications can be as
+simple and improvised as “um, grab some dice, roll them, and tell me the
+number” or involve extremely complex home-brew charts that dictate the
+smallest of details. This is your game, after all.
+
+## Gaming Style
+
+Every gamer tends to enjoy a specific gaming style. Some people are
+consummate “Role-Players”, gaining a lot of pleasure from character
+development and interaction. Others are intense “Combat Monkeys”,
+finding that an action-packed cinematic frenzy of laser bolts and hand
+grenades meets their gaming needs. Some players are “Puzzle Solvers”,
+finding the mental challenges of riddles, logic problems, puzzles and
+mystery adventures to be the perfect balm. Most of us are a mix of all
+of the above, in differing proportions and varying levels of interest
+and intensity.
+
+As a Referee, it is recommended that you bear in mind that all styles of
+play are valid. If everyone is an action fan, combat-heavy games work
+well. Roleplaying the group’s interactions with shopkeepers can be
+entertaining, as well. For some, delivering long angst-ridden poetry
+in-game can be fulfilling. Intraparty conflict might be a good thing,
+with the right group of gamers. Even violating the advice found in these
+rules is perfectly okay, so long as the entire gaming group is having
+fun. Remember Rule Zero!
+
+Be aware of what you and your players want. If you want something
+different from your players, something is going to have to change.
+Logically, it should be the group in the minority, which in this case
+would be you as the Referee. Similarly, if a single player wants a
+different style of play, if it can't be easily integrated, don't force
+the issue. Sometimes players or Referees don't fit a particular gaming
+group’s style. It does not make anyone wrong; things just did not work
+out or come together for that particular game.
+
+## Improvisation
+
+One of the keys to successfully running a Märchen Engine session boils
+down to your ability to improvise when circumstances so dictate. You can
+certainly plan everything out for your session, to the degree with which
+you are comfortable. However, at some point in time, whether
+intentionally or accidentally, you are going to have to improvise a
+scenario that you did not plan in advance. Maybe the mercenary rolled
+poorly in that last combat, dying during the previous encounter, and the
+corporate executive that hired the adventurers only made the deal with
+him. Perhaps the party decides to pursue another adventure, which you
+had not yet prepared, half-way through the current one, based on a clue
+they found in the second encounter of the evening. Whatever the reason,
+you should be prepared as a Referee to improvise as needed to keep the
+session moving.
+
+A common misconception exists that improvisation during a game and
+preparation for a game are two opposed approaches. To the contrary, the
+more efficiently you prepare for the game, the easier it will be for you
+to improvise and “wing it” during actual play. The key to efficient
+preparation is not deciding ahead what the characters will do (leave
+that to the players), but rather creating material which would both
+allow the players to do exciting things and which will allow you to
+easily set up challenges, encounters, NPCs, locations and plots that
+will fit the flow of the game. This might sound like a lot of work at
+first but is actually much simpler, the key here is to create flexible
+material which will fit different plot lines, different locations and
+different uses with ease.
+
+In today’s world, spare time and inspiration tends to come at unexpected
+and irregular times. Carry a small notebook with you. Whenever an idea
+for whatever part of your game strikes your mind, jot it down in the
+notebook. Later on, when you happen to have a little more spare time,
+look these ideas and develop the ones you like a little bit more.
+Organize a binder at home (or a directory on your computer), with
+different partitions (or electronic files) for NPCs, locations,
+creatures, locations and plot hooks. Each item (NPC, location etc) you
+develop shouldn't be long, a few sentences per item will work in most
+cases (remember that most stats for a character or creature will fit in
+a small paragraph, if not a single sentence.) Keep these well-organized
+and these could be used whenever you need them in-game or in a
+short-term preparation for the game. The same goes for location maps you
+happen to doodle during work, while riding public transit or while
+attending boring classes or lectures, nothing of this kind should go to
+waste.
+
+Most of the adventure elements you prepare, even locations or NPCs
+intended to be used in a specific plot line, should be designed in such
+a way that it will be easy to 'recycle' these elements for use in
+different circumstances in the event you don’t use that element in the
+intended plot or location. Players have a tendency to miss the stuff
+you've labored hard to create, so be prepared to make a few changes to
+all the unused bits and pieces of previous adventures to use in the next
+ones.
+
+### Improvisational Preparation
+
+It is definitely possible to prepare in advance for improvisation. It is
+suggested that Referees consider preparing the following for their
+adventure or campaign:
+
+**A list of random names** for NPCs, locations and vessels can serve any
+Referee well. Take them from any source you like, your imagination,
+baby-name sites, even phone books, but it always helps to have a quick
+source of names for the people and places you have to create on the fly
+rather than just calling them “this guy” or “that tower”. That way, when
+the characters ask a random citizen for their name, you can easily
+choose one from your list, provide it to the group and then cross it
+off. Having the ability to name a character or place quickly helps
+establish a strong sense of depth and internal consistency within your
+setting.
+
+Many Referees also find it helpful to keep **a small collection of
+generic locations and encounters** on hand, in case the party decides to
+go in an unexpected direction. It is perfectly okay to use adventures or
+modules that you find online or in the products you own. If you can
+create a few easy-to-place encounters beforehand, this could also prove
+to be very useful. Your goal here is simply to have activities for the
+characters to do through the rest of the given gaming session. You can
+always recoup and plot a better strategy for this new direction the
+players have taken between sessions. These little scenarios just give
+you a delaying tactic that lets you entertain your players at the same
+time.
+
+**A collection of stat blocks** for stock NPCs, perhaps expanding on the
+small collection found later in this guide, can provide you with
+potential allies, contacts, rivals, enemies, bystanders and potentially
+even ready-made player-characters should the need arise over the course
+of the gaming session.
+
+Creating **a reference sheet** of the player-characters’ important
+combat statistics can help you evaluate the impact of an encounter or
+challenge when you have to improvise a scenario on the fly.
+
+A notebook or electronic document for **session notes** can help you
+capture the details you’ve created for your campaign or adventure,
+either on the fly or through early preparation. With this, you are more
+likely to provide a consistent and vibrant gaming experience.
+
+### Recycling Game Material
+
+As preparation time is limited for most Referees, you may find it of
+good benefit to maximize your effective use of material and rules while
+minimizing the time devoted to creating new non-player characters,
+vessels, adventures or locations from scratch. The nature of the Märchen
+Engine is of great help here, as the rules are relatively simple and
+abstract; a major part of each animal, location, vessel or character is
+nothing but narrative, and narrative is easy to change. This is called
+“reskinning”. By changing the narrative, the stat block for a veteran
+mercenary might be reused as an alien hunter with little or no
+modifications to the game mechanics.
+
+A good example is the use of location floor plans. If, for example,
+you've downloaded or bought detailed floor plans for a particular
+location (or a product including these floor plans) or perhaps you’ve
+found them online, you can utilize them in more than one way. If the
+floor plans originally detailed the hidden base of some human space
+pirates, you can still easily modify them to be used for an alien
+fortress, for the remnants of a research facility devastated by a
+natural disaster, or even for a private mansion for an eccentric
+corporate executive. The map can remain the same, or largely the same,
+but the description can change the perception of the players.
+
+## Running the Game
+
+The first rule of the Märchen Engine system is to have fun. A good
+Referee will make a reasonable effort to create a gaming experience that
+is fun for everyone. The following guidelines might help with that.
+
+### Assigning Difficulties
+
+At the core of every Märchen Engine adventure lies a sequence of tasks
+that the character must accomplish in order to succeed. The Referee is
+in charge of assigning the difficulty of these tasks, and then
+interpreting the outcome. The default is Average (+0). Make a task
+easier if you want a particular task to be accomplished, but not be
+everyone. This will highlight characters with skill levels in an easy
+way. If you want to make a task challenging, but still feel comfortable
+with giving the players a good chance of success, set the Difficulty to
+Difficult (-2). Reserve Very Difficult (-4) and Formidable (-6) for very
+special circumstances, such as attempting the near impossible. As the
+Referee, you may not want to say “No” except in the most extreme
+circumstances, but assigning a Difficulty of Formidable (-6) is almost
+as good, and can create some interesting story developments and a sense
+of excited accomplishment should the character succeed.
+
+### Modifying the Roll or the Difficulty
+
+There are two ways of making a task easier or harder: modify the
+character's die roll or modify the task's Difficulty. Generally
+speaking, circumstances affecting a character's performance, like having
+just the right tools for the job or being forced to improvise, apply a
+modifier to the die roll. Circumstances making the task easier or harder
+to accomplish, like a favorable or unfavorable environment or a
+particularly demanding task, modify the Difficulty. If a condition
+applies to the character -- like knowledge, health, equipment,
+preparedness, and such -- it's usually a die modifier. It doesn't have
+to be too fine a line, since modifying the die roll or the Difficulty
+amounts to the same thing in the end: the task being easier or harder to
+accomplish.
+
+### Circumstance Modifiers
+
+Some circumstances make a check easier or harder, resulting in a bonus
+or penalty that is added to the check result. The Referee can alter the
+odds of success in two ways:
+
+- If a character has help, such as good tools, competent aids or other
+  beneficial circumstances, he receives a DM+1 bonus to his skill check.
+
+- If a character is hampered, such as having defective tools,
+  incompetent assistance or other negative circumstances, he receives a
+  DM-1 penalty to his skill check.
+
+### Automatic Successes
+
+Sometimes it is just easier to assume the character automatically
+succeeds at a skill check. If the character has an applicable skill, and
+the results of the skill check do not impact the progress of the story,
+endanger the character, and the actual success or failure is not
+interesting, just assume the character succeeds and move on. Remember,
+the Märchen Engine rules suggest that the Referee should only call for
+checks:
+
+- When the characters are in danger.
+
+- When the task is especially difficult or hazardous.
+
+- When the characters are under the pressure of time.
+
+- When success or failure is especially important or interesting.
+
+### Using Opposed Checks
+
+Opposed checks are a great way to create tension between two
+individuals. Suddenly, the players can target their attention on an NPC,
+and that helps with immersion into the game. Should two or more
+characters seek to do the same thing at the same time, or to resist one
+another’s actions, use an opposed check. The highest check result wins.
+
+## That’s not in the Rules
+
+Sometimes in the course of play, things come up that are not covered in
+the rules. When this happens, the Referee is responsible for these
+handling situations, making fair evaluations of what the characters do
+and deciding what happens as a result. As the Referee, you will need to
+quickly improvise a solution. The easiest way to do so is to simply
+decide if the suggested action is fun or not, and if it is fun, let it
+happen, then throw in a complication that adds to the enjoyment of the
+scene. Some Referees prefer a more mechanical approach. Identify a skill
+the covers the basic nature of the request, set a Difficulty of Average
+(+0) or Difficult (-2), and let them try. If nothing comes to mind
+immediately, ask the player to tell you what skill they would use to
+accomplish this task. If no skill appears to work, then choose the best
+characteristic, and have the player roll a characteristic check. However
+you decide to resolve it, the key here is to quickly address the request
+and keep the game moving forward.
+
+## Solo Play as Referee Prep Work
+
+Many of the Märchen Engines rule subsystems can be leveraged for solo
+play. For Referees, this can turn building a universe of their own into
+a game in and of itself. What follows is a list of suggested activities
+that can prove to be fun in and of themselves, as well as help Referees
+create new material for their personal adventures and campaigns. In
+addition, solo play can help Referees learn the rules and become more
+proficient for when they run games before a group of players.
+
+Solo play is not limited to Referees. Players can also learn a lot about
+and enjoy aspects of the Märchen Engine rules through solo play in those
+times when a Referee or gaming group is not currently available.
+
+### Character Creation
+
+A Referee always needs non-player characters. Use the information in
+**Chapter 1: Character Creation** to generate new characters. These
+characters can easily become future patrons, random encounters, enemies,
+allies or simply background characters for a Märchen Engine universe.
+
+### Personal Combat
+
+Take some characters and use the rules from **Chapter 5: Personal
+Combat** to practice the combat system. Recreate scenes from science
+fiction or action movies using the characters, to get a feel for how the
+rules of combat work in various scenarios.
+
+### Starship Construction
+
+Construct some starships and other vessels using the rules in **Chapter
+8: Ship Design and Construction**. Build on various scales, to get an
+idea of how the different elements of starship construction work
+together. You can even use the information under Starship Revenues in
+**Chapter 6: Off-World Travel** to determine if your ships would be
+economically viable without outside assistance.
+
+### Space Combat
+
+Take some vessels and pit them against one another using the space
+combat rules found in **Chapter 10: Space Combat**. Once again, feel
+free to recreate scenes from science fiction movies using the vessels,
+to get a feel for how the rules of space combat work in various
+scenarios.
+
+### Subsector Creation
+
+Using the rules found in **Chapter 12: Worlds**, create a subsector and
+identify the systems within it. Generate and record the UWPs for every
+system. After the worlds have been created, look over the subsector for
+possible communication and trade routes. If you are inspired, create
+some background information on the most interesting worlds.
+
+### Animal Encounter Creation
+
+Choose a world from a list of UWPs, and expand on it. Create some maps
+of the planet's surface, and the build encounter tables for each terrain
+type on the map, using the rules found in **Chapter 13: Planetary
+Wilderness Encounters**. If you are so inclined, you can then pit some
+characters against the different animals you've created using the
+personal combat, so see how they might fare against player characters in
+the future.
+
+### Practice Trade and Commerce
+
+Grab a 200-ton TL9 Merchant Trader and use the **Chapter 7: Trade and
+Commerce** rules to explore the economic environment of a generated
+subsector. Use the rules for passengers, freight and even speculative
+trading to get a feel for them. By tracking the revenue and expenses for
+the ship, it could give you an idea of where traders will focus their
+attentions within the subsector. If this is being played as a solo game,
+keep going until either the ship is paid for or the ship goes bankrupt.
+This is a good way to validate trade routes, and identify "stepping
+stone" worlds between strong markets in a subsector.
+
+### Patron Encounter Creation
+
+The seed of most adventures within a Märchen Engine universe are
+captured in patron encounters. Using the details of a subsector's list
+of UWPs, create and record some patron encounters using the format found
+under **Patron Encounters** in **Chapter 14: Social Encounters**. Think
+about science fiction and action-based movies, television shows and
+literature, and use those to inspire some of the patron encounters you
+create.
+
+# CHAPTER 16: ADVENTURES
+
+Players in a Märchen Engine universe are adventurers, plain and simple.
+They will seek out experiences and exploits, reveling in the thrill and
+excitement that comes from the pursuit of their goals. Märchen Engine
+adventures encompass the potential for adventure that can be found in
+classic era science fiction. The opportunities are virtually limitless,
+restricted only by the circumstances of the scenario and the
+capabilities of the characters. The Referee generates and adjudicates
+encounters that make up the building blocks of these adventures. As the
+characters move from one adventure to the next, the stories create a
+campaign, set against a universe of the Referee's creation. Therein lays
+the core of a great roleplaying game experience.
+
+## Conflict
+
+Stories are about conflict. Conflict doesn’t have to be violent, but
+without a struggle of some kind, there is no story, and without a story,
+there is no true sense of adventure. The key to a great adventure is
+conflict. As a Referee, you should make sure you have conflict, and that
+the player characters are directly involved in that conflict. If there
+isn't any conflict, you lose the impetus for action. If the player
+characters aren't directly involved, they are just watching a story,
+which sounds more like a movie or a play than a roleplaying game.
+
+Conflict doesn’t have to be physical combat. It could just as easily be
+political or corporate intrigue, achieving a specific goal before the
+protagonist can either get there first or stop the characters from
+succeeding, handling courtly issues of a noble or legal nature,
+negotiating a diplomatic resolution to a larger conflict, and much more.
+
+## The Plot
+
+The plot of the adventure is essentially the synopsis of the events that
+will transpire over the course of the adventure. You should be able to
+sum up the plot of your adventure in one sentence. Knowing your plot
+before you begin creating the adventure provides focus and direction,
+and creates context for the scenes you will create for your adventure.
+
+If you have problems in coming up with a plot for your adventure, you
+might look into Polti’s “The Thirty-Six Dramatic Situations.” It’s an
+extensive list of basic plots that you can use as the basis for your own
+stories and adventures.
+
+## The EPIC Adventure System
+
+The Epic Adventure System provides a way to design and organize
+adventures, that incorporates enough flexibility that the player
+characters have the 'freedom to roam' without causing the Referee
+nightmares. An Epic Adventure is broken down into 6 parts:
+
+- Cast of Characters
+
+- Background
+
+- Minor Scenes
+
+- Plot Keys
+
+- Chapters
+
+- Adventure Checklist
+
+### The Cast of Characters
+
+The Cast of Characters describes the major characters encountered in the
+course of the adventure.
+
+### The Background
+
+The Background section provides the Referee with the background
+information necessary to properly run the adventure, and lays the
+groundwork for introducing this adventure to the players.
+
+### Minor Scenes
+
+Minor Scenes (usually just referred to as 'Scenes') or just Scenes, are
+encounters or events that involve the player characters in some form.
+Many are directly related to the adventure, and may provide clues,
+equipment, or other information and materials needed to eventually
+complete the adventure. Others are merely to provide diversion and
+amusement. Scenes, unless noted in their descriptions, do not need to be
+played in any particular order, and may be sprung upon the player
+characters when the Referee deems appropriate.
+
+### Plot Keys
+
+Plot Keys (or simply 'Keys') make up the heart of the storyline for the
+adventure. They contain vital pieces to the plot that must be played for
+the adventure to make any sense to the players in the end. You may play
+any number of Scenes before and after each Plot Keys, but all of the
+Plot Keys should eventually be completed in their proper order.
+
+### Chapters
+
+A Chapter (or 'Act') is made up of one of more Plot Keys, and probably
+one or more Scenes. They outline the plot to the Referee, and provide
+tips and information for playing the Scenes and Plot Keys that are
+contained in the Chapter. In order to complete a Chapter, each Plot Key
+within must be completed. Each Chapter must be completed, and played in
+order to successfully run the adventure.
+
+Because of the 'cinematic' nature of an EPIC adventure, it is easy for
+the Referee to allow the player characters to temporarily deviate from
+the current adventure storyline to follow a false lead or pursue another
+short adventure that has interested them. When the player characters are
+ready to return to this adventure plot line, simply pick up with the
+next Scene.
+
+### Adventure Checklist
+
+The Adventure Checklist provides the Referees with a recommended
+guideline of the order in which various Scenes and Plot Keys in this
+adventure should be presented to the players. As the characters complete
+each Scene or Plot Key, the Referee simply checks it off the list. When
+every Plot Key in a Chapter has been played, that Chapter has been
+completed and the Referee may begin the first Scene in the next Chapter.
+
+You will note that not every Minor Scene is included in the Checklist.
+This allows Referees who would like to use the Checklist, but would like
+to change things a little bit to swap out scenes, or include their own
+custom scenes. If you feel comfortable in letting your characters stray
+from the order of the Checklist, you may determine the 'cinematic' order
+of the scenes as you see fit, or use a weekly events chart like the
+Example Weekly Event table to determine the course of events.
+
+This example weekly events chart has been created for an adventure in
+which the characters spend several weeks in the outback searching for
+lost ruins in the hope of finding historical artifacts.
+
+#### Table: Example Weekly Event
+
+| 2D6  | Weekly Event                                                                                                 |
+|------|--------------------------------------------------------------------------------------------------------------|
+| 2-8  | Play a Minor Scene/Find a Ruin                                                                               |
+| 9-11 | Starport Run. The Professor has an errand requiring the characters to go to the local starport for the week. |
+| 12   | Plot Key                                                                                                     |
+
+Explanation of Example Weekly Event entries:
+
+**Play a Minor Scene**: Select one of the Minor Scenes and run the scene
+as directed.
+
+**Starport Run**: This is an excuse and opportunity to bring in sideline
+encounters, patrons and scenarios unrelated to this adventure.
+
+**Play a Plot Key**: Plot Keys should be plays in the correct order for
+the adventure to make sense to the players. If you change the order of
+the Plot Keys, you should be sure to adjust the other scenes to ensure
+that the adventure flows properly and makes sense.
+
+## Adventures in Five Acts
+
+Many satisfying adventures have been inspired by the five-act structure
+of literary and dramatic creations. Made famous by Gustav Freytag’s
+analysis of Shakespearean plays, the five-act structure lends itself
+well to basic adventures with only minor modifications.
+
+At its core, the five-act structure for adventures depends on five major
+scenes or Plot Keys: the Story Hook and Challenge, the Escalation, the
+Complication, the Climax and finally the Reward. Even though this
+structure is based on five Plot Keys, you can easily add or subtract as
+many minor scenes as the adventure you’re creating calls for. Don’t be
+afraid to deviate from this pattern as you become more comfortable with
+adventure creation.
+
+### The Story Hook
+
+The key to the opening scene of any adventure is action. The story hook
+Plot Key should therefore be an action scene, involving either combat or
+some form of physical challenge. This draws the characters into the main
+conflict of the adventure’s plot, and introduces the party to agents of
+the main antagonist. As this scene is wrapping up, you can either
+provide clues to the direction of the next Plot Key, or introduce a
+minor scene that ultimately points the party in the direction of the
+final climax of the adventure.
+
+### The Escalation
+
+Now that you’ve met the needs of your more action-oriented players, you
+should create a series of roleplaying scenes or puzzle challenges that
+further escalate the plot, leading ultimately to a Plot Key that helps
+the players form a plan of attack for reaching the climax of the
+adventure. This allows non-combat characters an opportunity to shine.
+Investigation and information gathering make for excellent scenes in
+this regard. In addition, it provides the full roleplaying experience to
+the players, emphasizing why the group is playing a roleplaying game
+instead of a board game.
+
+### The Complication
+
+Nothing is ever as straight-forward as it seems. The third major Plot
+Key introduces a complication to the party in fulfilling the needs of
+the plot. This Plot Key often requires the characters to expend
+resources, forcing them to decide on whether to spend their resources on
+this particular challenge or the big climactic challenge that is coming
+up next. In addition, this scene often introduces a plot twist or
+restriction that makes the resolution of this challenge and/or the
+climax that much harder.
+
+### The Climax
+
+This Plot Key is the final showdown, the final fight with the primary
+antagonist of this story and his minions. This scene is most often a big
+fight or confrontation, but under the right circumstances, it could be a
+social or mental challenge instead. This is the big scene where everyone
+should have a chance to shine. It is suggested that this scene require a
+challenge more complex than “kill everyone”, even if it’s as simple as
+“kill everyone without any collateral damage to property or other
+persons”. If the climax is a combat scene, the site for the climax
+should also include at least two different terrain features, to provide
+for some interesting situations that make such scenes memorable. While
+you don’t want to overdo yourself, you also want to make this scene feel
+more exciting or important than the other scenes in the adventure.
+
+### The Reward
+
+This scene is the dénouement, where the plot is wrapped up and the
+characters receive their reward for their victory, or experience the
+consequences of their failure, on those occasions where things didn’t
+necessarily work out. Often in Märchen Engine adventures, the reward is
+monetary. However, characters might instead earn titles, receive ship
+shares, gain political support, earn some form of social advantage,
+recover lost or hidden information, or even learn a campaign secret that
+could change the face of the world forever. Sometimes, there’s a final
+plot twist here, such as a secret guardian guarding the reward or a
+false reward serving as a distraction from the true reward of the
+adventure. If you have ideas for a future scenario you’d like to offer
+the players, you can even drop the first hints of things to come in the
+reward scene, giving the characters motivation to pursue the clues that
+may well lead to their next daring adventure.
+
+### Other Suggestions
+
+When creating your own adventures, keep things dense and concise. You
+will find that players have a knack for complicating things all by
+themselves, so don't feel a need to include a lot of false leads and
+irrelevant details. You can always improvise the additional of extra
+scenes as the need arises, but it is hard to work around a large number
+of required scenes if the adventurers suddenly take the adventure in a
+totally different direction.
+
+## The Three-Dimensional Campaign
+
+Unless you're running a “one-shot” adventure, put in the effort to keep
+your setting, plot and adventure three-dimensional. That is, even if
+your campaign has a very strong overarching plot, not everything has to
+be tied in it directly. For example, if your campaign revolves around a
+massive struggle between two interstellar polities, there should be some
+NPCs, sub-plots, protagonists and even organizations that don't work
+directly (if at all) for any side of the overarching conflict. Not every
+protagonist in your game has to serve the enemy government, and not all
+good guys have to get along together very well.
+
+The reason for this, besides realism, is that both you and your players
+will eventually want to take a break from the main plot and do something
+else, especially during a long campaign. Sometimes you'll want, say, to
+steal a high-tech prototype, and that research facility belongs to a
+third interstellar government that remains outside the overarching
+conflict; sometimes you'll just want to explore an old, forgotten ruin
+uncovered in the wilderness of a backwater planet, a place unrelated to
+the main plot. Besides, making two factions work together against a
+common enemy despite hating each other with a passion could be a cool
+adventure, and so could be playing one opposing faction against another
+without getting caught.
+
+### The Rule of Three
+
+As a general rule of a thumb when creating background elements involved
+in conflicts, such as organizations, factions, political figures, etc.,
+you will best be served by creating three of them. For example, when
+you're designing a power struggle in an interstellar government, you
+should probably have three factions. The typical war can be created with
+three opposing sides, even if one of them is simply a large band of
+pirates with goals at odds with the two “official” sides. Creating three
+elements vying for the same goal creates a greater degree of dynamic
+complexity, allowing for adventures that explore the different
+relationships between the three elements without reducing the conflict
+to a simple “black-and-white”, two-dimensional confrontation. Three
+sides give you plenty of opportunity to explore shifting alliances,
+subversive practices, negotiations, alternate paths to personal success
+and greater variety in your scenarios.
+
 # BOOK TWO: STARSHIPS AND INTERSTELLAR TRAVEL
 
-# CHAPTER 6: OFF-WORLD TRAVEL
+# CHAPTER 17: OFF-WORLD TRAVEL
 
 Characters in science fiction don't live in a single village on a single
 planet all their lives. Instead, their stories often take them out of a
@@ -15267,14 +20557,14 @@ m/sec<sup>2</sup>
 
 <table style="width:100%;">
 <colgroup>
-<col style="width: 14%" />
+<col style="width: 13%" />
+<col style="width: 11%" />
 <col style="width: 10%" />
 <col style="width: 10%" />
 <col style="width: 10%" />
 <col style="width: 10%" />
 <col style="width: 10%" />
-<col style="width: 10%" />
-<col style="width: 21%" />
+<col style="width: 22%" />
 </colgroup>
 <thead>
 <tr class="header">
@@ -16254,7 +21544,7 @@ A result of Exile means that the character must leave the planet
 immediately and never return. Fines for smuggling goods are per ton of
 goods seized – gun running can be an extremely risky proposition.
 
-# CHAPTER 7: TRADE AND COMMERCE
+# CHAPTER 18: TRADE AND COMMERCE
 
 As outlined under **Starship Revenues** in **Chapter 6: Off-World
 Travel**, a vessel can easily haul cargo for a flat rate, without having
@@ -16296,8 +21586,8 @@ Education or Social Standing, 1D6 days, Average (+0).
 Education, 1D6 hours, Average (+0).
 
 The size of the Starport provides a bonus to finding a supplier. Class A
-starports give a +6 DM, class B starports give a +4 DM and class C
-starports give a +2 DM.
+starports give a DM+6, class B starports give a DM+4 and class C
+starports give a DM+2.
 
 ## Determine Goods Available
 
@@ -16459,7 +21749,7 @@ If a character does not accept the price offered for his goods, he must
 find another buyer or wait a week, in which case he may attempt a new
 skill check to determine the selling price.
 
-# CHAPTER 8: SHIP DESIGN AND CONSTRUCTION
+# CHAPTER 19: SHIP DESIGN AND CONSTRUCTION
 
 Space ships are the backbone of any starfaring campaign. This chapter
 provides rules for the design and construction of such vessels for use
@@ -16683,13 +21973,13 @@ plant; a maneuver drive may also be installed, but is not required.
 
 #### Table: Drive Costs
 
-<table style="width:100%;">
+<table>
 <colgroup>
 <col style="width: 20%" />
 <col style="width: 14%" />
 <col style="width: 15%" />
 <col style="width: 16%" />
-<col style="width: 8%" />
+<col style="width: 9%" />
 <col style="width: 14%" />
 <col style="width: 9%" />
 </colgroup>
@@ -17230,8 +22520,8 @@ Modifier applies to jamming and counter-jamming attempts.
 | Very Advanced  | 12  | +2  | Radar, Lidar, Densitometer, Jammers, Neural Activity Sensor | 5                  | M₢ 4               |
 
 **Radar/Lidar** detects physical objects. It can be active or passive.
-If a ship is using active sensors, it is easier to detect (+2 DM to
-Comms checks) but detects more about its surroundings.
+If a ship is using active sensors, it is easier to detect (DM+2 to Comms
+checks) but detects more about its surroundings.
 
 **Jammers** can jam or counter-jam radio communications and sensor
 locks.
@@ -17316,7 +22606,7 @@ adequate storage for equipment, weapons and ammunition.
 
 A specialized briefing room is useful on mercenary cruisers and other
 adventuring ships, where teams can discuss plans or meet with clients
-privately. A briefing room gives a +1 DM to Tactics checks made when
+privately. A briefing room gives a DM+1 to Tactics checks made when
 planning missions on board ship. Ships with command bridges and fighter
 squadrons require additional briefing rooms and facilities. Capital
 ships must therefore have one briefing room per ship section, and one
@@ -17770,9 +23060,9 @@ Small Craft Drive Performance by Hull Volume table.
 <colgroup>
 <col style="width: 18%" />
 <col style="width: 26%" />
-<col style="width: 13%" />
+<col style="width: 14%" />
 <col style="width: 26%" />
-<col style="width: 13%" />
+<col style="width: 14%" />
 </colgroup>
 <thead>
 <tr class="header">
@@ -18173,7 +23463,7 @@ projectile weapons is not limited by the power plant letter.
 | sL–sR      | 2              |
 | sS–sZ      | 3              |
 
-# CHAPTER 9: COMMON VESSELS
+# CHAPTER 20: COMMON VESSELS
 
 This section describes some of the starships and other vessels that can
 be commonly encountered in Märchen Engine campaigns. These are not the
@@ -18735,7 +24025,7 @@ pilots. The ship can carry one additional passenger in the control
 cabin. The ship costs M₢25.587 (including discounts and fees) and takes
 35 weeks to build.
 
-# CHAPTER 10: SPACE COMBAT
+# CHAPTER 21: SPACE COMBAT
 
 Space combat is a staple in classic science fiction, and the Märchen
 Engine has rules to cover it. This chapter details the basics for space
@@ -18854,7 +24144,7 @@ appropriate software:
 ## Initiative
 
 Each ship in an engagement rolls 2D6 to determine their starting
-Initiative score. The ship with a greater Thrust score gains a +1 DM to
+Initiative score. The ship with a greater Thrust score gains a DM+1 to
 its roll.
 
 The Captain of each vessel (or each fleet, if more than one ship is
@@ -19032,8 +24322,8 @@ take place.
 The Captain makes an Average(+0) Leadership skill check. The Captain
 gains a pool of points equal to the Effect of the skill check (minimum
 of 1), which he can distribute to individual crew members as DMs
-(granting a +1 DM per point) on skill or ability checks during the
-combat turn.
+(granting a DM+1 per point) on skill or ability checks during the combat
+turn.
 
 ### Electronic Warfare
 
@@ -19147,8 +24437,8 @@ determine how many hits are repaired:
 A ship with repair drones and the Auto-Repair software also makes one or
 two repair checks on the vessel's turn (unless it is being used to
 assist other repair attempts). The standard Auto-Repair software makes
-the check with a +1 DM. These are battlefield repairs only and will
-break down as soon as the battle is over unless repaired properly.
+the check with a DM+1. These are battlefield repairs only and will break
+down as soon as the battle is over unless repaired properly.
 
 ### Sensor Targeting
 
@@ -19291,9 +24581,9 @@ check, as outlined in the Abstract Boarding Resolution table.
 
 <table>
 <colgroup>
-<col style="width: 14%" />
-<col style="width: 39%" />
-<col style="width: 45%" />
+<col style="width: 13%" />
+<col style="width: 40%" />
+<col style="width: 46%" />
 </colgroup>
 <thead>
 <tr class="header">
@@ -19368,10 +24658,6 @@ must wait until then.
 | Succeeded With Effect 0          | 8+                  |     |
 | Succeeded With Effect 1–5        | 7+                  |     |
 | Succeeded With Effect 6+         | 6+                  |     |
-
-#### 
-
-#### 
 
 #### Smart Missiles
 
@@ -19655,3892 +24941,7 @@ targets.
 | Smart Missile          | 1D6x50                   |
 | Standard Missile       | 1D6x50                   |
 
-# BOOK THREE: REFEREES
-
-# CHAPTER 11: ENVIRONMENTS AND HAZARDS
-
-The following are common environmental hazards that are can be
-encountered in a Märchen Engine game.
-
-## Acid
-
-Corrosive acids deal 1D6 damage per round of exposure, except in the
-case of total immersion (such as into a vat of acid), which deals 10D6
-damage per round. An attack with acid, such as from a hurled vial or an
-animal's acidic spittle, counts as a round of exposure.
-
-The fumes from most acids are poisonous. Those who come close enough to
-a large body of acid to dunk a creature in it must make an Average (+0)
-Endurance check or take 1D6 point of damage. All such characters must
-make a second Average (+0) Endurance check one minute later or take
-another 1D6 point of damage.
-
-Creatures that are immune to acid's caustic properties might still drown
-in it if they are totally immersed and need to breathe. For more
-details, see **Suffocation**.
-
-## Carrying Capacity
-
-Strength determines how much weight characters can lift and how much any
-additional encumbrance slows them down. Characters carrying more than
-their Light Load suffer penalties.
-
-**Light Load**: As a light load, a character can life and carry up to
-twice their Strength characteristic score in kilograms without any
-penalties or difficulties. For example, an average character with a
-Strength score of 7 can carry up to 14 kilograms as a light load.
-
-**Medium Load**: A medium load is considered to be twice a character's
-light load, or four times their Strength characteristic score in
-kilograms. Characters carrying a medium load suffer a DM-1 to all
-physically based checks, including skill checks. In addition, they move
-at 75% of their base speed. For example, an average character with a
-Strength score of 7 can carry up to 28 kilograms as a medium load. Such
-a character would suffer a DM-1 on all physical checks, and move at 4.5
-meters, or 3 squares, per round.
-
-**Heavy Load**: A heavy load is three times the character's light load,
-or six times their Strength characteristic score in kilograms.
-Characters can lift up to a heavy load overhead. Characters carrying a
-heavy load suffer a DM-2 to all physically based checks, including skill
-checks. In addition, they move at 75% of their base speed. For example,
-an average character with a Strength score of 7 can lift up to 42
-kilograms as a heavy load. Such a character would suffer a DM-2 on all
-physical checks, and move at 4.5 meters, or 3 squares, per round.
-
-**Maximum Load**: A character's maximum load is six times that of their
-light load, or twelve times their Strength score in kilograms.
-Characters can lift up to the maximum load off the ground, but can only
-stagger around with it. While overloaded in this way, characters cannot
-undertake any other actions, and can only move 1.5 meters, or 1 square,
-per round. For example, an average character with a Strength score of 7
-can barely lift up to 94 kilograms as a maximum load. Such a character
-could perform no other actions while struggling with the load, except to
-move 1.5 meters per round.
-
-**Push/Drag**: Characters can push or drag up to five times their heavy
-load weight, moving at half their normal speed. Favorable conditions
-(smooth ground, dragging a slick object) double these numbers, and bad
-circumstances (broken ground, pushing an object that snags) can reduce
-them to one-half or less.
-
-### Gravity and Carrying Capacity
-
-The above assumes the character is operating at a standard 1.0 gravity.
-When operating under a different gravitational pull (or within an
-artificial gravity set to a non-standard value), simply divide a
-character's load weight by the gravitational pull to determine the new
-load weight value under those conditions.
-
-## Diseases
-
-Diseases reduce a character’s Characteristics, usually Endurance. The
-character must make an Endurance check with the listed DM to resist the
-effects of the disease. If the character fails the Endurance check then
-he takes the listed damage and must make another Endurance check a few
-hours or days later, depending on the interval of the disease. Once an
-Endurance check has been passed, the character has fought off the
-disease.
-
-#### Table: Sample Diseases
-
-| Disease           | DM  | Damage | Interval  |
-|-------------------|-----|--------|-----------|
-| Pneumonia         | +0  | 1D6+4  | 1D6 weeks |
-| Anthrax           | –3  | 1D6+2  | 1D6 days  |
-| Regina Flu        | +1  | 1D6–2  | 1D6 days  |
-| Biological Weapon | –6  | 1D6+8  | 1D6 hours |
-
-## Extremes of Temperature
-
-Unusually hot or cold worlds can cause damage unless the characters are
-suitably protected. Temperatures are in Celsius.
-
-#### Table: Extreme Temperatures
-
-| Temperature | Damage    | Example                  |
-|-------------|-----------|--------------------------|
-| Below -200˚ | 3D6/round | Absolute Zero, Pluto     |
-| -200˚       | 2D6/round | Liquid nitrogen, Neptune |
-| -100˚       | 1D6/round | Ceres                    |
-| -50˚        | 2D6/hour  | Mars                     |
-| -25˚        | 1D6/hour  | Arctic                   |
-| 0˚          | None      | Water melting point      |
-| 50˚         | 1D6/hour  | Very hot desert          |
-| 100˚        | 2D6/hour  | Water boiling point      |
-| 200˚        | 1D6/round | Mercury                  |
-| 500˚        | 2D6/round | Venus                    |
-| Above 500˚  | 3D6/round | Surface of the sun       |
-
-### Catching on Fire
-
-Characters touching a fire source might find their clothes, hair, or
-equipment on fire. Those at risk of catching fire are allowed a
-Difficult (-2) Dexterity check to avoid this fate. If a character's
-clothes or hair catch fire, he takes 2D6 damage immediately. In each
-subsequent round, the burning character must make another Difficult (-2)
-Dexterity check. Failure means he takes another 2D6 damage that round.
-Success means the fire has gone out.
-
-A character on fire may automatically extinguish the flames by jumping
-into enough water to douse himself, spraying himself down with a fire
-extinguisher, vent all atmosphere or otherwise smother the flames. If
-the character has no such means, rolling on the ground or smothering the
-fire with cloaks or the like permits the character a DM+2 on his next
-Dexterity check.
-
-## Falling and Gravity
-
-A character who falls on a 1-gravity world suffers 1D6 damage per two
-meters fallen. High- or low-gravity worlds will increase or decrease the
-damage. Look up the size code for the world and the gravity level
-associated with it and multiply the falling damage by the gravity
-number.
-
-## Poisons
-
-Poisons operate in the same way as diseases, but generally work much
-faster and often have a wider range of effects. Most poisons do not have
-an interval but apply their damage immediately.
-
-#### Table: Sample Poisons
-
-| Poison     | DM   | Damage                                       |
-|------------|------|----------------------------------------------|
-| Arsenic    | –2   | 2D6                                          |
-| Tranq Gas  | –1D6 | Unconsciousness if Endurance check is failed |
-| Neurotoxin | –4   | 1D6 Intelligence                             |
-
-## Radiation Exposure
-
-Radiation exposure is measured in rads. Once a character has absorbed a
-certain number of rads, he will suffer certain effects. One problem with
-radiation exposure is that while physical symptoms can be treated and
-may heal, the radiation never goes away. The character’s rads must be
-tracked. Further exposure adds to what the character is already carrying
-around until a deadly level is reached. Accumulated rads can be removed
-using anti-radiation drugs. Characters exposed to a radiation weapon
-will receive a one-time dose of radiation. Entering a radioactive area
-or being exposed to a leak or solar flare will cause exposure each round
-or hour. Every time a character experiences exposure to radiation, they
-must check to see if they’ve come down with radiation sickness, as
-outlined on the Radiation Effects table. The character must make an
-Endurance check at the listed DM, and if he fails, he takes the damage
-listed and must make another Endurance check after the listed interval
-has passed. This cycle continues until the character succeeds at an
-Endurance check.
-
-At any Radiation Level below Mild, the character is treated as having a
-lower Endurance characteristic score. If a character should accumulate
-enough rads to move to a higher Radiation Level, the new Endurance
-characteristic score immediately goes into effect. On the other hand, if
-a character moves to a lower Radiation Level, such as through
-anti-radiation drugs, the character heals the difference between the
-former level and the current level over time, as if it were physical
-damage. If a character’s Effective endurance falls below zero, the
-character goes unconscious and cannot recover until their Radiation
-Level drops enough to allow healing to take place.
-
-#### Table: Common Radiation Exposure Sources
-
-| Situation                       | Instant (rads) | Extended (rads) |
-|---------------------------------|----------------|-----------------|
-| Irradiated area, low level      | --             | 1D6/hour        |
-| Irradiated area, moderate level | --             | 2D6/hour        |
-| Irradiated area, high level     | --             | 6D6/hour        |
-| Irradiated area, severe level   | --             | 12D6/hour       |
-| Active exposure, low level      | 3D6            | 3D6x10/hour     |
-| Active exposure, moderate level | 1D6x10         | 1D6x100/hour    |
-| Active exposure, high level     | 2D6x10         | 2D6x100/hour    |
-| Active exposure, severe level   | 4D6x10         | 3D6x100/hour    |
-
-#### Table: Radiation Effects
-
-| Radiation Level | Rads    | Effective Endurance | DM   | Damage | Interval  |
-|-----------------|---------|---------------------|------|--------|-----------|
-| Mild            | \<100   | --                  | None | None   | None      |
-| Low             | 100-199 | Endurance-1         | +1   | 1D6    | 1D6 weeks |
-| Moderate        | 200-599 | Endurance-3         | +0   | 1D6+2  | 2D6 days  |
-| High            | 600-999 | Endurance-6         | -1   | 1D6+4  | 1D6 days  |
-| Severe          | 1000+   | Endurance-10        | -2   | 1D6+6  | 1D6 hours |
-
-## Starvation and Dehydration
-
-Characters might find themselves without food or water and with no means
-to obtain them. In normal climates, a character needs at least a gallon
-of fluids and about a pound of food per day to avoid starvation. In very
-hot climates, characters need two or three times as much water to avoid
-dehydration.
-
-A character can go without water for a number of hours equal to 20 plus
-twice his Endurance score. After this time, the character must make a
-Routine (+2) Endurance check each hour (DM-1 for each previous check) or
-take 1D6 damage.
-
-A character can go without food for 3 days, in growing discomfort. After
-this time, the character must make a Routine (+2) Endurance check each
-day (DM-1 for each previous check) or take 1D6 damage.
-
-Damage from thirst or starvation cannot be recovered until the character
-gets food or water.
-
-## Suffocation
-
-In an area where sufficient oxygen is not long available, such as on
-board a starship without life support, a character begins to suffocate,
-suffering 1D6 damage each minute. A character who is utterly without air
-(such as one who is being smothered or strangled, or who has been dumped
-out an airlock) suffers 1D6 damage each round instead.
-
-## Vacuum Exposure
-
-Beings exposed to the airless cold of space are not immediately doomed.
-Contrary to popular belief, characters exposed to vacuum do not
-immediately freeze or explode, and their blood does not boil in their
-veins. While space is very cold, heat does not transfer away from a body
-that quickly. The real danger comes from suffocation and ionizing
-radiation.
-
-On the third round of exposure to vacuum, a character must succeed on a
-Very Difficult (-4) Endurance check each round or suffer from
-aeroembolism ("the bends"). A character that fails the check experiences
-excruciating pain as small air bubbles form in its bloodstream; such a
-character is considered stunned and generally unable to move, and
-remains so until returned to normal atmospheric pressure. A character
-that fails the check with an Exceptional Failure (Effect -6 or lower)
-falls unconscious.
-
-The real danger of vacuum comes from suffocation, though holding one's
-breath in vacuum damages the lungs. Treat anyone trapped in a hard
-vacuum as being utterly without air under the **Suffocation** rules.
-
-Unfiltered radiation bombards any character trapped in the vacuum of
-space without protective gear. A character exposed to this ionizing
-radiation suffers from severe sunburn as well as the effects equivalent
-to a high level irradiated area. See **Radiation Exposure** for specific
-details.
-
-## Weather
-
-Driving wind, rain, snowstorms and so forth give a –1 DM to ranged
-attacks from poor visibility and a –1 DM to ranged attacks from
-environmental interference. Sensors can be used to avoid the visibility
-penalty. Extremely high winds and torrential rain can inflict a negative
-Dice Modifier of –1 to –4 to all skill checks.
-
-# CHAPTER 12: WORLDS
-
-The basic planetary characteristics are Size, Atmosphere, Hydrology,
-Population, Government, Law Level, Technology Level, Starport and Bases,
-and are generated using two-dice throws, with DMs applied based on other
-characteristics. These characteristics establish the basic identity of a
-world, and are referred to as the Universal World Profile (UWP).
-Additional information can be generated, and should be, to more fully
-describe a world.
-
-## The Universal World Profile (UWP)
-
-The Märchen Engine utilizes a concise one-line coding to encapsulate
-data on an individual world in a manner that, with a little practice,
-can be quickly and easily read. The specifics of the Universal World
-Profile can be found below:
-
-WorldName 0000 A123456-7x Ni R 123 Na
-
-### The Explanation
-
-“**WorldName**” indicates the common name for the world that is being
-profiled.
-
-“**0000**” provides the location of the world’s hex (column, then row)
-on the sector or subsector map.
-
-“**A123456-7**” is the classic world profile. Each number or letter is a
-pseudo-hexadecimal code representing a specific value on the
-corresponding world data charts. In order, the profile defines the
-following elements: Starport, World Size, Atmosphere, Hydrographics,
-Population, Government, Law Level, followed by a hyphen and finally
-Technology Level.
-
-“**X**” indicates where information about a world’s bases are noted. A
-space here indicates that the world has no bases worthy of note on an
-interstellar level.
-
-“**Ni**” is used here to indicate where special remarks and trade codes
-are displayed as part of the world data profile.
-
-“**R**” provides information about the world’s Travel Zone
-classification. A space indicates a world that is generally safe to
-visit. An “A” represents an Amber Zone, indicating a world that
-adventurers should approach with more caution than normal. An “R”
-indicates a Red Zone, a world where travel is prohibited for any of a
-number of reasons, from physical dangers to political secrecy.
-
-“**123**” represents a brief synopsis of three pieces of data: a
-Population Multiplier for the main world, the number of Planetoid Belts
-in the system, and the number of Gas Giants in the system.
-
-“**Na**” indicates the system’s interstellar allegiance. “Na” is used
-for non-aligned worlds.
-
-## Star Mapping
-
-For Märchen Engine universes, the presence of star systems is marked on
-hex maps, each hex representing one parsec. For each system, generate a
-Universal World Profile for the primary world of the system. The
-smallest astrogation map size, the subsector, measures 8 hexes wide by
-10 hexes high. An intermediate map size, the quadrant, measures two
-subsectors by two subsectors, while the largest map size, the sector,
-measures two quadrants by two quadrants.
-
-There is a basic one-half chance normally that a world (and its
-attendant stellar system) will be in a hex. Systematically check each
-hex on the subsector map, throwing one die and marking the hex with a
-circle if the result is a 4, 5, or 6. This indicates that a world is
-present; otherwise, leave the hex blank. The Referee may elect to alter
-the normal chances of worlds, making them more frequent or less frequent
-to correspond to specific regions of the galaxy. A 50% density (no DM)
-is appropriate for the spiral arms of the galaxy. Apply a –2 DM for
-‘rift sectors’, a –1 DM for sparse sectors and a +1 DM for densely
-populated sectors.
-
-## World Size
-
-The Size characteristic for inhabitable worlds ranges from 0 to 10, and
-is determined by rolling 2D6–2.
-
-#### Table: World Size
-
-| Digit  | World Size                     | Surface Gravity (gs) |
-|--------|--------------------------------|----------------------|
-| 0      | 800 km (typically an asteroid) | Negligible           |
-| 1      | 1,600 km                       | 0.05                 |
-| 2      | 3,200 km                       | 0.15                 |
-| 3      | 4,800 km                       | 0.25                 |
-| 4      | 6,400 km                       | 0.35                 |
-| 5      | 8,000 km                       | 0.45                 |
-| 6      | 9,600 km                       | 0.7                  |
-| 7      | 11,200 km                      | 0.9                  |
-| 8      | 12,800 km                      | 1.0                  |
-| 9      | 14,400 km                      | 1.25                 |
-| 10 (A) | 16,000 km                      | 1.4                  |
-
-### High and Low Gravity Worlds
-
-Worlds where the gravity is 0.75 or less are low-gravity worlds. Common
-features include improbable-looking rock formations, thin and spindly
-life forms and flying as a common form of locomotion (assuming the
-atmosphere is thick enough to support flyers). Humans tend to find life
-on low-gravity worlds to be initially pleasant, but regular exercise
-regimes and medicinal supplements are required to prevent bone and
-muscle degradation. Those who spent too long on low-gravity worlds
-cannot tolerate higher gravities. Characters on low-gravity worlds
-suffer a –1 DM to all skill checks until they acclimatize, a process
-which takes 1D6 weeks. Characters with the Zero-G skill at level 0 or
-better acclimatize instantly.
-
-High-gravity worlds have a gravity 1.25 times or more than of Earth.
-They tend to be extremely dense worlds; common features include wide
-rocky plains, squat, muscular creatures, and plant life that spreads out
-like lichen instead of growing up. Crawling, burrowing or swimming are
-the commonest forms of locomotion. Humans find high-gravity worlds
-unpleasant. Especially high-gravity worlds require the use of pressured
-or powered suits to support the human frame. Characters on high-gravity
-worlds suffer a –1 DM to all skill checks until they acclimatize, a
-process which takes 1D6 weeks.
-
-## Atmosphere
-
-A planet’s Atmosphere is generated by rolling 2D6–7 and adding the
-planet’s Size. If a world's Size equals 0, then the world's Atmosphere
-equals 0. The Atmosphere code should never be higher than 15(F).
-
-#### Table: Atmosphere
-
-| Digit  | Atmosphere         | Pressure      | Survival Gear Required |
-|--------|--------------------|---------------|------------------------|
-| 0      | None               | 0.00          | Vacc Suit              |
-| 1      | Trace              | 0.001 to 0.09 | Vacc Suit              |
-| 2      | Very Thin, Tainted | 0.1 to 0.42   | Respirator, Filter     |
-| 3      | Very Thin          | 0.1 to 0.42   | Respirator             |
-| 4      | Thin, Tainted      | 0.43 to 0.7   | Filter                 |
-| 5      | Thin               | 0.43 to 0.7   |                        |
-| 6      | Standard           | 0.71–1.49     |                        |
-| 7      | Standard, Tainted  | 0.71–1.49     | Filter                 |
-| 8      | Dense              | 1.5 to 2.49   |                        |
-| 9      | Dense, Tainted     | 1.5 to 2.49   | Filter                 |
-| 10 (A) | Exotic             | Varies        | Air Supply             |
-| 11 (B) | Corrosive          | Varies        | Vacc Suit              |
-| 12 (C) | Insidious          | Varies        | Vacc Suit              |
-| 13 (D) | Dense, High        | 2.5+          |                        |
-| 14 (E) | Thin, Low          | 0.5 or less   |                        |
-| 15 (F) | Unusual            | Varies        | Varies                 |
-
-### Atmosphere Types
-
-**Tainted**: Tainted atmospheres contain some element that is harmful to
-humans, such as an unusually high proportion of carbon dioxide. A
-character who breathes a tainted atmosphere without a filter will suffer
-1D6 damage every few minutes (or hours, depending on the level of
-taint).
-
-**Exotic**: An exotic atmosphere is unbreathable by humans, but is not
-otherwise hazardous. A character needs an air supply to breath in an
-exotic atmosphere.
-
-**Corrosive**: Corrosive atmospheres are highly dangerous. A character
-who breathes in a corrosive atmosphere will suffer 1D6 damage each
-round.
-
-**Insidious**: An insidious atmosphere is like a corrosive one, but it
-is so corrosive that it attacks equipment as well. The chief danger in
-an insidious atmosphere is that the toxic gases will destroy the seals
-and filters on the character’s protective gear. An insidious atmosphere
-worms its way past protection after 2D6 hours on average, although
-vigilant maintenance or advanced protective gear can prolong survival
-times.
-
-**Dense, High** (D): These worlds have thick N2/O2 atmospheres, but
-their mean surface pressure is too high to support unprotected human
-life (high pressure nitrogen and oxygen are deadly to humans). However,
-pressure naturally decreases with increasing altitude, so if there are
-highlands at the right altitude the pressure may drop enough to support
-human life. Alternatively, there may not be any topography high enough
-for humans to inhabit, necessitating floating gravitic or dirigible
-habitats or sealed habitats on the surface.
-
-**Thin, Low** (E): The opposite of the Dense, High atmosphere, these
-massive worlds have thin N2/O2 atmospheres that settle in the lowlands
-and depressions and are only breathable there – the pressure drops off
-so rapidly with altitude that the highest topographic points of the
-surface may be close to vacuum.
-
-**Unusual** (F): An Unusual atmosphere is a catchall term for an
-atmosphere that behaves in a strange manner. Examples include
-ellipsoidal atmospheres, which are thin at the poles and dense at the
-equator; Panthalassic worlds composed of a rocky core surrounded by a
-water layer hundreds of kilometers thick; worlds wracked by storms so
-intense that that the local air pressure changes from dense to thin
-depending on the current weather; and other planets with unusual and
-hazardous atmospheric conditions.
-
-## Hydrographics
-
-Hydrographic percentage is obtained by rolling 2D6–7 and adding the
-world’s Size, modified by the world’s atmosphere or size as described in
-the Hydrographic DMs by Size and Atmosphere table.
-
-#### Table: Hydrographic DMs by Size and Atmosphere
-
-| Condition                  | DM                      |
-|----------------------------|-------------------------|
-| Size 0 or 1                | Hydrographics must be 0 |
-| Atmosphere 0, 1, A, B or C | –4                      |
-| Atmosphere E               | –2                      |
-
-A world's Hydrographics value should never exceed 10 (A), nor may it be
-lower than 0.
-
-#### Table: Hydrographics
-
-| Digit  | Hydrographic Percentage | Description                                |
-|--------|-------------------------|--------------------------------------------|
-| 0      | 0%–5%                   | Desert world                               |
-| 1      | 6%–15%                  | Dry world                                  |
-| 2      | 16%–25%                 | A few small seas.                          |
-| 3      | 26%–35%                 | Small seas and oceans.                     |
-| 4      | 36%–45%                 | Wet world                                  |
-| 5      | 46%–55%                 | Large oceans                               |
-| 6      | 56%–65%                 |                                            |
-| 7      | 66%–75%                 | Earth-like world                           |
-| 8      | 76%–85%                 | Water world                                |
-| 9      | 86%–95%                 | Only a few small islands and archipelagos. |
-| 10 (A) | 96–100%                 | Almost entirely water.                     |
-
-## World Population
-
-A world's Population is generated by rolling 2D6–2, modified by the
-world’s Size, Atmosphere and Hydrographics as described in the
-Population DMs table. A world's Population value should never exceed 10
-(A). If a world has a population of 0, it is uninhabited and the world
-also has a Government, Law Level and Technology Level of 0.
-
-#### Table: Population DMs
-
-| Condition                                     | DM  |
-|-----------------------------------------------|-----|
-| Size is 2 or less                             | -1  |
-| Atmosphere is A or greater                    | -2  |
-| Atmosphere is 6                               | +3  |
-| Atmosphere is 5 or 8                          | +1  |
-| Hydrographics is 0 and Atmosphere less than 3 | -2  |
-
-#### Table: World Population
-
-| Digit  | Population            | Range           | Comparison                          |
-|--------|-----------------------|-----------------|-------------------------------------|
-| 0      | None                  | 0               |                                     |
-| 1      | Few                   | 10+             | A tiny farmstead or a single family |
-| 2      | Hundreds              | 100+            | A village                           |
-| 3      | Thousands             | 1,000+          |                                     |
-| 4      | Tens of thousands     | 10,000+         | Small town                          |
-| 5      | Hundreds of thousands | 100,000+        | Average city                        |
-| 6      | Millions              | 1,000,000+      |                                     |
-| 7      | Tens of millions      | 10,000,000+     | Large city                          |
-| 8      | Hundreds of millions  | 100,000,000+    |                                     |
-| 9      | Billions              | 1,000,000,000+  | Present day Earth                   |
-| 10 (A) | Tens of billions      | 10,000,000,000+ |                                     |
-
-### Population Modifier
-
-Sometimes it is enough just to know that a world has hundreds of
-millions of people on it (Population 8). Other times, a Referee or
-player may want a more specific number. The Population Modifier is
-determined by rolling 2D6-2. If the Population is greater than 0, the
-minimum Population Modifier value is 1. If the Population code is 0,
-then the Population Modifier is also 0. The Population Modifier is
-multiplied by 10 raised to the power of the Population code to determine
-a more specific number of people living on the world. For example, if
-the Referee generates a Population Modifier of 4 for a world with a
-Population code of 8, then he knows that (**4**x10**<sup>8</sup>**,
-which is…) 400,000,000 people live on that world.
-
-## Primary Starport
-
-Many worlds have starports, their presence being essential to
-interstellar trade and commerce. To determine the world’s primary
-starport, roll 2D6-7 and add the world’s Population value. Compare the
-result to the Primary Starport table to determine the starport class for
-the world. Each starport class offers different levels of service. The
-Starport Class Services table provides more specific details.
-
-#### Table: Primary Starport
-
-| Roll      | Starport Class |
-|-----------|----------------|
-| 2 or less | X              |
-| 3         | E              |
-| 4         | E              |
-| 5         | D              |
-| 6         | D              |
-| 7         | C              |
-| 8         | C              |
-| 9         | B              |
-| 10        | B              |
-| 11+       | A              |
-
-####  
-
-#### Table: Starport Class Services
-
-| Class | Descriptor | Best Fuel | Annual Maint. | Shipyard Capacity                         | Possible Bases |
-|-------|------------|-----------|---------------|-------------------------------------------|----------------|
-| A     | Excellent  | Refined   | Yes           | Can construct starships and non-starships | Naval, Scout   |
-| B     | Good       | Refined   | Yes           | Can construct non-starships               | Naval, Scout   |
-| C     | Routine    | Unrefined | No            | Can perform reasonable repairs            | Scout          |
-| D     | Poor       | Unrefined | No            | None                                      | Scout          |
-| E     | Frontier   | None      | No            | None                                      | None           |
-| X     | None       | None      | No            | None                                      | None           |
-
-## World Government
-
-The Government characteristic is determined by rolling 2D6–7 and adding
-the world’s Population. If a world's Population equals 0, then the
-world's Government equals 0. The Government code should never be higher
-than 15(F), nor lower than 0.
-
-#### Table: World Government
-
-| Type   | Government                  |
-|--------|-----------------------------|
-| 0      | None                        |
-| 1      | Company/Corporation         |
-| 2      | Participating Democracy     |
-| 3      | Self-Perpetuating Oligarchy |
-| 4      | Representative Democracy    |
-| 5      | Feudal Technocracy          |
-| 6      | Captive Government          |
-| 7      | Balkanization               |
-| 8      | Civil Service Bureaucracy   |
-| 9      | Impersonal Bureaucracy      |
-| 10 (A) | Charismatic Dictator        |
-| 11 (B) | Non-Charismatic Leader      |
-| 12 (C) | Charismatic Oligarchy       |
-| 13 (D) | Religious Dictatorship      |
-| 14 (E) | Religious Autocracy         |
-| 15 (F) | Totalitarian Oligarchy      |
-
-## Law Level
-
-Law level is determined by rolling 2D6–7 and adding the Government
-characteristic. If the world’s Government is 0, then the world’s Law
-Level is also 0. Law Level should never be less than 0.
-
-#### Table: Law Level
-
-| Digit  | Descriptor  | Not Allowed                                                               |
-|--------|-------------|---------------------------------------------------------------------------|
-| 0      | No Law      | No restrictions; candidate for Amber Zone status                          |
-| 1      | Low Law     | Poison gas, explosives, undetectable weapons, weapons or mass destruction |
-| 2      | Low Law     | Portable energy weapons (except ship-mounted weapons)                     |
-| 3      | Low Law     | Heavy weapons                                                             |
-| 4      | Medium Law  | Light assault weapons and submachine guns                                 |
-| 5      | Medium Law  | Personal concealable weapons                                              |
-| 6      | Medium Law  | All firearms except shotguns and stunners; carrying weapons discouraged   |
-| 7      | High Law    | Shotguns                                                                  |
-| 8      | High Law    | All bladed weapons, stunners                                              |
-| 9      | High Law    | Any weapons outside one’s residence; candidate for Amber Zone status      |
-| 10(A)+ | Extreme Law | Any weapons allowed at all; candidate for Amber Zone status               |
-
-## Technology Level
-
-The Technology Level (also called “tech level” or TL) of the world is
-determined by rolling 1D6 and adding DMs per the Technology Level DMs by
-UWP Values table. A world’s Technology Level may not be below 0.
-
-#### Table: Technology Level DMs by UWP Values
-
-| Value  | Starport | Size | Atmosphere | Hydrographics | Population | Government |
-|--------|----------|------|------------|---------------|------------|------------|
-| 0      |          | +2   | +1         | +1            |            | +1         |
-| 1      |          | +2   | +1         |               | +1         |            |
-| 2      | \`       | +1   | +1         |               | +1         |            |
-| 3      |          | +1   | +1         |               | +1         |            |
-| 4      |          | +1   |            |               | +1         |            |
-| 5      |          |      |            |               | +1         | +1         |
-| 6      |          |      |            |               |            |            |
-| 7      |          |      |            |               |            | +2         |
-| 8      |          |      |            |               |            |            |
-| 9      |          |      |            | +1            | +1         |            |
-| 10 (A) | +6       |      | +1         | +2            | +2         |            |
-| 11 (B) | +4       |      | +1         |               | +3         |            |
-| 12 (C) | +2       |      | +1         |               | +4         |            |
-| 13 (D) |          |      | +1         |               |            | –2         |
-| 14 (E) |          |      | +1         |               |            | –2         |
-| 15 (F) |          |      | +1         |               |            |            |
-| X      | –4       |      |            |               |            |            |
-
-Certain world conditions must meet a minimum Technology Level
-requirement. If the world possesses a lower technology level, then the
-Referee should increase the world’s tech level to the required minimum.
-
-#### Table: Technology Level Minimums
-
-| Conditions                                            | Minimum TL |
-|-------------------------------------------------------|------------|
-| Hydrographics is 0 or 10(A), Population is at least 6 | 4          |
-| Atmosphere is 4, 7 or 9                               | 5          |
-| Atmosphere is 3 or less, or 10(A)-12(C)               | 7          |
-| Atmosphere is 13(D) or 14(E), Hydrographics is 10(A)  | 7          |
-
-## Trade Codes
-
-Trade codes are assigned based on a world’s UWP values, as noted in the
-UWP Values for Trade Codes table.
-
-####  
-
-#### Table: UWP Values for Trade Codes
-
-| Classification   | Code | Size | Atmos.       | Hydro | Pop. | Gov. | Law | TL  |
-|------------------|------|------|--------------|-------|------|------|-----|-----|
-| Agricultural     | Ag   |      | 4–9          | 4–8   | 5–7  |      |     |     |
-| Asteroid         | As   | 0    | 0            | 0     |      |      |     |     |
-| Barren           | Ba   |      |              |       | 0    | 0    | 0   |     |
-| Desert           | De   |      | 2+           | 0     |      |      |     |     |
-| Fluid Oceans     | Fl   |      | 10+          | 1+    |      |      |     |     |
-| Garden           | Ga   |      | 5, 6, 8      | 4–9   | 4–8  |      |     |     |
-| High Population  | Hi   |      |              |       | 9+   |      |     |     |
-| High Technology  | Ht   |      |              |       |      |      |     | 12+ |
-| Ice-Capped       | Ic   |      | 0–1          | 1+    |      |      |     |     |
-| Industrial       | In   |      | 0–2, 4, 7, 9 |       | 9+   |      |     |     |
-| Low Population   | Lo   |      |              |       | 1–3  |      |     |     |
-| Low Technology   | Lt   |      |              |       |      |      |     | 5-  |
-| Non-Agricultural | Na   |      | 0–3          | 0–3   | 6+   |      |     |     |
-| Non-Industrial   | Ni   |      |              |       | 4–6  |      |     |     |
-| Poor             | Po   |      | 2–5          | 0–3   |      |      |     |     |
-| Rich             | Ri   |      | 6, 8         |       | 6–8  |      |     |     |
-| Water World      | Wa   |      |              | 10    |      |      |     |     |
-| Vacuum           | Va   |      | 0            |       |      |      |     |     |
-
-## Planetoid Belt Presence
-
-Planetoid belts exist in many systems, and are mined by belters for ice,
-ore and other interesting things. To determine the presence of planetoid
-belts in a given star system, throw 4+ on 2D6 for at least one planetoid
-belt to be present in the system. If planetoid belts are present, then
-the number of planetoid belts in the system is 1D6-3, minimum of 1. If
-the primary world of the system is Size 0, then there’s at least one
-planetoid belt in the system automatically.
-
-## Gas Giant Presence
-
-A star system may have one or more gas giant planets. The presence of a
-gas giant allows starships equipped with fuel scoops to refuel by
-skimming; this eliminates fuel cost for the vessel and increases profit.
-It also allows refueling at systems that do not have starports.
-Refueling in this fashion requires 1D6 hours per 40 tons of fuel.
-
-Gas giants are relatively common. For each system throw 5+ on 2D6 for at
-least one gas giant to be present in the system. If gas giants are
-present, then the number of gas giants in the system is 1D6-2, minimum
-of 1.
-
-## Bases
-
-Stellar systems may have bases for military forces, the navy, the
-scouts, or for other arms of interstellar government. Bases can help
-determine political boundaries within a given region of space. An
-interstellar government will place bases along its borders to guard
-against aggression from rival states, or to control local systems. The
-presence of multiple bases within a few parsecs might indicate a
-contested border, or a mighty stronghold. While other bases may exist,
-the two primary bases are the Naval Base and the Scout Base.
-
-### Naval Base
-
-A naval base is a supply depot, refueling station, repair yard or
-fortress of the Navy. Naval vessels can obtain refined fuel and supplies
-here. If a world possesses a Class-A or Class-B starport, throw 8+ on
-2D6 to determine the presence of a naval base in the system.
-
-### Scout Base
-
-A scout base or outpost offers refined fuel and supplies to scout ships.
-If a world does not possess a Class-E or Class-X starport, throw 7+ on
-2D6 to determine the presence of a scout base in the system. This roll
-suffers a DM -1 if the world has a Class-C starport, a DM -2 for a
-Class-B starport and a DM -3 for a Class-A starport.
-
-### Pirate Base
-
-A pirate base serves as a haven for interstellar pirates. If a world
-does not possess a Class-A starport or a naval base, throw 12+ on 2D6 to
-determine the presence of a pirate base in the system.
-
-### Base Codes
-
-The presence of one or more bases is designated on the hex map with a
-base code in the upper-left of the world hex. The Base Codes table
-identifies which note-worthy bases, if any, are present.
-
-#### Table: Base Codes
-
-| Code | Description                        |
-|------|------------------------------------|
-| A    | Naval Base and Scout Base/Outpost  |
-| G    | Scout Base/Outpost and Pirate Base |
-| N    | Naval Base                         |
-| P    | Pirate Base                        |
-| S    | Scout Base/Outpost                 |
-
-## Travel Zones
-
-Most worlds are assumed to be civilized, or at least amenable to
-adventurers and other visitors. Some, however, are caught in the throes
-of war, plagued by disease, or simply not ready for interstellar
-visitors. Such worlds are classified by travel zones to denote such
-status. In most cases, the Referee should indicate travel zones based on
-the information available. Two such zone types exist: amber and red.
-
-### Amber Zone
-
-An Amber world has been deemed dangerous, and travelers are warned to be
-on their guard. Amber worlds are often undergoing upheaval or
-revolution, or else are naturally hazardous environments. A world with
-an Atmosphere of 10+, a government of 0, 7 or 10, or a Law Level of 0 or
-9+ should be considered for Amber status.
-
-### Red Zone
-
-Red worlds are interdicted and travel to them is forbidden.
-Interdictions are enforced by the Navy. Red zones can indicate that the
-world is too dangerous to allow visitors. The Referee assigns Red worlds
-at his discretion.
-
-## Polities and World Allegiance
-
-Worlds may be independent, or part of a larger polity that spans a
-system or more. Polities range from loose confederations of a few worlds
-with common trade or defense policies or cultural links, to vast star
-empires containing thousands of systems and trillions of citizens.
-Polity borders should be drawn on the map. Note that larger polities
-will usually have sub-domains, which should also be marked.
-
-## Communications Routes and Trade Routes
-
-Within the subsector, governments will have established communications
-and trade routes connecting some (but not all) worlds. Messages between
-businesses, governments and people generally follow these routes.
-
-Communications routes should be carefully drawn so as to avoid making
-all parts of the subsector accessible; a subsector should have some
-areas as backwaters for exploration and adventure. Communications routes
-are drawn as single lines connecting hexes on the subsector grid.
-
-Trade routes link worlds that have strong commercial ties. Consult the
-Trade Route Worlds table– if any pair of worlds matching the two columns
-lay within four parsecs of each other, and there is a Jump–1 or Jump–2
-route between them, then mark a trade route connecting those two worlds.
-
-#### Table: Trade Route Worlds
-
-| First End Point         | Second End Point                             |
-|-------------------------|----------------------------------------------|
-| Industrial or High Tech | Asteroid, Desert, Ice Capped, Non-Industrial |
-| High Population or Rich | Agricultural, Garden, Water World            |
-
-# CHAPTER 12.5 MONSTERS
-
-Insidious beasts stalk the jungles and mountains. Horrors lurk deep
-beneath the cities. And, of course, the natural world itself has a
-bounty of creatures, ranging from the useful to the wondrous to the
-terrible. Some of the most difficult and memorable opponents a band of
-adventurers may encounter are the monsters and creatures that inhabit
-the game world. This chapter details monsters ready for use in a Märchen
-Engine game, from the humble hunting dog to the mightiest dragon.
-
-## Reading monster entries
-
-**Monster entries use the following format:**
-
-*Size, Type, Terrain Locomotion, UPP, \#Appearing Treasure*
-
-*Skills*
-
-*Behavior*
-
-*Attacks; Armor; Speed*
-
-*Alignment; Morale*
-
-- Various creatures have further powers and abilities given in
-  bullet-points in their description
-
-A creature’s UPP, just as for an ordinary human character, lists, as a
-string of "pseudo-hexadecimal" digits, the monster's STR, DEX, END, INT,
-INS, and PAC (for a beast) or the monster's STR, DEX, END, INT, EDU, and
-SOC (for a more civilized creature)
-
-***For example:***
-
-***Dinosaur, Deinonychus***
-
-*100kg Beast (Chaser), plains walker, 9G9198 \#App: 2D Treasure: None*
-
-*Atheltics-2, Melee Combat-2, Survival-0, Recon-0, Tactics-1*
-
-*Attacks if outnumbering the characters; flees on 5-*
-
-*Claws (2D), teeth (2D); armor 1; speed 30m/action*
-
-*Neutral; Morale DM+1*
-
-*This means that a deinonychus weighs 100kg on average, lives in open
-plains, walks (well, runs), has STR 9, DEX 16, END 9, INT 1, INS 9 and
-PAC 8; 2D Deinonychuses will appear in an encounter; and it carries no
-treasure.*
-
-*It has Atheltics-2, Melee Combat-2, Survival-0, Recon-0, and Tactics-1
-skills.*
-
-*The deinonychuses will attack if they outnumber the characters, but
-otherwise will flee on a throw of 5- on 2D.*
-
-*It has claws causing 2D damage, teeth causing 2D damage, 1 point of
-armor, and a speed of 30m per action (triple the human speed).*
-
-*Its alignment is Neutral and its Morale DM is +1.*
-
-## Monster Entries
-
-While a large and varied number of monsters are listed here, Referees
-are strongly encouraged to alter these monsters, or create entirely new
-ones to fit their setting.
-
-***Allip***
-
-*0kg Undead, urban flyer, CAG0A0 \#App: 1 Treasure: Small*
-
-*Athletics-1, Melee-0, Recon-1, Tactics-1*
-
-*Attacks all living beings*
-
-*Special attack; armor 0; flying speed 10m/action*
-
-*Chaotic; Morale DM+2*
-
-An Allip is an undead creatures that is the result of when a living
-creature is driven to madness and suicide by enemies or circumstances.
-Now, the remnant soul - the allip - haunts its former environs, seeking
-revenge on all living creatures.
-
-- Undead: immune to poison, disease, and suffocation.
-
-- Incorporeal: immune to non-silver, non-magical weapons.
-
-- Immune to mind-affecting magic.
-
-- On a successful attack, an allip drains 1 INT point from its victim; a
-  victim reduced to 0 INT becomes permanently insane (only curable by
-  the **Restoration** spell). INT points otherwise regenerate at a rate
-  of 1 point per day.
-
-- Voice – anyone who hears the allip's babble must throw INT 10+ or be
-  hypnotized and paralyzed for 1D rounds.
-
-- Night vision.
-
-***Ankheg***
-
-*400kg Beast (Pouncer), forest walker, KAG0A3 \#App: 1D Treasure: Small*
-
-*Athletics-2, Melee Combat-2, Recon-1, Survival-0, Tactics-2*
-
-*Attacks if it has surprise; flees if surprised*
-
-*Claws (3D), Mandibles (3D); armor 6; speed 10m/action*
-
-*Neutral; Morale DM-1*
-
-The ankheg is a burrowing insectoid predator, hiding underground and
-waiting for prey to pass over its burrow. It then leaps out of the
-ground, grabs its prey, and drags it back to its lair to feed.
-
-- Acid Spit: once every 6 hours, the ankheg may spit acid up to 15m
-  causing 2D damage upon impact; it has DM+3 to hit with this acid
-  projectile.
-
-- Night vision.
-
-- Improved grab: DM+2 to Grapple throws.
-
-***Ant, Giant, Worker***
-
-*100kg Beast (Eater), plains walker, A7C07C \#App: 4D Treasure:
-Incidental*
-
-*Atheltics-1, Melee Combat-0*
-
-*Attacks on 5+; flees on 4-*
-
-*Mandibles (2D); armor 3; speed 10m/action*
-
-*Neutral; Morale DM-2*
-
-An enormous and hardy insect, the giant ant lives in massive nests and
-eat almost anything, hapless adventurers included. Note that the
-behavior notes above are for a wilderness encounter; giant ants will
-defend their nest to the death if invaded.
-
-***Ant, Giant, Soldier***
-
-*100kg Beast (Eater), plains walker, A7C07C \#App: 4D Treasure:
-Incidental*
-
-*Atheltics-2, Melee Combat-2, Survival-1*
-
-*Attacks on 5+; flees on 4-*
-
-*Mandibles (2D); armor 5; speed 10m/action*
-
-*Neutral; Morale DM+1*
-
-Giant ant soldiers are hardier than their worker sisters, and possess
-acidic venom, making their bite much more dangerous.
-
-- *Venom:* 8+/2D delivered by bite.
-
-***Ant, Giant, Queen***
-
-*800kg Beast (Eater), plains walker, F5F091 \#App: 1 Treasure:
-Incidental*
-
-*Melee Combat-2*
-
-*Always attacks if threatened in its nest*
-
-*Mandibles (3D); armor 5; speed 10m/action*
-
-*Neutral; Morale DM+2*
-
-The queen of a giant ant colony is a bloated insect, several times the
-size of a worker or soldier giant ant.
-
-- Venom*:* 8+/3D delivered by bite.
-
-***Ape, Flying***
-
-*150kg Beast (Hunter), mountain flier, E8F2A7 \#App: 2D Treasure:
-Incidental*
-
-*Athletics-1, Melee Combat-1, Recon-1, Stealth-1, Survival-1, Tactics-1*
-
-*If larger than its prey, attacks on 6+; otherwise, attacks on 10+ and
-flees on 5-*
-
-*Fists (2D), Teeth (2D); armor 3; walking speed 10m/action, flying speed
-20m/action*
-
-*Neutral; Morale DM-1*
-
-A fantastic omnivorous winged ape capable of flight; it is intelligent
-enough to use tactics such as dropping rocks from the air on potential
-prey.
-
-- DM-2 to hit the ape when it is flying.
-
-***Assassin Vine***
-
-*800kg Beast (Trapper), forest walker, 79E060 \#App: 1 Treasure:
-Incidental*
-
-*Melee Combat-1, Stealth-2, Tactics-1*
-
-*Attacks if it has surprise; does not flee*
-
-*3D vines (1D each); armor 4; speed 5m/action*
-
-*Neutral; Morale DM+0*
-
-A horrid semi-mobile carnivorous plant, the assassin vine creates its
-own fertilizer by crushing passers-by and depositing their carcasses
-near its roots.
-
-- On a successful attack with Effect 2+, it grapples its victim, causing
-  an additional 1D damage.
-
-- Each vine takes 1D damage (after armor) to sever.
-
-- An assassin vine that has lost all its vines cannot attack.
-
-***Baboon***
-
-*50kg Beast (Intermittent), jungle walker, 48829A \#App: 3D Treasure:
-None*
-
-*Athletics-1, Melee Combat-1, Recon-0, Stealth-0, Survival-1*
-
-*Attacks on 10+; flees on 4-*
-
-*Teeth (1D); armor 1; speed 10m/action*
-
-*Neutral; Morale DM+0*
-
-The baboon is a powerful and aggressive primate roughly the size of a
-large dog, and well-adapted to living on the ground.
-
-***Basilisk***
-
-*200kg Beast (Trapper), desert walker, E8C070 \#App: 1 Treasure: Small*
-
-*Athletics-1, Melee Combat-2, Recon-1, Stealth-1, Survival-1, Tactics-1*
-
-*Attacks if it has surprise; flees on 5-*
-
-*Claws (2D), Teeth (2D); armor 3; speed 5m/action*
-
-*Neutral; Morale DM+1*
-
-The basilisk is a horrid lizard-like monster capable of turning its prey
-into stone; it then eats and digests that stone.
-
-- Any creature caught in the basilisk's gaze must throw END 8+ or be
-  turned to stone.
-
-- Night vision.
-
-***Bat, Giant***
-
-*100kg Beast (Hunter), hill and cave flyer, C8D197 \#App: 2D Treasure:
-None*
-
-*Athletics-0, Melee Combat-1, Recon-1, Survival-1*
-
-*Attacks on 6+ if it is larger than at least one of its prey; otherwise,
-attacks on 10+ and flees on 5-.*
-
-*Teeth (2D); armor 1; flying speed 30m/action*
-
-*Neutral; Morale DM+0*
-
-One hundred times the size of an ordinary bat, this monstrosity dwells
-in ruins and caves and preys upon the weak – including humans.
-
-- Sonar vision. Giant Bats do not suffer negative DMs for low light and
-  darkness.
-
-***Bear, Black***
-
-*200kg Beast (Hunter), forest walker, G8C093 \#App: 1D Treasure: None*
-
-*Athletics-1, Melee Combat-1, Recon-1, Survival-1*
-
-*Attacks on 10+ and flees on 5-.*
-
-*Claws (2D), Teeth (2D); armor 2; speed 20m/action*
-
-*Neutral; Morale DM-1*
-
-The forest-dwelling black bear is a major threat to adventurers,
-especially if its cubs are threatened.
-
-***Bear, Brown***
-
-*400kg Beast (Hunter), forest walker, J8C093 \#App: 1D Treasure: None*
-
-*Athletics-1, Melee Combat-1, Recon-1, Survival-1*
-
-*Attacks on 6+ if it is larger than at least one of its prey; otherwise,
-attacks on 10+ and flees on 5-.*
-
-*Claws (2D), Teeth (3D); armor 3; speed 20m/action*
-
-*Neutral; Morale DM+0*
-
-Much larger than black bear, the brown bear is a fearsome hunter – a
-particularly large subspecies, such as the grizzly or Kodiak bear (as
-depicted above) is a force to be reckoned with.
-
-***Bear, Polar***
-
-*800kg Beast (Pouncer), arctic walker and swimmer, LAI0A2 \#App: 1D
-Treasure: None*
-
-*Athletics-2, Melee Combat-2, Recon-1, Survival-1, Tactics-1*
-
-*Attacks on 6+ if it is larger than at least one of its prey; otherwise,
-attacks on 10+ and flees on 5-.*
-
-*Claws (3D), Teeth (3D); armor 3; walking speed 10m/action, swimming
-speed 20m/action*
-
-*Neutral; Morale DM+1*
-
-One of the largest bear species, the polar bear is a majestic predator
-at home both on snow, ice and underwater. The same game statistics can
-also serve to describe the prehistoric cave and short-faced bears, which
-were similar in size.
-
-***Beetle, Giant Fire***
-
-*50kg Beast (Eater), subterranean walker, 9AA075 \#App: 1D Treasure:
-Incidental*
-
-*Athletics-1 Melee Combat-1, Recon-1, Survival-0*
-
-*Attacks on 5+; flees on 4-*
-
-*Bite (2D); armor 4; speed 20m/action*
-
-*Neutral; Morale DM+1*
-
-This well-armored giant insect carries a light gland glowing with red
-light, which will continue to glow for 1D days after the gland is
-removed from the beetle (providing light in a 3m radius).
-
-***Bison***
-
-*800kg Beast (Grazer), plains walker, M7H09G \#App: 5D Treasure: None*
-
-*Athletics-2, Melee Combat-0, Survival-0*
-
-*Attacks on 8+; flees on 6-*
-
-*Trample (3D), Horns (3D); armor 2; speed 20m/action*
-
-*Neutral; Morale DM-2*
-
-A large wild bovine, the bison is a prime game animal. However, hunters
-should take care: bison are dangerous when angered.
-
-***Black Pudding***
-
-*200kg Beast (Reducer), subterranean walker, A58080 \#App: 1 Treasure:
-None*
-
-*Athletics-0, Melee-0, Recon-0, Survival-0*
-
-*Attacks on 10+, flees on 7-*
-
-*Special attack; armor 0; speed 5m/action*
-
-*Neutral; Morale DM: automatic success*
-
-The black pudding is a dark, oily, amorphous glob with an acidic surface
-living off the detritus of the underground.
-
-- Acid: any creature coming into contact with the black pudding – either
-  on the pudding's successful attack or by touching it otherwise –
-  suffers 2D damage per round. Contact with the black pudding will
-  corrode metal in 1D rounds.
-
-- Immune to magic, cold, and lightning. Not immune to fire.
-
-***Boar***
-
-*100kg Beast (Gatherer), forest walker, C9C199 \#App: 3D Treasure: None*
-
-*Athletics-1, Melee Combat-1, Recon-1, Survival-0*
-
-*Attacks on 9+; flees on 7-*
-
-*Tusks (2D); armor 3; speed 20m/round*
-
-*Neutral; Morale DM+2*
-
-The wild boar is a tough, hot-tempered beast that roams the forests. It
-is a real prize for an ambitious hunter, and a source of great fear to
-all but the most foolhardy of hunters.
-
-***Camel***
-
-*800kg Beast (Grazer), desert walker, I7C09A \#App: 3D Treasure: None*
-
-*Athletics-1, Melee Combat-0, Recon-1, Survival-3*
-
-*A wild camel attacks on 10+; flees on 8-; a domesticated camel rarely
-attacks*
-
-*Trample (3D); armor 1; speed 20m/action*
-
-*Neutral; Morale DM-1*
-
-The "ship of the desert", the camel is prized by desert dwellers as a
-beast of burden and provider of wool and milk.
-
-***Cat, Great, Lion***
-
-*200kg Beast ( Hijacker), plains walker, EAB0A7 \#App: 2D Treasure:
-None*
-
-*Atheltics-1, Natural Weapons-3, Recon-1, Stealth-1, Survival-0*
-
-*Attacks on 6+ if it is larger than at least one of its prey; otherwise,
-attacks on 10+ and flees on 5-.*
-
-*Claws (2D), Teeth (3D); armor 1; speed 20m/round*
-
-*Neutral; Morale DM+1*
-
-The "King of the Jungle", this massive great cat actually rules the
-savannah and plains with majestic might.
-
-***Cat, Great, Mountain Lion***
-
-*50kg Beast (Pouncer), plains walker, 8C80A1 \#App: 1 or 2 Treasure:
-None*
-
-*Atheltics-1, Natural Weapons-1, Recon-1, Stealth-1, Survival-0*
-
-*Attacks on 6+ if it is larger than at least one of its prey; otherwise,
-attacks on 10+ and flees on 5-.*
-
-*Claws (2d6), Teeth (2d6); armor 1; speed 20m/round*
-
-*Neutral; Morale DM+0*
-
-The mountain lion, also known as a puma or cougar, is a large feline
-nocturnal predator.
-
-***Cat, Great, Panther***
-
-*50kg Beast (Pouncer), plains walker, 9B80A1 \#App: 1 or 2 Treasure:
-None*
-
-*Atheltics-1, Natural Weapons-1, Recon-1, Stealth-1, Survival-0*
-
-*Attacks on 6+ if it is larger than at least one of its prey; otherwise,
-attacks on 10+ and flees on 5-.*
-
-*Claws (2d6), Teeth (2d6); armor 1; speed 20m/round*
-
-*Neutral; Morale DM+0*
-
-The panther, also known as a leopard, is the lion's smaller relative and
-an apex predator on its own right.
-
-***Cat, Great, Smilodon***
-
-*200kg Beast (Pouncer), plains walker, F7C0A3 \#App: 1D Treasure: None*
-
-*Atheltics-1, Natural Weapons-3, Recon-1, Stealth-1, Survival-0*
-
-*Attacks on 6+ if it is larger than at least one of its prey; otherwise,
-attacks on 10+ and flees on 5-.*
-
-*Teeth (4D); armor 2; speed 20m/round*
-
-*Neutral; Morale DM+1*
-
-A prehistoric great cat, the Smilodon was (probably) a pack hunter
-similar to lions; it preyed upon the great beasts of its day, including
-mammoths.
-
-***Cat, Great, Tiger***
-
-*200kg Beast (Pouncer), plains walker, EAB0A1 \#App: 1 or 2 Treasure:
-None*
-
-*Atheltics-1, Natural Weapons-3, Recon-1, Stealth-1, Survival-0*
-
-*Attacks on 6+ if it is larger than at least one of its prey; otherwise,
-attacks on 10+ and flees on 5-.*
-
-*Claws (3D), Teeth (3D); armor 1; speed 20m/round*
-
-*Neutral; Morale DM+1*
-
-The heaviest of the great cats, the tiger is as deadly as it is
-beautiful, the ultimate apex predator of the forest.
-
-***Centipede, Giant***
-
-*50kg Beast (Pouncer), subterranean walker, 6A60355 \#App: 1D Treasure:
-None*
-
-*Athletics-0, Melee Combat-0, Recon-0, Survival-1, Tactics-0*
-
-*Attacks if it has surprise; flees if surprised*
-
-*Mandibles (1D); armor 3; move 10m/action*
-
-*Neutral; Morale DM-1*
-
-This enormous chitinous nightmare resembles an ordinary centipede, grown
-by sorcery or fate to man-eating proportions.
-
-- Venom*:* 6+/2D delivered by bite.
-
-***Cockroach, Giant***
-
-*12kg Beast (Reducer), subterranean walker and flier, 37407A \#App: 3D
-Treasure: None*
-
-*Athletics-0, Melee Combat-0, Recon-0, Stealth-1, Survival-1*
-
-*Attacks on 10+; flees on 7-*
-
-*Mandibles (1D); armor 1; walk 10m/action; fly 30m/action*
-
-*Neutral; Morale DM-2*
-
-As large as it is disgusting, this insect monstrosity favors cesspits
-and trash heaps.
-
-- Immune to disease; enjoys DM+3 to resist poison.
-
-***Crocodile***
-
-*400kg Beast (Killer), riverbank swimmer/walker G9A0A3, \#App: 1D
-Treasure: None*
-
-*Athletics-1, Melee Combat-2, Recon-1, Stealth-2, Survival-0*
-
-*Attacks on 6+; flees on 3-*
-
-*Teeth (3D); armor 3; swim/walk 10m/action*
-
-*Neutral; Morale DM-1*
-
-This modern relative of the dinosaurs is an aquatic horror, a born
-predator superior to other extant reptiles in its stamina and strength.
-
-***Darkmantle***
-
-*12kg Beast (Trapper), subterranean walker 595173 \#App: 1D, Treasure:
-Small*
-
-*Athletics-0, Melee Combat-1, Recon-0, Stealth-3, Survival-1, Tactics-1*
-
-*Attacks if it has surprise; hides otherwise*
-
-*Teeth (1D); armor 3; move 10m/action*
-
-*Neutral; Morale DM-1*
-
-This "cave octopus" hangs from the cave ceiling by its muscular "foot",
-looking like a stalactite with its tentacles wrapped around itself,
-changing its color to that of the environment. When prey passes under
-the darkmantle, it falls upon it and attempts to constrict it.
-
-- Has sonar vision.
-
-- On a successful attack with an effect of 2+, it grapples its victim
-  automatically and strangles it for 2D damage/round.
-
-***Demons***
-
-Demons are powerful creatures of utter Chaos, possessing a malign
-intelligence and bent on bringing destruction and suffering to mortals.
-Demons come in a wide variety of shapes and with varying special
-abilities; when summoning a demon, first choose the demon type.
-Afterwards generate its abilities, as dictated by its type (see below),
-from the following random table:
-
-**Demon Special Abilities**
-
-| **D66** | **Demon Special Ability**                                                                                                                                                                                                                                                                                                              |
-|---------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 11      | The demon's attack is acidic and can destroy non-magical armor or clothing with a successful hit. A non-magical weapon striking the demon dissolves immediately after dealing damage. Magical arms and armor throw 6+ when coming into contact with the acid; if they fail, they dissolve as well.                                     |
-| 12      | The demon is surrounded by a horrid aura with the radius of 3m, dealing 1D damage per round to surrounding creatures.                                                                                                                                                                                                                  |
-| 13      | The demon can go berserk! This provides DM+1 to hit; the demon is immune to fear; and it enjoys DM+2 to Morale.                                                                                                                                                                                                                        |
-| 14      | The demon possesses a breath weapon, usable 3 times a day, causing 3D fire damage to all within a 10m long, 5m wide cone emanating from its mouth or other frontal orifice. Victims may throw DEX 8+ to only suffer half damage (rounded down).                                                                                        |
-| 15      | The demon may charge its target; this grants DM+2 to hit and +1D to damage. However, during the round in which the demon charges, attacks against the demon gain a DM+2 bonus to hit.                                                                                                                                                  |
-| 16      | The demon may mentally enslave victims 3 times a day. The target must throw INT 8+ or be enthralled by the demon for 1D hours.                                                                                                                                                                                                         |
-| 21      | The demon can heal itself by dealing damage with its bite attack; for every 2 points of damage (rounded up) caused by the demon, it heals 1 point of its own injuries.                                                                                                                                                                 |
-| 22      | If flying at a 10m or higher height above ground, the demon may perform dive attacks, causing +2D damage. The demon may grab creatures smaller than itself and fly away with them, unless they succeed in a DEX 8+ or STR 8+ throw.                                                                                                    |
-| 23      | Victims hit by the demon's claws are grabbed, and thus helpless until they succeed in an opposed STR throw (one throw allowed per round).                                                                                                                                                                                              |
-| 24      | Throw 1D: 1-2 – the demon is immune to fire; 3-4 – the demon is immune to cold; 5 – the demon is immune to electricity; 6 – the demon is immune to mind-affecting magic.                                                                                                                                                               |
-| 25      | The demon is incorporeal, and thus weightless, formless, and unable to interact with physical objects except for by its attack and special abilities. It may pass through walls. If not originally immune to silver weapons, it also gains such immunity.                                                                              |
-| 26      | The demon can transform its victims into others of its own wretched kind. Creatures slain by the demon will rise as demons of its kind unless their corpse is **blessed** (as per the spell).                                                                                                                                          |
-| 31      | The demon always acts first in a combat round, regardless of any initiative throw.                                                                                                                                                                                                                                                     |
-| 32      | The demon is naturally invisible. It may act as it wishes, including attacking, without becoming visible.                                                                                                                                                                                                                              |
-| 33      | The demon gains DM+2 to resist hostile magic. This bonus is cumulative with any inherent magic resistance bonus the demon already possesses.                                                                                                                                                                                           |
-| 34      | Victims of the demon's bite attack must throw END 8+ or be paralyzed for 1D rounds.                                                                                                                                                                                                                                                    |
-| 35      | The demon is venomous. Its bite delivers a potent poison: virulence 10+, damage 2D.                                                                                                                                                                                                                                                    |
-| 36      | The demon regenerates 2D damage per round, and may reattach severed limbs, unless damaged by fire or acid.                                                                                                                                                                                                                             |
-| 41      | The demon is difficult to notice, gaining DM+2 to surprise rolls and has the Stealth-3 skill.                                                                                                                                                                                                                                          |
-| 42      | The demon may swallow its victim whole if it hits its victim with an Effect of +4 or better. A swallowed victim takes damage equal to that of the demon's bite per round, until the demon is killed or the victim dies.                                                                                                                |
-| 43      | Double the demon's movement speed.                                                                                                                                                                                                                                                                                                     |
-| 44      | Any being that sees the demon must throw INT 8+ or be paralyzed with dread. This effect ends when the demon leaves the victim's line of sight, or one round after the demon engages in combat.                                                                                                                                         |
-| 45      | Increase the demon's armor by 5 points.                                                                                                                                                                                                                                                                                                |
-| 46      | The demon may use a trample attack in lieu of both its natural attacks, causing damage equal to both attacks at once, at DM+2 to hit human-sized targets.                                                                                                                                                                              |
-| 51      | The demon may teleport at will once per round. This does not use an action. The range is 10m in any direction.                                                                                                                                                                                                                         |
-| 52      | The demon emits a nauseating aura; any creature coming within a 10m radius from the demon must throw END 8+ or be nauseated (DM-2 to all actions and only have one Action per round).                                                                                                                                                  |
-| 53      | As an action, the demon may animate a dead body to fight for it as a **skeleton** or a **zombie**. There is no limit to how many such undead the demon may control in a round. The body crumbles to dust within 1D turns.                                                                                                              |
-| 54      | As an action, the demon may cause one dead body within 10m to explode in fire, cause 2D damage to all creatures within 3m of the body.                                                                                                                                                                                                 |
-| 55      | As an action, the demon may instill temporary madness in a victim. The victim must throw INT 8+ or become insane for 2D rounds; an insane victim must throw 1D every round; on 1-3, they may not act; on 4-5, they must attack the nearest enemy; on 6, they must attack their nearest ally.                                           |
-| 56      | When the demon is slain, throw INT 10+ using the demon's INT DM; if successful, it re-forms by sheer willpower with all its characteristics at half maximum value. Demons may do so multiple times until they fail the INT 10+ throw, in which case they perish.                                                                       |
-| 61      | The demon may possess a target. The target must throw INT 8+ or be possessed and controlled by the demon. The target may attempt another INT 8+ throw once a week to cast off the possession; **Dispel Evil** exorcises the demon immediately and forces it to leave the victim's body. A demon may only possess one victim at a time. |
-| 62      | Possession, as above.                                                                                                                                                                                                                                                                                                                  |
-| 63      | Possession, as above.                                                                                                                                                                                                                                                                                                                  |
-| 64      | Possession, as above.                                                                                                                                                                                                                                                                                                                  |
-| 65      | Possession, as above.                                                                                                                                                                                                                                                                                                                  |
-| 66      | The demon has a unique power, at the Referee's discretion.                                                                                                                                                                                                                                                                             |
-
-***Demon, Demon Spawn***
-
-*50kg Outsider, extraplanar flyer 666771 \#App: 1 Treasure: None*
-
-*Athletics-1, Melee Combat -1, Recon-1, Survival-1*
-
-*Behaves as an NPC at the Referee's discretion, as per the summoner's
-orders (if summoned), or per the Reaction rules*
-
-*Claws (1D), maw (2D); armor 1; flies 10m/action*
-
-*Chaotic; Morale DM+0*
-
-Demon spawn are wretched underlings of the demonic spheres, foot
-soldiers of horror and corruption.
-
-- Immune to poison and disease.
-
-- The Demon Spawn possesses one special ability, per the table above.
-
-***Demon, Dybbuk***
-
-*100kg Outsider, extraplanar flyer BBBAA0 \#App: 1 Treasure: None*
-
-*Athletics-1, Melee Combat-2, Sorcery-2 Recon-1, Survival-1, Tactics-1*
-
-*Behaves as an NPC at the Referee's discretion, as per the summoner's
-orders (if summoned), or per the Reaction rules*
-
-*Claws (3D), maw (3D); armor 5; flies 20m/action*
-
-*Chaotic; Morale DM+1*
-
-The dybbuk is only one rank below a fiend – a captain of hell!
-
-- Immune to all weapons except for magical or silvered weapons
-
-- Immune to poison and disease.
-
-- Knows 1D spells. In addition to using them itself, it may also teach
-  them to its mortal allies or summoners.
-
-- Enjoys DM+2 to resist hostile magic.
-
-- The Dybbuk possesses three special abilities, per the table above.
-
-***Demon, Fiend***
-
-*100kg Outsider, extraplanar flyer KCKCA0 \#App: 1 Treasure: None*
-
-*Athletics-2, Sorcery-3, Melee Combat-2, Recon-2, Stealth-2, Tactics-2*
-
-*Behaves as an NPC at the Referee's discretion, as per the summoner's
-orders (if summoned), or per the Reaction rules*
-
-*Claws (3D), maw (4D); armor 9; flies 20m/action*
-
-*Chaotic; Morale DM+2*
-
-Fiends are the mightiest of demons, a scourge upon the earth – princes
-of destruction and corruption.
-
-- Immune to all weapons except for magical weapons
-
-- Immune to poison and disease.
-
-- Knows 2D spells. In addition to using them itself, it may also teach
-  them to its mortal allies or summoners.
-
-- Enjoys DM+3 to resist hostile magic.
-
-- The Fiend possesses four special abilities, per the table above.
-
-***Demon, Hellion***
-
-*100kg Outsider, extraplanar flyer BBBAA0 \#App: 1 Treasure: None*
-
-*Athletics-1, Melee Combat -2, Sorcery-1 Recon-1, Survival-1, Tactics-1*
-
-*Behaves as an NPC at the Referee's discretion, as per the summoner's
-orders (if summoned), or per the Reaction rules*
-
-*Claws (2D), maw (3D); armor 5; flies 20m/action*
-
-*Chaotic; Morale DM+0*
-
-The hellion is a mighty demon, a horror to behold.
-
-- Immune to all weapons except for magical or silvered weapons
-
-- Immune to poison and disease.
-
-- Knows 1D spells. In addition to using them itself, it may also teach
-  them to its mortal allies or summoners.
-
-- Enjoys DM+1 to resist hostile magic.
-
-- The Hellion possesses two special abilities, per the table above.
-
-***Demon, Imp***
-
-*50kg Outsider, extraplanar flyer 78C791 \#App: 1 Treasure: None*
-
-*Athletics-1, Melee Combat -1, Recon-1, Survival-1, Tactics-1*
-
-*Behaves as an NPC at the Referee's discretion, as per the summoner's
-orders (if summoned), or per the Reaction rules*
-
-*Claws (2D), maw (2D); armor 3; flies 20m/action*
-
-*Chaotic; Morale DM+0*
-
-The Imp is a relatively weak demon, though mightier than its Demon Spawn
-brethren.
-
-- Immune to poison and disease.
-
-- The Imp possesses two special abilities, per the table above.
-
-***Dinosaur, Ankylosaurus***
-
-5000kg Beast (Grazer), forest walker, M2M078 \#App: 2D
-
-*Athletics-2, Melee Combat-0, Recon-0, Survival-1*
-
-*Attacks on 8+; flees on 6-*
-
-*Neutral; Morale DM-1*
-
-Trample (3D), Tail (4D); armor 7; speed 10m/action
-
-The ankylosaurus is an armored herbivore that feeds mainly on pine
-trees. It can grow up to 6m in length. Occasionally, an ankylosaurus
-will eat herbs that will cause it to be deranged and go on a rampage.
-
-***Dinosaur, Deinonychus***
-
-*50kg Beast (Chaser), plains walker, 9G9198 \#App: 2D Treasure: None*
-
-*Atheltics-2, Melee Combat-2, Survival-0, Recon-0, Tactics-1*
-
-*Attacks if it outnumbers the characters; flees on 5-*
-
-*Claws (2D), teeth (2D); armor 1; speed 30m/action*
-
-*Neutral; Morale DM+1*
-
-Often confused with the much smaller velociraptor, the deinonychus is a
-medium-sized carnivorous theropod dinosaur. It grows up to 3 meters in
-length. Deinonychus is a pack hunter with a keen mind and instincts as
-sharp as its claws. The pack will use sophisticated hunting tactics to
-bring down prey.
-
-***Dinosaur, Edmontosaurus***
-
-*3200kg Beast (Grazer), plains walker, P6P07C \#App: 4D Treasure: None*
-
-*Athletics-2, Melee Combat-0, Recon-0, Survival-1*
-
-*Attacks on 8+; flees on 6-*
-
-*Trample (2D); armor 2; speed 30m/action*
-
-*Neutral; Morale DM-1*
-
-A herd herbivore, the Edmontosaurus sometimes serves as a riding beast
-for barbarian tribes, depending on the locale.
-
-***Dinosaur, Triceratops***
-
-*10000kg Beast (Intermittent), plains walker M5M07A \#App: 3D Treasure:
-None*
-
-*Athletics-1, Melee Combat-0, Recon-0, Survival-1*
-
-*Attacks on 10+; flees on 4+*
-
-*Trample (3D), horns (4D); Armor 5; speed 10m/action*
-
-*Neutral; Morale DM+0*
-
-The mighty triceratops is a medium-sized (for a dinosaur, that is)
-herbivore, sometimes tamed by barbarian tribes as a beast of burden.
-
-***Dinosaur, Tyrannosaurus Rex***
-
-*15000kg Beast (Hijacker), plains walker, M6M090 \#App: 1 Treasure:
-None*
-
-*Athletics-0, Melee Combat-3, Recon-1, Survival-1*
-
-*Attacks on 5+; flees on 3-*
-
-*Bite (5D); armor 4; speed 20m/action*
-
-*Neutral; Morale DM+2*
-
-The king of the reptiles, the tyrannosaurus rex is the apex predator of
-the prehistoric steppes, and a true horror to behold.
-
-***Dinosaur, Velociraptor***
-
-*12kg Beast (Chaser), plains walker, 3A619A \#App: 3D Treasure: None*
-
-*Atheltics-2, Melee Combat-1, Tactics-1*
-
-*Attacks if it outnumbers the characters; flees on 5-*
-
-*Claws (1D), teeth (1D); armor 0; speed 30m/action*
-
-*Neutral; Morale DM-1*
-
-The velociraptor is a small, nimble, feathered predatory dinosaur. It
-survives by chasing down prey across the prehistoric savannahs. What it
-lacks in size it makes up for in intelligence and hunting tactics. A
-pack of velociraptors can be the bane of many much larger creatures.
-
-***Djinn***
-
-*0kg Outsider, extraplanar flyer, GBJAA0 \#App: 1 Treasure: None*
-
-*Athletics-1, Sorcery-2, Melee Combat-1, Recon-1, Survival-1*
-
-*Behaves as an NPC at the Referee's discretion or per the Reaction
-rules*
-
-*Special attack; armor 0; flies 20m/action*
-
-*Neutral; Morale DM+4*
-
-The djinn is an elemental spirit of the Winds, famous for its might and
-guile.
-
-- Immune to non-magical weapons.
-
-- Immune to poison and disease.
-
-- Knows 2D spells. In addition to using them itself, it may also teach
-  them to its mortal allies or summoners.
-
-- Can create food and water of high quality, enough to sustain 2D
-  persons per day.
-
-- Can become invisible at will.
-
-- Whirlwind: may create a whirlwind around itself at will, causing 1D
-  damage to anyone within 2m range.
-
-***Dog, Hunting***
-
-*25kg Beast (Chaser), forest walker, 3A70A7 \#App: 2D Treasure: None*
-
-*Athletics-1, Melee Combat-1, Recon-3, Survival-3, Tactics-1*
-
-*A tamed dog attacks as instructed by its master. A wild dog attacks
-when it outnumbers its prey; flees on 5-*
-
-*Bite (1D); armor 0; speed 30m/action*
-
-*Neutral; Morale DM+0*
-
-The hunting dog is a lean, fast hound, bred to chase and catch prey.
-
-***Dog, War***
-
-*50kg Beast (Chaser), forest walker, B7A087 \#App: 2D Treasure: None*
-
-*Athletics-1, Melee Combat-2, Recon-1, Survival-1, Tactics-0*
-
-*A tamed dog attacks as instructed by its master. A wild dog attacks
-when it outnumbers its prey; flees on 5-*
-
-*Bite (2D); armor 1; speed 20m/action*
-
-*Neutral; Morale DM+2*
-
-A massive dog bred for combat, capable of bringing down much larger
-creatures. An adventurer's best friend.
-
-***Doppelganger***
-
-*100kg Humanoid, urban walker, 97A990 \#App: 1 Treasure: Small*
-
-*Athletics-0, Deception-2, Melee Combat-1, Recon-1, Stealth-2,
-Survival-0*
-
-*Behaves as an NPC at the Referee's discretion or per the Reaction
-rules*
-
-*Claws (1D) or by weapon; armor 0 or as worn; speed 10m/action*
-
-*Chaotic; Moral DM+2*
-
-The doppelganger is an intelligent shapeshifting monster capable of
-replacing and mimicking persons for its own nefarious and murderous
-purposes.
-
-- Can change shape into another creature within 1D rounds. Requires an
-  INT 10+ throw to detect.
-
-***Dragon***
-
-*10000kg Beast (Killer), mountains flyer N9PFF0 \#App: 1 Treasure:
-Hoard*
-
-*Athletics-1, Sorcery-3, Melee Combat-3, Recon-1, Survival-0, Tactics-1*
-
-*Behaves as an NPC at the Referee's discretion or per the Reaction
-rules.*
-
-*Teeth (4D), claws (3D); armor 8; fly 30m/action*
-
-*Neutral; Morale DM+2*
-
-The majestic dragon is one of the greatest monsters of legend, a
-fire-breathing reptile of great size and even greater greed.
-
-- 3 times a day may breathe fire, causing 5D fire damage to all within a
-  10m long, 5m wide cone emanating from its mouth. Victims may throw DEX
-  8+ to only suffer half damage (rounded down). A dragon’s fire has an
-  AV 4D rating vs. vehicles and may set them ablaze as described in the
-  Combat chapter.
-
-- Knows 2D spells. In addition to using them itself, it may also teach
-  them to its mortal allies.
-
-***Drake***
-
-*400kg Beast (Killer), mountain flyer, G9G1A3 \#App: 1D Treasure:
-Incidental*
-
-*Athletics-1, Melee Combat-2, Recon-1, Survival-1*
-
-*Attacks on 6+; flees on 3-*
-
-*Teeth (3D), claws (2D); armor 6; fly 30m/action*
-
-*Neutral; Moral DM+0*
-
-Sometimes called a "dragon" by villagers, the drake is a non-sentient
-relative of true dragons, yet still capable of breathing fire. Perfect
-for a knight looking for bragging rights about "slaying a dragon".
-
-- 3 times a day may breathe fire, causing 3D fire damage to all within a
-  10m long, 5m wide cone emanating from its mouth. Victims may throw DEX
-  8+ to only suffer half damage (rounded down). A drake’s fire has an AV
-  2D rating vs. vehicles and may set them ablaze as described in the
-  Combat chapter.
-
-***Elemental, Air***
-
-*0kg Outsider, urban flyer, I9M190 \#App: 1 Treasure: None*
-
-*Athletics-1, Melee Combat-1, Recon-1, Tactics-1*
-
-*Attacks on 8+, flees on 6-; or by summoner’s command*
-
-*Special (see below); armor 0; fly 30m/action*
-
-*Neutral; Morale DM+4*
-
-An air elemental is an extraplanar exemplar of the Classic Element of
-Air. It appears as a twirling air mass, crackling with electricity.
-
-- Immune to non-magical weapons.
-
-- Once per round, using one action, the air elemental may form a
-  whirlwind, causing 2D damage to any creature within 3m of the
-  elemental.
-
-***Elemental, Earth***
-
-*0kg Outsider, urban walker, I9M190 \#App: 1 Treasure: None*
-
-*Athletics-1, Melee Combat-2, Recon-1, Tactics-1*
-
-*Attacks on 8+, flees on 6-; or by summoner’s command*
-
-*Crush (4D); armor 5; walk 5m/action*
-
-*Neutral; Morale DM+4*
-
-An earth elemental is an extraplanar exemplar of the Classic Element of
-Earth. It appears as a massive humanoid made of rock and soil.
-
-- Immune to non-magical weapons.
-
-***Elemental, Fire***
-
-*0kg Outsider, urban flyer, I9M190 \#App: 1 Treasure: None*
-
-*Athletics-1, Melee Combat-1, Recon-1, Tactics-1*
-
-*Attacks on 8+, flees on 6-; or by summoner’s command*
-
-*Fire lash (2D); armor 0; fly 10m/action*
-
-*Neutral; Morale DM+4*
-
-A fire elemental is an extraplanar exemplar of the Classic Element of
-Fire. It appears as a mass of flames and smoke forming a vaguely
-humanoid form.
-
-- Immune to non-magical weapons.
-
-- Once per round, using one action, the fire elemental may generate a
-  firestorm, causing 2D fire damage to any creature within 2m range.
-
-***Elemental, Water***
-
-*0kg Outsider, ocean, river, or lake swimmer, I9M190 \#App: 1 Treasure:
-None*
-
-*Athletics-1, Melee Combat-1, Recon-1, Tactics-1*
-
-*Attacks on 8+, flees on 6-; or by summoner’s command*
-
-*Water jet (3D); armor 0; swim 20m/action*
-
-*Neutral; Morale DM+4*
-
-A water elemental is an extraplanar exemplar of the Classic Element of
-Water. It appears as a standing wave of water with a vaguely humanoid
-form.
-
-- Immune to non-magical weapons.
-
-- The water elemental may, as an action, try to draw its victims
-  underwater and drown them. Treat it as a grapple (see the Combat
-  chapter) and causes 1D damage per round the victim is held by the
-  elemental. The elemental may grapple up to two creatures at a time in
-  this manner.
-
-***Elephant***
-
-*3,200kg Beast (Intermittent), plains or forest walker, M4M1EA \#App: 3D
-Treasure: None*
-
-*Athletics-1, Melee Combat-1, Recon-0, Survival-1, Tactics-0*
-
-*Attacks on 10+; flees on 4-*
-
-*Trample (3D), tusks (2D); armor 3; walk 10m/action*
-
-*Neutral; Morale DM+0*
-
-A majestic mammal, the elephant rules the forest or savannah. Even great
-cats are wary of attacking a herd of elephants, unless they manage to
-separate one from its herd.
-
-**Fish, Carnivorous**
-
-*1kg Beast (Killer), river, lake, or ocean swimmer, 15307C \#App: 4D
-Treasure: None*
-
-*Athletics-1, Melee Combat-2, Recon-1, Survival-0*
-
-*Attacks on 6+; flees on 3-*
-
-*Teeth (1 damage); armor 0; swim 10m/action*
-
-*Neutral; Morale DM+0*
-
-This entry represents small, nasty fish stalking the ocean for prey.
-Individually, they are a negligible threat to adventurers; however, a
-school of such fish is bad news even to the toughest heroes.
-
-***Ghost***
-
-*0kg Undead, urban flyer, CAK0A0 \#App: 1 Treasure: Small*
-
-*Athletics-0, Melee-0, Recon-3, Stealth-3, Tactics-1*
-
-*Attacks all living beings*
-
-*Special attack; armor 0; flying speed 10m/action*
-
-*Chaotic; Morale DM+4*
-
-Incorporeal spirits of the dead, ghosts often haunt places related to
-their death, such as a cemetery, gallows, or an abandoned location.
-
-- Undead: immune to poison, disease, and suffocation.
-
-- Incorporeal: immune to non-silver, non-magical weapons.
-
-- Immune to mind-affecting magic.
-
-- The ghost may possess a target. The target must throw INT 8+ or be
-  possessed and controlled by the ghost. The target may attempt another
-  INT 8+ throw once a week to remove the possession; **Dispel Evil**
-  exorcises the ghost immediately and forces it to leave the victim's
-  body. A ghost may only possess one victim at a time.
-
-- Ghosts always haunt for a reason, be it murder, unjust execution, or
-  improper burial. Without remedying this reason, a defeated ghost will
-  reappear within 3D nights. **Dispel Evil**, however, will permanently
-  remove a ghost from its haunt and sent its spirit straight to Hell.
-
-***Ghoul***
-
-*100kg Undead, urban walker, B89197 \#App: 2D Treasure: Small*
-
-*Athletics-1, Melee Combat-1, Recon-2, Tactics-1, Survival-1*
-
-*Attacks on 6+; flees on 3-*
-
-*Claws (1D), Bite (2D); armor 1; walks 10m/action*
-
-*Chaotic; Morale DM+1*
-
-The ghoul is a predatory undead being, a walking, hungry, corpse. It
-seeks to feast on the flesh of the living and transform them into its
-likeness.
-
-- Undead: immune to poison, disease, and suffocation.
-
-- Only takes half damage (rounded down) from non-silver, non-magical
-  weapons.
-
-- A character bitten by a ghoul must throw END 8+ or be paralyzed for 1D
-  rounds.
-
-- A creature slain by a ghoul will rise as a ghoul on the next midnight,
-  unless its body is **blessed** or cremated.
-
-***Gorilla***
-
-*150kg Beast (Intermittent), mountains walker, G7A2AA \#App: 3D
-Treasure: None*
-
-*Athletics-1, Melee Combat-1, Recon-1, Stealth-1, Survival-1*
-
-*Attacks on 10+; flees on 4-*
-
-*Fists (1D), Teeth (2D); armor 3; speed 10m/action*
-
-*Neutral; Morale DM-1*
-
-The gorilla is a large herbivorous ape, native to mountain jungles.
-Despite its powerful build, it is not particularly aggressive, unlike
-some of its smaller relatives such as chimpanzees.
-
-***Green Slime***
-
-*100kg Beast (Reducer), subterranean crawler, A5B80 \#App: 1 Treasure:
-None*
-
-*Athletics-0, Melee-0, Recon-0, Survival-0*
-
-*Attacks on 10+, flees on 7-*
-
-*Special attack; armor 0; speed 1.5m/action*
-
-*Neutral; Morale DM: automatic success*
-
-This mobile viscous green slime feeds on plants, animals, and metals,
-including weapons and armor, but does not digest stone. The slime will
-typically lurk upon a ceiling or other high place, then drop upon an
-unsuspecting victim and attempt to engulf it.
-
-- The victim of dropping green slime must throw DEX 8+ or be engulfed.
-
-- The slime will completely digest an engulfed creature within 2D
-  rounds. No magic can bring back a digested creature or its
-  possessions.
-
-- The slime is immune to all non-magical weapons but suffers double
-  damage from any source of fire; even a lit torch will cause it 2D
-  damage per attack; the engulfed victim, however, also suffers from
-  such fire damage at a rate of 1 point of damage per 2 points of fire
-  damage caused to the engulfing slime (rounded up).
-
-- A **cure disease** spell will immediately remove the slime from its
-  victim.
-
-- Immune to mind-affecting spells.
-
-***Grey Ooze***
-
-*400kg Beast (Reducer), subterranean crawler, A7A080 \#App: 1 Treasure:
-None*
-
-*Athletics-0, Melee Combat-1, Recon-0, Survival-0*
-
-*Attacks on 10+, flees on 7-*
-
-*Pseudopod 2D; armor 0; speed 1.5m/action*
-
-*Neutral; Morale DM: automatic success*
-
-The grey ooze resembles a 3m-wide pool of grey liquid, capable of
-slashing at its victims with its acidic pseudopods.
-
-- Destroys non-magical clothes and armor upon a successful hit. Any
-  non-magical weapon striking the ooze dissolves after dealing damage.
-  For magical arms and armor, throw 6+; on failure, they dissolve as
-  well.
-
-- Enjoys DM+2 to surprise throws thanks to its excellent camouflage
-  (appears as a damp stone surface).
-
-- Immune to mind-affecting spells.
-
-***Hell Hound***
-
-*50kg Beast (Chaser), urban walker, 8AE293 \#App: 1D Treasure: None*
-
-*Athletics-1, Melee Combat-1, Recon-0, Survival-1, Tactics-1*
-
-*If encountered, attacks if the hell hounds outnumber their prey;
-otherwise flees on 5-. If summoned, it will obey its summoner's orders.*
-
-*Teeth (2D); armor 3; speed 30m/action*
-
-*Chaotic; Morale DM+2*
-
-A canine monstrosity born in the fires of hell, the hellhound is a
-vicious and cruel hunter. Sorcerers often summon hell hounds to do their
-dark biddings.
-
-- Three times a day, the hell hound may breathe fire, dealing 2D fire
-  damage to all targets within a 10m long, 3m wide cone.
-
-***Horse***
-
-*800kg Beast (Grazer), plains walker, G9L09A \#App: 3D Treasure: None*
-
-*Athletics-3, Melee Combat-0, Recon-1, Survival-2*
-
-*A wild horse attacks on 10+; flees on 8-; a domesticated horse rarely
-attacks unless it is trained for war*
-
-*Trample (3D); armor 1; speed 40m/action*
-
-*Neutral; Morale DM-1 (DM+2 for a war horse)*
-
-A trusty mount, the horse is a common beast of burden, work, and war.
-
-***Hydra***
-
-*1600kg Beast (Killer), mountains walker G4G1A0 \#App: 1 Treasure:
-Large*
-
-*Athletics-1, Melee Combat-2, Recon-1, Survival-0, Tactics-0*
-
-*Attacks on 6+, flees on 3-*
-
-*6x Teeth (3D); armor 7; walk 10m/action*
-
-*Neutral; Morale DM+2*
-
-The hydra is a reptilian beast with six heads, each with its own vicious
-maw and voracious appetite.
-
-- The hydra attacks once per head per round. Every time a hydra suffers
-  a full 6 points of damage, it loses a head, and thus an attack. A
-  hydra dies when it loses all six heads.
-
-***Hydra, Greater***
-
-*3200kg Beast (Killer), mountains walker M4M5C0 \#App: 1 Treasure:
-Hoard*
-
-*Athletics-1, Melee Combat-2, Recon-1, Survival-0, Tactics-0*
-
-*Attacks on 6+, flees on 3-*
-
-*8x Teeth (3D); armor 7; walk 10m/action*
-
-*Neutral; Morale DM+2*
-
-The greater hydra is a reptilian beast with eight heads, each with its
-own vicious maw and voracious appetite. However, unlike an ordinary
-hydra, the greater hydra possesses the uncanny ability to regenerate its
-heads, making it an almost invincible enemy.
-
-- The hydra attacks once per head per round. Every time it suffers a
-  full 6 points of damage, however, it loses a head, and thus an attack.
-  A greater hydra dies when it loses all eight heads.
-
-- However, after losing a head, a greater hydra will grow *two* heads
-  within 1D rounds. The maximum number of heads a greater hydra may have
-  at any given time is twelve. The only way to prevent new heads from
-  growing is to cauterize the severed head's stump with fire or acid
-  before it regrows.
-
-***Insect Swarm***
-
-*25kg Beast (Reducer), plains walker or flyer, 8C8070 \#App: 1 Treasure:
-None*
-
-*Athletics-3, Melee Combat-0, Recon-0, Tactics-0, Survival-1*
-
-*Attacks on 10+; flees on 7-*
-
-*Special (see below); armor 1; crawl or fly 10m/action*
-
-*Neutral; Morale DM+3*
-
-An insect swarm is a special type of monster representing a huge mass of
-insects, such as mosquitos, locusts, or cockroaches acting as one unit.
-The swarm typically occupies a space of 3m by 3m but may expand or
-shrink as conditions dictate.
-
-- Swarms do not need to roll to hit. They automatically cause 1 point of
-  damage per round to characters engulfed by the swarm. A character who
-  fleets from the swarm will require 2 more rounds to drive away the
-  swarm's remnants and swat insects, during which they will continue to
-  suffer damage. If the character damaged the swarm, it will chase the
-  attacker.
-
-- The swarm causes double damage to unarmored characters.
-
-- Swarms are immune to regular damage. They are only damaged by fire (a
-  successful hit with a torch causes 1D damage to a swarm) or any fire,
-  gas, or ice magical area effects, which automatically dissipate the
-  swarm.
-
-***Invisible Stalker***
-
-*25kg Outsider, urban flyer, ACA0C0 \#App: 1 Treasure: None*
-
-*Athletics-3, Melee Combat-2, Recon-1, Tactics-1*
-
-*Acts as instructed by its summoner.*
-
-*Tentacle (4D); armor 5; fly 10m/action*
-
-*Chaotic; Morale DM+4*
-
-The invisible creature is a being summoned from another plane of
-existence to do a sorcerer's biddings – such as assassinate an opponent
-or guard a location. It will relentlessly pursue its quarry, even across
-continents.
-
-- Automatically surprises opponents who cannot see invisible creatures.
-
-- DM-2 to be hit by opponents who cannot see invisible creatures.
-
-- Vulnerable to **dispel magic** – if dispelled, it will return to the
-  Outer Dark immediately.
-
-***Leech, Giant***
-
-*25kg Beast (Pouncer), swamp swimmer, 5A70355 \#App: 1D Treasure: None*
-
-*Athletics-1, Melee Combat-1, Recon-0, Survival-1, Tactics-0*
-
-*Attacks if it has surprise; flees if surprised*
-
-*Mouth parts (1D); armor 1; swim 10m/action*
-
-*Neutral; Morale DM+2*
-
-A giant parasitic worm native to swamps and other bodies of stagnant
-water.
-
-- Upon a successful attack, the leech immediately **grapples** its
-  victim. The victim may try to break the grapple on the next round, or
-  any subsequent round, but the leech enjoys DM+1 to grapple throws.
-  Each round it grapples a victim, the leech automatically causes 1D
-  damage via blood drain to its opponent.
-
-***Lich***
-
-*100kg Undead, urban walker, C9NPP0 \#App: 1 Treasure: Hoard*
-
-*Athletics-1, Melee Combat-2, Recon-2, Stealth-2, Tactics-1, Sorcery-5,
-Survival-1*
-
-*Behaves as an NPC at the Referee's discretion or per the Reaction
-rules.*
-
-*Claws (3D), armor 3; walks 10m/action*
-
-*Chaotic; Morale DM+3*
-
-An undead sorcerer of vast eldritch power, a lich is one of the
-mightiest monsters one may encounter. Strengthened beyond measure by its
-sorcerous might, a lich is also well-versed in the most powerful of
-spells.
-
-- Undead: immune to poison, disease, and suffocation.
-
-- Immune to mind-affecting magic.
-
-- Lichs may only be harmed by magical weapons.
-
-- The lich knows 3D spells.
-
-***Lizardfolk, savage***
-
-*100kg Humanoid, swamp walker and swimmer, 9795A5 \#App: 1D, Treasure:
-Small*
-
-*Athletics-1, Melee Combat-1, Recon-2, Survival-2, Tactics-1*
-
-*Attacks on 8+; flees on 4-*
-
-*Claws (1D), Bite (1D) or by weapon; Armor 2 or by worn armor; walk of
-swim 10m/action*
-
-*Neutral; Morale DM+1*
-
-Savage lizardfolk, unlike their more civilized relatives, are a menace
-to anyone invading their swamps or otherwise living around them.
-
-- May hold its breath for one turn.
-
-- In swamp or jungle environments, lizardfolk enjoy DM+1 to stealth,
-  recon, and surprise throws thanks to their adaptive coloration.
-
-***Lizard, Giant***
-
-*800kg Beast (Hunter), desert walker, G7F093 \#App: 1D Treasure: None*
-
-*Athletics-0, Melee Combat-2, Recon-1, Survival-1*
-
-*Attacks on 5+; flees on 4-*
-
-*Teeth (3D), Claws (2D); armor 3; speed 20m/action*
-
-*Neutral; Morale DM-1*
-
-A gigantic variant of an agamid or lacertid lizard, this monstrosity
-stalks deserts for prey and plant material. Some giant lizards exist in
-warm caverns as well, and some barbaric tribes occasionally tame them as
-riding and war beasts.
-
-***Lizard, Komodo Dragon***
-
-*100kg Beast (Pouncer), jungle walker, C6C1C3 \#App: 1D Treasure: None*
-
-*Athletics-3, Melee Combat-2, Recon-2, Survival-2, Tactics-1*
-
-*Attacks on 5+; flees on 4-*
-
-*Teeth (2D); armor 2; speed 10m/action*
-
-*Neutral; Morale DM+0*
-
-The Komodo dragon is a large venomous lizard, stalking prey on jungle
-islands. It is highly intelligent and capable of complex hunting
-tactics. Its preferred hunting method is to envenom its prey, retreat,
-and wait for the venom to kill the hapless victim.
-
-- Venom*:* 10+/4D delivered by bite. Takes 1D turns to take effect.
-
-***Lizard, Megalania***
-
-*800kg Beast (Pouncer), desert walker, F6F1C0 \#App: 1 Treasure: None*
-
-*Athletics-3, Melee Combat-3, Recon-2, Survival-2, Tactics-1*
-
-*Attacks on 5+; flees on 4-*
-
-*Teeth (4D); armor 3; walk 10m/action*
-
-*Neutral; Morale DM+0*
-
-The Komodo dragon's enormous prehistoric relative, this massive lizard
-may grow up to 7m in length and has teeth as large and as sharp as
-swords – coupled with deadly venom.
-
-- Venom*:* 10+/5D delivered by bite. Takes 1D turns to take effect.
-
-***Lizard, Water Monitor***
-
-*12kg Beast (Hunter), river walker and swimmer, 4841A3 \#App: 1D
-Treasure: None*
-
-*Athletics-2, Melee Combat-1, Recon-1, Survival-1*
-
-*Attacks on 10+; flees on 5-*
-
-*Teeth (1D); armor 1; walk or swim 10m/action*
-
-*Neutral; Morale DM-2*
-
-The water monitor is a large lizard native to tropical rivers and
-jungles. It is quite intelligent and trainable as a pet.
-
-***Mammoth***
-
-*5,000kg Beast (Intermittent), steppe walker, P3P1EA \#App: 3D Treasure:
-None*
-
-*Athletics-1, Melee Combat-1, Recon-0, Survival-2, Tactics-0*
-
-*Attacks on 10+; flees on 4-*
-
-*Trample (3D), tusks (2D); armor 3; walk 20m/action*
-
-*Neutral; Morale DM+0*
-
-A prehistoric elephant, the mammoth exceeds the size of modern elephants
-and enjoys a thick coat of wool, protecting it from its frigid arctic
-habitat.
-
-***Mummy***
-
-*50kg Undead, desert walker, F6KAA3 \#App: 1D Treasure: Large*
-
-*Athletics-1, Melee Combat-3, Recon-1, Stealth-1, Tactics-1*
-
-*Behaves as an NPC at the Referee's discretion or per the Reaction
-rules.*
-
-*Claws (2D); armor 4; walks 10m/action*
-
-*Chaotic; Morale DM+4*
-
-Mummified remains of ancient sorcerers and kings may walk the dead halls
-of their tombs, forever guarding against interlopers.
-
-- Undead: immune to poison, disease, and suffocation.
-
-- Immune to mind-affecting spells.
-
-- On a successful attack, the mummy exposes the target to a vile,
-  wasting magical disease (9+/2D/1 day). An infected character cannot
-  heal or enjoy the benefits of magical healing. **Cure disease** cannot
-  remove this illness; only **remove curse** can reverse it.
-
-- Immune to non-magical weapons.
-
-- Takes double damage from fire-based attacks. A lit torch causes 1D
-  damage to mummies.
-
-***Octopus, Giant***
-
-*5000kg Beast (Pouncer), ocean swimmer, M6K1A0 \#App: 1 Treasure: None*
-
-*Athletics-2, Melee Combat-2, Recon-2, Survival-2, Stealth-3, Tactics-1*
-
-*Attacks on 6+; flees on 3-*
-
-*Beak (3D); armor 0; swim 20m/action*
-
-*Neutral; Morale DM-1*
-
-A monstrous, giant cephalopod prowling the deep seas in search of prey.
-
-- As an action, the giant octopus may choose to grapple prey, such as
-  adventurers, enjoying DM+2 to such grapple throws. The giant octopus
-  crushes its grappled prey, causing 1D damage per round until the
-  grapple is broken. A giant octopus may grapple up to 8 victims at the
-  same time.
-
-- The giant octopus may attack ships and boats, using its tentacles to
-  try and capsize them. Such an attack has an AV 2D rating.
-
-***Pteranodon***
-
-*200kg Beast (Pouncer), mountain flyer, BCA093 \#App: 1D Treasure: None*
-
-*Athletics-2, Melee Combat-1, Recon-2, Survival-1*
-
-*Attacks on 8+; flees on 5-*
-
-*Bite (2D); armor 0; fly 30m/action*
-
-*Neutral; Morale DM+0*
-
-A giant winged reptile. The Pteranodon has a wingspan of over 8 meters
-and attacks large prey, including human-sized creatures. Some barbarian
-tribes have tamed Pteranodons as flying mounts.
-
-***Pterodactyl***
-
-*25kg Beast (Pouncer), mountain flyer, 6C7096 \#App: 2D Treasure: None*
-
-*Athletics-2, Melee Combat-0, Recon-2, Survival-1*
-
-*Attacks on 10+; flees on 6-*
-
-*Bite (1D); armor 0; fly 30m/action*
-
-*Neutral; Morale DM-1*
-
-A large winged reptile, the pterodactyl is typically harmless to
-humanoids, but may attack them if it is particularly hungry.
-
-***Plesiosaur***
-
-*10000kg Beast (Killer), ocean swimmer, M3M1A3 \#App: 1D Treasure:
-Incidental*
-
-*Athletics-3, Melee Combat-3, Recon-2, Survival-2, Tactics-1*
-
-*Attacks on 6+; flees on 3-*
-
-*Teeth (4D); armor 5; swim 10m/action*
-
-*Neutral; Morale DM-1*
-
-The plesiosaur is an enormous prehistoric marine reptile, an apex
-predator and the terror of the Jurassic seas. The above data refer to
-the largest species of short-necked plesiosaurs, which could reach up to
-17m in length.
-
-- The plesiosaur may swallow its victim whole if its attack lands with
-  an Effect of +4 or better. A swallowed victim takes damage equal to
-  that of the plesiosaur's bite per round, until the beast is killed or
-  the victim dies.
-
-- Plesiosauri may, on rare occasions (or if attacked), attack ships.
-  Their attacks have an AV rating of 2D against wooden ships.
-
-***Purple Worm***
-
-*20000kg Beast (Reducer), subterranean walker, P4P060 \#App: 1 Treasure:
-Incidental*
-
-*Athletics-1, Melee Combat-2, Recon-1, Survival-2*
-
-*Attacks on 10+; flees on 4-*
-
-*Teeth (4D); armor 6; walk 5m/action*
-
-*Neutral; Morale DM-1*
-
-The dreaded purple worm is a borrowing invertebrate that sometimes
-reaches a length of 30m or more. It burrows deep underground and
-surfaces only to consume unsuspecting prey. An unsubstantiated rumor
-states that a few barbarian tribes have learned a way to climb and ride
-such beasts, using them as mighty mounts to traverse the deep deserts.
-
-- The purple worm senses surface vibrations and is attracted to them.
-
-- The purple worm may swallow its victim whole if its attack lands with
-  an Effect of +4 or better. A swallowed victim takes damage equal to
-  that of the worm's bite per round, until the beast is killed or the
-  victim dies.
-
-***Rat, Giant***
-
-*25kg Beast (Reducer), urban walker, 78709A \#App: 3D Treasure:
-Incidental*
-
-*Athletics-0, Melee Combat-0, Recon-1, Stealth-1, Survival-1*
-
-*Attacks on 8+; flees on 5-*
-
-*Bite (1D); armor 1; speed 20m/action*
-
-*Neutral; Morale DM-2*
-
-A giant – and utterly disgusting – version of the common rat, this
-massive rodent infests sewers and dungeons alike.
-
-***Rhinoceros***
-
-*5,000kg Beast (Intermittent), plains walker, P6K09A \#App: 3D Treasure:
-None*
-
-*Athletics-1, Melee Combat-1, Recon-1, Survival-1*
-
-*Attacks on 10+; flees on 4-*
-
-*Trample (3D), horn (3D); armor 3; walk 20m/action*
-
-*Neutral; Morale DM-2*
-
-A large land mammal, the rhinoceros is notorious for its bad temper.
-
-- A rhinoceros may **charge** at a target at least 20m away from it. A
-  successful charge attack causes double horn and trample (both!)
-  damage.
-
-***Roc***
-
-*5000kg Beast (Hunter), mountain flyer, M6P090 \#App: 1 Treasure: Small*
-
-*Athletics-1, Melee Combat-2, Recon-1, Survival-1*
-
-*Attacks on 6+; flees on 3-*
-
-*Teeth (2D), claws (3D); armor 2; fly 30m/action*
-
-*Neutral; Morale DM+0*
-
-A roc looks like a giant eagle, with an appetite to match. Rocs will eat
-anything, including livestock and humans – all are easy prey to such a
-majestic predator of the air.
-
-- On a successful attack, the roc automatically grapples its victim, and
-  may take them up into the air, and back to their nests for dinner.
-
-***Shadow***
-
-*0kg Undead, urban "Walker", 7AF0A0 \#App: 1 Treasure: None*
-
-*Athletics-1, Melee Combat-1, Recon-3, Stealth-3, Tactics-1*
-
-*Attacks if it has surprise, or as instructed by its summoner*
-
-*Life drain (2D); armor 0; walks 10m/action*
-
-*Chaotic; Morale DM+4*
-
-A shadow is a soul cursed so that only its shadow remains. It creeps
-along walls and floors, seemingly a shade cast by the play of darkness
-and light. However, it is a malicious spirit thirsting for the life
-force of hapless, unsuspecting mortals.
-
-- Undead: immune to poison, disease, and suffocation.
-
-- Incorporeal: immune to non-silver, non-magical weapons.
-
-- Immune to mind-affecting magic.
-
-- On a successful attack, the shadow heals itself half the damage it
-  dealt to its victim, rounded down.
-
-- Any creature slain by a shadow rises as a shadow on the next midnight,
-  unless its body is **blessed** or cremated.
-
-**Shark, Great White**
-
-*1600kg Beast (Killer), ocean swimmer, K9C073 \#App: 1D Treasure: None*
-
-*Athletics-1, Melee Combat-2, Recon-1, Survival-0*
-
-*Attacks on 6+; flees on 3-*
-
-*Teeth (3D); armor 0; swim 20m/action*
-
-*Neutral; Morale DM+0*
-
-While humans are not the natural prey of the great white shark, sharks
-will readily attack them with its monstrous teeth.
-
-***Skeleton***
-
-*12kg Undead, urban walker, 673055 \#App: 1D Treasure: None*
-
-*Athletics-0, Melee Combat-0, Recon-0, Tactics-1, Survival-0*
-
-*Attacks as commanded by the necromancer; skeletons raised by other
-means attack all living creatures on sight.*
-
-*Claws (1D) or by weapon, armor 1; walk 10m/action*
-
-*Chaotic; Morale DM: automatic success*
-
-A long-dead skeleton animated by black magic or by foul curses.
-
-- Undead: immune to poison, disease, and suffocation.
-
-- Immune to mind-affecting spells.
-
-- Immune to arrows and bolts.
-
-- Takes half damage from non-bludgeoning weapons (such as swords).
-
-***Snake, Giant Constrictor***
-
-*200kg Beast (Pouncer), jungle walker, FAG083 \#App: 1D Treasure:
-Incidental*
-
-*Athletics-1, Melee Combat-1, Recon-1, Survival-1*
-
-*Attacks on 8+; flees on 5-*
-
-*Teeth (2D); armor 2; walk 10m/action*
-
-*Neutral; Morale DM-1*
-
-The giant constrictor is an enormous version of ordinary pythons or
-anacondas, large enough to constrict a human-sized, or even horse-sized,
-victim.
-
-- Upon a successful hit, the giant constrictor automatically
-  **grapples** its victim (see the Combat chapter for details); unless
-  the victim breaks free, it suffers 1D constriction damage per round.
-  The giant constrictor enjoys a DM+2 to grapple throws.
-
-***Snake, Venomous***
-
-*3kg Beast (Pouncer), jungle walker, 262083 \#App: 1D Treasure: None*
-
-*Athletics-1, Melee Combat-1, Recon-1, Survival-1*
-
-*Attacks human-sized or larger creatures if threatened or cornered;
-flees otherwise*
-
-*Teeth (1D); armor 0; walk 10m/action*
-
-*Neutral; Morale DM-1*
-
-A viper, adder, or other ordinary venomous snake, possessing a lethal
-bite. Snakes of this size feed on rodents, small mammals, and birds.
-They will only attack a larger creature if they are threatened or
-cornered.
-
-- Venom: a 10+/3D toxin.
-
-***Spider, Giant***
-
-*50kg Beast (Trapper), underground or forest walker, 5C5085 \#App: 1D
-Treasure: Incidental*
-
-*Athletics-0, Melee Combat-1, Recon-2, Stealth-2, Survival-1, Tactics-0*
-
-*If the spider has surprise, it attacks; flees on 5-*
-
-*Fangs (1D); armor 1; walk 10m/action*
-
-*Neutral; Morale DM-1*
-
-A giant variant of a black widow, this arachnid is a horror to behold.
-
-- May walk on walls and ceilings; may "rappel" down a string of web to
-  long distances.
-
-- Enjoys DM+2 to Grapple checks due to its web.
-
-- Venom: 8+/3D toxin.
-
-***Toad, Giant***
-
-*400kg Beast (Pouncer), swamp walker, FAH083 \#App: 1D Treasure:
-Incidental*
-
-*Athletics-1, Melee Combat-1, Recon-1, Survival-1, Stealth-2*
-
-*Attacks on 8+; flees on 5-*
-
-*Teeth (2D); armor 2; walk 10m/action*
-
-*Neutral; Morale DM-1*
-
-A giant amphibian capable of swallowing quite large prey, adventurers
-included.
-
-- The toad swallows its victim whole if it hits its victim with an
-  Effect of +4 or better. A swallowed victim takes damage equal to that
-  of the toad’s bite per round, until the toad is killed or the victim
-  dies.
-
-***Treant***
-
-*3200kg Beast ("Grazer - Sentient"), forest walker, P1P8C3 \#App: 1D
-Treasure: Medium*
-
-*Athletics-3, Melee Combat-2, Recon-3, Survival-3*
-
-*Attacks on 8+; flees on 6-. Will always attack creatures harming its
-forest*
-
-*Slam (4D); armor 6; walk 5m/action*
-
-*Neutral; Morale DM-2*
-
-A treant is a sentient and mobile tree. It is approximately 6m tall. A
-treant’s leaves are deep green in the spring and summer. In the fall and
-winter the leaves change to yellow, orange, or red, but they rarely fall
-out. A treant’s legs fit together when closed to look like the trunk of
-a tree, and a motionless treant is nearly indistinguishable from a tree.
-
-- Treants suffer double damage from fire attacks.
-
-- Treants can control up to 3 normal trees within 20m. They attack with
-  the same characteristics of the treant but move at 2m/action. If these
-  trees are felled, the treant may animate new trees every round.
-
-***Vampire***
-
-*100kg Undead, urban walker, CBNC95 \#App: 1D Treasure: Large*
-
-*Athletics-3, Melee Combat-2, Recon-2, Stealth-2, Tactics-2, Sorcery-2,
-Survival-2*
-
-*Behaves as an NPC at the Referee's discretion or per the Reaction
-rules.*
-
-*Claws (2D), Bite (3D); armor 5; walks 10m/action, flies 10m/action*
-
-*Chaotic; Morale DM+3*
-
-One of the greatest and most fearsome undead beings, the vampire is a
-sophisticated predatory corpse. Vampires are cursed to persist for
-eternity and sustain themselves on the blood of innocents, possessing
-inhuman fortitude.
-
-- Undead: immune to poison, disease, and suffocation.
-
-- Immune to mind-affecting magic.
-
-- Vampires may only be harmed by silver or magical weapons.
-
-- On a successful bite attack, the vampire heals itself half as much
-  damage (rounded down) as it has caused its victim.
-
-- Vampires suffer 1D damage per round of exposure to direct sunlight or
-  submersion in running water.
-
-- If confidently confronted by a Lawful holy symbol, a mirror, or
-  garlic, a vampire will keep a 3m distance from the offending item, and
-  will try to circumvent it with a ranged or flanking attack (or spell).
-
-- Vampires posses 1D spells, chosen randomly.
-
-- Any character slain by a vampire - will rise as a vampire - under
-  control of the original vampire -on the next midnight, unless
-  decapitated or its heart is impaled by a wooden stake.
-
-- Vampires may, three times a day, attempt to **charm** a target, as per
-  the **charm person** spell. The target must throw INT 6+ or be
-  **charmed**.
-
-- A vampire may shapechange, at will into either a dire wolf or a giant
-  bat.
-
-- Three times a day, a vampire may summon 1D bat swarms (treat as
-  **insect swarms**) when underground or 1D dire wolves when above
-  ground. The monsters will arrive within 2D rounds.
-
-- Reducing a vampire's three physical characteristics to zero does not
-  slay it. It merely forces the vampire into a gaseous form. A gaseous
-  vampire may pass through any crack, is immune to all damage except for
-  direct sunlight (which will slay it instantly) and will attempt to
-  reach its coffin as soon as possible. It will reform into its
-  corporeal form, with full characteristics, after one day's rest in its
-  coffin. Even if all its coffins are destroyed, the vampire will not be
-  destroyed, but rather forced into gaseous form until a minion builds a
-  new coffin for it.
-
-- Driving a stake into a resting vampire's hear will paralyze it, but
-  not destroy it. It will revive once the stake is removed.
-
-- Decapitating a resting vampire in its coffin after its heart has been
-  staked will destroy the monster.
-
-***Whale, Killer***
-
-*5000kg Beast (Chaser), ocean swimmer, K6K6F3 \#App: 1D Treasure: None*
-
-*Athletics-3, Melee Combat-3, Recon-2, Survival-2, Tactics-1*
-
-*Attacks humanoids on 9+; flees on 3-*
-
-*Teeth (3D); armor 3; swim 20m/action*
-
-*Neutral; Morale DM+2*
-
-The killer whale, or orca, is a large ocean dolphin occupying the
-ecological niche of apex predator in the seas. Orcas are voracious
-carnivores that prey on fish, seals, or even other whales, but they
-rarely attacks humanoids, whom they does not see as prey.
-
-***Whale, Sperm***
-
-*40000kg Beast (Chaser), ocean swimmer, Z3ZAF3 \#App: 1D Treasure:
-Incidental*
-
-*Athletics-3, Melee Combat-3, Recon-2, Survival-2, Tactics-0*
-
-*Attacks humanoids or ships on 10+; flees on 3-*
-
-*Teeth (4D); armor 5; swim 10m/action*
-
-*Neutral; Morale DM-1*
-
-The sperm whale is a large marine mammalian predator, capable of long
-stays underwater. Sperm whales and giant squids are natural enemies –
-with the whale preying on such deep-ocean monstrosities!.
-
-- The sperm whale may swallow its victim whole if it hits its victim
-  with an Effect of +4 or better. A swallowed victim takes damage equal
-  to that of the whale's bite per round, until the beast is killed or
-  the victim dies.
-
-- Sperm whales may, on rare occasions (or if attacked), attack ships,
-  having an AV rating of 3D against wooden ships.
-
-***Wight***
-
-*100kg Undead, urban walker, C9P1A5 \#App: 1D Treasure: Medium*
-
-*Athletics-1, Melee Combat-1, Sorcery-1, Recon-1, Stealth-1*
-
-*If the wight feels it has the advantage, it will attack/flees on 5-*
-
-*Claws (2D); armor 0; walks 10m/action*
-
-*Chaotic; Morale DM+1*
-
-Wights are restless undead forever haunting their barrow-mounds, cursed
-to wander these tombs for eternity. A wight’s appearance is a weird and
-twisted reflection of the form it had in life. A wight is about the
-height and weight of a human. It is a powerful undead being, so terrible
-that those struck by its claws might age prematurely.
-
-- Undead: immune to poison, disease, and suffocation.
-
-- Immune to mind-affecting magic.
-
-- Immune to non-silver, non-magical weapons.
-
-- A character bitten by a wight must throw END 6+ or permanently age 4
-  years (which may entail Aging Table throws).
-
-- A creature slain by a wight will rise as a wight on the next midnight,
-  unless its body is **blessed** or cremated.
-
-***Wolf***
-
-*50kg Beast (Chaser), forest walker, 7A7097 \#App: 2D Treasure: None*
-
-*Athletics-1, Melee Combat-1, Recon-1, Survival-1, Tactics-1*
-
-*Attacks if the wolves outnumber their prey; flees on 5-*
-
-*Bite (1D); armor 1; speed 20m/action*
-
-*Neutral; Morale DM+0*
-
-A canine pack hunter and the ancestor of the hound. Wolves are
-persistent and cunning. Herders despise wolves, who often prey upon
-their herds; nomadic hunters, on the other hand, tend to venerate wolves
-or even tame them as war animals.
-
-***Wolf, Dire***
-
-*100kg Beast (Chaser), forest walker, AAA1B4 \#App: 1D Treasure: None*
-
-*Athletics-2, Melee Combat-2, Recon-1, Survival-1, Tactics-1*
-
-*Attacks on 6+; flees on 3-*
-
-*Bite (2D); armor 2; speed 20m/action*
-
-*Neutral; Morale DM+0*
-
-These massive prehistoric wolves are more intelligent and far more
-vicious than their modern relatives, and hunt in smaller packs.
-
-***Wraith***
-
-*0kg Undead, urban flyer, EAP9A0 \#App: 1 Treasure: Large*
-
-*Athletics-1, Melee Combat-1, Sorcery-1, Recon-3, Stealth-3*
-
-*Attacks all living beings*
-
-*Special attack; armor 0; flying speed 10m/action*
-
-*Chaotic; Morale DM+4*
-
-A spectral soul of the dead haunting this world, a wraith is a sorcerous
-undead monster
-
-- Undead: immune to poison, disease, and suffocation.
-
-- Immune to mind-affecting magic
-
-- Incorporeal: immune to non-silver, non-magical weapons.
-
-- Knows 1D spells, chosen randomly from the Black Magic lists.
-
-- A character bitten by a wraith must throw END 6+ or permanently age 4
-  years (which may entail Aging Table throws).
-
-- A creature slain by a wraith will rise as a wraith on the next
-  midnight, unless its body is **blessed** or cremated.
-
-***Yellow Mold***
-
-*100kg Beast (Reducer), subterranean crawler, C0C080 \#App: 1 Treasure:
-None*
-
-*Melee Combat-0, Survival-0*
-
-*Attacks if touched*
-
-*Acid (1D); automatically hit if attacked; sedentary*
-
-*Neutral; Morale DM: automatic success*
-
-Yellow mold, a sessile monstrous fungus, typically covers an approximate
-area of 3m by 3m. It does not move or attack, but it causes 1D acid
-damage if touched.
-
-- While all attacks automatically hit a yellow mold, it is immune to all
-  damage except for fire damage. A torch causes it 1D damage, while
-  fire-based magic or burning oil will cause their normal damage to a
-  yellow mold.
-
-- Every time a creature or object touches the yellow mold, throw 1D; on
-  4-6, it emits a cloud of poisonous spores, filling a 3m-cubed area.
-  Any creature caught within this cloud suffers the effect of a 8+/3D
-  poison.
-
-- Immune to mind-affecting spells.
-
-***Zombie***
-
-*50kg Undead, urban walker, 777055 \#App: 1D Treasure: None*
-
-*Athletics-0, Melee Combat-0, Recon-0, Tactics-1, Survival-0*
-
-*Attacks as commanded by the necromancer; zombies raised by other means
-attack all living creatures on sight.*
-
-*Claws (2D), armor 0; walk 5m/action*
-
-*Chaotic; Morale DM: automatic success*
-
-A reanimated corpse, reeking with rot and shambling along. Contrary to
-popular belief, zombies do not crave brains; it is ghouls that crave
-that delicacy.
-
-- Undead: immune to poison, disease, and suffocation.
-
-- Immune to mind-affecting magic.
-
-# CHAPTER 13: PLANETARY WILDERNESS ENCOUNTERS
-
-Characters in the uncivilized areas on the planet’s surface quickly find
-out that they are not alone. So long as a world can support life, animal
-encounters and other natural events are common, regardless of the
-current terrain. This chapter discusses various encounters that can
-occur in the wilderness on a planet’s surface.
-
-## Animal Encounters
-
-Animals in any ecological system interact with each other, forming food
-chains, obeying instincts, defending territory, and generally living out
-their lives. When people enter such an ecological system, they will
-encounter the animals of the system, prompting natural reactions, such
-as attack or flight.
-
-Although the precise nature of animals may change, and they may prove
-quite alien to ordinary experience, most will conform to the broad
-classifications given below. A Referee may choose to establish his own
-ecological system on a specific world, ignoring the encounter system
-outlined here. This system, however, is intended to allow broad latitude
-in both animal types and attack/defense mechanisms, while remaining
-essentially logical and reasonable.
-
-**Animal Types**: Nearly all animals may be classified into four basic
-categories: herbivore, omnivore, carnivore, and scavenger. Specific
-definitions for these terms are provided in a later section of these
-rules, and differ from the precise scientific definitions in current
-use. Within each category, a variety of animal types exist, based on
-specific feeding/hunting habits; examples of this concept are grazers,
-chasers, and pouncers.
-
-Animals which are encountered may be further classified into various
-categories and types, and specific attack and defense mechanisms
-determined. The resulting description indicates the actions an animal
-will take without resorting to such confining labels as bear or tiger.
-While a Referee may well elect to use such names, this system also
-allows the players freedom to encounter truly alien beasts as well.
-
-### Animals and Characteristics
-
-Animals have a similar range of characteristics to humans, but there are
-several differences:
-
-**Instinct**: Instinct is the animal equivalent of Education. Animals
-apply their Instinct DM to tasks such as sensing prey or solving
-problems.
-
-**Pack**: Pack is the animal equivalent of Social Standing. The higher a
-creature’s Pack score, the larger the group that it is associated with,
-and the more standing the creature has in that group.
-
-### Planetary Themes
-
-A world's ecology can be extremely diverse. However, the Referee may
-elect to implement specific themes on a planetary basis, to create
-consistency and flavor in presentation. Distinctive features help make
-each world stand out to the players as unique experiences. These could
-range from basic symmetry to reproductive methods (and the associated
-genders), from the number of limb pairs to the common sensory organs.
-The implementation of a planetary theme lies at the discretion of the
-Referee.
-
-### Step One: Choose a Terrain
-
-Terrain has an impact on the type of animals one might encounter. Giant
-aquatic creatures are not found in forests, after all, nor are feathered
-flying creatures found flying at the bottom of the ocean. The first step
-in the rules for creating animals in the Märchen Engine is to choose the
-creature’s terrain, as terrain can have a significant impact on an
-animal’s statistics.
-
-The Terrain DM Chart details modifiers for animal subtypes and sizes, In
-addition, the result of 1D6 determines the basic movement for a given
-creature (A for Amphibious, F for Flight, S for Swimming, and W for
-Walking). Some movement codes have a number after them; these are an
-additional Size DM for the animal.
-
-#### Table: Terrain DM Chart
-
-| Terrain              | Subtype DM | Size DM | 1    | 2    | 3    | 4    | 5    | 6    |
-|----------------------|------------|---------|------|------|------|------|------|------|
-| Clear                | +3         | \-      | W    | W    | W    | W    | W+2  | F –6 |
-| Plain or Prairie     | +4         | \-      | W    | W    | W    | W +2 | W +4 | F –6 |
-| Desert (hot or cold) | +3         | –3      | W    | W    | W    | W    | F –4 | F –6 |
-| Hills, Foothills     | \-         | \-      | W    | W    | W    | W +2 | F –4 | F –6 |
-| Mountain             | \-         | \-      | W    | W    | W    | F–2  | F –4 | F –6 |
-| Forest               | –4         | –4      | W    | W    | W    | W    | F –4 | F –6 |
-| Woods                | –2         | –1      | W    | W    | W    | W    | W    | F –6 |
-| Jungle               | –4         | –3      | W    | W    | W    | W    | W +2 | F –6 |
-| Rainforest           | –2         | –2      | W    | W    | W    | W +2 | W +4 | F –6 |
-| Rough, Broken        | –3         | –3      | W    | W    | W    | W +2 | F –4 | F –6 |
-| Swamp, Marsh         | –2         | +4      | S –6 | A +2 | W    | W    | F –4 | F –6 |
-| Beach, Shore         | +3         | +2      | S +1 | A+2  | W    | W    | F –4 | F –6 |
-| Riverbank            | +1         | +1      | S –4 | A    | W    | W    | W    | F –6 |
-| Ocean shallows       | +4         | +1      | S +4 | S +2 | S    | S    | F –4 | F –6 |
-| Open ocean           | +4         | –4      | S +6 | S +4 | S +2 | S    | F –4 | F –6 |
-| Deep ocean           | +4         | +2      | S +8 | S +6 | S +4 | S +2 | S    | S –2 |
-
-### Step Two: Determine the Animal’s Type and Subtype
-
-The Referee should then determine the animal’s type and subtype. If the
-Referee is building up an encounter table, the animal’s type is obvious:
-the type necessary to fill in this entry on the encounter table.
-Otherwise, the Referee must choose an appropriate type: Carnivore,
-Herbivore, Omnivore or Scavenger. The Referee might also roll on the 1D6
-Animal Encounter Table Template to randomly choose an animal type.
-
-Once the animal type has been determined, the Referee rolls 2D6, and add
-in the terrain’s Subtype DM. After that, the Referee consults the
-Subtype by Animal Type table under the column of the animal’s type to
-determine the animal’s subtype.
-
-#### Table: Subtype by Animal Type
-
-| 2D6        | Herbivore    | Omnivore | Carnivore | Scavenger     |
-|------------|--------------|----------|-----------|---------------|
-| 1 or less  | Filter       | Gatherer | Pouncer   | Carrion-Eater |
-| 2          | Filter       | Eater    | Siren     | Reducer       |
-| 3          | Intermittent | Gatherer | Pouncer   | Hijacker      |
-| 4          | Intermittent | Eater    | Killer    | Carrion-Eater |
-| 5          | Intermittent | Gatherer | Trapper   | Intimidator   |
-| 6          | Intermittent | Hunter   | Pouncer   | Reducer       |
-| 7          | Grazer       | Hunter   | Chaser    | Carrion-Eater |
-| 8          | Grazer       | Hunter   | Chaser    | Reducer       |
-| 9          | Grazer       | Gatherer | Chaser    | Hijacker      |
-| 10         | Grazer       | Eater    | Killer    | Intimidator   |
-| 11         | Grazer       | Hunter   | Chaser    | Reducer       |
-| 12         | Grazer       | Gatherer | Siren     | Hijacker      |
-| 13 or more | Grazer       | Gatherer | Chaser    | Intimidator   |
-
-### Step Three: Note Modifiers and Skills by Subtype
-
-Terran creatures that exemplify these specific subtypes are noted in
-brackets after the name. The Referee should make note of the
-characteristic modifiers and skills that are noted after the description
-– the exact level of skills varies depending on the particular creature.
-
-**Carrion-Eater** (vulture): Scavengers which wait for all other threats
-to disperse before beginning. Carrion-eaters have Recon. Instinct +2.
-
-**Chaser** (wolf): Animals which kill their prey by attacking and
-exhausting it after a chase. Chasers have Athletics. Dexterity +4,
-Instinct +2, Pack +2.
-
-**Eater** (army ant): Eaters will eat anything they encounter, including
-characters. Endurance +4. Pack +2.
-
-**Filter** (earthworm): Herbivores which pass their environment through
-their bodies are termed filters. Unlike grazers, which move to food,
-filters move a flow of matter through themselves and filter out the
-food. Endurance +4.
-
-**Gatherer** (raccoon, chimpanzee): Gatherers are herbivores that
-collect and store food. Gatherers have Recon. Pack +2.
-
-**Grazer** (antelope): Grazers move from food source to food source,
-often in large packs. Their primary form of defense tends to be fleeing
-danger. Instinct +2, Pack +4.
-
-**Hijacker** (lion): Scavengers which steal the kills of others through
-brute force or weight of numbers are hijackers. Strength +2, Pack +2.
-
-**Hunter** (baboon): Opportunistic predators that stalk easy prey.
-Hunters have Survival. Instinct +2.
-
-**Intermittent** (elephant): Herbivores that do not devote their entire
-time to searching for food. Intermittents have Pack +4.
-
-**Intimidator** (coyote): Scavengers which establish their claim to food
-by frightening or intimidating other creatures.
-
-**Killer** (shark): Carnivores that possess a raw killing instinct,
-attacking in a frenzied manner. Killers have Natural Weapons and either
-Strength or Dexterity +4, Instinct +4, Pack –2.
-
-**Pouncer** (cat): Pouncers kill by stalking and ambushing their prey.
-Pouncers have Recon and Athletics. Dexterity +4, Instinct +4.
-
-**Reducer** (vermin): Reducers are scavengers that act constantly on all
-available food, devouring even the remains left by other scavengers.
-Pack +4
-
-**Siren** (venus fly-trap): Sirens create a lure to attract prey.
-Usually, this lure will be specific to the species the siren preys on,
-but some rare lures are universal. Pack –4.
-
-**Trapper** (spider): An animal which allows its prey to enter a trap.
-Generally, any creature surprised by a trapper is caught in its trap.
-Pack –2.
-
-### Step Four: Determine Animal Size and Characteristics
-
-For each creature, roll 2D6 for its Size and apply any Size DMs based on
-terrain and movement. The creature’s Size determines its Weight,
-Strength, Dexterity and Endurance – for example, a roll of 7 means that
-the creature has a mass of 100kg, a Strength score of 3D6, a Dexterity
-score of 3D6 and an Endurance of 3D6.
-
-Intelligence for most animals is 0 or 1. Roll 2D6+DMs for the animal’s
-Instinct and Pack. To determine the number appearing value, consult the
-Number Appearing by Pack Characteristic Score table.
-
-All animals have at least Athletics 0, Recon 0, and Survival 0, and most
-will have 1D6 ranks split among these skills, Natural Weapons, and any
-skills listed in their behavior.
-
-#### Table: Animal Size
-
-| 2D6       | Weight (kg) | Strength | Dexterity | Endurance |
-|-----------|-------------|----------|-----------|-----------|
-| 1 or less | 1           | 1        | 1D6       | 1         |
-| 2         | 3           | 2        | 1D6       | 2         |
-| 3         | 6           | 1D6      | 2D6       | 1D6       |
-| 4         | 12          | 1D6      | 2D6       | 1D6       |
-| 5         | 25          | 2D6      | 3D6       | 2D6       |
-| 6         | 50          | 2D6      | 4D6       | 2D6       |
-| 7         | 100         | 3D6      | 3D6       | 3D6       |
-| 8         | 200         | 3D6      | 3D6       | 3D6       |
-| 9         | 400         | 4D6      | 2D6       | 4D6       |
-| 10        | 800         | 4D6      | 2D6       | 4D6       |
-| 11        | 1,600       | 5D6      | 2D6       | 5D6       |
-| 12        | 3,200       | 5D6      | 1D6       | 5D6       |
-| 13        | 5,000       | 6D6      | 1D6       | 6D6       |
-| 14        | 10,000      | 6D6      | 1D6       | 6D6       |
-| 15        | 15,000      | 7D6      | 1D6       | 7D6       |
-| 16        | 20,000      | 7D6      | 1D6       | 7D6       |
-| 17        | 25,000      | 8D6      | 1D6       | 8D6       |
-| 18        | 30,000      | 8D6      | 1D6       | 8D6       |
-| 19        | 35,000      | 9D6      | 1D6       | 9D6       |
-| 20+       | 40,000      | 9D6      | 1D6       | 9D6       |
-
-#### Table: Number Appearing by Pack Characteristic Score
-
-| Pack  | Number Appearing |
-|-------|------------------|
-| 0     | 1                |
-| 1–2   | 1D3              |
-| 3–5   | 1D6              |
-| 6–8   | 2D6              |
-| 9–11  | 3D6              |
-| 12–14 | 4D6              |
-| 15+   | 5D6              |
-
-### Step Five: Determine Animal’s Weapons, Armor and Base Speed
-
-Roll 2D6 separately for the animal’s Weapons and Armor.
-
-**Weapons**: When generating weapons, roll 2D6 and consult the Animal
-Weapons table. Add a +8 DM if the animal is a Carnivore, and a +4 if it
-is an Omnivore; subtract a –6 DM if the animal is a Herbivore.
-Scavengers automatically have Teeth in addition to any other weapons. If
-a number is present after the Weapons type, then add that number to the
-number of damage dice the creature rolls. Damage from attacks depends on
-the creature’s Strength score, as shown in the Damage by Strength table.
-
-**Armor**: When generating an animal’s armor, roll 2D6-7, and add the
-animal’s Size result (the die roll result that determined the animal’s
-size, not the actual weight of the animal.) Add a +4 DM when rolling for
-armor if the animal is a Herbivore, and a +2 if it is an Scavenger;
-apply a –2 DM if the animal is a Carnivore. Also, Flyers suffer a –2 DM
-when determining armor. Consult the Animal Armor table for the animal’s
-armor rating.
-
-**Base Speed**: An animal’s base speed is determined by generating a
-Speed Multiplier, as per the Animal Speed Multiplier by Subtype table,
-and multiplying that by 6, which is the average speed of a human in
-meters per minor action. If an Animal Speed Multiplier value falls below
-the value found in the Minimum Speed column, round it up to the Minimum
-Speed value.
-
-#### Table: Animal Weapons
-
-| 2D6       | Weapons                 |
-|-----------|-------------------------|
-| 1 or less | Hooves                  |
-| 2         | Hooves and Horns        |
-| 3         | Horns                   |
-| 4         | Hooves and Teeth        |
-| 5         | Horns and Teeth         |
-| 6         | Thrasher                |
-| 7         | Claws                   |
-| 8         | Teeth                   |
-| 9         | Claws and Teeth         |
-| 10        | Claws +1                |
-| 11        | Stinger                 |
-| 12        | Teeth +1                |
-| 13        | Claws +1 and Teeth +1   |
-| 14        | Claws +1 and Stinger +1 |
-| 15        | Claws +2                |
-| 16        | Teeth +2                |
-| 17        | Claws +2 and Teeth +2   |
-| 18        | Claws +2 and Stinger +2 |
-| 19+       | Projectile              |
-
-#### Table: Animal Armor
-
-| 2D6       | Armor |
-|-----------|-------|
-| 1 or less | 0     |
-| 2         | 0     |
-| 3         | 0     |
-| 4         | 1     |
-| 5         | 1     |
-| 6         | 2     |
-| 7         | 2     |
-| 8         | 3     |
-| 9         | 3     |
-| 10        | 4     |
-| 11        | 4     |
-| 12        | 5     |
-| 13        | 5     |
-| 14        | 6     |
-| 15        | 6     |
-| 16        | 7     |
-| 17+       | 7     |
-
-#### Table: Damage by Strength
-
-| Strength | Damage |
-|----------|--------|
-| 1–10     | 1D6    |
-| 11–20    | 2D6    |
-| 21–30    | 3D6    |
-| 31–40    | 4D6    |
-| 41–50    | 5D6    |
-| 51–60    | 6D6    |
-| 61-70    | 7D6    |
-| 71-80    | 8D6    |
-| 81-90    | 9D6    |
-| 91+      | 10D6   |
-
-#### Table: Animal Speed Multiplier by Subtype
-
-| Type          | Speed Multiplier | Minimum Speed |
-|---------------|------------------|---------------|
-| Carnivore     |                  |               |
-| Chaser        | 1D6-2            | 2             |
-| Killer        | 1D6-3            | 1             |
-| Pouncer       | 1D6-4            | 1             |
-| Siren         | 1D6-4            | 0             |
-| Trapper       | 1D6-5            | 0             |
-| Herbivore     |                  |               |
-| Filter        | 1D6-5            | 0             |
-| Grazer        | 1D6-2            | 2             |
-| Intermittent  | 1D6-4            | 1             |
-| Omnivore      |                  |               |
-| Eater         | 1D6-3            | 1             |
-| Gatherer      | 1D6-3            | 1             |
-| Hunter        | 1D6-4            | 1             |
-| Scavenger     |                  |               |
-| Carrion-eater | 1D6-3            | 1             |
-| Hijacker      | 1D6-4            | 1             |
-| Intimidator   | 1D6-4            | 1             |
-| Reducer       | 1D6-4            | 1             |
-
-## Universal Animal Format
-
-The following format is used to represent animal’s basic game statistics
-in the Märchen Engine rules.
-
-\[Animal Name; optional\]
-
-\[Size\]kg \[Subtype\] (\[Type\]), \[Terrain\] \[Locomotion\], \[Animal
-UPP, replacing Education with Instinct and Social Standing with Pack\],
-\#App: \[Number Appearing\]
-
-\[Animal Skill List, in alphabetical order, with skill levels listed
-after skill names\]
-
-\[Animal weapons\]; \[Animal armor\]; Speed: \[Speed\]m
-
-\[Animal Description; optional\]
-
-For example, this creature could represent a tough little flying alien
-pest that loves to shred things and eat them:
-
-6kg Eater (Omnivore), Hill Flyer, 6A5168, \#App: 2d6
-
-Athletics-0, Melee(Natural Weapons)-1, Recon-1, Survival-2
-
-Claws (2d6); Hide (1); Speed: 6m
-
-## Animals in Combat
-
-Unless otherwise noted, animals operate just like characters in combat.
-The range category of an animal’s weapons can be found in the Animal
-Weapon Ranges table.
-
-#### Table: Animal Weapon Ranges
-
-| Weapon     | Range                  |
-|------------|------------------------|
-| Claws      | melee (extended reach) |
-| Hooves     | melee (extended reach) |
-| Horns      | melee (extended reach) |
-| Projectile | ranged (thrown)        |
-| Stinger    | melee (close quarters) |
-| Teeth      | melee (close quarters) |
-| Thrasher   | melee (close quarters) |
-
-## Creating Encounter Tables
-
-The system for creating animals in the Märchen Engine rules can be used
-to generate creatures on the fly. However, the system works best when
-the Referee prepares an encounter table for each terrain likely to be
-encountered. This not only gives the Referee statistics for wilderness
-adventuring, but also provided a large amount of potential background
-data for expanding the world within the universe the Referee has
-created.
-
-To create an encounter table, first the Referee should select a table
-format. Although an encounter table can be in whatever format the
-Referee desires, the two formats most commonly used are represented in
-these rules as the 1D6 Animal Encounter Table Template and the 2D6
-Animal Encounter Table Template. Note that the Templates only provide an
-animal's type (carnivore, herbivore, omnivore or scavenger), and in the
-case of the 2D6 table, event.
-
-Each entry should be generated in turn. When an encounter table
-indicates that an event will occur, the Referee should create an event
-appropriate to the world and terrain. An event may be almost anything,
-including a natural disaster or seismic event, an interesting terrain
-feature or curiosity, unusual flora or weather. The Hills Terrain
-Encounter Table is an example of a completed encounter table.
-
-#### 1D6 Animal Encounter Table Template
-
-| 1D6 | Animal Type |
-|-----|-------------|
-| 1   | Scavenger   |
-| 2   | Herbivore   |
-| 3   | Herbivore   |
-| 4   | Herbivore   |
-| 5   | Omnivore    |
-| 6   | Carnivore   |
-
-#### 2D6 Animal Encounter Table Template
-
-| 2D6 | Result    |
-|-----|-----------|
-| 2   | Scavenger |
-| 3   | Omnivore  |
-| 4   | Scavenger |
-| 5   | Omnivore  |
-| 6   | Herbivore |
-| 7   | Herbivore |
-| 8   | Herbivore |
-| 9   | Carnivore |
-| 10  | Event     |
-| 11  | Carnivore |
-| 12  | Carnivore |
-
-#### Table: Hills Terrain Encounter Table
-
-| 2d6 | \#App                                                                                          | Size    | Subtype          | Move  | UPP    | Weapons                    | Armor      |
-|-----|------------------------------------------------------------------------------------------------|---------|------------------|-------|--------|----------------------------|------------|
-| 2   | 2d6                                                                                            | 100kg   | Hijacker (S)     | W 12m | 9H91A7 | Teeth (1d6)                | Fur (2)    |
-| 3   | 4d6                                                                                            | 200kg   | Gatherer (O)     | W 6m  | CC816D | Teeth (2d6)                | Scales (3) |
-| 4   | 1d6                                                                                            | 25kg    | Intimidator (S)  | W 6m  | 995174 | Claws (1d6), teeth (1d6)   | Hide (3)   |
-| 5   | 3d6                                                                                            | 100kg   | Hunter (O)       | W 6m  | D94184 | Stinger (2d6)              | Hide (2)   |
-| 6   | 3d6                                                                                            | 25kg    | Grazer (H)       | W 12m | 34A1DB | Hooves (1d6), horns (1d6)  | Shell (2)  |
-| 7   | 3d6                                                                                            | 6kg     | Intermittent (H) | F 6m  | 38217B | Horns (1d6)                | Fur (1)    |
-| 8   | 3d6                                                                                            | 5,000kg | Grazer (H)       | W 12m | N3M16B | Hooves (3d6), horns (3d6)  | Shell (7)  |
-| 9   | 4d6                                                                                            | 400kg   | Chaser (C)       | W 12m | E8B1AE | Claws (3d6), stinger (3d6) | Fur (1)    |
-| 10  | **Event**: Cliff, standing 1d6x5 meters tall (Randomly determine if group is at top or bottom) |         |                  |       |        |                            |            |
-| 11  | 2d6                                                                                            | 800kg   | Chaser (C)       | W 12m | AAD1A6 | Projectile (2d6)           | Hide (2)   |
-| 12  | 1d6                                                                                            | 3,200kg | Killer (C)       | W 12m | B7G18A | Teeth (3d6)                | Fur (3)    |
-
-## Using the Encounter Tables
-
-Each day an adventuring band may possibly have one or more encounters
-with some animal life forms. As a general rule, the Referee will check
-for an encounter once while the band is travelling and once while the
-band is halted (for rest, exercise, encampment, or whatever). There is a
-one-third chance (5+ on 1D6) that an animal encounter will occur in any
-of the specified terrain types. The Referee may choose to modify this
-frequency depending on planetary or local conditions.
-
-In addition, specific encounters at specific locations are always
-possible. For example, the Referee may already have populated a location
-(perhaps a ruin) with specific animals. These are not subject to normal
-random encounter rules.
-
-By their lifeless nature, vacuum worlds (and any other world without
-life) tend to have encounter tables comprised primarily of events. On an
-airless world, events could include silt pools that operate like
-quicksand, magnetic anomalies, solar flares, or possibly tracks left by
-previous explorers.
-
-## Animal Reactions in Encounters
-
-When characters disturb an animal or otherwise draw attention to
-themselves while within its territory roll 2D6 and consult the Animal
-Reactions by Subtype table. If the result on the table is neither attack
-nor flee, then the animal stands still until provoked again, in which
-case roll again.
-
-#### Table: Animal Reactions by Subtype
-
-| Type          | Attack                                                                                                       | Flee                                   |
-|---------------|--------------------------------------------------------------------------------------------------------------|----------------------------------------|
-| Carnivore     |                                                                                                              |                                        |
-| Chaser        | If the chasers outnumber the characters, they attack.                                                        | 5-                                     |
-| Killer        | 6+                                                                                                           | 3-                                     |
-| Pouncer       | If the pouncer has surprise, it attacks.                                                                     | If the pouncer is surprised, it flees. |
-| Siren         | If the siren has surprise, it attacks.                                                                       | 4-                                     |
-| Trapper       | If the trapper has surprise, it attacks.                                                                     | 5-                                     |
-| Herbivore     |                                                                                                              |                                        |
-| Filter        | 10+ if possible                                                                                              | 5-                                     |
-| Grazer        | 8+                                                                                                           | 6-                                     |
-| Intermittent  | 10+                                                                                                          | 4-                                     |
-| Omnivore      |                                                                                                              |                                        |
-| Eater         | 5+                                                                                                           | 4-                                     |
-| Gatherer      | 9+                                                                                                           | 7-                                     |
-| Hunter        | If the hunter is bigger than at least one character, then it attacks on a 6+. Otherwise, it attacks on a 10+ | 5-                                     |
-| Scavenger     |                                                                                                              |                                        |
-| Carrion-eater | 11+                                                                                                          | 7-                                     |
-| Hijacker      | 7+                                                                                                           | 6-                                     |
-| Intimidator   | 8+                                                                                                           | 7-                                     |
-| Reducer       | 10+                                                                                                          | 7-                                     |
-
-#  
-
-# CHAPTER 14: SOCIAL ENCOUNTERS
-
-In the Märchen Engine, an encounter is defined as an unexpected or
-casual meeting with someone or something. A large part of the Referee’s
-job is the administration of encounters. Through encounters, the Referee
-presents information, opportunities and conflicts for the players to
-interact with, which is the core of any gaming session.
-
-There are a number of different types of social encounters: routine,
-legal, patron, random, rumor and scenario. The Encounter Types Overview
-table offers suggestions on the frequency of various encounters, and the
-chance associated with the occurrence of such an encounter.
-
-**Encounter Tables**: This chapter provides a number of encounter tables
-to serve as inspiration for the Referee. The Referee is encouraged to
-create tables more in line with their Märchen Engine universe or with
-the specific adventure they are running.
-
-#### Table: Encounter Types Overview
-
-| Encounter Type | Frequency | Chance                   |
-|----------------|-----------|--------------------------|
-| Routine        | As needed | As needed                |
-| Scenario       | As needed | As needed                |
-| Legal          | Daily     | Law Level or less on 2D6 |
-| Random         | Daily     | 8+ on 2D6                |
-| Patron         | Weekly    | 9+ on 2D6                |
-| Rumor          | Weekly    | 7+ on 2D6                |
-
-## Routine Encounters
-
-Routine encounters involve meeting normal people while doing normal
-activities, such as interviewing potential crew members in a starport
-diner or buying new ammunition from the clerk in a gun shop. Such scenes
-are rarely important in and of themselves. From a roleplaying
-perspective, routine encounters create a background of expected behavior
-that makes scenario encounters and random encounters stand out in
-comparison because of their unexpected content. Routine encounters help
-move characters logically from the time and place of one important scene
-to the next.
-
-## Scenario Encounters
-
-Within the Märchen Engine rules, an adventure is defined as a story for
-players to experience, comprised of a series of related scenes or
-encounters. These related encounters are called scenario encounters,
-because they serve to further the plot of the adventure toward its
-climax. The Referee creates scenario encounters as dictated by the story
-they will tell.
-
-## Random Encounters
-
-Random encounters offer players a sense of variety in their gaming
-experience. These colorful encounters often include individuals pursuing
-goals that are unrelated to those of the adventurers themselves. From a
-roleplaying perspective, random encounters help create the illusion of a
-universe that exists outside of the adventurers' experiences, thus
-creating a sense of verisimilitude.
-
-Random encounters can be determined by rolling a D66 on a table such as
-the Random Encounters table presented in these rules. Unique tables
-might be created for specific worlds or adventures. As with other social
-encounters, non-player character reactions may be determined randomly by
-the Referee or selected according to the nature of the situation.
-
-#### Table: Random Encounters
-
-| D66 | Encounter                       |
-|-----|---------------------------------|
-| 11  | Adventurers                     |
-| 12  | Non-human species Starship Crew |
-| 13  | Ambushing Brigands              |
-| 14  | Bandits                         |
-| 15  | Beggars                         |
-| 16  | Belters                         |
-| 21  | Drunken Crew                    |
-| 22  | Fugitives                       |
-| 23  | Government Officials            |
-| 24  | Guards                          |
-| 25  | Hunters and Guides              |
-| 26  | Law Enforcers on Patrol         |
-| 31  | Local Performers                |
-| 32  | Maintenance Robots              |
-| 33  | Merchants                       |
-| 34  | Military Personnel on Leave     |
-| 35  | Noble with Retinue              |
-| 36  | Peasants                        |
-| 41  | Political Dissident             |
-| 42  | Potential Patron                |
-| 43  | Public Demonstration            |
-| 44  | Religious Pilgrims              |
-| 45  | Reporters                       |
-| 46  | Researchers                     |
-| 51  | Riotous Mob                     |
-| 52  | Security Troops                 |
-| 53  | Servant Robots                  |
-| 54  | Soldiers on Patrol              |
-| 55  | Street Vendors                  |
-| 56  | Technicians                     |
-| 61  | Thugs                           |
-| 62  | Tourists                        |
-| 63  | Traders                         |
-| 64  | Vigilantes                      |
-| 65  | Workers                         |
-| 66  | Referee’s Choice                |
-
-## Legal Encounters
-
-Legal encounters involve interactions with local planetary law
-enforcement. Some worlds have stricter laws than others. This is
-represented by the world's Law Level value. The higher the Law Level,
-the more likely that offworld visitors will be harassed by local law
-enforcement. When the Referee determines that a legal encounter happens,
-a local police officer will stop the adventurers and require
-identification. Further complications are at the Referee's discretion.
-
-## Patron Encounters
-
-A patron is a non-player character that gives financial or other support
-to a person, organization, cause, or activity. Referees often use
-patrons as a tool to attempt to engage player characters in adventures.
-Patron encounters represent the beginning of an open-ended adventure
-idea, aka the hook. The patron provides the mission that serves as the
-basis for an adventure, as well as the reward for successfully
-completing it.
-
-Adventurers frequently seek out patrons as a source of employment. Less
-frequently, a patron may seek out the adventurers, based on their
-reputation. The Referee may roll a D66 on the Patron Encounters table or
-create one independently. Unique Patron Encounter tables might be
-created for specific worlds or adventures.
-
-#### Table: Patron Encounters
-
-| D66 | Potential Patron       |
-|-----|------------------------|
-| 11  | Agent                  |
-| 12  | Athlete                |
-| 13  | Barbarian              |
-| 14  | Belter                 |
-| 15  | Broker                 |
-| 16  | Bureaucrat             |
-| 21  | Celebrity              |
-| 22  | Colonist               |
-| 23  | Con Artist             |
-| 24  | Corporate Executive    |
-| 25  | Courier                |
-| 26  | Diplomat               |
-| 31  | Drifter                |
-| 32  | Educator               |
-| 33  | Entertainer            |
-| 34  | Financier              |
-| 35  | Fugitive               |
-| 36  | Hijacker               |
-| 41  | Hunter                 |
-| 42  | Marine                 |
-| 43  | Mercenary              |
-| 44  | Merchant               |
-| 45  | Navy                   |
-| 46  | Noble                  |
-| 51  | Physician              |
-| 52  | Pirate                 |
-| 53  | Politician             |
-| 54  | Rogue                  |
-| 55  | Scientist              |
-| 56  | Scout                  |
-| 61  | Smuggler               |
-| 62  | System Defense Officer |
-| 63  | Technician             |
-| 64  | Terrorist              |
-| 65  | Tourist                |
-| 66  | Referee's Choice       |
-
-### Format for Patron Encounters
-
-Some Referees prefer to “wing it,” and consider little more than a
-patron’s name and the mission at hand. However, for those seeking a more
-detailed way of creating reusable patron encounters, the Märchen Engine
-rules offers a fairly comprehensive format for recording patron
-encounters. This format identifies five specific elements for a given
-patron. These are:
-
-- The patron’s name and role. Names can be changed if the patron
-  encounter is reused.
-
-- The skills and resources required to complete the mission
-
-- The suggested reward for the mission
-
-- The mission as described to the characters
-
-- What’s really going on. Several possible variants are presented –
-  either pick or roll for which is the real situation. This is the key
-  element that allows reusability.
-
-Here is an example of a patron encounter captured in this format:
-
-### Bruce Ayala, Interplanetary Playboy
-
-**Required**: Investigate, Streetwise; No special equipment required.
-
-**Reward**: ₢500 a day, plus expenses; minimum of two weeks.
-
-#### Players’ Information
-
-Word on the street is that the famous holovid star and interplanetary
-playboy Bruce Ayala is cruising the local bar scene. That night, Bruce
-Ayala, along with his entourage of publicists and models, staggers into
-the same locale as the party and buys a round for every offworlder. Over
-the course of the evening, he continually hounds the party for details
-of their exploits, always comparing their adventures to roles he's
-portrayed. Late into the evening, Ayala corners one of the party members
-and offers the crew a job, if it can be handled with discretion. He
-provides contact information, and arranges a meeting to discuss terms,
-if they are interested.
-
-#### Referee’s Information
-
-When Bruce Ayala achieved system-wide fame as a holovid star, he admits
-that it went right to his head, and it cost him the love of a wonderful
-young woman by the name of Martha McKernan. He's kept tabs on Martha
-over the years through private investigators and the like, one of whom
-has reported that she's gone missing a few days ago. Ayala wants to hire
-the party to discretely investigate Martha's disappearance, locate the
-young woman and rescue her from whatever situation she might be in. He's
-concerned that his current media distributor, Penultimate Productions,
-have pulled something, as he has been secretly planning to sign a new
-contract with a competitor, System Media Studios. That represents a
-great loss for Penultimate Productions, and Ayala feels that they are
-not above coercion to insure the holovid star continues to bring them
-money. In all of the options presented below, further development is
-left to the discretion of the Referee.
-
-1.  All is as it appears. Bruce Ayala is correct; Penultimate
-    Productions has discovered their star's clandestine plans. Slowly
-    moving away from the verge of bankruptcy, the media distributor owes
-    their recovery to Bruce Ayala's success in the box office. Worried
-    that the star's departure could cost them everything, the executive
-    producers have hired thugs to kidnap Martha McKernan and use her to
-    force him to extend his current contract.
-
-2.  Sadly, Bruce Ayala is incorrect. His own agent, Cornelius Brass, has
-    a gambling problem, a huge gambling problem. He's fallen in so much
-    debt to the local crime syndicate that they've started threatening
-    his life and the lives of his family, and the man has become
-    desperate. Brass has arranged for the kidnapping of Martha McKernan,
-    hoping to ransom her to enough Crowns to pay off his debt and tuck
-    away a tidy bankroll so he can continue his gambling habit.
-
-3.  Bruce Ayala has been less than truthful. He's been stalking the
-    innocent Martha McKernan for years, using his fame and fortune to
-    attempt to force her into marrying him. In an act of desperation,
-    Martha has gone on the run, trying to make her way out of the star
-    system undetected in an effort to find safety from Ayala's
-    overwhelming attentions.
-
-4.  System Media Studios has kidnapped Martha McKernan as a form of
-    leverage to use on Bruce Ayala in the event he changes his mind and
-    backs out of the secret negotiations. They believe he is unaware of
-    her disappearance, and only intend to reveal her status as a
-    prisoner should he start entertaining the thought of extending his
-    current contract with Penultimate Productions.
-
-5.  Martha McKernan has watched Bruce Ayala's meteoric rise to success
-    with envy and jealousy. She feels scorned by the holovid star, and
-    every image of Bruce Ayala with some starlet has pushed her further
-    into the depths of hatred and loathing. Martha has arranged her own
-    "kidnapping", so that she can demand a costly ransom from Bruce. Any
-    extended contact with Martha will reveal that she is not completely
-    sane, and will likely go to extreme lengths to harm and humiliate
-    Bruce Ayala.
-
-6.  Martha McKernan is actually on vacation, hiking deep in a wilderness
-    preserve to get away from civilization for a few weeks. Edmund Sang,
-    a private investigator employed by Bruce Ayala, has reported her
-    missing simply to get more money from Mr. Ayala to "locate" her.
-    When the party shows up and begins investigating, he realizes that
-    he might get caught and so desperately attempts to redirect them, to
-    avoid having his deception discovered. Sang's efforts to create a
-    false trail points to the local crime syndicate, who do not take
-    kindly to the party investigating their illicit activities looking
-    for a girl they've never heard of.
-
-## Rumors
-
-Rumors are best thought of as encounters with information rather than
-with people or events. Rumors often fill one of two different roles:
-they plant the seed for a potential new adventure, or they provide
-background information that makes the universe seem larger than just the
-character's experiences. Rumors can take many forms, including, but not
-limited to, graffiti on the walls, newspaper or online articles,
-overheard conversations, secret notes, and televised broadcasts.
-
-Because rumors are encounters with information, the player character has
-no patron should they decide to pursue the rumor itself. If the matter
-doesn't pan out, the player character has no one to blame but himself.
-However, given the promise of potential reward, enterprising characters
-are likely to attempt to exploit the information they've uncovered.
-
-Random encounters are often determined by rolling a D66 on a table such
-as the Random Rumor Content table presented in these rules. As with
-other encounter types, unique tables might be created for specific
-worlds or adventures.
-
-#### Table: Random Rumor Content
-
-| D66 | Encounter                                    |
-|-----|----------------------------------------------|
-| 11  | Background information                       |
-| 12  | Background information                       |
-| 13  | Broad background information                 |
-| 14  | Broad background information                 |
-| 15  | Broad background information                 |
-| 16  | Completely false information                 |
-| 21  | General location data                        |
-| 22  | General location data                        |
-| 23  | General location data                        |
-| 24  | Helpful data                                 |
-| 25  | Important fact                               |
-| 26  | Information leading to trap                  |
-| 31  | Library data reference                       |
-| 32  | Library data reference (general information) |
-| 33  | Library data reference (general information) |
-| 34  | Major fact                                   |
-| 35  | Major fact                                   |
-| 36  | Minor fact                                   |
-| 41  | Minor fact                                   |
-| 42  | Misleading background data                   |
-| 43  | Misleading background data                   |
-| 44  | Misleading background information            |
-| 45  | Misleading background information            |
-| 46  | Misleading background information            |
-| 51  | Misleading clue                              |
-| 52  | Obvious clue                                 |
-| 53  | Partial (potentially misleading) fact        |
-| 54  | Reliable recommendation to action            |
-| 55  | Specific background data                     |
-| 56  | Specific background data                     |
-| 61  | Specific location data                       |
-| 62  | Specific location data                       |
-| 63  | Terminology                                  |
-| 64  | Veiled clue                                  |
-| 65  | Veiled clue                                  |
-| 66  | Referee’s Choice                             |
-
-## Influencing Attitudes
-
-The Referee determines the starting attitude of any character the
-characters encounter during the game. The characters can then try to
-influence the character's attitude using Social Standing and various
-interaction skills, such as Liaison and Carousing. The Attitude
-Descriptions table describes the effects of character attitudes.
-
-#### Table: Attitude Descriptions
-
-| Attitude    | Means                         | Possible Actions                                   |
-|-------------|-------------------------------|----------------------------------------------------|
-| Hostile     | Will take risks to oppose you | Attack, interfere, berate, flee                    |
-| Unfriendly  | Wishes you ill                | Mislead, gossip, avoid, watch suspiciously, insult |
-| Indifferent | Doesn't care either way       | Socially acceptable interaction                    |
-| Friendly    | Wishes you well               | Chat, advise, offer limited help, advocate         |
-| Helpful     | Will take risks to aid you    | Protect, back up, heal, aid, support               |
-
-Characters can attempt to improve another's attitude, using a Difficult
-(-2) Social Standing-based check using the appropriate skill, usually
-Liaison. With a success, the character's attitude is improved by one
-step; with an exceptional success, the attitude improves by two steps.
-Note that a particularly bad influence check can actually make a
-character's attitude worse. On an exceptional failure, the character's
-attitude shifts one step more Hostile. In general, a character can
-attempt to influence another character only once in any given scene.
-
-Players get to choose their characters’ attitudes, and so interaction
-skills cannot force a player-character to behave in a specific way.
-Typically, the only way a player character can be forced into a
-particular behavior is through the use of psionics or some other
-external force.
-
-# CHAPTER 15: STARSHIP ENCOUNTERS
+# CHAPTER 22: STARSHIP ENCOUNTERS
 
 Space is amazingly vast, and starships are incredibly small in
 comparison. Aside from points where people tend to congregate, such as
@@ -23755,1562 +25156,266 @@ Radiation Exposure.
 | 5   | Jettisoned cargo pod                   |
 | 6   | Lost or abandoned equipment or garbage |
 
-# CHAPTER 16: MAGICAL TREASURE
-
-Piles of golden coins and precious gems glimmer under torchlight.
-Wondrous weapons stick at odd angles out of a dragon's hoard gold.
-Potions gleam in an alchemist's laboratory. In Swords and Sorcery tales,
-adventurers pursue treasure. Treasure may come in many forms: coins,
-gemstones, jewelry, or magnificent magical items. This chapter presents
-simple rules for generating treasures belonging to monsters, found
-underground, or in ruins. It also presents rules detailing how skilled
-characters may brew positions, scribe scrolls, and create magical items.
-
-## Magical Research
-
-The most coveted of treasures are magical items – from potions and
-glowing swords to even more wondrous and mysterious objects. This
-sub-chapter contains rules for identifying existing magical items, as
-well as producing them. It also shows how sorcerers may research new,
-original, spells to add to their vast arcane knowledge.
-
-### Researching New Spells
-
-A sorcerer may research new spells. This takes two weeks of intensive
-research and costs 1000₢ per Circle. After spending the time and gold,
-throw Sorcery 4+ with a -DM equal to the spells Circle (e.g. a
-1<sup>st</sup> Circle spell will be at DM-1 while a 6<sup>th</sup>
-Circle spell will be at DM-6). If successful, the sorcerer gains the new
-spell. If failed, the time and gold are wasted but the sorcerer may try
-again to research the spell. A throw of "Snake Eyes" (a result of 2
-before modifiers are added) is a Critical Failure and may entail a
-mishap. A throw with an Effect of -4 and worse is also a Critical
-Failure may entail a mishap. In such cases of Critical Failure, the
-sorcerer must make a Sorcery 5+ throw with the same -DM; if failed
-again, they suffer a Mishap as per the Sorcery chapter.
-
-A sorcerer requires a **library** of at least 4000₢ in value to research
-new spells. This cost increases by 2000₢ per Circle beyond the
-1<sup>st</sup> for the new spell being researched. Furthermore, for
-every 10000₢ invested in the library beyond the spell’s Circle base
-requirement, the sorcerer gains DM+1 to the spell research throw, up to
-DM+3.
-
-The Referee is the final and absolute arbiter of what spells would be
-permissible in their campaign and which Circle and Shade a proposed new
-spell would be at. The Referee should note that in such a sword &
-sorcery setting as entailed by these rules, direct damage "blast" spells
-should be rare, teleportation (or worse – time travel!) should be
-avoided like the plague, and scrying spells should be significantly
-limited in power. Flying wizards who teleport and throw fireballs around
-are elements quite far from the spirit of the **Märchen Engine** rules.
-Though this, of course, is at the Referee's discretion.
-
-### Identifying Magical Items
-
-Identifying magical items depends on the item's rarity.
-
-Identifying common magical items requires a day of undisturbed careful
-investigation and an Artifice 6+ or Sorcery 9+ throw.
-
-Identifying common potions requires a day of undisturbed careful
-investigation and an Alchemy 6+ or Sorcery 9+ throw.
-
-The Referee is the final arbiter of what constitutes a common magical
-item or potion, and which items and potions are rare. However, the
-probabilities of finding each item or potion on the treasure tables (see
-below) can serve as a useful guideline.
-
-In those cases of rare magical items and potions, or when trying to
-identify an item or potion after failing the above investigation throws,
-the sorcerer must research the item. Researching an item, just like a
-spell, takes 2 weeks and costs 1000₢. Throw Artifice 6+ or Alchemy 6+
-(Sorcery will not suffice here) to identify the item or potion. There is
-no risk of mishap in this case, but if the throw fails, the sorcerer
-wastes the time and money invested in the research. Further attempts to
-identify the item are allowed. The sorcerer may try again at the same
-costs of time and money.
-
-### Creating Magical Items and Brewing Potions
-
-Artificers may create magical items. To create an item, the artificer
-must know a spell with an effect like that of the item, research this
-effect as if it were a spell, or find a formula for that item.
-Artificers may also copy the design of any magical item they possess.
-
-To create a magical item, make an Artifice 6+ throw. The Referee should
-enact a DM penalty to this throw depending on the item's complexity or
-its equivalent spell Circle. Magical item costs and creation times
-depend on their type, as given in the table below, but should be
-multiplied, at the Referee's discretion, by the item's equivalent spell
-Circle or based on its complexity, to a maximum multiplier of x6.
-
-Creating magical items is a dangerous process. A throw of "Snake Eyes"
-(an unmodified result of two) is always a Critical Failure and may
-entail a mishap. A throw with an Effect of -4 and worse is also
-considered a Critical Failure may entail a mishap. In such cases of
-Critical Failure, the sorcerer must make a Sorcery 5+ throw with the
-same -DM; if failed again, they suffer a Mishap as per the Sorcery
-chapter.
-
-An artificer requires a **workshop** of at least 4000₢ in value to
-create magical items, with this cost increased by 2000₢ per equivalent
-spell Circle beyond the 1<sup>st</sup>. Furthermore, for every 10000₢ in
-workshop worth beyond the equivalent spell’s Circle base requirement in
-gold, the sorcerer gains DM+1 to the item creation throw, up to DM+3.
-
-Brewing potions follows the same procedure as detailed above for magical
-items but uses the Alchemy skill instead of Artifice and requires a
-separate **laboratory** rather than a **workshop**.
-
-We encourage the Referee to require rare components – those that require
-an adventure to obtain – for creating powerful magical items and
-position. This is especially true for permanent-effect magical items.
-
-**Magic Item Costs and Times**
-
-| **Item Type**                          | **Cost**                                      | **Time**                                           |
-|----------------------------------------|-----------------------------------------------|----------------------------------------------------|
-| One use effect (including all potions) | 500₢                                          | 1 week                                             |
-| Charged effect                         | 500₢ per charge                               | 2 days per charge                                  |
-| Permanent effect (unlimited use)       | 25000₢                                        | 100 days                                           |
-| Permanent effect (1 use/turn)          | 16000₢                                        | 80 days                                            |
-| Permanent effect (1 use/hour)          | 12000₢                                        | 70 days                                            |
-| Permanent effect (1 use /day)          | 5000₢                                         | 40 days                                            |
-| Permanent effect (1/ use week)         | 3000₢                                         | 1 month                                            |
-| Magical weapon                         | 5000₢ for DM+1 to hit; 15,000 for DM+2 to hit | 3 months for DM+1 to hit; 9 months for DM+2 to hit |
-| Magical armor                          | 5000₢                                         | 1 month per Armor protection point                 |
-
-## Generating Treasures
-
-The following tables for the random generation of treasures refer to the
-five types of treasure noted in the monster descriptions in the previous
-chapter. The Referee may use these tables to randomly generate treasure,
-modify the results as they see fit, or hand-craft treasures. We
-encourage the Referee to hand-craft important or famous treasures, while
-randomly generating more common treasures, such as those found after
-defeating monsters.
-
-Monsters' treasures are usually found in their lairs. There are certain
-exceptions, such as those monsters who swallow enemies whole and thus
-may carry treasure in their bellies. Sentient monsters will use magical
-items in their possession to their best effect, or bestow them as gifts
-to their most trusted minions.
-
-Treasures come in **five** types:
-
-**Incidental:** treasure collected by happenstance by creatures
-otherwise uninterested in treasure, such as the remnants of swallowed
-adventurers in a monster's belly or remains of the dead near a giant
-carnivorous plant.
-
-**Small:** a small treasure, as sometimes hoarded by lesser sentient
-monsters.
-
-**Medium:** a moderately-sized treasure, as occasionally found in the
-tombs of undead.
-
-**Large:** a significant treasure, as found in the lairs of more
-powerful monsters.
-
-**Hoard:** a treasure worthy of a king or a dragon!
-
-When generating a treasure, note that each column usually gives a throw
-on 2D necessary for that part of a treasure to exist in the given loot.
-Note that in rare cases, monsters who are normally supposed to possess
-treasure may have none!
-
-**Treasures**
-
-| **Treasure Type** | **1000s of Silver** | **1000s of Gold**   | **Gems and Jewelry**      | **Magic Items**                                                                                                                               |
-|-------------------|---------------------|---------------------|---------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------|
-| Incidental        | 1D on a throw of 9+ | 1D on a throw of 9+ | 1D Minor on a throw of 7+ | 1 on a throw of 10+                                                                                                                           |
-| Small             | 1D on a throw of 4+ | None                | 1D Minor on a throw of 5+ | 2 on a throw of 11+                                                                                                                           |
-| Medium            | 1D on a throw of 9+ | 1D on a throw of 6+ | 2D Minor on a throw of 4+ | 1D potion + scroll on a throw of 10+                                                                                                          |
-| Large             | 2D on a throw of 6+ | 1D on a throw of 3+ | 1D Major on a throw of 6+ | 1D + 3 potion + scroll on a throw of 6+                                                                                                       |
-| Hoard             | 5D on a throw of 5+ | 3D on a throw of 4+ | 2D Major at a throw of 5+ | 2D potions; 2D scrolls; throw 5+ for one from each of the following categories: weapons, armor, miscellaneous items, wands/staves/rods, rings |
-
-**Minor Gems and Jewelry**
-
-| **1D** | **Value** | **Average** | **Example**                                                                                  |
-|--------|-----------|-------------|----------------------------------------------------------------------------------------------|
-| 1-2    | 4D ₢      | 14₢         | Azurite, hematite, malachite, bone, scrimshaw, beast parts                                   |
-| 3      | 3Dx10₢    | 105₢        | Amber, amethyst, coral, glass, shells, or wrought copper, brass, or bronze                   |
-| 4      | 2Dx100₢   | 700₢        | Opal, star ruby, star sapphire, alabaster, chryselephantine, ivory, or wrought gold          |
-| 5      | 3Dx100₢   | 1050₢       | Black sapphire, diamond, emerald, carved jade or wrought platinum                            |
-| 6      | 1Dx1000₢  | 3500₢       | Black pearl, baroque pearl, crystal geode, silver studded with turquoise, moonstone, or opal |
-
-**Major Gems and Jewelry**
-
-| **1D** | **Value** | **Average** | **Example**                                                                               |
-|--------|-----------|-------------|-------------------------------------------------------------------------------------------|
-| 1-2    | 2Dx1000₢  | 7000₢       | Facet cut star sapphire or star ruby, gold studded with topaz, jacinth, ruby              |
-| 3      | 3Dx1000₢  | 10500₢      | Flawless facet cut black sapphire or blue diamond, electrum or silver pendant with pearls |
-| 4      | 4Dx1000₢  | 14000₢      | Gold or platinum with diamonds and sapphires                                              |
-| 5      | 1Dx5000₢  | 17500₢      | Gold encrusted with flawless facet cut diamonds                                           |
-| 6      | 1Dx10000₢ | 35000₢      | Platinum encrusted with flawless black sapphires or blue diamonds                         |
-
-**Magical Item Categories**
-
-| **2D** | **Item Category**           |
-|--------|-----------------------------|
-| 2      | Rings                       |
-| 3      | Miscellaneous weapons       |
-| 4      | Swords                      |
-| 5-7    | Potions                     |
-| 8-9    | Scrolls                     |
-| 10     | Armor                       |
-| 11     | Rods, staves, and wands     |
-| 12     | Miscellaneous magical items |
-
-### Potions
-
-Potions take effect on the same round they are imbibed, and their effect
-– unless noted otherwise - lasts for 1D+6 turns.
-
-Drinking multiple potions at once is dangerous! If a character drinks
-one potion while another is active on them, they must throw END 4+ or
-suffer a roll on the Mutation table (in the Sorcery chapter)!
-
-| **D66** | **Potion**                                                                                                                                                                                                                                                                                                                                                                                                                 |
-|---------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 11      | **Animal Control:** the imbiber may control 2D normal animals or 1D giant animals within 20m as per **charm monster**.                                                                                                                                                                                                                                                                                                     |
-| 12      | **Clairaudience:** the imbiber may hear up to 20m, including through walls, through the ears of any creatures in the area. If there are no creatures in the target area, this effect fails, and the potion is wasted.                                                                                                                                                                                                      |
-| 13      | **Clairvoyance:** the imbiber may see up to 20m, including through walls, through the eyes of creatures in the area.                                                                                                                                                                                                                                                                                                       |
-| 14      | **Climbing:** the imbiber may climb sheer surfaces and cling to ceilings like a gecko.                                                                                                                                                                                                                                                                                                                                     |
-| 15      | **Delusion:** the imbiber is absolutely convinced that they have drunk a potion of another kind.                                                                                                                                                                                                                                                                                                                           |
-| 16      | **Diminution:** shrinks the imbiber and everything they carry to 15cm tall. The character gains DM+4 to all Stealth throws but cannot damage larger creatures with any attack.                                                                                                                                                                                                                                             |
-| 21      | **Dragon Control:** the imbiber may control one dragon or drake within 20m as per **Charm Monster**.                                                                                                                                                                                                                                                                                                                       |
-| 22      | **ESP:** the imbiber may "hear" thoughts up to 20m.                                                                                                                                                                                                                                                                                                                                                                        |
-| 23      | **Extra Healing:** the imbiber heals as if they rested for 5D days under a healer's care.                                                                                                                                                                                                                                                                                                                                  |
-| 24      | **Fire Resistance:** the imbiber is immune to all forms of normal flame and gains DM+2 to resist magical fire.                                                                                                                                                                                                                                                                                                             |
-| 25      | **Flying:** the imbiber may fly at a speed of 20m/action per the **Fly** spell.                                                                                                                                                                                                                                                                                                                                            |
-| 26      | **Gaseous Form:** the imbiber takes the form of a translucent cloud of gas; all equipment carried by them falls on the floor. While in gaseous form, a creature may not attack but may move 5m per action through cracks and below doors. Gaseous creatures are immune to non-magical weapons.                                                                                                                             |
-| 31      | **Inhuman Strength:** the imbiber of this potion gains STR 23 (N) with all it entails for the duration.                                                                                                                                                                                                                                                                                                                    |
-| 32      | **Growth:** the imbiber doubles in size, with STR doubling up to 23 (N) for the duration.                                                                                                                                                                                                                                                                                                                                  |
-| 33      | **Healing:** the imbiber heals as if they rested for a full day under a healer's care.                                                                                                                                                                                                                                                                                                                                     |
-| 34      | **Healing:** as above.                                                                                                                                                                                                                                                                                                                                                                                                     |
-| 35      | **Heroism:** the imbiber gains a temporary Melee Combat-3 skill, or adds +1 to their Melee Combat skill, whichever is higher.                                                                                                                                                                                                                                                                                              |
-| 36      | **Human Control:** the imbiber may control 2D human beings or similar humanoids as per the **Charm Person** spell.                                                                                                                                                                                                                                                                                                         |
-| 41      | **Invisibility:** the imbiber, along their equipment, becomes invisible as per the **Invisibility** spell. It is possible to consume this potion in 1/6 increments, in which the invisibility lasts for 1 turn per dose. Any combat ends this invisibility.                                                                                                                                                                |
-| 42      | **Invulnerability:** the imbiber gains DM+2 to resist all magic, poisons, diseases, and similar effects, and gains 5 additional points of armor protection.                                                                                                                                                                                                                                                                |
-| 43      | **Levitation:** the imbiber may levitate up or down at 5m per action. The potion does not grant the ability to move horizontally, although it is possible to clamber sideways by holding onto walls and pushing.                                                                                                                                                                                                           |
-| 44      | **Longevity:** the imbiber becomes 10 years younger, to a minimum of 18 years. This reverses any Aging Table effects suffered in these years. However, every time one consumes this potion after the first one, they must throw 3+ to avoid a mishap, which reverses all previous longevity potion effects, returning the character to the age they would have been without the potion.                                    |
-| 45      | **Oil of Sharpness:** when applied to a blade, the oil temporarily enhances its power to that of a lesser magical weapon, granting DM+1 to hit and allowing it to harm creatures only harmed by magical weapons.                                                                                                                                                                                                           |
-| 46      | **Oil of Slipperiness:** a character coated with this oil cannot be grappled; any grapple attempt against it will automatically fail. They will also automatically escape any ropes or manacles. Furthermore, if used to coat the floor, any creature attempting to transverse the oiled area must throw DEX 12+ or fall prone. The effect lasts for 8 hours, until **dispelled**, or until cleaned off by enough alcohol. |
-| 51      | **Love:** the imbiber becomes charmed by the next sentient creature they lay eyes on. Furthermore, if the creature belongs to a similar species to that of the drinker and to their preferred sex, the imbiber will be deeply enamored with it. The charm effect only lasts 1D+6 turns. Only **dispel magic** will cause the imbiber to cease to be enamored by a creature it fell in love with due to this potion.        |
-| 52      | **Plant Control:** the imbiber may control plants and plant-like creatures (including fungi) within a 10m by 10m area in a 20m range. Intelligent plants may throw INT 8+ to resist this effect or be **charmed** for 1D+6 turns. Non-sentient plants will bend to the imbiber's will. Even otherwise immobile plants will move at the drinker's whim!                                                                     |
-| 53      | **Poison:** this "potion" is a potent poison rated at 10+/4D.                                                                                                                                                                                                                                                                                                                                                              |
-| 54      | **Poison:** as above.                                                                                                                                                                                                                                                                                                                                                                                                      |
-| 55      | **Polymorph**: the imbiber may shapeshift to a new form for the potion's duration.                                                                                                                                                                                                                                                                                                                                         |
-| 56      | **Speed:** the imbiber will move at double their regular speed and enjoy 3 actions per round rather than the usual 2. However, the imbiber will permanently age one year due to the strain on their body.                                                                                                                                                                                                                  |
-| 61      | **Super-heroism:** the imbiber gains a temporary Melee Combat-5 skill, or +2 to their Melee Combat skill, whichever is higher.                                                                                                                                                                                                                                                                                             |
-| 62      | **Sweet Water:** when poured into water, it will turn up to 10,000 cubic meters of contaminated water or other liquid into potable water; it may also turn 100 cubed meters of acid into potable water.                                                                                                                                                                                                                    |
-| 63      | **Treasure Finding:** the imbiber may concentrate for one turn to find the direction and distance of the most valuable treasure within 120m. This effect will work through any barrier or wall.                                                                                                                                                                                                                            |
-| 64      | **Undead Control:** the imbiber may control 2D undead as per the **charm monster** spell. Controlled undead will become hostile when the potion's duration ends.                                                                                                                                                                                                                                                           |
-| 65      | **Water Breathing**: the imbiber of this potion may breathe underwater, in any depth, for 4 hours.                                                                                                                                                                                                                                                                                                                         |
-| 66      | **Mutation!** Throw on the Mutation table in the Sorcery chapter. This mutation, unlike many other potion effects, is permanent.                                                                                                                                                                                                                                                                                           |
-
-### Rings
-
-A character may wear up to two active magical rings at one; further
-rings worn at the same time will not function.
-
-| **2D** | **Ring**                                                                                                                                                                                                                                                                                                                                                             |
-|--------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 2      | **Spell Turning:** the ring may be used for 2D times. Each time the wearer uses it, it negates a single spell's effect on the wearer. Once all uses are spent, the ring turns to dust.                                                                                                                                                                               |
-| 3      | **Djinn Calling:** one a week, the wearer may summon a **djinn**, who will serve him for up to one day. If the **djinn** is slain, the ring turns to dust.                                                                                                                                                                                                           |
-| 4      | **Regeneration:** the wearer regenerates one characteristic point of injury per round and will regrow severed or mangled body parts. However, the ring may not cure damage or injury caused by fire or acid.                                                                                                                                                         |
-| 5      | **Fire Resistance:** renders the wearer immune to all forms of ordinary flame and grants DM+2 to resist magical fire.                                                                                                                                                                                                                                                |
-| 6      | **Delusion:** the wearer absolutely believes that the ring is of another magical type (rolled randomly).                                                                                                                                                                                                                                                             |
-| 7      | **Protection:** any who attacks the wearer suffers DM-1 to hit and the wearer gains DM+1 to all throws to resist magic, disease, or poison.                                                                                                                                                                                                                          |
-| 8      | **Invisibility:** one per turn, the wearer may become **invisible**, per the spell of the same name.                                                                                                                                                                                                                                                                 |
-| 9      | **Weakness:** once worn, the only way to remove this ring is by a **remove curse** spell. It reduces the wearer's STR to 2 as long as it is worn.                                                                                                                                                                                                                    |
-| 10     | **Water Walking:** the wearer may walk across water as if it was solid ground.                                                                                                                                                                                                                                                                                       |
-| 11     | **Telekinesis:** the ring grants its wearer the ability to move up to 100kg with his mind at will.                                                                                                                                                                                                                                                                   |
-| 12     | **Wishes:** the ring stores 1D **wishes**. A **wish** is the most powerful magic available – capable of altering reality and even resurrecting the dead with no risks entailed. However, we encourage the Referee to strictly limit, and nearly always subvert, such wishes to avoid absurdities or cheating. Once the ring runs out of wishes, it crumbles to dust. |
-
-### Scrolls
-
-A spell scroll is a piece of parchment of papyrus with eldritch spells
-inscribed on it. Any character with at least Sorcery-1 can read a scroll
-and cast the spell imbued in it. Once cast, the scroll crumbles to dust.
-
-Additional scrolls found in treasure include scrolls of ward, cursed
-scrolls, and – of course – non-magical treasure maps.
-
-| **2D** | **Scroll**                                  |
-|--------|---------------------------------------------|
-| 2      | 6<sup>th</sup> Circle spell                 |
-| 3      | Cursed scrolls                              |
-| 4      | 4<sup>th</sup> Circle spell                 |
-| 5      | 2<sup>nd</sup> Circle spell                 |
-| 6      | Treasure map (generate as a Large treasure) |
-| 7      | 1<sup>st</sup> Circle spell                 |
-| 8      | Ward against undead                         |
-| 9      | Ward against elementals                     |
-| 10     | 3<sup>rd</sup> Circle spell                 |
-| 11     | Ward against magic                          |
-| 12     | 5<sup>th</sup> Circle spell                 |
-
-**Cursed scrolls**
-
-The reader of a cursed scroll suffers a horrible curse upon reading it.
-**Remove curse** will reverse such affliction, except for the loss of a
-magic item, which is irreversible. Roll for the curse on the following
-table.
-
-| **1D** | **Curse**                                                  |
-|--------|------------------------------------------------------------|
-| 1      | One magic item in the victim's possession crumbles to dust |
-| 2      | One characteristic falls to 2                              |
-| 3      | The victim cannot gain new Experience                      |
-| 4      | The victim "forgets" one skill                             |
-| 5      | The victim is polymorphed into a tiny, slimy toad          |
-| 6      | The victim is blinded                                      |
-
-**Scrolls of Warding**
-
-Any literate character, even without the Sorcery skill, may use a scroll
-of warding. The scroll crumbles to dust after being read but grants a
-3m-radius area of protection against the creatures it wards against for
-1D turns, or until one of the creatures protected by the ward tries to
-attack the creature warded against. A creature warded against cannot
-enter the warded area or attack those within it.
-
-The only exception is a scroll of **ward against magic**, which protects
-not only from magical (usually summoned) creatures, but also prevents
-any spell or spell-like ability from penetrating the warded area.
-
-### Rods, Staves, and Wands
-
-Traditional implements of sorcery, wands are small and thin; staves are
-long; and rods are in between in size. Any character may use a rod. Only
-characters with at least Sorcery-1 may use a staff or a wand, but they
-do not to make any throw to use them (other than the throws needed to
-identify the item).
-
-Each of these items typically uses "charges", used to power activations.
-When found, a rod or wand will have 2D charges and a staff 3D charges.
-Each use expends one charge unless noted otherwise.
-
-One cannot recharge rods, staves, and wands. Once all charges are
-expended, the item becomes inert.
-
-**Throw 1D; on 1-2, roll on the rods and staves table. On 3-6, roll on
-the wands table.**
-
-**Rods and Staves**
-
-All magical staves may also act as weapons (as per the **staff**
-described in the **Equipment** chapter).
-
-| **2D** | **Rod or Staff**                                                                                                                                                                                                                                                                                                                                                                                                               |
-|--------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 2      | **Staff of Wizardry:** this staff has the powers of a staff of power and a **wand of paralysis**. In addition, it may serve to cast **invisibility**, **conjure elemental**, or summon a djinn as per the **ring of djinn summoning**. Finally, the user may break the staff in a **final blow**, dealing 1D damage per remaining charge to all creatures within 10m, including the user themselves, and destroying the staff. |
-| 3      | **Rod of Resurrection:** allows raising dead characters of creatures per the Rebirth spell. Each use expends three charges.                                                                                                                                                                                                                                                                                                    |
-| 4      | **Staff of Commanding:** commands animals, humans, and plants as a respective **ring of command**.                                                                                                                                                                                                                                                                                                                             |
-| 5      | **Staff of the Serpent:** this staff does not employ charges. It grants DM+1 to hit. Additionally, upon command, the staff can become a giant constrictor snake for 1D rounds, under the user's control. If the snake is slain, the staff crumbles to dust.                                                                                                                                                                    |
-| 6-7    | **Staff of Striking:** grants DM+1 to hit. Upon expending a charge when striking an opponent, it causes 4D damage.                                                                                                                                                                                                                                                                                                             |
-| 8-9    | **Staff of Healing**: heals any creature touched by it as if they have rested for 5D days under a healer's oversight.                                                                                                                                                                                                                                                                                                          |
-| 10     | **Rod of Cancellation:** if the rod strikes an item, that item permanently loses all magical powers.                                                                                                                                                                                                                                                                                                                           |
-| 11     | **Staff of Power:** can cast **death spell** or **telekinesis** (as per **ring of telekinesis**). Also functions as a **staff of striking**                                                                                                                                                                                                                                                                                    |
-| 12     | **Staff of Withering:** grants DM+1 to hit; causes 4D damage if a charge is used. By expended two charges, the struck victim ages by 12 years, forcing Aging Table throws as appropriate. By expending three charges, one of the victim's limbs withers into a useless, mummified member.                                                                                                                                      |
-
-**Wands**
-
-| **2D** | **Scroll**                                                                                                                                                                                 |
-|--------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 2      | **Wand of Polymorphing:** polymorphs the user as per a potion of polymorphing.                                                                                                             |
-| 3      | **Wand of Fear:** discharges a cone, 20m long and 10m wide. Any creature caught within the core suffers the effect of the **cause fear** spell.                                            |
-| 4      | **Wand of Negation:** choose any wand, rod, or staff wielded by an opponent, and render it powerless for 1D rounds.                                                                        |
-| 5      | **Wand of Detecting Enemies:** all enemies within 20m of the user become surrounded by a faint yellow aura for 2 turns. Only the wielder can see the aura.                                 |
-| 6-7    | **Wand of Detecting Traps:** all traps within 10m become surrounded by a faint blue aura for 2 turns. Only the wielder can see the aura.                                                   |
-| 8      | **Wand of Detecting Secret Doors:** all secret doors within 10m become surrounded by a faint blue aura for 2 turns. Only the wielder can see the aura.                                     |
-| 9      | **Wand of Detecting Metals:** the wand will point at the direction of any concentration of metal within 20m for up to 6 turns. The wielder instinctively knows the kind of metal detected. |
-| 10     | **Wand of Detecting Magic:** any magic item within 5m becomes surrounded by a faint yellow aura for 2 turns. Only the wielder can see the aura.                                            |
-| 11     | **Wand of Illusion:** can create the effects of the spell **phantasmal force**.                                                                                                            |
-| 12     | **Wand of Paralysis:** discharges a cone, 20m long and 10m wide. All creatures within the cone must throw INT 6+ or be paralyzed for 6 turns.                                              |
-
-### Enchanted Swords
-
-Swords are the most commonly enchanted weapon, and thus deserve their
-own section. First roll for the sword's type, then roll 1D; on 1-4, the
-sword is a common enchanted sword; on 5-6, it is a unique enchanted
-sword.
-
-**Sword Types**
-
-| **1D** | **Sword**  |
-|--------|------------|
-| 1      | Broadsword |
-| 2      | Cutlass    |
-| 3-4    | Sword      |
-| 5      | Shortsword |
-| 6      | Sabre      |
-
-**Common Enchanted Swords**
-
-| **2D** | **Sword's Power**                                           |
-|--------|-------------------------------------------------------------|
-| 2      | DM+2 to hit; those attacking the wielder suffer DM-1 to hit |
-| 3      | Cursed! DM-1 to hit                                         |
-| 4      | DM+1; DM+2 vs. dragons                                      |
-| 5      | DM+1; DM+2 vs. summoned creatures                           |
-| 6-7    | DM+1 to hit                                                 |
-| 8      | DM+1 to hit; upon command, illuminates up to 10m as a torch |
-| 9      | DM+1; DM+2 vs. regenerating monsters                        |
-| 10     | DM+1; DM+2 vs. undead                                       |
-| 11     | DM+2 to hit                                                 |
-| 12     | Cursed! DM-2 to hit                                         |
-
-**Unique Enchanted Swords**
-
-| **1D** | **Unique Sword**                                                                                                                                                                                                                                                     |
-|--------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 1      | **Flame Tongue:** DM+1 to hit; DM+2 against regenerating, avian, or plant-like monsters; upon command, will be covered by flames, providing light as a torch, and ignite anything flammable it touches.                                                              |
-| 2      | **Life Drinker:** DM+1 to hit; has 1D charges. Upon expending a charge, the wilder heals for the number of characteristic points inflicted on an enemy. After expending all charges, the sword still retains its DM+1 to hit.                                        |
-| 3      | **Luck Blade:** DM+1 to hit; grants DM+1 to all throws to resist magic, poison, or disease; contains 3 **wishes** as per a **ring of wishes**. After using the last wish, the sword retains its other abilities.                                                     |
-| 4      | **Charming Blade:** DM+1 to hit; may cast **charm person**, as per the spell, 3 times a week.                                                                                                                                                                        |
-| 5      | **Frost Brand:** DM+2 to hit; grants DM+3 to hit creatures living in hot environments or using fire-based attacks; sheds light as a torch when the temperature drops below the freezing point. Extinguishes all non-magical fires within 3m when touched by a flame. |
-| 6      | **Vorpal Sword:** DM+2 to hit; on a natural attack throw of 12, its victim must throw END 10+ or be decapitated, dying immediately. If they succeed in this throw, they still suffer double damage.                                                                  |
-
-### Miscellaneous Enchanted Weapons
-
-Roll on the following table:
-
-| **2D** | **Weapon**                                                                                                                            |
-|--------|---------------------------------------------------------------------------------------------------------------------------------------|
-| 2      | **Slaying arrow**. DM+2 to hit, keyed against a single creature type (Referee's choice); if it hits such creature, it instantly dies. |
-| 3      | Spear, DM+2 to hit                                                                                                                    |
-| 4      | Axe or Great Axe, DM+2 to hit                                                                                                         |
-| 5      | War hammer, DM+1 to hit                                                                                                               |
-| 6      | 3D arrows, DM+1 to hit                                                                                                                |
-| 7      | 3D crossbow bolts, DM+1 to hit                                                                                                        |
-| 8      | Axe or Great Axe, DM+1 to hit                                                                                                         |
-| 9      | Spear, DM+1 to hit                                                                                                                    |
-| 10     | War Hammer, DM+2 to hit                                                                                                               |
-| 11     | Lance, +2 to hit                                                                                                                      |
-| 12     | Maul, DM+1 to hit, DM+3 to hit and double damage vs. undead                                                                           |
-
-### Enchanted Armor
-
-When generating enchanted armor, first roll on the following table to
-determine its type, and then roll on the Enchanted Armor table.
-
-Enchanted armor always counts as half its Encumbrance, rounded down.
-
-**Armor Types**
-
-| **1D** | **Armor**   |
-|--------|-------------|
-| 1      | Hide or Fur |
-| 2      | Leather     |
-| 3      | Scale       |
-| 4      | Chain       |
-| 5      | Banded      |
-| 6      | Plate       |
-
-**Enchanted Armors**
-
-| **1D** | **Enchantment**                                 |
-|--------|-------------------------------------------------|
-| 1      | Cursed! DM+1 to enemies attacking the character |
-| 2      | +1 armor rating                                 |
-| 3      | +2 armor rating                                 |
-| 4      | +3 armor rating                                 |
-| 5      | +4 armor rating                                 |
-| 6      | +5 armor rating                                 |
-
-### Miscellaneous Magical Items
-
-The following magical items do not fit any of the above categories.
-
-| **D66** | **Item**                                                                                                                                                                                                                                                                                                                                                                                                                                    |
-|---------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 11      | **Boat, folding:** folded, this item appears as a small wooden box, approximately 30cm long, 15cm wide, and 15cm deep. Upon command, it unfolds into a 3m long, 1m wide boat, or an 8m long, 3m wide, 2m deep ship. Upon another command, the ship folds back to the box.                                                                                                                                                                   |
-| 12      | **Boots of Levitation:** upon command, these boots allow the wearer to levitate as per a **ring of levitation**. The duration is infinite.                                                                                                                                                                                                                                                                                                  |
-| 13      | **Boots of Traveling and Sprinting:** while wearing the boots, the wearer does not need to rest if engaged in regular exploration movement; aboveground, their movement rate is doubled. The wearer may also jump 3m high, or 10m long.                                                                                                                                                                                                     |
-| 14      | **Bowl of Commanding Water Elementals:** upon command, the bowl summons one water elemental per day, requiring a turn to summon the elemental. Once the elemental appears, the user must concentrate to control it.                                                                                                                                                                                                                         |
-| 15      | **Bracers of Armor:** grant the wearer 5 points of armor protection. This is not cumulative with a worn suit of armor.                                                                                                                                                                                                                                                                                                                      |
-| 16      | **Bracers of Armor, Cursed:** when worn, these bracers grant no armor protection and prevent the user from wearing any armor. Only a **remove curse** spell can remove these cursed bracers.                                                                                                                                                                                                                                                |
-| 21      | **Brazier of Commanding Fire Elementals:** upon command, the brazier summons one fire elemental per day, requiring a turn to summon the elemental. Once the elemental appears, the user must concentrate to control it.                                                                                                                                                                                                                     |
-| 22      | **Broom of Flying:** may carry up to two riders at a speed of 80m per action in combat or up to 60km a day in overland travel.                                                                                                                                                                                                                                                                                                              |
-| 23      | **Censer of Commanding Air Elementals:** upon command, the bowl summons one air elemental per day. The summoning requires one turn. Once the elemental appears, the user must concentrate to control it.                                                                                                                                                                                                                                    |
-| 24      | **Chime of Opening:** when struck, the chime sends forth magical vibrations which open one lock of any kind per round.                                                                                                                                                                                                                                                                                                                      |
-| 25      | **Cloak of Shadows:** any creature wearing this cloak enjoys DM+3 to Stealth throws.                                                                                                                                                                                                                                                                                                                                                        |
-| 26      | **Crystal Ball:** any character with at least Sorcery-1 can use the ball to view images of distant objects, places, or creatures they are familiar with. The greater the familiarity with that object, place, or creatures, the clearer the image. The user may not communicate or cast spells through the crystal ball.                                                                                                                    |
-| 31      | **Crystal Ball of ESP:** in addition to the usual crystal ball characteristics, this crystal ball also allows its user to read the surface thoughts of any creature being observed.                                                                                                                                                                                                                                                         |
-| 32      | **Cube of Frost Resistance:** when activated, creates a cube-shaped area 3m on each side centered on the cube. The temperature within this cube is always 20 degrees centigrade. It also blocks all cold-based attacks.                                                                                                                                                                                                                     |
-| 33      | **Decanter of Endless Water:** removing the stopper from this flask and speaking the command word sends forth a stream of fresh water from it at the rate of 5 liters per round. Alternatively, it may be commanded to emit a "geyser", producing a 6m long, 30cm wide stream of water at 150 liters per round; any creature hit by the geyser must throw STR 8+ or fall prone. Creatures larger than human size are immune to this geyser. |
-| 34      | **Drum of Panic:** if sounded, all creatures within 80m of the drum must throw INT 8+ or become fearful and flee at running speed for 30 rounds. There exists a 3m safe zone around the drum itself.                                                                                                                                                                                                                                        |
-| 35      | **Dust of Appearance:** a handful of this material, when thrown into the air, covers all creatures within a 3m radius, rendering any invisible creature visible. A tube of this dust contains enough dust for 5D applications.                                                                                                                                                                                                              |
-| 36      | **Dust of Disappearance:** any creature touched by this dust becomes invisible for 2D turns and stays invisible even when attacking. A tube of this dust contains enough dust for 5D applications.                                                                                                                                                                                                                                          |
-| 41      | **Eyes of Charming:** these two crystal lenses fit over the user's eyes. The wearer may use them to apply **charm person** (as per the spell) merely by meeting their gaze.                                                                                                                                                                                                                                                                 |
-| 42      | **Eyes of the Eagle:** these two crystal lenses fit over the user's eyes. The lenses allow the user to see 100 times further than usual. Furthermore, this eliminates ranged attack penalties beyond Effective range.                                                                                                                                                                                                                       |
-| 43      | **Flying Carpet:** this fabled carpet may carry up to 3 human-sized passengers at a speed of 80m per action in combat or up to 60km a day in overland travel.                                                                                                                                                                                                                                                                               |
-| 44      | **Gauntlets of Power:** grant their user an effecting STR of 15 and upgrade their unarmed damage to 1D + STR DM.                                                                                                                                                                                                                                                                                                                            |
-| 45      | **Girdle of Heroic Strength:** increases the user's STR by 10 points, DM+2 to hit in melee combat, grants the ability to throw rocks up to 100m range for 3D damage, and grants DM+3 to forcing doors open.                                                                                                                                                                                                                                 |
-| 46      | **Helm of Comprehending Languages:** the wearer can understand and speak any language they encounter and read texts in any language.                                                                                                                                                                                                                                                                                                        |
-| 51      | **Helm of Telepathy:** the wearer can read the thoughts of any creature within 30m at will and may send telepathic messages to any whose thoughts they read (allowing two-way communication). Use of this helm requires full concentration, and the user cannot move or act otherwise while using it.                                                                                                                                       |
-| 52      | **Helm of the Deep:** any person who wears this helm can breathe underwater indefinitely and swim at their full movement speed.                                                                                                                                                                                                                                                                                                             |
-| 53      | **Helm of the Dunce:** reduces the wearer's INT to 2. Only a **remove curse** spell can remove this cursed helm.                                                                                                                                                                                                                                                                                                                            |
-| 54      | **Horn of Blasting:** when sounded, the horn emits a sonic wave dealing 2D damage to any creature within a 30m long, 6m wide cone. Any hit by the wave must throw END 8+ or be deafened for 2D rounds. The horn has an AV rating of 2D and may level structures at the Referee's discretion.                                                                                                                                                |
-| 55      | **Horn of Heroes:** when sounded, this horn calls forth 2D heroic warriors from the great beyond, who fight for the owner. These warriors possess a UWP of AAA777, and Atheltics-2, Archery-2, and Melee Combat-2 skills. They disappear within 2D rounds. This horn may be used only once a week.                                                                                                                                          |
-| 56      | **Lamp of the Djinn:** one a week, the when the user rubs the lamp, they may summon a **djinn**, who will serve them for up to one day. If the **djinn** is slain, the lamp turns to dust.                                                                                                                                                                                                                                                  |
-| 61      | **Mask of Adaptation:** any who wear this mask are immune to any harmful gases and vapors and may survive without air (including underwater) for one week.                                                                                                                                                                                                                                                                                  |
-| 62      | **Mirror of Opposition:** any creature who are reflected in the mirror are restlessly attacked by an exact duplicate of that creature. The creature’s own powers are duplicated as well. When either the duplicate or the original one perishes, the duplicate disappears.                                                                                                                                                                  |
-| 63      | **Rope of Climbing:** this 15m long rope is no thicker than a wand but may support up to 500kg of weight. Upon command, the rope snakes in any direction its owner desires at a speed of 5m per round, attaching itself to whatever its owner desires. The owner may command it to return at any time.                                                                                                                                      |
-| 64      | **Scarab of Protection:** renders its wearer immune to any curses and death spells and effects, regardless of their origin. After 2D such attacks, the scarab crumbles to dust.                                                                                                                                                                                                                                                             |
-| 65      | **Stone of Commanding Earth Elementals:** upon command, the bowl summons one earth elemental per day, requiring a turn to summon the elemental. Once the elemental appears, the user must concentrate to control it.                                                                                                                                                                                                                        |
-| 66      | **Stone of Luck:** grants any person who carries it DM+1 to all attack throws and any throws made to resist magic, poison, or disease.                                                                                                                                                                                                                                                                                                      |
-
-# CHAPTER 16.5: ADVENTURING
-
-Märchen Engine is a game of memorable adventure. However, before we can
-discuss heroic combat and eldritch sorcery, we must first outline
-several topics related to adventuring, including wilderness exploration,
-poison, sailing the high seas, and many other day-to-day realities that
-await the player characters.
-
-### NPC Reactions
-
-When the player characters encounter a group of NPCs, the Referee will
-have already determined the NPCs’ attitudes and plans concerning the
-adventurers. However, for any random encounters, or whenever the NPCs'
-intentions may not be so clearly defined, the Referee is encouraged to
-make a 2d6 Reaction throw and consult the table below. At the Referee's
-discretion, an appropriate social skill, or even the characters SOC DM,
-may serve as a +DM; for example, the Streetwise skill may positively
-affect the outcome of the Reaction roll when dealing with random
-criminal elements. Certain Traits may also modify this throw. Additional
-DMs may apply at the Referee's discretion subject to the NPCs'
-attitudes. Animals have their own reactions, as given in the Monsters
-chapter.
-
-Note that a result of 2 is always a violent reaction, and a result of 12
-on the dice is always a genuinely friendly reaction.
-
-**Reactions**
-
-| **2D** | **Reaction**              |
-|--------|---------------------------|
-| 2-     | Hostile, attacks          |
-| 3-5    | Unfriendly, may attack    |
-| 6-8    | Neutral, uncertain        |
-| 9-11   | Indifferent, uninterested |
-| 12+    | Friendly, helpful         |
-
-A **Hostile** reaction means that the NPC attacks immediately.
-
-An **Unfriendly** result means that the NPC does not like the PCs and
-will attack if they see an advantage and can win the fight.
-
-A **Neutral** result means that the NPC is suspicious and does not hold
-a positive attitude towards the PCs, yet can be enticed to begin a
-discussion.
-
-An **Indifferent** result means that the NPC will wish to avoid the PCs
-or negotiate with them if necessary.
-
-A **Friendly** result means that the NPC likes the PCs and may choose to
-cooperate with them voluntarily without promise of reward.
-
-### Time and Movement
-
-In addition to normal measurements of time, such as minutes, hours, and
-days, Märchen Engine uses two additional time intervals. The first is
-the **round**, often used in combat and spellcasting. A round is 6
-seconds. The second interval is the **turn**, which is often used when
-exploring ruins, or performing other tasks that are not fast paced, but
-still need a discrete measure. A turn is 10 minutes, or 100 rounds.
-
-A human or typical humanoid may move up to 10m in one round if walking,
-or 20m if sprinting. A character may sprint for a number of combat
-rounds equal to the character's END characteristic before becoming
-fatigued. A character may move up to 900m a turn if walking at full
-speed, or 1200m a turn if running a long distance (which is slower than
-sprinting). Characters may run for a number of turns equal to their END
-characteristic before becoming fatigued.
-
-However, when exploring ruins or moving carefully through other terrain
-(such as a jungle), characters move at one third of their full speed, 3m
-per round or 300m per turn. We recognize that round-to-round movement
-rates do not mathematically equate to turn-based movement rates and
-fully stand by this decision to make the Referee’s job simpler in
-combat.
-
-### Wilderness movement
-
-In the wilderness, an unencumbered human or humanoid may travel 30km a
-day on foot on open ground. The Equipment chapter provides details on
-travel speeds for mounts and land vehicles such as carts. In any case,
-the type of terrain modifies the speed of travel, as follows:
-
-**Terrain effects on wilderness movement**
-
-| **Terrain**              | **Multiplier** |
-|--------------------------|----------------|
-| Desert, hills, woods     | X0.75          |
-| Jungle, swamp, mountains | X0.5           |
-| Road                     | X1.5           |
-
-Note that some mounts may traverse difficult terrain more easily than
-others. For example, a giant lizard travels at full speed through
-swamps. See the Equipment chapter for details.
-
-### Getting Lost in the Wilderness
-
-When travelling away from roads, trails, or other known landmarks,
-characters may get lost. At the beginning of each day in the wilderness,
-make a Survival 6+ or Recon 6+ throw. Use the highest skill level among
-the group members. If no such skill is available to the group, it
-suffers the usual Unskilled penalty. Hiring a skilled guide might be a
-good option in this case.
-
-On a failed skill throw, for each point of Effect on failed the Survival
-or Recon throw, the party has gone off track by half a day’s normal
-travel distance. Thus, if the throw yielded an Effect of -2, the group
-will have lost a full day’s worth of travel in distance. The Referee
-could then determine in which direction they went, using a random
-direction (see above), or by simply deciding an interesting outcome.
-
-### Rations, Foraging, and Hunting
-
-A person must consume 1kg of food and approx. 4 liters of water per day
-of strenuous activity typical of adventuring. Characters may go without
-food for 2 days with no significant effect, after which the character
-becomes Fatigued and loses 1 point of Endurance per day. Characters who
-have not eaten for over 2 days cannot heal any wounds. Consuming enough
-food for a day (along the course of the day – not all at once.) restores
-the character's ability to heal and removes the Fatigue. Characters who
-go without water for a single day are Fatigued and suffer 1D damage per
-day afterwards; the character may heal only after consuming one day’s
-supply of water.
-
-In most arctic, temperate, or tropical wilderness settings, water is
-easy to locate, and should pose no problem to the characters. In a
-desert, finding a source of water requires a Survival 8+ throw, made
-once a day. Apply DM+1 to this throw in hospitable environments, and
-DM-1 in hostile ones, such as deserts.
-
-A character may forage for food while on the road without hindering
-travel. For each day of foraging while traveling, throw Survival 10+;
-success indicates finding enough food for 1D human-sized creatures. As
-above, apply DM+1 to this throw in hospitable environments, and DM-1 in
-hostile ones, such as deserts.
-
-In lieu of traveling, a character may attempt to hunt. Throw Survival 8+
-once a day to secure enough food for 2D human-sized omnivorous of
-carnivorous creatures. However, this is a sole activity per the day and
-precludes travel. Furthermore, this results in one wilderness encounter
-throw on the appropriate terrain travel while hunting. As above, apply
-DM+1 to this throw in hospitable environments, and DM-1 in hostile ones,
-such as deserts.
-
-### Climbing and Falling
-
-Assume that all characters can climb reasonable surfaces without much
-difficulty if they are not under duress. In a tense situation or when
-climbing a difficult surface, throw Athletics 6+ to climb. The Referee
-may add further DMs based on the surface being climbed. Generally
-speaking, a smooth surface without good handholds will incur DM-1 to
-DM-2, while good handholds may grant DM+1 or even DM+2. A slippery
-surface incurs a further DM-1.
-
-On a fall, a character suffers 1D damage per 2m fallen, up to 10D at
-terminal velocity.
-
-### Fatigue and Rest
-
-A character can become fatigued in numerous ways, including but not
-limited to, staying awake for over 24 hours, sprinting (using both
-actions for movement) for a number of combat rounds greater than the
-character's END characteristic, going without food for over two days, or
-even using certain herbs.
-
-A Fatigued character suffers DM-2 to all checks until they rest. The
-amount of rest needed is equal to 8 – the character's Endurance DM, in
-hours. A negative END modifier means a required rest of over 8 hours.
-For example, if a character has an Endurance DM of -1, they would
-require 9 hours of rest to remove Fatigue. If a character suffers
-fatigue while already fatigued, they suffer a DM-4 to all throws, and
-may fall unconscious at the Referee’s discretion.
-
-Periods of rest are also required for healing, as noted in the Damage
-and Healing chapter.
-
-### Swimming
-
-Assume that all adventurers know how to swim. Characters move at half
-speed when swimming: 5m per combat round or 450m per turn. A character
-may swim a number of turns equal to their half END score (rounded down)
-before becoming Fatigued. Characters who become Fatigued again (DM-4)
-must throw END 6+ every round or drown, unless they reach relative
-safety (solid ground or even flotsam).
-
-Note that encumbered characters may drown: A Heavy Loaded character
-attempting to swim must throw Athletics 6+ per turn or start drowning. A
-drowning character suffers 1D damage per round but may attempt an
-Athletics 8+ throw per round to surface again. If the character removes
-their load, they will reach the surface easily on an Athletics 6+ throw.
-
-### Light and Darkness
-
-Darkness incurs a DM-2 penalty to all attack throws, while dim light
-incurs a DM-1 penalty. A torch or lantern illuminates a 10m radius. A
-torch burns continually for one hour (6 turns) while a lantern burns one
-flask of oil per 4 hours (24 turns).
-
-Light and darkness affect surprise chances: see the Combat chapter.
-Characters carrying light sources in darkness cannot surprise opponents
-since their torches or lanterns makes them obvious targets. Characters
-in darkness without light sources gain a DM+1 bonus to surprise throws.
-
-### Dungeoneering
-
-Many old-school adventures, especially those written for the Original
-Fantasy Role-Playing Game and related games, often occur in underground
-dungeons, or ruins. Below are a few notes about running such adventures
-in Märchen Engine.
-
-**Breaking through a stock or locked door** requires an STR 8+ throw and
-takes 1d6 rounds; or 4+ with an appropriate item used as a battering
-ram. This, of course, is very noisy and may alert nearby creatures. The
-Referee may rule that the throw is higher or lower based on the door's
-strength. **Picking a lock** is a Craft 8+ throw, with modifiers subject
-to the Referee’s discretion, customarily based on the lock’s complexity.
-
-**Spotting a secret door or a concealed trap** requires a Recon 8+
-throw. This can be subject to modifiers, making the difficulty much
-higher in the case of very well-concealed traps. The Referee should not
-answer definitively that there are no traps present unless the Effect of
-the throw is 6 or higher. In all other cases, the players should be told
-that they have not “detected any traps” and proceed accordingly.
-
-### Light and Darkness
-
-Whether underground at any time or in the city’s back alleys at night,
-darkness is a common occurrence when adventuring. Well-prepared
-adventurers bring with them light sources, such as torches and lanterns.
-Such handheld light sources shed light to a 10m radius, with dim light
-extending 5m beyond that. Torches burn continuously for 6 turns, while a
-lantern burns a flask of oil in 24 turns.
-
-Full darkness incurs a DM-2 to hit targets or to perform other complex
-tasks based on sight. In dim light, the penalty is a mere DM-1.
-
-### Disease and Poison
-
-When a character is exposed to a disease or poison, they must make an
-END throw. The target is the pathogen’s Virulence number. If successful,
-the character shrugs off the effect. If the throw is failed, the disease
-damages the character’s END according to the listed damage. The infected
-character must repeat this throw after the pathogen’s listed interval.
-Success means recovery and failure causes the listed damage, again. If
-this damage reduces the character’s END to zero, additional damage
-applies to STR or DEX (player’s choice). The character cannot heal this
-damage until they recover from the illness or poisoning. Note that most
-poisons do not have an interval, but rather cause their damage
-immediately upon poisoning and only once.
-
-**Sample pathogens**
-
-|              |               |             |              |
-|--------------|---------------|-------------|--------------|
-| **Pathogen** | **Virulence** | **Damage**  | **Interval** |
-| Pneumonia    | 6+            | 1D          | 1D weeks     |
-| Black Death  | 9+            | 2D          | 1D days      |
-| Viper venom  | 10+           | 3D          | \-           |
-| Arsenic      | 8+            | 2D          | \-           |
-| Sleep poison | 10+           | Unconscious | \-           |
-
-### Extreme Temperatures
-
-Extreme environments damage unprotected characters, as noted in the
-table below. If adventurers are properly prepared, either with good
-cold-weather gear for arctic climes, or ample supplies of water and
-proper clothing for deserts, they can shift one row up or down towards
-no damage.
-
-**Extreme Temperatures**
-
-|                 |            |                       |
-|-----------------|------------|-----------------------|
-| **Temperature** | **Damage** | **Example**           |
-| -50°            | 2D/hour    | Deep arctic at winter |
-| -25°            | 1D/hour    | Arctic                |
-| -24° to 39°     | None       | Typical               |
-| 40°             | 1D/hour    | Searing desert        |
-| 100°            | 2D/minute  | Boiling point         |
-
-### Fire
-
-When exposed to fire, be that from a burning building or a dragon's
-breath, characters must throw DEX 8+ to avoid catching fire. A burning
-character takes 2D damage per round. Make another DEX 8+ throw each
-subsequent round; if successful, the character puts out the fire. If
-failed, the character suffers another 2D damage. Putting out the fire by
-other means, such as by jumping into water, will also stop this
-continuous damage.
-
-### Optional Rule: Hero Points
-
-The Märchen Engine rules present a world of gritty heroism – heroes
-could be, and usually are, mighty – but are still human and constrained
-by this harsh reality. However, if you desire larger-than-life heroes
-such as John Carter of Mars and the later iterations of Conan the
-Barbarian, use the following rule.
-
-Each player starts each game session with 2 personal Hero Points. The
-group also has an additional number of Hero Points equal to the number
-of player characters present that session.
-
-Each time a player succeeds in a skill or characteristic throw of at
-least 8+ with an Effect of 6 or more, the group Hero Points pool gains
-another point.
-
-All pools reset at the beginning of each session.
-
-A character may use their personal Hero Points, and with the other
-players' consent, points from the group pool.
-
-By spending Hero Points, a character may:
-
-- Reroll any single die throw (including damage). They may take the
-  better result.
-
-- Force the Referee to reroll a single NPC's die throw (including
-  damage). The second result stands.
-
-- Reroll a throw on a mortal wounds, mishap, mutation, or corruption
-  table. They may take the better result.
-
-## Roaming the Seas
-
-Setting sail on an open sea, or even a large river, is a complex
-operation. The following rules provide a simple outline for such
-adventures.
-
-Ships move across the seas at a daily speed as given on the vehicle
-table in the Equipment chapter. This distance is for 12 hours of travel
-per day, as is the case of rowed ships traveling along the coastline.
-When sailing under a sail, a ship carrying a navigator (Watercraft-3 or
-better) may cover twice its daily movement rate.
-
-At the beginning of each day at sea, throw 2D and consult the following
-table:
-
-**Sea wind conditions**
-
-| **2D** | **Wind**          | **Sailing speed**   |
-|--------|-------------------|---------------------|
-| 2-3    | Becalmed          | No sailing possible |
-| 5      | Light breeze      | 25%                 |
-| 6      | Moderate breeze   | 75%                 |
-| 7-8    | Average winds     | 100%                |
-| 9      | Strong winds      | 125%                |
-| 10     | Very strong winds | 175%                |
-| 11-12  | Gale              | 200% but see below  |
-
-In a gale, ships may be damaged or sunk. On a seaworthy ship, every
-hour, the captain throws Watercraft 8+; on failure, the ship takes one
-"hit" of damage (see vehicle combat in the Combat chapter). Galleys and
-other rowed vessels automatically take a "hit" every hour, and their
-captain must throw Watercraft 6+ every hour to avoid sinking. Galleys in
-sight of a coastline when the gale hits can beach to avoid the gale. The
-ship may automatically beach on a clear shore, but if the shore is rocky
-or otherwise not easily accessible, the captain or navigator must throw
-Watercraft 8+ to find a safe harbor and may retry this throw every hour.
-
-### Lost at Sea
-
-At the beginning of each day of water travel, the Referee should make a
-Watercraft throw, at a difficulty shown on the table below, using the
-ship's navigator's or captain's Watercraft skill. Failure will mean that
-the ship will deviate from its course at the Referee's discretion.
-
-**Watercraft navigation**
-
-| **Body of water**   | **Navigation** |
-|---------------------|----------------|
-| Lake of major river | Watercraft 4+  |
-| Coast               | Watercraft 5+  |
-| Open sea            | Watercraft 7+  |
-
-### Rations and fishing
-
-Just as in land travel, characters traveling at sea must consume food
-and water as noted above. Rowers require 12 liters of water a day rather
-than 4 liters. Standard rations are perishable and inedible after a
-week, and thus on longer journeys there is need to consume preserved
-"iron rations". After one month at sea eating only "iron rations"
-without consuming fresh fruit, onions, or potatoes, scurvy takes effect
-and the character loses 1 point of END per week; if it reaches zero, the
-character dies. A character suffering from scurvy regains 3 points of
-lost END per week of eating fresh food.
-
-Characters on a ship which is anchored or floating in relatively mild
-seas may fish. Throw Survival 8+ to catch enough fish to feed 2D
-human-sized creatures.
-
-# CHAPTER 16: REFEREEING THE GAME
-
-The Referee is the person who takes responsibility for running a Märchen
-Engine game. The Referee creates the adventure, runs the players through
-it, takes on the roles of the various characters the characters meet,
-and handles any questions about the rules. While running the game is a
-big responsibility, it's not as hard as it might seem, and providing a
-fun and entertaining game for your friends can be quite rewarding.
-
-The rules of Märchen Engine provide a comprehensive outline for the
-basic activities confronting any character in the universe you are
-creating. These rules are necessarily brief and admittedly omit many
-possible activities. After all, a roleplaying game cannot ever attempt
-to provide adequate rules that govern the entire universe. In the hands
-of players and a Referee, however, the Märchen Engine rules are the
-start of dynamic adventures that can range across the universe.
-
-This chapter is about helping you as the Referee run your games. The
-advice found within this chapter is completely optional; feel free to
-use it or ignore it as you like.
-
-## Rule Zero
-
-Remember that it is just a game. The most important thing in it is to
-have fun, both for you and your players, and everything else is
-secondary to that. So if a rule, a plot, or even realism and consistency
-get in the way of your fun or that of your players, it is your right and
-duty as the Referee to change it. As a Referee, you, not the rulebooks,
-are the final arbiter in your game. This is a serious responsibility,
-but also a great freedom: the freedom to create and run an entertaining
-game that suits your needs and the needs of your group. If you and your
-players are enjoying yourself, you are doing things right, even if you
-are ignoring or modifying the rules and even if your game is not
-necessarily realistic or even self-consistent.
-
-With that in mind, the most important rule of the game, dubbed Rule Zero
-in the Märchen Engine rules, is that the Referee always has the right to
-modify the rules. As a Referee, your rules modifications can be as
-simple and improvised as “um, grab some dice, roll them, and tell me the
-number” or involve extremely complex home-brew charts that dictate the
-smallest of details. This is your game, after all.
-
-## Gaming Style
-
-Every gamer tends to enjoy a specific gaming style. Some people are
-consummate “Role-Players”, gaining a lot of pleasure from character
-development and interaction. Others are intense “Combat Monkeys”,
-finding that an action-packed cinematic frenzy of laser bolts and hand
-grenades meets their gaming needs. Some players are “Puzzle Solvers”,
-finding the mental challenges of riddles, logic problems, puzzles and
-mystery adventures to be the perfect balm. Most of us are a mix of all
-of the above, in differing proportions and varying levels of interest
-and intensity.
-
-As a Referee, it is recommended that you bear in mind that all styles of
-play are valid. If everyone is an action fan, combat-heavy games work
-well. Roleplaying the group’s interactions with shopkeepers can be
-entertaining, as well. For some, delivering long angst-ridden poetry
-in-game can be fulfilling. Intraparty conflict might be a good thing,
-with the right group of gamers. Even violating the advice found in these
-rules is perfectly okay, so long as the entire gaming group is having
-fun. Remember Rule Zero!
-
-Be aware of what you and your players want. If you want something
-different from your players, something is going to have to change.
-Logically, it should be the group in the minority, which in this case
-would be you as the Referee. Similarly, if a single player wants a
-different style of play, if it can't be easily integrated, don't force
-the issue. Sometimes players or Referees don't fit a particular gaming
-group’s style. It does not make anyone wrong; things just did not work
-out or come together for that particular game.
-
-## Improvisation
-
-One of the keys to successfully running a Märchen Engine session boils
-down to your ability to improvise when circumstances so dictate. You can
-certainly plan everything out for your session, to the degree with which
-you are comfortable. However, at some point in time, whether
-intentionally or accidentally, you are going to have to improvise a
-scenario that you did not plan in advance. Maybe the mercenary rolled
-poorly in that last combat, dying during the previous encounter, and the
-corporate executive that hired the adventurers only made the deal with
-him. Perhaps the party decides to pursue another adventure, which you
-had not yet prepared, half-way through the current one, based on a clue
-they found in the second encounter of the evening. Whatever the reason,
-you should be prepared as a Referee to improvise as needed to keep the
-session moving.
-
-A common misconception exists that improvisation during a game and
-preparation for a game are two opposed approaches. To the contrary, the
-more efficiently you prepare for the game, the easier it will be for you
-to improvise and “wing it” during actual play. The key to efficient
-preparation is not deciding ahead what the characters will do (leave
-that to the players), but rather creating material which would both
-allow the players to do exciting things and which will allow you to
-easily set up challenges, encounters, NPCs, locations and plots that
-will fit the flow of the game. This might sound like a lot of work at
-first but is actually much simpler, the key here is to create flexible
-material which will fit different plot lines, different locations and
-different uses with ease.
-
-In today’s world, spare time and inspiration tends to come at unexpected
-and irregular times. Carry a small notebook with you. Whenever an idea
-for whatever part of your game strikes your mind, jot it down in the
-notebook. Later on, when you happen to have a little more spare time,
-look these ideas and develop the ones you like a little bit more.
-Organize a binder at home (or a directory on your computer), with
-different partitions (or electronic files) for NPCs, locations,
-creatures, locations and plot hooks. Each item (NPC, location etc) you
-develop shouldn't be long, a few sentences per item will work in most
-cases (remember that most stats for a character or creature will fit in
-a small paragraph, if not a single sentence.) Keep these well-organized
-and these could be used whenever you need them in-game or in a
-short-term preparation for the game. The same goes for location maps you
-happen to doodle during work, while riding public transit or while
-attending boring classes or lectures, nothing of this kind should go to
-waste.
-
-Most of the adventure elements you prepare, even locations or NPCs
-intended to be used in a specific plot line, should be designed in such
-a way that it will be easy to 'recycle' these elements for use in
-different circumstances in the event you don’t use that element in the
-intended plot or location. Players have a tendency to miss the stuff
-you've labored hard to create, so be prepared to make a few changes to
-all the unused bits and pieces of previous adventures to use in the next
-ones.
-
-### Improvisational Preparation
-
-It is definitely possible to prepare in advance for improvisation. It is
-suggested that Referees consider preparing the following for their
-adventure or campaign:
-
-**A list of random names** for NPCs, locations and vessels can serve any
-Referee well. Take them from any source you like, your imagination,
-baby-name sites, even phone books, but it always helps to have a quick
-source of names for the people and places you have to create on the fly
-rather than just calling them “this guy” or “that tower”. That way, when
-the characters ask a random citizen for their name, you can easily
-choose one from your list, provide it to the group and then cross it
-off. Having the ability to name a character or place quickly helps
-establish a strong sense of depth and internal consistency within your
-setting.
-
-Many Referees also find it helpful to keep **a small collection of
-generic locations and encounters** on hand, in case the party decides to
-go in an unexpected direction. It is perfectly okay to use adventures or
-modules that you find online or in the products you own. If you can
-create a few easy-to-place encounters beforehand, this could also prove
-to be very useful. Your goal here is simply to have activities for the
-characters to do through the rest of the given gaming session. You can
-always recoup and plot a better strategy for this new direction the
-players have taken between sessions. These little scenarios just give
-you a delaying tactic that lets you entertain your players at the same
-time.
-
-**A collection of stat blocks** for stock NPCs, perhaps expanding on the
-small collection found later in this guide, can provide you with
-potential allies, contacts, rivals, enemies, bystanders and potentially
-even ready-made player-characters should the need arise over the course
-of the gaming session.
-
-Creating **a reference sheet** of the player-characters’ important
-combat statistics can help you evaluate the impact of an encounter or
-challenge when you have to improvise a scenario on the fly.
-
-A notebook or electronic document for **session notes** can help you
-capture the details you’ve created for your campaign or adventure,
-either on the fly or through early preparation. With this, you are more
-likely to provide a consistent and vibrant gaming experience.
-
-### Recycling Game Material
-
-As preparation time is limited for most Referees, you may find it of
-good benefit to maximize your effective use of material and rules while
-minimizing the time devoted to creating new non-player characters,
-vessels, adventures or locations from scratch. The nature of the Märchen
-Engine is of great help here, as the rules are relatively simple and
-abstract; a major part of each animal, location, vessel or character is
-nothing but narrative, and narrative is easy to change. This is called
-“reskinning”. By changing the narrative, the stat block for a veteran
-mercenary might be reused as an alien hunter with little or no
-modifications to the game mechanics.
-
-A good example is the use of location floor plans. If, for example,
-you've downloaded or bought detailed floor plans for a particular
-location (or a product including these floor plans) or perhaps you’ve
-found them online, you can utilize them in more than one way. If the
-floor plans originally detailed the hidden base of some human space
-pirates, you can still easily modify them to be used for an alien
-fortress, for the remnants of a research facility devastated by a
-natural disaster, or even for a private mansion for an eccentric
-corporate executive. The map can remain the same, or largely the same,
-but the description can change the perception of the players.
-
-## Running the Game
-
-The first rule of the Märchen Engine system is to have fun. A good
-Referee will make a reasonable effort to create a gaming experience that
-is fun for everyone. The following guidelines might help with that.
-
-### Assigning Difficulties
-
-At the core of every Märchen Engine adventure lies a sequence of tasks
-that the character must accomplish in order to succeed. The Referee is
-in charge of assigning the difficulty of these tasks, and then
-interpreting the outcome. The default is Average (+0). Make a task
-easier if you want a particular task to be accomplished, but not be
-everyone. This will highlight characters with skill levels in an easy
-way. If you want to make a task challenging, but still feel comfortable
-with giving the players a good chance of success, set the Difficulty to
-Difficult (-2). Reserve Very Difficult (-4) and Formidable (-6) for very
-special circumstances, such as attempting the near impossible. As the
-Referee, you may not want to say “No” except in the most extreme
-circumstances, but assigning a Difficulty of Formidable (-6) is almost
-as good, and can create some interesting story developments and a sense
-of excited accomplishment should the character succeed.
-
-### Modifying the Roll or the Difficulty
-
-There are two ways of making a task easier or harder: modify the
-character's die roll or modify the task's Difficulty. Generally
-speaking, circumstances affecting a character's performance, like having
-just the right tools for the job or being forced to improvise, apply a
-modifier to the die roll. Circumstances making the task easier or harder
-to accomplish, like a favorable or unfavorable environment or a
-particularly demanding task, modify the Difficulty. If a condition
-applies to the character -- like knowledge, health, equipment,
-preparedness, and such -- it's usually a die modifier. It doesn't have
-to be too fine a line, since modifying the die roll or the Difficulty
-amounts to the same thing in the end: the task being easier or harder to
-accomplish.
-
-### Circumstance Modifiers
-
-Some circumstances make a check easier or harder, resulting in a bonus
-or penalty that is added to the check result. The Referee can alter the
-odds of success in two ways:
-
-- If a character has help, such as good tools, competent aids or other
-  beneficial circumstances, he receives a +1 bonus to his skill check.
-
-- If a character is hampered, such as having defective tools,
-  incompetent assistance or other negative circumstances, he receives a
-  -1 penalty to his skill check.
-
-### Automatic Successes
-
-Sometimes it is just easier to assume the character automatically
-succeeds at a skill check. If the character has an applicable skill, and
-the results of the skill check do not impact the progress of the story,
-endanger the character, and the actual success or failure is not
-interesting, just assume the character succeeds and move on. Remember,
-the Märchen Engine rules suggest that the Referee should only call for
-checks:
-
-- When the characters are in danger.
-
-- When the task is especially difficult or hazardous.
-
-- When the characters are under the pressure of time.
-
-- When success or failure is especially important or interesting.
-
-### Using Opposed Checks
-
-Opposed checks are a great way to create tension between two
-individuals. Suddenly, the players can target their attention on an NPC,
-and that helps with immersion into the game. Should two or more
-characters seek to do the same thing at the same time, or to resist one
-another’s actions, use an opposed check. The highest check result wins.
-
-## That’s not in the Rules
-
-Sometimes in the course of play, things come up that are not covered in
-the rules. When this happens, the Referee is responsible for these
-handling situations, making fair evaluations of what the characters do
-and deciding what happens as a result. As the Referee, you will need to
-quickly improvise a solution. The easiest way to do so is to simply
-decide if the suggested action is fun or not, and if it is fun, let it
-happen, then throw in a complication that adds to the enjoyment of the
-scene. Some Referees prefer a more mechanical approach. Identify a skill
-the covers the basic nature of the request, set a Difficulty of Average
-(+0) or Difficult (-2), and let them try. If nothing comes to mind
-immediately, ask the player to tell you what skill they would use to
-accomplish this task. If no skill appears to work, then choose the best
-characteristic, and have the player roll a characteristic check. However
-you decide to resolve it, the key here is to quickly address the request
-and keep the game moving forward.
-
-## Solo Play as Referee Prep Work
-
-Many of the Märchen Engines rule subsystems can be leveraged for solo
-play. For Referees, this can turn building a universe of their own into
-a game in and of itself. What follows is a list of suggested activities
-that can prove to be fun in and of themselves, as well as help Referees
-create new material for their personal adventures and campaigns. In
-addition, solo play can help Referees learn the rules and become more
-proficient for when they run games before a group of players.
-
-Solo play is not limited to Referees. Players can also learn a lot about
-and enjoy aspects of the Märchen Engine rules through solo play in those
-times when a Referee or gaming group is not currently available.
-
-### Character Creation
-
-A Referee always needs non-player characters. Use the information in
-**Chapter 1: Character Creation** to generate new characters. These
-characters can easily become future patrons, random encounters, enemies,
-allies or simply background characters for a Märchen Engine universe.
-
-### Personal Combat
-
-Take some characters and use the rules from **Chapter 5: Personal
-Combat** to practice the combat system. Recreate scenes from science
-fiction or action movies using the characters, to get a feel for how the
-rules of combat work in various scenarios.
-
-### Starship Construction
-
-Construct some starships and other vessels using the rules in **Chapter
-8: Ship Design and Construction**. Build on various scales, to get an
-idea of how the different elements of starship construction work
-together. You can even use the information under Starship Revenues in
-**Chapter 6: Off-World Travel** to determine if your ships would be
-economically viable without outside assistance.
-
-### Space Combat
-
-Take some vessels and pit them against one another using the space
-combat rules found in **Chapter 10: Space Combat**. Once again, feel
-free to recreate scenes from science fiction movies using the vessels,
-to get a feel for how the rules of space combat work in various
-scenarios.
-
-### Subsector Creation
-
-Using the rules found in **Chapter 12: Worlds**, create a subsector and
-identify the systems within it. Generate and record the UWPs for every
-system. After the worlds have been created, look over the subsector for
-possible communication and trade routes. If you are inspired, create
-some background information on the most interesting worlds.
-
-### Animal Encounter Creation
-
-Choose a world from a list of UWPs, and expand on it. Create some maps
-of the planet's surface, and the build encounter tables for each terrain
-type on the map, using the rules found in **Chapter 13: Planetary
-Wilderness Encounters**. If you are so inclined, you can then pit some
-characters against the different animals you've created using the
-personal combat, so see how they might fare against player characters in
-the future.
-
-### Practice Trade and Commerce
-
-Grab a 200-ton TL9 Merchant Trader and use the **Chapter 7: Trade and
-Commerce** rules to explore the economic environment of a generated
-subsector. Use the rules for passengers, freight and even speculative
-trading to get a feel for them. By tracking the revenue and expenses for
-the ship, it could give you an idea of where traders will focus their
-attentions within the subsector. If this is being played as a solo game,
-keep going until either the ship is paid for or the ship goes bankrupt.
-This is a good way to validate trade routes, and identify "stepping
-stone" worlds between strong markets in a subsector.
-
-### Patron Encounter Creation
-
-The seed of most adventures within a Märchen Engine universe are
-captured in patron encounters. Using the details of a subsector's list
-of UWPs, create and record some patron encounters using the format found
-under **Patron Encounters** in **Chapter 14: Social Encounters**. Think
-about science fiction and action-based movies, television shows and
-literature, and use those to inspire some of the patron encounters you
-create.
-
-# CHAPTER 17: ADVENTURES
-
-Players in a Märchen Engine universe are adventurers, plain and simple.
-They will seek out experiences and exploits, reveling in the thrill and
-excitement that comes from the pursuit of their goals. Märchen Engine
-adventures encompass the potential for adventure that can be found in
-classic era science fiction. The opportunities are virtually limitless,
-restricted only by the circumstances of the scenario and the
-capabilities of the characters. The Referee generates and adjudicates
-encounters that make up the building blocks of these adventures. As the
-characters move from one adventure to the next, the stories create a
-campaign, set against a universe of the Referee's creation. Therein lays
-the core of a great roleplaying game experience.
-
-## Conflict
-
-Stories are about conflict. Conflict doesn’t have to be violent, but
-without a struggle of some kind, there is no story, and without a story,
-there is no true sense of adventure. The key to a great adventure is
-conflict. As a Referee, you should make sure you have conflict, and that
-the player characters are directly involved in that conflict. If there
-isn't any conflict, you lose the impetus for action. If the player
-characters aren't directly involved, they are just watching a story,
-which sounds more like a movie or a play than a roleplaying game.
-
-Conflict doesn’t have to be physical combat. It could just as easily be
-political or corporate intrigue, achieving a specific goal before the
-protagonist can either get there first or stop the characters from
-succeeding, handling courtly issues of a noble or legal nature,
-negotiating a diplomatic resolution to a larger conflict, and much more.
-
-## The Plot
-
-The plot of the adventure is essentially the synopsis of the events that
-will transpire over the course of the adventure. You should be able to
-sum up the plot of your adventure in one sentence. Knowing your plot
-before you begin creating the adventure provides focus and direction,
-and creates context for the scenes you will create for your adventure.
-
-If you have problems in coming up with a plot for your adventure, you
-might look into Polti’s “The Thirty-Six Dramatic Situations.” It’s an
-extensive list of basic plots that you can use as the basis for your own
-stories and adventures.
-
-## The EPIC Adventure System
-
-The Epic Adventure System provides a way to design and organize
-adventures, that incorporates enough flexibility that the player
-characters have the 'freedom to roam' without causing the Referee
-nightmares. An Epic Adventure is broken down into 6 parts:
-
-- Cast of Characters
-
-- Background
-
-- Minor Scenes
-
-- Plot Keys
-
-- Chapters
-
-- Adventure Checklist
-
-### The Cast of Characters
-
-The Cast of Characters describes the major characters encountered in the
-course of the adventure.
-
-### The Background
-
-The Background section provides the Referee with the background
-information necessary to properly run the adventure, and lays the
-groundwork for introducing this adventure to the players.
-
-### Minor Scenes
-
-Minor Scenes (usually just referred to as 'Scenes') or just Scenes, are
-encounters or events that involve the player characters in some form.
-Many are directly related to the adventure, and may provide clues,
-equipment, or other information and materials needed to eventually
-complete the adventure. Others are merely to provide diversion and
-amusement. Scenes, unless noted in their descriptions, do not need to be
-played in any particular order, and may be sprung upon the player
-characters when the Referee deems appropriate.
-
-### Plot Keys
-
-Plot Keys (or simply 'Keys') make up the heart of the storyline for the
-adventure. They contain vital pieces to the plot that must be played for
-the adventure to make any sense to the players in the end. You may play
-any number of Scenes before and after each Plot Keys, but all of the
-Plot Keys should eventually be completed in their proper order.
-
-### Chapters
-
-A Chapter (or 'Act') is made up of one of more Plot Keys, and probably
-one or more Scenes. They outline the plot to the Referee, and provide
-tips and information for playing the Scenes and Plot Keys that are
-contained in the Chapter. In order to complete a Chapter, each Plot Key
-within must be completed. Each Chapter must be completed, and played in
-order to successfully run the adventure.
-
-Because of the 'cinematic' nature of an EPIC adventure, it is easy for
-the Referee to allow the player characters to temporarily deviate from
-the current adventure storyline to follow a false lead or pursue another
-short adventure that has interested them. When the player characters are
-ready to return to this adventure plot line, simply pick up with the
-next Scene.
-
-### Adventure Checklist
-
-The Adventure Checklist provides the Referees with a recommended
-guideline of the order in which various Scenes and Plot Keys in this
-adventure should be presented to the players. As the characters complete
-each Scene or Plot Key, the Referee simply checks it off the list. When
-every Plot Key in a Chapter has been played, that Chapter has been
-completed and the Referee may begin the first Scene in the next Chapter.
-
-You will note that not every Minor Scene is included in the Checklist.
-This allows Referees who would like to use the Checklist, but would like
-to change things a little bit to swap out scenes, or include their own
-custom scenes. If you feel comfortable in letting your characters stray
-from the order of the Checklist, you may determine the 'cinematic' order
-of the scenes as you see fit, or use a weekly events chart like the
-Example Weekly Event table to determine the course of events.
-
-This example weekly events chart has been created for an adventure in
-which the characters spend several weeks in the outback searching for
-lost ruins in the hope of finding historical artifacts.
-
-#### Table: Example Weekly Event
-
-| 2D6  | Weekly Event                                                                                                 |
-|------|--------------------------------------------------------------------------------------------------------------|
-| 2-8  | Play a Minor Scene/Find a Ruin                                                                               |
-| 9-11 | Starport Run. The Professor has an errand requiring the characters to go to the local starport for the week. |
-| 12   | Plot Key                                                                                                     |
-
-Explanation of Example Weekly Event entries:
-
-**Play a Minor Scene**: Select one of the Minor Scenes and run the scene
-as directed.
-
-**Starport Run**: This is an excuse and opportunity to bring in sideline
-encounters, patrons and scenarios unrelated to this adventure.
-
-**Play a Plot Key**: Plot Keys should be plays in the correct order for
-the adventure to make sense to the players. If you change the order of
-the Plot Keys, you should be sure to adjust the other scenes to ensure
-that the adventure flows properly and makes sense.
-
-## Adventures in Five Acts
-
-Many satisfying adventures have been inspired by the five-act structure
-of literary and dramatic creations. Made famous by Gustav Freytag’s
-analysis of Shakespearean plays, the five-act structure lends itself
-well to basic adventures with only minor modifications.
-
-At its core, the five-act structure for adventures depends on five major
-scenes or Plot Keys: the Story Hook and Challenge, the Escalation, the
-Complication, the Climax and finally the Reward. Even though this
-structure is based on five Plot Keys, you can easily add or subtract as
-many minor scenes as the adventure you’re creating calls for. Don’t be
-afraid to deviate from this pattern as you become more comfortable with
-adventure creation.
-
-### The Story Hook
-
-The key to the opening scene of any adventure is action. The story hook
-Plot Key should therefore be an action scene, involving either combat or
-some form of physical challenge. This draws the characters into the main
-conflict of the adventure’s plot, and introduces the party to agents of
-the main antagonist. As this scene is wrapping up, you can either
-provide clues to the direction of the next Plot Key, or introduce a
-minor scene that ultimately points the party in the direction of the
-final climax of the adventure.
-
-### The Escalation
-
-Now that you’ve met the needs of your more action-oriented players, you
-should create a series of roleplaying scenes or puzzle challenges that
-further escalate the plot, leading ultimately to a Plot Key that helps
-the players form a plan of attack for reaching the climax of the
-adventure. This allows non-combat characters an opportunity to shine.
-Investigation and information gathering make for excellent scenes in
-this regard. In addition, it provides the full roleplaying experience to
-the players, emphasizing why the group is playing a roleplaying game
-instead of a board game.
-
-### The Complication
-
-Nothing is ever as straight-forward as it seems. The third major Plot
-Key introduces a complication to the party in fulfilling the needs of
-the plot. This Plot Key often requires the characters to expend
-resources, forcing them to decide on whether to spend their resources on
-this particular challenge or the big climactic challenge that is coming
-up next. In addition, this scene often introduces a plot twist or
-restriction that makes the resolution of this challenge and/or the
-climax that much harder.
-
-### The Climax
-
-This Plot Key is the final showdown, the final fight with the primary
-antagonist of this story and his minions. This scene is most often a big
-fight or confrontation, but under the right circumstances, it could be a
-social or mental challenge instead. This is the big scene where everyone
-should have a chance to shine. It is suggested that this scene require a
-challenge more complex than “kill everyone”, even if it’s as simple as
-“kill everyone without any collateral damage to property or other
-persons”. If the climax is a combat scene, the site for the climax
-should also include at least two different terrain features, to provide
-for some interesting situations that make such scenes memorable. While
-you don’t want to overdo yourself, you also want to make this scene feel
-more exciting or important than the other scenes in the adventure.
-
-### The Reward
-
-This scene is the dénouement, where the plot is wrapped up and the
-characters receive their reward for their victory, or experience the
-consequences of their failure, on those occasions where things didn’t
-necessarily work out. Often in Märchen Engine adventures, the reward is
-monetary. However, characters might instead earn titles, receive ship
-shares, gain political support, earn some form of social advantage,
-recover lost or hidden information, or even learn a campaign secret that
-could change the face of the world forever. Sometimes, there’s a final
-plot twist here, such as a secret guardian guarding the reward or a
-false reward serving as a distraction from the true reward of the
-adventure. If you have ideas for a future scenario you’d like to offer
-the players, you can even drop the first hints of things to come in the
-reward scene, giving the characters motivation to pursue the clues that
-may well lead to their next daring adventure.
-
-### Other Suggestions
-
-When creating your own adventures, keep things dense and concise. You
-will find that players have a knack for complicating things all by
-themselves, so don't feel a need to include a lot of false leads and
-irrelevant details. You can always improvise the additional of extra
-scenes as the need arises, but it is hard to work around a large number
-of required scenes if the adventurers suddenly take the adventure in a
-totally different direction.
-
-## The Three-Dimensional Campaign
-
-Unless you're running a “one-shot” adventure, put in the effort to keep
-your setting, plot and adventure three-dimensional. That is, even if
-your campaign has a very strong overarching plot, not everything has to
-be tied in it directly. For example, if your campaign revolves around a
-massive struggle between two interstellar polities, there should be some
-NPCs, sub-plots, protagonists and even organizations that don't work
-directly (if at all) for any side of the overarching conflict. Not every
-protagonist in your game has to serve the enemy government, and not all
-good guys have to get along together very well.
-
-The reason for this, besides realism, is that both you and your players
-will eventually want to take a break from the main plot and do something
-else, especially during a long campaign. Sometimes you'll want, say, to
-steal a high-tech prototype, and that research facility belongs to a
-third interstellar government that remains outside the overarching
-conflict; sometimes you'll just want to explore an old, forgotten ruin
-uncovered in the wilderness of a backwater planet, a place unrelated to
-the main plot. Besides, making two factions work together against a
-common enemy despite hating each other with a passion could be a cool
-adventure, and so could be playing one opposing faction against another
-without getting caught.
-
-### The Rule of Three
-
-As a general rule of a thumb when creating background elements involved
-in conflicts, such as organizations, factions, political figures, etc.,
-you will best be served by creating three of them. For example, when
-you're designing a power struggle in an interstellar government, you
-should probably have three factions. The typical war can be created with
-three opposing sides, even if one of them is simply a large band of
-pirates with goals at odds with the two “official” sides. Creating three
-elements vying for the same goal creates a greater degree of dynamic
-complexity, allowing for adventures that explore the different
-relationships between the three elements without reducing the conflict
-to a simple “black-and-white”, two-dimensional confrontation. Three
-sides give you plenty of opportunity to explore shifting alliances,
-subversive practices, negotiations, alternate paths to personal success
-and greater variety in your scenarios.
+# Glossary: Important Terms
+
+The Märchen Engine uses certain words and abbreviations throughout the
+rules system. In order properly understand the Märchen Engine rules,
+both players and Referees should become familiar with these terms. The
+following words, phrases and abbreviations are commonly used in The
+Märchen Engine:
+
+**2D6**: Two six-sided dice, used to resolve all actions in the Märchen
+Engine.
+
+**Action**: A character activity. There are significant actions, minor
+actions, extended actions, free actions, and reactions.
+
+**Adventure**: A story created by the Referee and players, comprised of
+a series of related scenes or encounters.
+
+**Attack bonus**: A modifier used to measure a character's combat skill.
+
+**Attack roll**: A skill check used to determine whether an attack hits.
+
+**Attack**: Any of numerous actions intended to harm, disable, or
+neutralize an opponent.
+
+**Bonus**: A positive modifier to a die roll.
+
+**Campaign**: A series of linked adventures.
+
+**Character**: A fictional individual in the game. The players control
+characters, while the Referee controls non-player characters.
+
+**Characteristic modifier**: A modifier determined by the value of the
+characteristic score, applied as a bonus or penalty to checks as needed.
+
+**Characteristic score**: One of the six basic character traits --
+Strength (Str), Dexterity (Dex), Endurance (End), Intelligence (Int),
+Education (Edu), and Social Standing (Soc).
+
+**Check (or Throw)**: A method of deciding the result of a character's
+action. Checks are based on a relevant ability, skill, or other trait.
+To make a check, roll 2D6 and add any relevant modifiers. If the check
+result equals or exceeds a target of 8 or the result of an opponent's
+check, it succeeds.
+
+**Coreward**: An astrographical term indicating the direction of
+Sagittarius A\* (pronounced "Sagittarius A-star", standard abbreviation
+Sgr A\*), a bright and very compact astronomical radio source at the
+center of the Milky Way galaxy.
+
+**Crown (₢)**: The primary unit of currency used in the Märchen Engine.
+For very large amounts of money, the kilocrown (K₢) represents one
+thousand crown and the megacrown (M₢) represents one million cowns.
+
+**Critical hit (crit)**: An attack inflicting extra damage. Critical
+hits are only involved in vehicular and space combat.
+
+**D66**: A special die roll generated by rolling two six-sided dice of
+different colors (or rolling one die twice, noting each number rolled),
+multiplying the first die by 10 and then adding the second die, to
+create a number between 11 and 66.
+
+**Damage bonus**: A modifier used to determine the damage of an attack.
+
+**Damage**: Harm caused to a character by injury, illness, or some other
+source.
+
+**Dice modifier (DM)**: A modifier applied to a check.
+
+**Die (plural is dice)**: A small polyhedron, typically a cube, with
+each side having a different number on it, ranging from one to the
+number of sides of the polyhedron, thrown and used in gambling and other
+games involving chance. The Märchen Engine uses six-sided dice
+exclusively to create random results during play.
+
+**Difficulty**: A modifier applied to a check that is assigned by the
+Referee, reflecting the relative ease or difficulty of a given action.
+
+**Dominant race**: A sentient species capable of interstellar travel via
+jump drive technology, and that has used that technology to expand their
+presence over a significant region of space. Dominant Races typically
+control a fairly expansive interstellar government, and have settlements
+and significant populations more than ten parsecs away from their planet
+of origin.
+
+**Dying**: Near death and unconscious. A dying character can take no
+actions.
+
+**Effect**: The difference between a check result and the target of 8
+(i.e. how much higher or lower the result is).
+
+**Encounter**: An unexpected or casual meeting with someone or
+something. A large part of the Referee’s job is the administration of
+encounters.
+
+**Explorer's Society**: A private interstellar travel service which
+maintains exclusive resorts and facilities at various starports. Several
+interstellar organizations provide membership to the Explorer's Society
+as a reward for outstanding service.
+
+**Exceptional failure**: Any check that fails by 6 or greater (i.e. has
+an Effect of -6 or worse).
+
+**Exceptional success**: Any check that succeeds by 6 or greater (i.e.
+has an Effect of +6 or better).
+
+**Extended action**: An action in combat that takes longer than a single
+combat round to complete.
+
+**Free action**: An extremely fast activity, requiring very little time
+and effort.
+
+**Homeworld**: **1)** The world that serves as a character’s place of
+origin, usually the world on which the character was raised and which
+had the most impact on their development during their pre-adult life.
+**2)** The world of origin for an non-human species, i.e. Earth is the
+homeworld for the human species.
+
+**Jump**: A form of faster-than-light movement using Jump drives, which
+always takes one week to travel a number of parsecs equal to its Jump
+rating and consumes a vast amount of fuel.
+
+**Jump point**: A point in space more than 100 diameters out from any
+nearby celestial body, chosen by a navigator as the point from which a
+ship will enter into Jump space.
+
+**Jump space**: The alternate dimension through which starships travel
+when transitioning from one point in normal space to another.
+
+**Lesser race**: A sentient species that has not developed jump drive
+technology on its own. While individuals of the Lesser races can and do
+engage in interstellar travel, settled populations of any given Lesser
+Race are rarely encountered further than ten parsecs from their
+homeworld.
+
+**Lethal damage**: Damage that can potentially disable or kill a target.
+
+**Mainworld**: The primary world of a star system; the world represented
+by the UWP in a list of worlds for a given region of space.
+
+**Melee attack**: A physical attack in close combat.
+
+**Melee weapon**: A handheld weapon designed for close combat.
+
+**Minor action**: An action intended to move a distance or to manipulate
+or move an object. You can take up to three minor actions per round, at
+the loss of a significant action.
+
+**Misjump**: A mishap caused by an inaccurate jump, which results in
+jumping to a random location with damage to the vessel and potentially
+the crew. Common causes for misjumps include bad Jump plots, damaged
+Jump drives, diverting energy into the Jump drive improperly, jumping
+from within the hundred-diameter limit and using unrefined fuel.
+
+**Modifier**: Any bonus or penalty applied to a die roll.
+
+**Natural**: A natural result on a roll or check is the actual number
+appearing on the die, not the modified result obtained by adding bonuses
+or subtracting penalties.
+
+**Non-lethal damage**: Damage that can potentially stun or knock out a
+target, but does no permanent harm.
+
+**Non-player character (NPC)**: A character controlled by the Referee
+(as opposed to a character controlled by a player).
+
+**Non-starship**: A spaceship without a jump drive, and thus incapable
+of interstellar travel on its own.
+
+**Patron**: A non-player character who gives financial or other support
+to a person, organization, cause, or activity. Referees often use
+patrons as a tool to attempt to engage player characters in adventures.
+
+**Penalty**: A negative modifier to a die roll.
+
+**Player character (PC)**: A character controlled by a player, one of
+the protagonists of an adventure or campaign.
+
+**Psion**: A character with psionic abilities.
+
+**Ranged attack**: Any attack made at a distance.
+
+**Ranged weapon**: A projectile or thrown weapon designed for attacking
+at a distance.
+
+**Reaction**: An action taken in response to the action of another. You
+can perform as many reactions as you want per round in Personal Combat,
+but the number of Reactions that a vessel can undertake is based on
+Initiviative in Space Combat.
+
+**Referee**: The player who portrays characters not controlled by the
+other players, arbitrates the rules, and makes up the story and setting
+for the game.
+
+**Rimward**: An astrographical term indicating the direction opposite of
+Coreward, or directly away from the radio source of Sagittarius A\*.
+
+**Round**: A six-second unit of game time used to manage actions,
+usually in combat.
+
+**Significant action**: An action intended to do something within about
+3 seconds. You can perform a single significant action per round, or
+forego it to perform a total of three minor actions.
+
+**Seriously wounded**: If you have lost at least one point from all
+three of your physical characteristics, you are considered seriously
+wounded. When conscious, you cannot move except to hobble or crawl along
+at 1.5 meters per combat round. You also lose your minor action in
+combat. You can only regain characteristic points equal to your
+Endurance DM per day of rest through natural healing. You require
+surgery.
+
+**Skill**: An ability to perform a set action, such as navigating a
+starship, operating a rifle, or programming a computer. Skills are
+attained in levels (Navigation-1, Computer-2, etc); the higher the level
+of a skill, the more expertise a character has in that area. Many
+different individual skills are available to characters.
+
+**Small Craft**: A vessel under 100 tons, capable of interplanetary
+travel.
+
+**Sophont**: A sentient being with a base reasoning capacity roughly
+equivalent to or greater than that of an average human being.
+
+**Spinward**: An astrographical term indicating the direction of the
+galaxy’s rotation.
+
+**Standard Day**: A unit of time that is 24 hours long.
+
+**Standard Year**: A unit of time that is 365 Standard Days in length.
+
+**Starport**: A port where interstellar and interplanetary vessels load
+or unload, especially one where customs officers are stationed.
+
+**Starship**: A spaceship with a jump drive, capable of interstellar
+travel on its own.
+
+**Target (also subject)**: The intended recipient of an attack, action,
+or effect.
+
+**Trailing**: An astrographical term indicating the direction opposite
+of the galaxy's rotation.
+
+**Trained**: Having knowledge of, and therefore levels in, a skill.
+
+**Unarmed attack**: A melee attack made with no weapon.
+
+**Universe**: The setting presented by a Referee, in which characters
+play out adventures and campaigns. A Referee may use a published setting
+for their adventures or create their own with the Märchen Engine rules.
+
+**Untrained**: Having no ranks in a skill. Some skills cannot be used
+untrained. Unskilled skill checks suffer a DM-3 penalty.
+
+**Vessel**: General term used to starships, small craft, or vehicles as
+a general inclusive group. Most commonly, it refers to any vehicle or
+ship capable of interplanetary or interstellar travel.
+
+**World**: A generic term in the Märchen Engine for any inhabitable
+celestial body or similar location represented by a Universal World
+Profile.
 
 # LEGAL
 
