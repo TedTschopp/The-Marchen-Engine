@@ -46,6 +46,7 @@
         - [Circumstance Modifiers](#circumstance-modifiers)
         - [Time and Checks](#time-and-checks)
           - [Table: Time Frames](#table-time-frames)
+          - [Table: Additional Time Frames not used in Skill Checks or actions](#table-additional-time-frames-not-used-in-skill-checks-or-actions)
         - [Aiding Another](#aiding-another)
         - [Task Chaining](#task-chaining)
         - [Group Checks](#group-checks)
@@ -53,8 +54,22 @@
         - [The Dice Chain](#the-dice-chain)
         - [Technology Level](#technology-level)
           - [Table: Technology Level Overview](#table-technology-level-overview)
-  - [The Combat Round](#the-combat-round)
-  - [Bringing it all Together](#bringing-it-all-together)
+- [Actions](#actions)
+  - [Annual Actions](#annual-actions)
+  - [Seasonal Actions](#seasonal-actions)
+    - [Base Activities](#base-activities)
+    - [Sojourn Activities](#sojourn-activities)
+    - [Social Activities](#social-activities)
+    - [Recover Activities](#recover-activities)
+    - [Interrupted Activities](#interrupted-activities)
+  - [Monthly Actions](#monthly-actions)
+  - [Weekly Actions](#weekly-actions)
+  - [Daily Actions – 24 hours](#daily-actions--24-hours)
+  - [Watch Actions – 4 hours](#watch-actions--4-hours)
+  - [Puncti Actions – 15 minutes](#puncti-actions--15-minutes)
+  - [Ounces Actions – 7.5 Seconds](#ounces-actions--75-seconds)
+- [Bringing it all Together](#bringing-it-all-together)
+  - [Bringing it all Together](#bringing-it-all-together-1)
     - [Physical Aspects](#physical-aspects)
       - [Muscle Characteristics](#muscle-characteristics)
         - [Ranged Combat Skill](#ranged-combat-skill)
@@ -107,8 +122,6 @@
         - [Metaphysics Skill](#metaphysics-skill)
         - [Animism Skill](#animism-skill)
         - [Shamanism Skill](#shamanism-skill)
-  - [Pseudo-Hexadecimal Notation](#pseudo-hexadecimal-notation)
-      - [Table: Pseudo-Hexadecimal Notation](#table-pseudo-hexadecimal-notation)
 - [LEGAL](#legal)
   - [Publishing Your Own Materials](#publishing-your-own-materials)
     - [The Cepheus Engine Compatibility-Statement License (CSL)](#the-cepheus-engine-compatibility-statement-license-csl)
@@ -277,26 +290,15 @@ the character has two levels of Gambling skill.
 
 ##### Table: Skill and Specialization Level 
 
-\## 5 - Apotheosis
-
-Once a character has entered into the state of Apotheosis, they gain the
-ability to convert ability scores into successes. They also gain the
-ability to transfer or consume ability scores from lesser characters.
-{Expand}
-
-Stats as an EV as a commoner + Skill level as an apprentice vs. a target
-number plus the ability to start a task chain plus the ability to pool
-excess successes for future. Plus the ability to convert ability scores
-into successes by taking damage to them.
-
-| Skill / Specialization Level | Traditional Title                               | Modern Title       |                                                                                                                                                                                                                                                                           | Years of Study |
-|------------------------------|-------------------------------------------------|--------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------|
-| Level 0                      | Commoner                                        | Self-Taught        | Commoners have skills that establish the background of the character and its setting. The GM may use them to ascertain what makes sense for the character to be doing. This skill gets no bonus other then the bonuses associated with their Aspects and Characteristics. | 2 years        |
-| Level 1                      | Apprentice                                      | Associate’s Degree | Once someone has apprenticed, they have skills at this level. This level allows                                                                                                                                                                                           | 2 years        |
-| Level 2                      | Journeyman                                      | Batchelor’s Degree | Someone at this level man try to help another person using the Aiding Another.                                                                                                                                                                                            | 2 years        |
-| Level 3                      | Master                                          | Master’s Degree    | Someone who is at this level may start and direct a Task Chain                                                                                                                                                                                                            | 2 years        |
-| Level 4                      | Grand Master                                    | Doctorate Degree   | A Grand Master may establish a Task Pool                                                                                                                                                                                                                                  | 2 years        |
-| Apotheosis                   | Demigods and Dieties / Principalities and Power |                    | Characters who have a skill at this level may burn Aspects and Characteristics and convert them into successes. This level is only mentioned here in the event this is common in the game.                                                                                | NA             |
+| Skill / Specialization Level | Traditional Title                   | Modern Title       |                                                                                                                                                                                                                                                                                                                      | Years of Study |
+|------------------------------|-------------------------------------|--------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------|
+| Level 0                      | Commoner                            | Self-Taught        | Commoners have skills that establish the background of the character and its setting. The GM may use them to ascertain what makes sense for the character to be doing. This skill gets no bonus other then the bonuses associated with their Aspects and Characteristics.                                            | 2 years        |
+| Level 1                      | Apprentice                          | Associate’s Degree | Once someone has apprenticed, they have skills at this level. This level allows                                                                                                                                                                                                                                      | 2 years        |
+| Level 2                      | Journeyman                          | Batchelor’s Degree | Someone at this level man try to help another person using the Aiding Another.                                                                                                                                                                                                                                       | 2 years        |
+| Level 3                      | Master                              | Master’s Degree    | Someone who is at this level may start and direct a Task Chain                                                                                                                                                                                                                                                       | 2 years        |
+| Level 4                      | Grand Master                        | Doctorate Degree   | A Grand Master may establish a Task Pool                                                                                                                                                                                                                                                                             | 2 years        |
+| Level 5                      | Demigods, Principalities and Powers |                    | Characters who have a skill at this level may burn Aspects and Characteristics and convert them into successes. This level is only mentioned here in the event this is common in the game.                                                                                                                           | NA             |
+| Apotheosis                   | Deities                             |                    | Characters at this level of existence have the ability burn Aspects and Characteristics and either elevate or demote others skill levels for each Aspect or Characteristics burnt so that Grand Master would either be elevated to the level of a demigod or demoted to the level of a master for each aspect burnt. | NA             |
 
 ### Careers
 
@@ -328,11 +330,11 @@ actions in ways reflecting the abilities of their characters.
 
 ### Game Play Processes
 
-The basic idea The Märchen Engine is to separate the Game Play Processes
-from the Game Mechanics. A Game Play Process are the steps the players
-go through to perform a given narrative sequence with their characters.
-While a Game Play Mechanic is how to resolve any action the players wish
-to perform.
+The basic idea behind The Märchen Engine is to separate the Game Play
+Processes from the Game Mechanics. A Game Play Process is the steps the
+players go through to perform and a given narrative sequence with their
+characters. While a Game Play Mechanic is how to resolve any action the
+players wish to perform.
 
 #### The Basic Game Play Process
 
@@ -355,6 +357,9 @@ includes marking off resources spent in the attempt).
 6\. Goto Step 2
 
 #### Other Game Play Processes
+
+Another Game Process players will commonly encounter is the process for
+creating a character.
 
 ### Game Play Mechanics
 
@@ -405,18 +410,18 @@ See **Chapter 2: Skills** for more details.
 
 ###### Table: Degrees of Effect
 
-| Degree of Effect | σ      | 2d6    | 3d6    | 4d7            | 8D4(dreidels)  |
-|------------------|--------|--------|--------|----------------|----------------|
-| Catastrophic     | -4     | NA     | -8     | -12            | -12, -11       |
-| Costly           | -3     | -5     | -7, -6 | -11, -10, -9   | -10, -9        |
-| Fail             | -2     | -3, -4 | -5, -4 | -8, -7, -6, -5 | -8, -7, -6, -5 |
-| Minor Fail       | -1     | -2     | -3, -2 | -4, -3, -2     | -4, -5, -2     |
-| Fail in Style    | almost | -1     | -1     | -1             | -1             |
-| Tie              | 0      | 0      | 0      | 0              | 0              |
-| Succeed          | 1      | 1,2    | 1,2    | 1,2,3,4,       | 4, 3, 2, 1     |
-| Succeed In Style | 2      | 3,4    | 3,4    | 5,6,7,8        | 8, 7, 6, 5     |
-| Critical         | 3      | 5      | 5,6    | 9,10,11        | 10, 9          |
-| Serendipitous    | 4      | NA     | 7      | 12             | 12, 11         |
+| Degree of Effect | σ   | 2d6    | 3d6    | 4d7            | 8D4(dreidels)  |
+|------------------|-----|--------|--------|----------------|----------------|
+| Catastrophic     | -4  | NA     | -8     | -12            | -12, -11       |
+| Costly           | -3  | -5     | -7, -6 | -11, -10, -9   | -10, -9        |
+| Fail             | -2  | -3, -4 | -5, -4 | -8, -7, -6, -5 | -8, -7, -6, -5 |
+| Minor Fail       | -1  | -2     | -3, -2 | -4, -3, -2     | -4, -5, -2     |
+| Fail in Style    | -1  | -1     | -1     | -1             | -1             |
+| Tie              | 0   | 0      | 0      | 0              | 0              |
+| Succeed          | 1   | 1,2    | 1,2    | 1,2,3,4,       | 4, 3, 2, 1     |
+| Succeed In Style | 2   | 3,4    | 3,4    | 5,6,7,8        | 8, 7, 6, 5     |
+| Critical         | 3   | 5      | 5,6    | 9,10,11        | 10, 9          |
+| Serendipitous    | 4   | NA     | 7      | 12             | 12, 11         |
 
 ##### Degrees of Effect Defined
 
@@ -684,17 +689,33 @@ adjudicate any issues that might arise from a change in the time frame.
 
 ###### Table: Time Frames
 
-| Time Frame      | Base Increment                                             |
-|-----------------|------------------------------------------------------------|
-| 1D6 seconds     | One second                                                 |
-| 1D6 rounds      | One personal combat round (6 seconds)                      |
-| 1D6 minutes     | One minute (60 seconds, or 10 personal combat rounds)      |
-| 1D6 kiloseconds | One kilosecond (\~16.67 minutes, or one space combat turn) |
-| 1D6 hours       | One hour (60 minutes)                                      |
-| 1D6 days        | One day (24 hours)                                         |
-| 1D6 weeks       | One week (7 days)                                          |
-| 1D6 months      | One common month (30-31 days)                              |
-| 1D6 quarter     | One quarter (3 common months)                              |
+| Time Frame                | Base Increment                                                                                                                                                              |
+|---------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| σ – skill check           | One Ounces is 7.5 Seconds. There are 120 ounces in a Puncti. This is the time an action takes place in simulated play and in when players are reacting in Storytelling mode |
+| σ – skill check           | One Puncti is half a Bell. This is generally the time an action takes place in Storytelling mode                                                                            |
+|                           | One Bell is half an hourglass and there are 8 bells per watch                                                                                                               |
+| σ – skill check bells     | One Hourglass is one quarter of a Watch (1 hour)                                                                                                                            |
+| σ – skill check hours     | One Watch is one sixth of a day (4 hours).                                                                                                                                  |
+| σ – skill check quadrants | One Day is 24 hours. (24 hours)                                                                                                                                             |
+| σ – skill check days      | One Week (7 days)                                                                                                                                                           |
+| σ – skill check weeks     | One Month (30-31 days)                                                                                                                                                      |
+| σ – skill check months    | One Season (3 months)                                                                                                                                                       |
+
+###### Table: Additional Time Frames not used in Skill Checks or actions
+
+| Time Frame | Base Increment                                                                                                                                                                                                                   |
+|------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|            | One atom 160 Milli-seconds or 1/47<sup>th</sup> of an Ounces it is the time it takes an eye to twinkle. Greek references to this time segment talk about how it occurs at the last possible moment before another action occurs. |
+|            | One second                                                                                                                                                                                                                       |
+|            | One personal combat round (6 seconds)                                                                                                                                                                                            |
+|            | One minute (60 seconds, or 10 personal combat rounds)                                                                                                                                                                            |
+|            | One Momenta is 90 seconds                                                                                                                                                                                                        |
+|            | One Parte is 4 Minutes                                                                                                                                                                                                           |
+|            | One Minuta is 6 Minutes                                                                                                                                                                                                          |
+|            | One Lunar Puncti is 12 Minutes                                                                                                                                                                                                   |
+|            | One kilosecond (\~16.67 minutes or 6,000 seconds)                                                                                                                                                                                |
+|            | One Quadrant is a quarter of a day (6 hours)                                                                                                                                                                                     |
+|            | One canonical hour is essentially 3 hours. Canonical hours were used in churches                                                                                                                                                 |
 
 ##### Aiding Another
 
@@ -840,7 +861,7 @@ the player needs to add a negative DM for each difference.
 | 1      | Primitive       | Bronze- 3500 BCE                    | Roughly on a par with Bronze or Iron age technology.                                                                                                                            |
 | 2      | Primitive       | Age of Sail / Renaissance – 1500 CE | Renaissance technology.                                                                                                                                                         |
 | 3      | Primitive       | Industrial Revolution – 1730        | Mass production allows for product standardization, bringing the germ of industrial revolution and steam power.                                                                 |
-| 4      | Industrial      | Mechanized – 19000                  | Transition to industrial revolution is complete, bringing plastics, radio and other such inventions.                                                                            |
+| 4      | Industrial      | Mechanized – 1900                   | Transition to industrial revolution is complete, bringing plastics, radio and other such inventions.                                                                            |
 | 5      | Industrial      | Broadcast – 1930                    | Widespread electrification, tele-communications and internal combustion.                                                                                                        |
 | 6      | Industrial      | Atomic – 1940                       | Development of fission power and more advanced computing.                                                                                                                       |
 | 7      | Pre-Stellar     | Space Age -1990                     | Can reach orbit reliably and has telecommunications satellites.                                                                                                                 |
@@ -856,27 +877,211 @@ the player needs to add a negative DM for each difference.
 Higher Technology Levels exist and may appear in some Märchen Engine
 universes.
 
-## The Combat Round
+# Actions
 
-When things really start happening in a Märchen Engine game, time is
-broken down into six-second segments called rounds, or combat rounds,
-since they're most often used in fights. A round isn't very much time,
-just long enough for a character to do something. The types of actions
-your character can perform during a round are significant actions, minor
-actions, extended actions, free actions, and reactions. During a round
-you can do one of the following:
+## Annual Actions
 
-- Initiate or continue an extended action.
+## Seasonal Actions
 
-- Take a significant action and a minor action.
+### Base Activities
 
-- Take three minor actions and forego taking a significant action this
-  turn.
+| Name of the Activity | What you are doing or where you can do it               | Rules                                                                                                                                                                                     |
+|----------------------|---------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Sojourn              | When you spend time in a community.                     | See list of Sojourn activities.                                                                                                                                                           |
+| Recover              | When you spend time recovering from the trails of life. | See list of Recovery Activities                                                                                                                                                           |
+| Write your Epilogue  | When you retire from your life as an adventurer.        | Become a Patron, Sage, or other character of renown. Requires that you have completed the Name an Heir activity. You may now play as your Heir with your retired character in their role. |
+| Training             | Anywhere you have access to a trainer                   | Advance one level (Child / Commoner -\> Apprentice -\> Journeyman -\> Master -\> Grand Master -\> Apotheosis -\> Deity)                                                                   |
+| Name an Heir         | Anywhere                                                | Select and heir, Gain 1 Spiritual permanently. May only ever be selected once in a character’s lifetime.                                                                                  |
+| Court a Spouse       | Anywhere                                                | Gain a Spouse. This activity will monopolize much of the characters time as even the most common and the most elevated have cultural rituals that must be honored.                        |
 
-You can perform as many free actions and reactions in a round as you
-wish, although the Referee may choose to limit them to a reasonable
-number to keep the game moving. See **Chapter 5: Personal Combat** for
-more information.
+### Sojourn Activities
+
+| Name of the Activity                               | What you are doing or where you can do it | Rules                                                                                                                                                                                                                                        |
+|----------------------------------------------------|-------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Gain a new Trait/New Distinctive Feature/Specialty | Anywhere                                  | Replace old Trait with a new one.                                                                                                                                                                                                            |
+| Meet Patron                                        | Anywhere                                  | Gain counsel/aid from a patron                                                                                                                                                                                                               |
+| Open New Sanctuary                                 | Anywhere                                  | All companions must select undertaking. Current location becomes a sanctuary.                                                                                                                                                                |
+| Receive Title                                      | Anywhere you are a foreigner              | You Social Score now applies to to the culture you are in, and you are gifted with a house and / or holdings.                                                                                                                                |
+| Raise Standard of Living                           | Anywhere                                  | Spend 1 Treasure per month to raise your social score by 1 for this and the next phase, 2 Treasure per month to raise your social score by 2 for this and the next phase.                                                                    |
+| Raise Standing                                     | Home                                      | Spend Treasure to increase social score in your home culture permanently.                                                                                                                                                                    |
+| Research Lore / Search for Answers                 | Anywhere                                  | Lore roll to gain insight or information about your location or about a location your currently location has information on.                                                                                                                 |
+| Drumming up Support                                | Anywhere                                  | Raise your social score for one issue for one sixth of normal Treasure cost, for this phase and the next.                                                                                                                                    |
+| Go See a Lore-master                               | Anywhere                                  | Reveal a Wondrous Artefact’s Blessings; or a Famous Weapon or Armour’s Banes and the next hidden Quality.                                                                                                                                    |
+| Tend to a Holding                                  | Home                                      | Roll Feat die twice and choose best result when resolving effects of a Holding. If you possess an appropriate specialty, complete the Training activity.                                                                                     |
+| Visit the Treasury of your Folk                    | Home                                      | Trade an item in to raise Social Score by one and activate any of the qualities that item possess for cultures that possess such an item.                                                                                                    |
+| Write a Song                                       | Anywhere                                  | Compose a song to add to company’s list of songs.                                                                                                                                                                                            |
+| Gain a Virtue                                      | Anywhere                                  | Spend time among the people you are currently living among and gain a cultural virtue from their culture.                                                                                                                                    |
+| Gain a Cultural Virtue                             | Homeland                                  | Journey back to the homeland of your culture and spend the current phase gaining an additional cultural virtue from your own culture.                                                                                                        |
+| Influence Patron                                   | Anywhere                                  | Convince your Patron to take actions in line with what they would like to see happen in the world but haven't yet made a priority. For example, asking a local king to allow a local lord to repair the road from their town to the Capital. |
+| Confer with a Sage                                 | Anywhere                                  | Gain next Lore, Travel, Explore level at half cost in Advancement points. Or acquire one of the Sage's hobby traits.                                                                                                                         |
+| Visit the Artificer                                | Anywhere                                  | Custom Modify an item or weapon.                                                                                                                                                                                                             |
+| Guard                                              | Anywhere where guards are needed          | Roll on table see outcome.                                                                                                                                                                                                                   |
+| Patrol the Wild                                    | Anywhere with wildland                    | Gain benefits of wilderness-lore for next Adventuring phase. If you already have wilderness-lore, gain two benefits from invocation.                                                                                                         |
+
+### Social Activities
+
+| Name of the Activity                                                    | What you are doing or where you can do it                                                                                                                                                                   | Rules                                                                                                                                                        |
+|-------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Make a Connection                                                       | When you search out a new relationship or give focus to an existing relationship that you have no connection with. Create a connection by increasing the rank of that connection from unknown to connected. |                                                                                                                                                              |
+| Forge a Bond                                                            | When your relationship with a connection is ready to evolve. When you spend significant time with a person or community, stand together to face hardships, or make sacrifices for their cause               | Advance the state of a relationship with a connection by 1 rank.                                                                                             |
+| Aid a Connection                                                        | When you act in direct support of a connection.                                                                                                                                                             | Advance the state of a relationship with a connection by 2 ranks.                                                                                            |
+| Compel a Connection                                                     | When you try to persuade someone to do something or make them an offer                                                                                                                                      | Success indicates that the connection does as you request, failure indicates that you reduce the state of your relationship with that connection by 2 ranks. |
+| Test your Connection                                                    | When your bond with a connection is tested through conflict, betrayal, or circumstance                                                                                                                      | Success indicates that your relationship survives the turmoil of this phase. Failure indicates the number of ranks you will reduce this relationship by.     |
+| Hearten - When you socialize, share intimacy, or find a moment of peace | See Recovery Activities                                                                                                                                                                                     |                                                                                                                                                              |
+
+### Recover Activities
+
+| Name of the Activity | What you are doing or where you can do it                                                                                                                                                     | Rules                                                                                                                                                         |
+|----------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Sojourn              | When you spend time recovering within a community.                                                                                                                                            | See Sojourn Activities.                                                                                                                                       |
+| Recovery             | Anywhere                                                                                                                                                                                      | All physical and mental damage is healed. Remove one Physical or Mental Condition.                                                                            |
+| Hearten              | When you socialize, share intimacy, or find a moment of peace                                                                                                                                 | All Social Damage is healed. Remove One Social Condition.                                                                                                     |
+| Resupply             | When you attempt to bolster your readiness.                                                                                                                                                   | Roll against your social. Add one to your Supply levels for each level of success. Failure means no supplies are available.                                   |
+| Repair               | When you make repairs to your vehicles, modules, mechanical companions, or other devices. Roll against your Intelligence. Remove one condition from your equipment for each level of success. |                                                                                                                                                               |
+| Heal Corruption      | Anywhere                                                                                                                                                                                      | Craft or Song roll. On a success, reduce Spiritual Damage by 2, by 4 on a great success, by 6 on an extraordinary success. May make two rolls in a sanctuary. |
+| There and Back Again | Home                                                                                                                                                                                          | Recover all damage at the cost of permanently burning one spiritual point.                                                                                    |
+
+### Interrupted Activities
+
+| Name of the Activity | What you are doing or where you can do it                                                                                                                                                                                                             | Rules                                        |
+|----------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------|
+| Face Death           | When you encounter a situation where death is an immediate and unavoidable outcome, or when you are brought to the brink of death with a chance for recovery or redemption. When you are brought to the brink of death, and glimpse the world beyond. | When Physical Damage Exceeds your threshold. |
+| Face Desolation      | When you are brought to the brink of desolation and terror                                                                                                                                                                                            | When Spiritual Damage Exceeds your threshold |
+| Face Depression      | When you are brought to the brink of social degradation and destruction.                                                                                                                                                                              | When Social Damage Exceeds your threshold    |
+| Face Duress          | When you are brought to the brink of mental exhaustion and autonomous reactions.                                                                                                                                                                      | When Mental Damage Exceeds your threshold    |
+| Overcome Destruction | When all your gear, equipment, steeds, vehicles, devices, modules, and other possessions are destroyed or irrevocably lost.                                                                                                                           | Rules TBD                                    |
+
+## Monthly Actions
+
+Undertake a journey - When you travel across hazardous or unfamiliar
+lands.
+
+Gather Information (Adventure) - When you search for clues, conduct an
+investigation, analyze evidence, or do research
+
+| Collect Herbs                  | Anywhere reasonable                      | Roll on table to gather herbs.                                                                                                                                                                                                      |
+|--------------------------------|------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Compete on the Field of Heroes | Anywhere games are held                  | Athletics, Hunting, Bows or Axe roll. Success reduces cost of increasing Standing by 3, great success by 6, extraordinary success by 12.                                                                                            |
+| Gather Firewood                | Anywhere with large forests              | Gain benefits of Firemaking for next Adventuring phase. If you already have Firemaking, gain two benefits from invocation.                                                                                                          |
+| Go Hunting                     | Anywhere with hunting grounds            | Hunting roll to roll on table.                                                                                                                                                                                                      |
+| Go to Market                   | Anywhere with a standing market          | Spend Treasure to acquire a specific item.                                                                                                                                                                                          |
+| Climb the Mountains            | Anywhere with mountains                  | Athletics roll to climb mountain and roll on table.                                                                                                                                                                                 |
+| Delve into the depths          | Anywhere with non-hostile natural caves. | First time, gain 1 Spiritual or reduce Spirit damage by 2.                                                                                                                                                                          |
+| Go Riding                      | Anywhere with Fields and Plains to ride  | Athletics roll to roll on table.                                                                                                                                                                                                    |
+| Sparring/Dueling               | Anywhere where guards are                | Athletics, Sword or Spear roll (TN 18). Success increases Social Standing among this society by by +1, +2 on great success, +3 on extraordinary success. Failure takes a of Physical and Mental Damage, but gains Experience point. |
+
+## Weekly Actions
+
+Secure an Advantage (Adventure) - When you assess a situation, make
+preparations, or attempt to gain leverage
+
+| Honoring the Fallen | Anywhere                      | When one someone close to the team has fallen, gain 1 Spiritual, even if it takes you above maximum.                                                                                           |
+|---------------------|-------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Honor your people   | Among the tombs of the people | Roll to compose and perform an adhoc song sung to your ancestors. On a success the song is performed, reduce Spiritual Damage by 3, by 6 on a great success, by 9 on an extraordinary success. |
+| Feast with the Lord | Sanctuary that has a Lord     | Gain benefits of Merry for next Adventuring phase. If you already have Merry, gain two benefits from invocation.                                                                               |
+
+## Daily Actions – 24 hours
+
+## Watch Actions – 4 hours
+
+First Aid - When you treat an injury or ailment in the wild
+
+Resupply - When you hunt, forage, or scavenge in the wild
+
+Make Camp - When you setup camp to spend some time resting and
+recovering in the wild
+
+Prowl - When you travel across hazardous or unfamiliar lands with
+special care. (1 Miles an hour)
+
+Adventure - When you travel across hazardous or unfamiliar lands. (2
+Miles an hour)
+
+Travel - When you travel across safe or familiar lands. (4 Miles an
+Hour)
+
+Reach your destination - When your journey comes to an end.
+
+## Puncti Actions – 15 minutes
+
+Story Telling Actions
+
+Face Danger (Adventure) - When you attempt something risky or react to
+an imminent threat
+
+Check your Gear - When you check to see if you have a specific helpful
+item or resource
+
+Negotiate - When you try to persuade someone to do something or make
+them an offer
+
+Compel - When surrendering, coercing your foe to stand down, or
+negotiating a truce.
+
+Triage – When you attempt to stabilize someone who is injured or sick in
+the moment.
+
+Battle – Start a fight and it happens in a blur.
+
+Enter the Fray - When you initiate combat or are forced into a fight.
+
+Face Danger - When overcoming an obstacle, avoiding a hazard, fleeing,
+or evading an attack (without fighting back).
+
+React Under Fire - When you are in a bad spot and take action in a fight
+to avoid danger or overcome an obstacle
+
+End the Fight - When you make a move to take decisive action, and score
+a strong hit
+
+Companion Takes a Hit - When your companion faces physical hardship.
+
+Aid Your Ally - When making a move to give your ally an advantage.
+
+## Ounces Actions – 7.5 Seconds
+
+Strike - When you have initiative and attack in close quarters. When you
+are in control and assault a foe at close quarters, or when you attack
+at a distance
+
+Gain Ground - When you are in control and take action in a fight to
+reinforce your position or move toward an objective
+
+Secure an Advantage - When acting to outwit or outmaneuver your foe, or
+setting up another move.
+
+Take Defensive Action - When you seize an objective in a fight
+
+Clash - When your foe has initiative and you fight with them in close
+quarters, roll +iron. When you exchange a volley at range, or shoot at
+an advancing foe, roll +edge. When you are in a bad spot and fight back
+against a foe at close quarters, or when you exchange fire at a distance
+
+Turn the Tide - when you risk it all, you may steal initiative from your
+foe to make a move (once per fight)
+
+Face Defeat - When you abandon or are deprived of an objective
+
+Pay the Price - When suffering the outcome of a move.
+
+Lose Momentum - When you are delayed or disadvantaged
+
+Endure Harm - When you face physical injury, fatigue, or illness
+
+Endure Stress - When you face mental strain, shock, or despair
+
+Endure Embarrassment - When you face social humiliation, awkwardness, or
+a lack of social graces
+
+Endure Hopelessness - When you face spiritual anguish, gloom, or misery
+
+Sacrifice a Resource - When you lose or consume resources
+
+Withstand Damage - When your gear, vehicle, or other physical
+possessions faces a damaging situation or environment
+
+
+# Bringing it all Together
 
 ## Bringing it all Together
 
@@ -1663,57 +1868,6 @@ strengths and weaknesses to mirror the Physical, Mental, Social, and
 Spiritual aspects of other living creatures. This is the magic of the
 Druid or the Shaman. This is also the magic of the shapeshifters and
 doppelgangers.
-
-## Pseudo-Hexadecimal Notation
-
-The Märchen Engine uses a form of pseudo-hexadecimal notation as a type
-of shorthand in noting specific values of characteristic scores, world
-statistics, drive type designations and similar design elements. The
-pseudo-hexadecimal notation proceeds as normal for values from 0 to 15,
-but extends beyond F for 15, with G for 16, etc. The Märchen Engine
-skips the use of the letters I and O, because they might be mistaken for
-the numbers 1 and 0. The Pseudo-Hexadecimal Notation table provides a
-quick reference for converting values for use in Märchen Engine.
-
-#### Table: Pseudo-Hexadecimal Notation
-
-| Actual Value | PseudoHex |
-|--------------|-----------|
-| **0**        | 0         |
-| **1**        | 1         |
-| **2**        | 2         |
-| **3**        | 3         |
-| **4**        | 4         |
-| **5**        | 5         |
-| **6**        | 6         |
-| **7**        | 7         |
-| **8**        | 8         |
-| **9**        | 9         |
-| **10**       | A         |
-| **11**       | B         |
-| **12**       | C         |
-| **13**       | D         |
-| **14**       | E         |
-| **15**       | F         |
-| **16**       | G         |
-| **17**       | H         |
-| **18**       | J         |
-| **19**       | K         |
-| **20**       | L         |
-| **21**       | M         |
-| **22**       | N         |
-| **23**       | P         |
-| **24**       | Q         |
-| **25**       | R         |
-| **26**       | S         |
-| **27**       | T         |
-| **28**       | U         |
-| **29**       | V         |
-| **30**       | W         |
-| **31**       | X         |
-| **32**       | Y         |
-| **33**       | Z         |
-
 
 # LEGAL
 
