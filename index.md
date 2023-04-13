@@ -1,14 +1,38 @@
 - [INTRODUCTION](#introduction)
   - [What Is Roleplaying?](#what-is-roleplaying)
   - [What Is the Märchen Engine?](#what-is-the-märchen-engine)
+  - [Iconography](#iconography)
   - [The Core Task Resolution System](#the-core-task-resolution-system)
-  - [The Referee](#the-referee)
-  - [The Characters](#the-characters)
+  - [Referee](#referee)
+  - [Characters](#characters)
+    - [Player Characters](#player-characters)
+      - [Associates, PCs, Heroes](#associates-pcs-heroes)
+    - [The Company](#the-company)
+      - [First Meeting](#first-meeting)
+      - [Relationships](#relationships)
+      - [Rating](#rating)
+      - [Patron](#patron)
+    - [Other Characters](#other-characters)
+      - [Companion](#companion)
+      - [Allies](#allies)
+      - [Contacts](#contacts)
+      - [Rivals](#rivals)
+      - [Enemies](#enemies)
+      - [Hirelings](#hirelings)
+        - [Mercenaries](#mercenaries)
+        - [Retainers](#retainers)
+        - [Specialists](#specialists)
+  - [Creating Characters](#creating-characters)
     - [Aspects](#aspects)
+      - [Example](#example)
     - [Characteristics](#characteristics)
-    - [Skill](#skill)
-    - [Specializations](#specializations)
+      - [Example](#example-1)
+    - [Knowledge Areas -](#knowledge-areas--)
         - [Table: Skill and Specialization Level](#table-skill-and-specialization-level)
+      - [Skilled](#skilled)
+        - [Example](#example-2)
+      - [Competency](#competency)
+        - [Example](#example-3)
     - [Careers](#careers)
   - [Game Play](#game-play)
     - [Game Play Processes](#game-play-processes)
@@ -19,23 +43,14 @@
         - [Difficulty and Effect](#difficulty-and-effect)
           - [Table: Task Difficulties](#table-task-difficulties)
           - [Table: Degrees of Effect](#table-degrees-of-effect)
-        - [Degrees of Effect Defined](#degrees-of-effect-defined)
-          - [Fail Catastrophically](#fail-catastrophically)
-          - [Costly](#costly)
-          - [Fail](#fail)
-          - [Fail in Style](#fail-in-style)
-          - [Tie](#tie)
-          - [Succeed](#succeed)
-          - [Succeed in Style](#succeed-in-style)
-          - [Critical Success](#critical-success)
-          - [Serendipitous Success](#serendipitous-success)
+          - [Degrees of Effect Defined](#degrees-of-effect-defined)
       - [Types of Checks](#types-of-checks)
         - [Passive Checks](#passive-checks)
         - [Active Checks](#active-checks)
           - [Aspect Checks](#aspect-checks)
           - [Characteristics Checks](#characteristics-checks)
           - [Skill Checks](#skill-checks)
-          - [Specialization Checks](#specialization-checks)
+          - [Competency Checks](#competency-checks)
           - [Untrained and Zero-Level Skills](#untrained-and-zero-level-skills)
           - [Multiple Actions](#multiple-actions)
           - [Local Law Level](#local-law-level)
@@ -46,30 +61,51 @@
         - [Circumstance Modifiers](#circumstance-modifiers)
         - [Time and Checks](#time-and-checks)
           - [Table: Time Frames](#table-time-frames)
-          - [Table: Additional Time Frames not used in Skill Checks or actions](#table-additional-time-frames-not-used-in-skill-checks-or-actions)
         - [Aiding Another](#aiding-another)
         - [Task Chaining](#task-chaining)
         - [Group Checks](#group-checks)
         - [Advantage and Disadvantage](#advantage-and-disadvantage)
+        - [Exploding Dice](#exploding-dice)
         - [The Dice Chain](#the-dice-chain)
         - [Technology Level](#technology-level)
           - [Table: Technology Level Overview](#table-technology-level-overview)
-- [Actions](#actions)
-  - [Annual Actions](#annual-actions)
-  - [Seasonal Actions](#seasonal-actions)
-    - [Base Activities](#base-activities)
-    - [Sojourn Activities](#sojourn-activities)
-    - [Social Activities](#social-activities)
-    - [Recover Activities](#recover-activities)
+          - [Availability of Technology at higher or lower levels](#availability-of-technology-at-higher-or-lower-levels)
+  - [Annual Events](#annual-events)
+    - [A Grim Year](#a-grim-year)
+        - [A Personal Tragedy](#a-personal-tragedy)
+        - [A Tragedy hits Close to Home](#a-tragedy-hits-close-to-home)
+        - [A Cultural Tragedy Occurs](#a-cultural-tragedy-occurs)
+        - [A Rare Natural Disaster Occurs](#a-rare-natural-disaster-occurs)
+        - [Under Attack!](#under-attack)
+    - [The Burdens of the World](#the-burdens-of-the-world)
+        - [Rumors of War](#rumors-of-war)
+        - [The Current Leader Goes to War](#the-current-leader-goes-to-war)
+        - [A Major Migration Occurs](#a-major-migration-occurs)
+    - [Blessings/Well Guided and Well-Guarded](#blessingswell-guided-and-well-guarded)
+        - [An ambassador arrives.](#an-ambassador-arrives)
+        - [A New Political / Social Movement Occurs](#a-new-political--social-movement-occurs)
+        - [A New Religious Movement Starts](#a-new-religious-movement-starts)
+    - [A Worthy Year](#a-worthy-year)
+        - [Good Fortune](#good-fortune)
+        - [A Rare Natural Phenomenon Occurs](#a-rare-natural-phenomenon-occurs)
+        - [A Leader has a child](#a-leader-has-a-child)
+  - [Activities](#activities)
     - [Interrupted Activities](#interrupted-activities)
-  - [Monthly Actions](#monthly-actions)
-  - [Weekly Actions](#weekly-actions)
-  - [Daily Actions – 24 hours](#daily-actions--24-hours)
-  - [Watch Actions – 4 hours](#watch-actions--4-hours)
-  - [Puncti Actions – 15 minutes](#puncti-actions--15-minutes)
-  - [Ounces Actions – 7.5 Seconds](#ounces-actions--75-seconds)
-- [Bringing it all Together](#bringing-it-all-together)
-  - [Bringing it all Together](#bringing-it-all-together-1)
+    - [Seasonal Activities](#seasonal-activities)
+      - [Base Activities](#base-activities)
+      - [Depart Activities](#depart-activities)
+      - [Dwell Activities](#dwell-activities)
+      - [Sojourn Activities](#sojourn-activities)
+      - [Social Activities](#social-activities)
+        - [Courting and the Seasonal Activities](#courting-and-the-seasonal-activities)
+      - [Recover Activities](#recover-activities)
+    - [Monthly Activities – 4 Weeks](#monthly-activities--4-weeks)
+    - [Weekly Activities – 7 Days](#weekly-activities--7-days)
+    - [Daily Activities – 24 hours](#daily-activities--24-hours)
+    - [Watch Activities – 4 hours](#watch-activities--4-hours)
+    - [Puncti Activities – 15 minutes](#puncti-activities--15-minutes)
+    - [Ounces (⏱) Activities – 7.5 Seconds](#ounces--activities--75-seconds)
+  - [Bringing it all Together](#bringing-it-all-together)
     - [Physical Aspects](#physical-aspects)
       - [Muscle Characteristics](#muscle-characteristics)
         - [Ranged Combat Skill](#ranged-combat-skill)
@@ -178,6 +214,40 @@ To play, you need a copy of the Märchen Engine rules; several dice,
 available at game and hobby stores (you'll need two at a minimum, but
 more is better); and a pencil and some paper.
 
+## Iconography
+
+⚅ - The Dice Symbol is used to indicate how the results of rolling the
+dice are modified. For example, ⚅-3 means you will add a negative three
+(3) to any dice roll associated with resolving that situation. Another
+example, ⚅+2 means you will add a positive three (#) to any dice roll
+associated with resolving that situation. While the symbol here is that
+of a six-sided die, that does not necessarily mean that the resolution
+calls for a six-sided die. The symbol is used to indicate dice rolling,
+not which type.
+
+σ – This symbol (a lower-case Sigma) indicates that dice have been
+rolled and you are now determining the resulting category the result
+belongs in belongs in. These results will be a number from -4 to +4.
+
+± % – This symbol (plus or minus a percentage) indicates that the dice
+have been rolled and you are now determining the resulting category the
+result belongs in. These results will be a percentage from 400% to 25%.
+This is used many times to modify the amount of time or the amount of
+profit from a resulting transaction based on the skills involved in
+making that resolution take place.
+
+💪 – The Flexed Biceps emoji will be used for a characters Physical
+Aspect.
+
+⏱ – The stopwatch symbol represents an Ounce or a Round or a Combat
+round. This is 7.5 seconds in length and is a historical term used to
+describe a twelfth (<sup>1</sup>/<sub>12</sub>) of a moment. A moment
+was 90 seconds or <sup>1</sup>/<sub>40</sub> of an hour. Onces could be
+broken down into what was called Atoms of time or
+<sup>1</sup>/<sub>47th</sub> of a Once. This atom of time is the amount
+of time an eye takes to twinkle or as they say: In the twinkling of an
+eye.
+
 ## The Core Task Resolution System
 
 The Märchen Engine uses a core task resolution system to resolve
@@ -197,7 +267,7 @@ This simple system is used for nearly everything in the Märchen Engine,
 with variations based on the modifiers added to a roll and the effects
 of success and failure.
 
-## The Referee
+## Referee
 
 Within the Märchen Engine rules, one of the players is asked to assume
 the mantle of Referee. The Referee is the person who will act as an
@@ -208,22 +278,211 @@ participants' player-character stories together, control the non-player
 aspects of the game, create environments in which the players can
 interact, and solve any player disputes.
 
-## The Characters
+## Characters
 
-A player character or playable character (PC) is a fictional character
-in a Märchen Engine game whose actions are directly controlled by a
-player of the game rather than the rules of the game. The characters
-that are not controlled by a player are called non-player characters
-(NPCs). The actions of non-player characters are typically handled by
-the Referee.
+There are two types of heroes that participate in The Märchen engine
+player character or playable character (PC) is a fictional character in
+a Märchen Engine game whose actions are directly controlled by a player
+of the game rather than the rules of the game. The characters that are
+not controlled by a player are called non-player characters (NPCs). The
+actions of non-player characters are typically handled by the Referee.
+
+### Player Characters
 
 Using the Märchen Engine rules as guidelines, a player will create a
-character reflecting the sort of role they’d like to have in the game.
-The character is usually of a certain race (depending on those available
-with the Referee's universe) and possesses a unique combination of
-skills and levels of expertise. The attributes of a character is given
-as numerical values which can change as the gamer progresses, and
-characters grow and develop over the course of their adventures.
+Hero reflecting the sort of role they’d like to have in the game. The
+Hero is usually of a certain race (depending on those available with the
+Referee's universe) and possesses a unique combination of skills and
+levels of expertise.
+
+#### Associates, PCs, Heroes
+
+Associates, PC’s and Heroes are all names for Character’s other humans
+that are not Referee controled who are joining you on your adventure.
+
+### The Company
+
+The group of characters that is formed by a group of like-minded heroes.
+They may share a common short-term goal appointed by elders or a council
+of peoples, or they might all be young members of the same folk, ready
+to leave home for the first time to see the world.
+
+After the players have finished creating their characters, they should
+discuss with the Referee the circumstances that brought the group
+together and forged them into a company of adventurers. The more
+detailed the description of the events that led to the characters
+setting off adventuring the better, as this will give the Referee
+valuable story hooks to turn into adventures that directly link to the
+characters’ back-story.
+
+The process of creating a company is the first seasonal activity played
+by the group. During company creation, the players are assisted by the
+Referee as they define the characteristics of their group of
+adventurers.
+
+#### First Meeting
+
+The first thing to do is decide where the company was formed. To do so,
+the players choose a suitable place. Locations that qualify as havens or
+sanctuaries are an ideal choice, as these known to welcome outsiders as
+they travel. As soon as everybody agrees on a location, its name is
+recorded by every player on their character sheet.
+
+When this is settled, the players briefly introduce their heroes, making
+sure to mention how and why they arrived at the selected location in the
+first place; the heroes’ cultures and callings can prove useful as
+starting points. The referee could take this opportunity to provide
+information about the setting to less-knowledgeable players. Some places
+are particularly suited as locations for the first meeting of a company.
+
+#### Relationships
+
+All adventurers share a feeling of loyalty towards each other, but each
+of them can develop a particular level of companionship with another
+member of the group: it may be uncommon respect for someone wiser or
+nobler, a special friendship shared with an old acquaintance, the
+kinship felt for a fellow countryman, or deep affection for a dear
+family member.
+
+Whatever the nature of the relationship, each player must elect another
+member of the company as his character’s focus, writing the name of this
+companion in the appropriate space on the character sheet. It can be any
+other Associate, Companion, or Patron who is in the Company, even one
+that has already been chosen by somebody else as their focus. The bond
+doesn’t have to be mutual: a hero who has been chosen by another hero as
+his focus is free to choose any other character as his own.
+
+#### Rating
+
+The group of player-heroes is more than a band of roving mercenaries
+brought together by mere necessity. At its foundation are communal goals
+and mutual respect. This is recreated in the game by a shared pool of
+Company points. During the game, players use these points to recover
+Spiritual and Social Damage.
+
+The number of points available to a company of heroes at the beginning
+of the game is equal to the number of heroes in the group.
+
+All players record the company’s rating total in the appropriate box on
+their character sheet. This score is updated every time that a companion
+uses a point to recover damage, and it is fully replenished at the
+beginning of every game session.
+
+#### Patron
+
+A patron is a usually renowned or powerful personality, who may from
+time to time offer a company a purpose to go adventuring, often
+providing support and counsel. Companions may choose to meet a patron
+during their seasonal activities if they are at the location where the
+Patron is to be found and if the Patron is available for a meeting.
+
+A company may have several patrons at the same time, if its members are
+able to satisfy the requirements to ensure their allegiance (very often,
+Patrons will ask something in return for their friendship).
+
+### Other Characters
+
+Over the course of their careers, Heroes will have made friends and
+foes, and established ties with various non-player characters who may
+play a part in future adventures. There are four categories of such
+associates.
+
+#### Companion
+
+Someone who is currently not played by another human who has joined you
+on an adventure. Companions are controlled by the Referee. A spouse or a
+family member is a good example of a companion that most Heros will
+have.
+
+#### Allies
+
+These are individuals that the Hero knows and who they have had friendly
+dealings with in the past. They may have useful skills, positions, or
+assets and they are willing to help the Traveller and will actively go
+out of their way to provide aid.
+
+#### Contacts
+
+These are individuals like Allies; however, they may be willing to aid
+the Hero.
+
+Both Allies and Contacts can also be Patrons.
+
+#### Rivals
+
+These are people who hate or oppose the Hero and will attempt to
+interfere or harass them.
+
+#### Enemies
+
+These are even worse than Rivals – a Rival will normally work within the
+law, but an Enemy wants the Hero dead, imprisoned or otherwise doomed.
+
+#### Hirelings
+
+There are three sorts of hirelings. In a nutshell, mercenaries are
+ordinary hired soldiers who serve for conventional military tasks – from
+guarding a fortress to attacking enemy strongholds; they usually operate
+as part of a larger military force. Retainers are NPCs brave (or
+foolhardy) enough and are paid to accompany player characters into the
+kinds of hair-raising adventures players love to put their characters
+through. Specialists are, as the term implies, tradesmen or experts in
+various useful non-combat (or combat-adjacent) fields.
+
+All hirelings come with ordinary equipment appropriate for their
+profession, subject to the Referee’s discretion. For example, a typical
+light infantryman will come equipped with leather armor, a shield, and a
+short sword or spear. An armorer or alchemist would have their tools.
+The employer (the PCs) would have to supply heavy equipment, such as a
+forge or laboratory.
+
+To hire NPCs, the players must first negotiate with them. The Referee
+will usually do this by role-playing the prospective hireling, by
+rolling, or – most likely – using a combination of roleplay and dice
+rolls.
+
+##### Mercenaries
+
+Mercenaries are soldiers (or thugs) who perform military (or thuggery)
+operations. They may guard, patrol, assault enemy strongholds, engage
+enemy forces, or even waylay unwary travelers. However, they are not
+foolish enough to follow lunatics on harrowing adventures such as
+robbing haunted tombs or sneaking into an enemy's castle to assassinate
+a noble. That’s way above their pay scale. They’re soldiers.
+
+##### Retainers
+
+Retainers are NPCs willing to serve adventurers as bodyguards, henchmen,
+or sidekicks. Unlike mercenaries, they are loyal enough to follow their
+master and will put themselves in grave danger. Retainers may operate
+individually rather than as part of a larger unit. However, they require
+a higher monthly fee, and they must receive a share of their master’s
+treasure gained through adventure. A character may have more than one
+retainer, but they must be able to pay for that retainer. The higher
+their 🤝 and Leadership the more they will be able to retain. Regardless
+of 🤝, a character will always be able to have at least one retainer.
+
+The Referee must generate prospective retainers as regular characters
+using the character generation rules. Note that this is always subject
+to Referee discretion. Retainers come with appropriate basic gear, as
+received from character generation, or purchased from the money they
+eared in their career when they mustered out.
+
+##### Specialists
+
+Tradesmen and professionals, such as sailors to crew a ship, or an
+alchemist to produce potions. Specialists are usually non-combatants,
+though this is subject to Referee discretion and the specific task the
+specialist was hired to do. For example, siege engineers are generally
+considered to be combatants, though they would expect to never be in
+immediate danger. The payment due a Specialist will be determined by
+their skills and competencies.
+
+## Creating Characters
+
+The attributes of a character are given as numerical values which can
+change as the game progresses, and characters grow and develop over the
+course of their adventures.
 
 ### Aspects
 
@@ -231,8 +490,15 @@ All beings have four aspects of their existence. These define the
 highest categorical breakdown of a being. They are Physical, Mental,
 Social, and Spiritual. They each have a numeric score The higher the
 score, the more potential that being has in that aspect of their
-existence. These aspects can be broken down into your traditional
+existence. These numbers also represent how much damage the character
+can take. These aspects can be broken down into your traditional
 Characteristics.
+
+#### Example
+
+Jeremiah has always been a physical presence around the community
+(Aspect is Physical = 3). The stats for Jeremiah so far are: Physical
+(3).
 
 ### Characteristics
 
@@ -244,70 +510,108 @@ character, you decide how strong, smart, and tough your character is by
 choosing the appropriate characteristic scores. See **Chapter 1:
 Character Creation** for more information.
 
-### Skill
+#### Example
 
-Skills represent exposure and/or training in a particular sort of task
-or knowledge. Initially you are either trained or untrained in that
-skill. Overtime you will gain additional points in the skill as you
-excel in your specialization. Skills themselves are not associated with
-a given technology level. Skills cannot be above level 4. Once you have
-a skill at level 1, you have all associated specializations at level 0.
+Jeremiah has always been a physical presence around the community
+(Aspect is Physical = 3 and Characteristic is Stamina = 3). The stats
+for Jeremiah are: Physical (3) – Stamina (3).
 
-### Specializations
+### Knowledge Areas - 
 
-Every Skill has multiple specializations associated with it. When a
-skill is initially learned at level 1 selected it means that all the
-specializations associated with it are all at level 0. From that point
-on, the any additional study in that skill will require the player to
-pick a specialization to study instead. They will start that skill at
-level 1. A character may have multiple specializations in a skill.
+Knowledge describes facts and information typically acquired through
+experience or informal study. It represents exposure and knowledge in a
+particular sort of task or knowledge.
 
-Each cascade skill level represents roughly two years’ worth of
-education and training in that skill. For skills of an academic bent,
-you could equate that to an associate degree (or similar two-year
-academic program) at level one, a bachelor’s degree (120 hours or other
-four-year program) at level two, a master’s degree at level three(40
-hours) of experience, a Doctorate at level four(60 hours and beyond).
-Once a cascade skill is taken to level 4, the skill its associated with
-receives a +1. CascadeSkills are learned at a technology level. Cascade
-skills can not be learned past level 4.
+##### Table: Skill and Specialization Level 
+
+| Skill Level | Traditional Title                   | Academic Titles   | Years of Study | Special Rules                                                                                                                                                                                                                                                                                                        |
+|-------------|-------------------------------------|-------------------|----------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Level 0     | Commoner                            | Self-Taught       | 2 years        | Commoners have skills that establish the background of the character and its setting. The GM may use them to ascertain what makes sense for the character to be doing. This skill gets no bonus other than the bonuses associated with their Aspects and Characteristics.                                            |
+| Level 1     | Apprentice                          | Associate Degree  | 2 years        | Once someone has apprenticed, they have skills at this level. This level allows                                                                                                                                                                                                                                      |
+| Level 2     | Journeyman                          | Bachelor’s Degree | 2 years        | Someone at this level man try to help another person using the Aiding Another.                                                                                                                                                                                                                                       |
+| Level 3     | Master                              | Master’s Degree   | 2 years        | Someone who is at this level may start and direct a Task Chain                                                                                                                                                                                                                                                       |
+| Level 4     | Grand Master                        | Doctorate Degree  | 2 years        | A Grand Master may establish a Task Pool                                                                                                                                                                                                                                                                             |
+| Level 5     | Demigods, Principalities and Powers |                   | NA             | Characters who have a skill at this level may burn Aspects and Characteristics and convert them into successes. This level is only mentioned here in the event this is common in the game.                                                                                                                           |
+| Apotheosis  | Deities                             |                   | NA             | Characters at this level of existence have the ability burn Aspects and Characteristics and either elevate or demote others skill levels for each Aspect or Characteristics burnt so that Grand Master would either be elevated to the level of a demigod or demoted to the level of a master for each aspect burnt. |
+
+~~A skill is either skilled or unskilled in that knowledge area.~~
+
+~~Each competencies level represents roughly two years’ worth of
+education and training in that skill. For each level of competency the
+player must increase their knowledge by +1 as welldww. Once a
+competencies is taken to level 4, the skill its associated with receives
+a +1. Specialization are learned at a technology level. Specialization
+can not be learned past level 4. When recording Specialization and their
+associated levels, the Specialization name is written first, followed by
+a hyphen, and then the number of levels that the character possesses in
+that skill. For example, Gambling-2 means that the character has two
+levels of Gambling Specialization.~~
+
+> ~~A skill can is a binSkills cannot be above level 4. Once you have a
+> skill at level 1, you have all associated specializations at level 0.
+> Once you have a specialization associated with a given skill, the only
+> opportunity for more development in this area of study is to increase
+> your overall skill. In other words, if you have a skill at level 2,
+> this means you have at least one specialization at level 4.~~
+
+#### Skilled
+
+A knowledge area can be something you have a skill in. A skill is
+applying knowledge and developing a proficiency in a controlled
+environment with a focus on developing a competency. Generally, this
+represents some form of formal training. A skill, if a character has it,
+starts at Level 0. This represents the general knowledge of the average
+self-taught individual. If there is no exposure to that skill, the skill
+is not on the character sheet and it can not be used, nor any of the
+competencies. There are four different levels above that which map to
+formal training. There are two other levels that are presented in the
+table below which represent skill levels for NPCs and patrons.
+
+##### Example
+
+Jeremiah has always been a physical presence around the community
+(Aspect is Physical = 3 and Characteristic is Stamina = 3). There is a
+story of him growing up when as a child he entered a wrestling contest
+and defeated one of the drunk adults (Knowledge Area = Unarmed and
+Skilled = Self Taught = 0). The stats for Jeremiah are: Physical(3) -
+Stamina(3) – Unarmed (0).
+
+#### Competency
+
+Every Knowledge area has multiple competencies associated with it. A
+competency represents the character applying the necessary knowledge and
+skill in a real-world environment with full professional responsibility
+and accountability for one's own actions.
+
+##### Example
+
+Jeremiah has always been a physical presence around the community
+(Aspect is Physical = 3 and Characteristic is Stamina = 3). There is a
+story of him growing up when as a child he entered a wrestling contest
+and defeated one of the drunk adults (Knowledge Area = Unarmed and
+Skilled = Self Taught = 0). The stats for Jeremiah are: Physical (3) -
+Stamina (3) – Unarmed (0). After winning the contest against Jacob, he
+decides to join the wrestling team in High School (Physical (3) -
+Stamina (3) – Unarmed (1)) where they teach Greco-Roman Wrestling
+(Physical(3) - Stamina(3) – Unarmed (1) – Greco Roman Wrestling (1)).
+After School his mom drops him off at the local dojo (Jeremiah cannot
+double his effort on formal skilled training to gain an additional point
+here.) where he learns Tae Kwon Do (Physical (3) - Stamina (3) – Unarmed
+(1) – Taw Kwon Do (1)).
 
 Skill levels act as a bonus on task resolutions rolls when a character
 attempts an action related to a skill. As your character follows their
 career, they gain skills. See **Chapter 2: Skills** for more information
 on specific skills.
 
-Being trained in that skill represents roughly two years’ worth of
-education, training, and exposure , everything from acrobatic maneuvers
-to negotiation, piloting a starship, and programming a computer. Someone
-trained in athletics is able to climb faster and with more confidence
-than someone who isn't, for example. Skills are measured in levels,
-reflecting how much training a character has in the skill. When
-recording skills and their associated levels, the skill name is written
-first, followed by a hyphen, and then the number of levels that the
-character possesses in that skill. For example, Gambling-2 means that
-the character has two levels of Gambling skill.
-
-##### Table: Skill and Specialization Level 
-
-| Skill / Specialization Level | Traditional Title                   | Modern Title       |                                                                                                                                                                                                                                                                                                                      | Years of Study |
-|------------------------------|-------------------------------------|--------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------|
-| Level 0                      | Commoner                            | Self-Taught        | Commoners have skills that establish the background of the character and its setting. The GM may use them to ascertain what makes sense for the character to be doing. This skill gets no bonus other then the bonuses associated with their Aspects and Characteristics.                                            | 2 years        |
-| Level 1                      | Apprentice                          | Associate’s Degree | Once someone has apprenticed, they have skills at this level. This level allows                                                                                                                                                                                                                                      | 2 years        |
-| Level 2                      | Journeyman                          | Batchelor’s Degree | Someone at this level man try to help another person using the Aiding Another.                                                                                                                                                                                                                                       | 2 years        |
-| Level 3                      | Master                              | Master’s Degree    | Someone who is at this level may start and direct a Task Chain                                                                                                                                                                                                                                                       | 2 years        |
-| Level 4                      | Grand Master                        | Doctorate Degree   | A Grand Master may establish a Task Pool                                                                                                                                                                                                                                                                             | 2 years        |
-| Level 5                      | Demigods, Principalities and Powers |                    | Characters who have a skill at this level may burn Aspects and Characteristics and convert them into successes. This level is only mentioned here in the event this is common in the game.                                                                                                                           | NA             |
-| Apotheosis                   | Deities                             |                    | Characters at this level of existence have the ability burn Aspects and Characteristics and either elevate or demote others skill levels for each Aspect or Characteristics burnt so that Grand Master would either be elevated to the level of a demigod or demoted to the level of a master for each aspect burnt. | NA             |
-
 ### Careers
 
 As a part of their development, characters follow certain life paths
-called careers. The Märchen Engine provides a variety of career options
-for characters to pursue, which opens up opportunities for characters to
-gain skill levels, characteristic boosts and significant mustering out
-benefits before they enter into play. See **Chapter 1: Character
-Creation** for more information.
+called careers. The setting you play in will provide a variety of career
+options for characters to pursue, which opens up opportunities for
+characters to gain skill levels, characteristic boosts and significant
+mustering out benefits before they enter into play. See **Chapter 1:
+Character Creation** for more information.
 
 ## Game Play
 
@@ -332,7 +636,7 @@ actions in ways reflecting the abilities of their characters.
 
 The basic idea behind The Märchen Engine is to separate the Game Play
 Processes from the Game Mechanics. A Game Play Process is the steps the
-players go through to perform and a given narrative sequence with their
+players go through to perform, and a given narrative sequence with their
 characters. While a Game Play Mechanic is how to resolve any action the
 players wish to perform.
 
@@ -369,21 +673,34 @@ The Märchen Engine allows play players to pick between several different
 mechanics to resolve actions. They are as follows: D10, D20, D100, 2d6,
 3d6, and 4d7.
 
-Using the Märchen Engine, when you have to make a die roll to resolve an
-action, it will typically follow the core system of a 2D6 roll plus
-modifiers versus a target of 8+ (read as eight or higher). This is
-called a check. You always want to roll high on a check. Rolling 12
-before adding modifiers (where two sixes appear on the dice naturally)
-is not an automatic success and rolling 2 before adding modifiers (where
-both dice show a one naturally) is not an automatic failure.
+Using the Märchen Engine, when you make a die roll to resolve an action
+by rolling the chosen set of dice and checking to see what the σ is for
+those results. Now add all the Dice Modifiers (⚅) for the given
+situation to the σ. This will give you a final number. This is called a
+check. You always want to roll high on a check. The symbol of ⥣
+represents the number required for a success when you do not need to
+determine a σ.
+
+| σ   | 1d20  | 2d6     | 3d6     | 4d7     | 8D4(dreidels) | D100    |
+|-----|-------|---------|---------|---------|---------------|---------|
+| -4  | 1-3   | NA      | 3       | 4       | 8 - 9         | 1       |
+| -3  | 4-5   | 2       | 4 – 5   | 5 – 7   | 10 – 11       | 2 – 3   |
+| -2  | 6-7   | 3 – 4   | 6 – 7   | 8 – 11  | 12 – 15       | 4 – 18  |
+| -1  | 8-10  | 5 – 7   | 8 – 11  | 12 – 16 | 16 – 20       | 19 – 51 |
+| ⥣   | 11    | 8       | 12      | 17      | 21            | 52      |
+| 1   | 11-13 | 8 – 9   | 12 – 13 | 17 – 20 | 21 – 24       | 52 – 81 |
+| 2   | 14-15 | 10 – 11 | 14 – 15 | 21 – 24 | 25 – 28       | 82 – 96 |
+| 3   | 16-17 | 12      | 16 – 17 | 25 – 27 | 29 – 30       | 97 – 99 |
+| 4   | 18-20 | NA      | 18      | 28      | 31 – 32       | 100     |
 
 ##### Difficulty and Effect
 
 A check's Difficulty is a number set by the Referee that modifies your
 check result. When no Difficulty is given, the assumed Difficulty is
-DM+0. So, for a task with a Difficulty of DM+2, you must add +2 to the
-check result. You succeed on a total of 8 or better. The list of
-Difficulty ratings can be found in the Task Difficulty table
+⚅+0. So, for a task with a Difficulty of ⚅+2, you must add +2 to the
+check result. You succeed on a total of the Success Number (⥣) or
+better. The list of Difficulty ratings can be found in the Task
+Difficulty table.
 
 ###### Table: Task Difficulties
 
@@ -395,39 +712,36 @@ Difficulty ratings can be found in the Task Difficulty table
 | Routine           | Requires a bit more competence to accomplish. Can be completed more often than not by a character with natural aptitude.                                                                                                                                                                                                                        |     | 15  |      | 2   | 3   | 4   |
 | Average           | Requires a bit more competence to accomplish. Can be completed more often than not by a character if they have received exposure to the skill and are not encumbered in any way. This is the work of an apprentice or someone with exceptional latent talent.                                                                                   |     |     |      | 0   | 0   | 0   |
 | Difficult         | Generally anything that takes actual training. This is the skilled work of a professional doing what they are paid to do. Include anything beyond the capabilities of the average person without aid or exceptional talent. Even with a bit of training and skill you still need some luck to pull it off (or maybe some specialized training). |     | 20  |      | -2  | -3  | -4  |
-| Very Difficult    | Even with a bit of training and skill you still need some luck to pull it off (or maybe some specialized training). Include anything beyond the capabilities of the average person without specialized aid or exceptional talent.                                                                                                               |     | 25  |      | -4  | -5  | -5  |
-| Formidable        | Achievable only by especially talented individuals. Nobody else should even bother trying. This is on the level of superstars.                                                                                                                                                                                                                  |     | 30  |      | -6  | -7  | -10 |
+| Very Difficult    | Even with a bit of training and skill you still need some luck to pull it off (or maybe some specialized training). Include anything beyond the capabilities of the average person without specialized aid or exceptional talent.                                                                                                               |     | 25  |      | -4  | -5  | -5  |
+| Formidable        | Achievable only by especially talented individuals. Nobody else should even bother trying. This is on the level of superstars.                                                                                                                                                                                                                  |     | 30  |      | -6  | -7  | -10 |
 | Heroic            | Achievable only by the most trained, experienced, and talented superstars, and they probably still need help to pull it off. This is a once or twice in a lifetime feet. You are the best at this in the world.                                                                                                                                 |     |     |      |     | -9  | -15 |
 | Nearly Impossible | An epic feat on which legendary tales are based on. The named masters of a skill come from acts such as these. You will be in the history books.                                                                                                                                                                                                |     |     |      |     |     | -25 |
 | Godly             | Can't be done without assistance unless you're basically a demigod.                                                                                                                                                                                                                                                                             |     |     |      |     |     | -30 |
 
 In some cases, the consequences of a check vary based on how much the
 check result is above or below the target of 8. The difference between
-the check result and the target of 8 is called the Effect. If the Effect
-is 6 or higher, the check is considered an Exceptional Success. When the
-Effect is -6 or lower, the check is considered an Exceptional Failure.
-See **Chapter 2: Skills** for more details.
+the check result and the target of 8 is called the Effect.
 
 ###### Table: Degrees of Effect
 
-| Degree of Effect | σ   | 2d6    | 3d6    | 4d7            | 8D4(dreidels)  |
-|------------------|-----|--------|--------|----------------|----------------|
-| Catastrophic     | -4  | NA     | -8     | -12            | -12, -11       |
-| Costly           | -3  | -5     | -7, -6 | -11, -10, -9   | -10, -9        |
-| Fail             | -2  | -3, -4 | -5, -4 | -8, -7, -6, -5 | -8, -7, -6, -5 |
-| Minor Fail       | -1  | -2     | -3, -2 | -4, -3, -2     | -4, -5, -2     |
-| Fail in Style    | -1  | -1     | -1     | -1             | -1             |
-| Tie              | 0   | 0      | 0      | 0              | 0              |
-| Succeed          | 1   | 1,2    | 1,2    | 1,2,3,4,       | 4, 3, 2, 1     |
-| Succeed In Style | 2   | 3,4    | 3,4    | 5,6,7,8        | 8, 7, 6, 5     |
-| Critical         | 3   | 5      | 5,6    | 9,10,11        | 10, 9          |
-| Serendipitous    | 4   | NA     | 7      | 12             | 12, 11         |
+| Degree of Effect | Final σ | ± %  | \-  | \+  | Final Result |
+|------------------|---------|------|-----|-----|--------------|
+| Catastrophic     | -4      | 400% | 8   | 1   | 4            |
+| Costly           | -3      | 200% | 7   | 2   | 5 – 7        |
+| Fail             | -2      | 150% | 6   | 3   | 8 – 11       |
+| Minor Fail       | -1      | 100% | 5   | 4   | 12 – 14      |
+| Fail in Style    | -1      | 100% | 5   | 4   | 15           |
+| Tie              | 0       | 100% | 4   | 5   | 16           |
+| Succeed          | 1       | 100% | 4   | 5   | 17 – 20      |
+| Succeed In Style | 2       | 75%  | 3   | 6   | 21 – 24      |
+| Critical         | 3       | 50%  | 2   | 7   | 25 – 27      |
+| Serendipitous    | 4       | 25%  | 1   | 8   | 28           |
 
-##### Degrees of Effect Defined
+###### Degrees of Effect Defined
 
 There are nine separate ways a predicament can be resolved:
 
-###### Fail Catastrophically 
+####### Fail Catastrophically 
 
 This is a critical failure. The cost for this sort of failure means the
 outcome the actor was intending failed. Additionally, things have turned
@@ -436,46 +750,47 @@ finality.
 
 > For example, if a thief was attempting to pick the lock of a door,
 > then it should be determined that they did not pick the lock. The trap
-> in the door was triggered. Everyone in the party must now determine if
-> they are now poisoned, and no further attempts may be made (finality).
-> In the event that overcoming this complication was required for the
-> party to accomplish their overall objectives, the GM must instead make
-> the events turn to the worse in other areas. In the above example this
-> would mean that in their attempts to pick the lock, the thief slipped,
-> and knocked the torch out of the hands of the person carrying it, and
-> the tapestry the door is behind is now on fire. Or the torch is now
-> out and no one can see. The idea here is to heighten tension and make
-> the attempt require larger efforts of heroics.
+> in the door was triggered. Everyone in The Company must now determine
+> if they are now poisoned, and no further attempts may be made
+> (finality). In the event that overcoming this complication was
+> required for The Company to accomplish their overall objectives, the
+> GM must instead make the events turn to the worse in other areas. In
+> the above example this would mean that in their attempts to pick the
+> lock, the thief slipped, and knocked the torch out of the hands of the
+> person carrying it, and the tapestry the door is behind is now on
+> fire. Or the torch is now out and no one can see. The idea here is to
+> heighten tension and make the attempt require larger efforts of
+> heroics.
 
-###### Costly
+####### Costly
 
 This is one step away from a critical failure. The cost should be
 related to the outcome the player or monster was attempting.
 
 > For example, if the thief was attempting to pick the lock of a door,
 > then it should be determined that they did not pick the lock, but they
-> did trigger the trap in the door, and everyone in the party must now
+> did trigger the trap in the door, and everyone in The Company must now
 > determine if they are poisoned.
 
-###### Fail
+####### Fail
 
 This is a normal failure.
 
 > In the example of our thief would not have been able to pick the lock,
 > but the lock would not be jammed, and he would still have his pick.
 
-###### Fail in Style
+####### Fail in Style
 
 This is one step above a failure. It is still a failure, but something
 else has happened that moves the story forward in a more difficult path,
 but without accomplishing the goals.
 
 > In the example of the thief, he wouldn't have picked the lock, but he
-> did spring the trap and the door was opened, but everyone in the party
-> must determine if they are poisoned. This is the classic fail forward
-> approach.
+> did spring the trap and the door was opened, but everyone in The
+> Company must determine if they are poisoned. This is the classic fail
+> forward approach.
 
-###### Tie
+####### Tie
 
 A tie succeeds unless this was a contest between two parties, in which
 case the outcome is that neither party gets what they want, and it
@@ -483,15 +798,15 @@ should be treated as a fail in style for both sides. This is useful for
 social interactions or for contests of strength or agility.
 
 > In the example of our thief the parties in question are the designer
-> of the lock or door and the party trying to get in. The thief would
+> of the lock or door and The Company trying to get in. The thief would
 > not get what they want, the lock to be picked, and the designer of the
 > lock would not get what they want, to keep the lock secure. The
 > resolution on this would be that the thief can’t open the lock with
 > this action, but he has gained knowledge of the lock, which will make
 > it easier for him next time. This wouldn’t be a problem for the thief
-> uness he was doing this under a stress.
+> unless he was doing this under a stress.
 
-###### Succeed
+####### Succeed
 
 The individual who attempted to do something accomplishes what they set
 out to do.
@@ -499,7 +814,7 @@ out to do.
 > In the example of the thief, the door is unlocked, and is no longer
 > being held shut by the locking mechanism.
 
-###### Succeed in Style
+####### Succeed in Style
 
 The individual who attempted to do something accomplishes what they set
 out to do, and they got some hidden bonus or style out of it.
@@ -509,7 +824,7 @@ out to do, and they got some hidden bonus or style out of it.
 > understands how that lock is constructed and the next one that is just
 > like it will be easier to open.
 
-###### Critical Success
+####### Critical Success
 
 The individual who attempted to do something accomplishes what they set
 out todo, and they got a substantial hidden bonus or style out of it.
@@ -519,20 +834,20 @@ out todo, and they got a substantial hidden bonus or style out of it.
 > understands how locks made by that locksmith are constructed so any
 > lock within this facility will be easier to open.
 
-###### Serendipitous Success
+####### Serendipitous Success
 
 The individual who attempted to do something accomplishes what they set
-out todo, and they got a substantial hidden bonus or style out of it
+out to do, and they got a substantial hidden bonus or style out of it
 that is completely unrelated to the task being attempted.
 
 > In the example of the thief, the door is unlocked, and is no longer
 > being held shut by the locking mechanism, and the thief now
 > understands how locks made by that locksmith are constructed so any
 > lock within this facility will be easier to open. In addition, the
-> thief see's the trap on the door as well, and has a normal success to
-> disarm it. The best way to see a Serendipitous success is to see this
+> thief see's the trap on the door as well and has a normal success to
+> disarm it. The best way to see a serendipitous success is to see this
 > as two completely independent successes on one die roll. In the event
-> that a complication requires more than one success a Serendipitous
+> that a complication requires more than one success a serendipitous
 > success will, in addition to everything above, add an additional
 > success to the success pool.
 
@@ -546,9 +861,9 @@ checks.
 A passive check is a special kind of ability check that doesn’t involve
 any die rolls by the players. Such a check can represent the average
 result for a task done repeatedly, such as searching for secret doors
-over and over again, or can be used when the GM wants to secretly
-determine whether the characters succeed at something without rolling
-dice, such as noticing a hidden monster.
+repeatedly or can be used when the GM wants to secretly determine
+whether the characters succeed at something without rolling dice, such
+as noticing a hidden monster.
 
 Here’s how to determine a character’s total for a passive check:
 
@@ -558,7 +873,7 @@ Here’s how to determine a character’s total for a passive check:
 
 ###### Aspect Checks
 
-An aspect check is the most simple check you can make.
+An aspect check is the simplest check you can make.
 
 ###### Characteristics Checks
 
@@ -577,7 +892,7 @@ A skill check determines what you can accomplish with a particular skill
 (sometimes whether you're trained in that skill or not). You will roll
 the dice. Then you will take that number and add any sort of modifiers
 based on your characters aspects, characteristics, skills and
-specializations. Finally you will add any sort of difficulty modifier
+specializations. Finally, you will add any sort of difficulty modifier
 based on the circumstances of what your character is trying to do. Then
 you will compare the resulting number against the Degree of Effect to
 see the outcome in that circumstance. Most of the times, skill checks
@@ -585,7 +900,9 @@ have gradations of success and failure based on the Effect of your check
 result. When making a skill check, if a character does not have any
 levels in the required skill, then they suffer a the untrained penalty.
 
-###### Specialization Checks
+###### Competency Checks
+
+TODO
 
 ###### Untrained and Zero-Level Skills
 
@@ -596,7 +913,7 @@ cannot, you can always attempt tasks involving that skill even if you
 have no training in it.
 
 If a character has no level in a skill, then he is untrained and will
-suffer a –3 Dice Modifier when trying to use that skill.
+suffer a ⚅-3 when trying to use that skill.
 
 If a character has zero level in a skill (Skill 0), then he is competent
 in using that skill, but has little experience. He does not get any
@@ -608,13 +925,13 @@ the penalty for being untrained.
 A character can try to do two or more things at once, like firing a
 spacecraft’s weapons while also flying, or disarming a bomb while hiding
 from guards. For every extra thing that the character is doing, he
-suffers a –2 DM to all skill checks.
+suffers a ⚅-2 to all skill checks.
 
 ###### Local Law Level
 
 Some tasks are impacted by the local Law Level, as presented in the
 Universal Settlement Profile. For tasks that are impacted by the local
-laws, rules and regulations, check the table below and use these as a
+laws, rules, and regulations, check the table below and use these as a
 part of the DM’s that are added to the die roll prior to determining the
 effect.
 
@@ -663,59 +980,45 @@ or penalty that is added to the check result. The Referee can alter the
 odds of success in two ways:
 
 - If a character has help, such as good tools, competent aids or other
-  beneficial circumstances, he receives a DM+1 bonus to his skill check.
+  beneficial circumstances, he receives a ⚅+1 bonus to his skill check.
 
 - If a character is hampered, such as having defective tools,
   incompetent assistance or other negative circumstances, he receives a
-  DM-1 penalty to his skill check.
+  ⚅-1 penalty to his skill check.
 
 ##### Time and Checks
 
 Outside of stressful situations such as combat, performing a particular
 task often takes a random amount of time, depending on circumstances.
-For most tasks, roll 1D6 and multiply it by the increment that the
-Referee provides for that action. For example, breaking a flimsy wooden
-door down may only require 1D6 seconds, while performing delicate
-surgery might take 1D6 hours. During combat, most actions are more
-refined to a finite period. Some of these actions are considered minor
-actions, while others are deemed significant actions. More information
-is provided in **Chapter 5: Personal Combat**.
+For most tasks, roll the aspect, attribute, or skill required to do the
+task (with all DMs) and reference the σ value for that roll. Then
+compare the chart below. For example, breaking a flimsy wooden door
+would only require a single Onces (7.5 Seconds) while performing
+delicate surgery might take two watches (2 x 4 hours). If an action
+takes multiple timeframes, then roll for each. These rolls can be the
+same rolls that the player makes to perform the task if the tasks
+outcome is uncertain.
 
 You can choose, before you roll, to move up or down one or two rows on
 the Time Frames table. Moving up (reducing the time increment) gives you
-a –1 DM for every row you move; moving down and increasing the time
-taken gives you a DM+1 for every row you move. Your Referee will help
+a ⚅-1 for every row you move; moving down and increasing the time taken
+gives you a ⚅+1 for every row you move. Your Referee will help
 adjudicate any issues that might arise from a change in the time frame.
 
 ###### Table: Time Frames
 
-| Time Frame                | Base Increment                                                                                                                                                              |
-|---------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| σ – skill check           | One Ounces is 7.5 Seconds. There are 120 ounces in a Puncti. This is the time an action takes place in simulated play and in when players are reacting in Storytelling mode |
-| σ – skill check           | One Puncti is half a Bell. This is generally the time an action takes place in Storytelling mode                                                                            |
-|                           | One Bell is half an hourglass and there are 8 bells per watch                                                                                                               |
-| σ – skill check bells     | One Hourglass is one quarter of a Watch (1 hour)                                                                                                                            |
-| σ – skill check hours     | One Watch is one sixth of a day (4 hours).                                                                                                                                  |
-| σ – skill check quadrants | One Day is 24 hours. (24 hours)                                                                                                                                             |
-| σ – skill check days      | One Week (7 days)                                                                                                                                                           |
-| σ – skill check weeks     | One Month (30-31 days)                                                                                                                                                      |
-| σ – skill check months    | One Season (3 months)                                                                                                                                                       |
-
-###### Table: Additional Time Frames not used in Skill Checks or actions
-
-| Time Frame | Base Increment                                                                                                                                                                                                                   |
-|------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|            | One atom 160 Milli-seconds or 1/47<sup>th</sup> of an Ounces it is the time it takes an eye to twinkle. Greek references to this time segment talk about how it occurs at the last possible moment before another action occurs. |
-|            | One second                                                                                                                                                                                                                       |
-|            | One personal combat round (6 seconds)                                                                                                                                                                                            |
-|            | One minute (60 seconds, or 10 personal combat rounds)                                                                                                                                                                            |
-|            | One Momenta is 90 seconds                                                                                                                                                                                                        |
-|            | One Parte is 4 Minutes                                                                                                                                                                                                           |
-|            | One Minuta is 6 Minutes                                                                                                                                                                                                          |
-|            | One Lunar Puncti is 12 Minutes                                                                                                                                                                                                   |
-|            | One kilosecond (\~16.67 minutes or 6,000 seconds)                                                                                                                                                                                |
-|            | One Quadrant is a quarter of a day (6 hours)                                                                                                                                                                                     |
-|            | One canonical hour is essentially 3 hours. Canonical hours were used in churches                                                                                                                                                 |
+| -4                  | -3                   | -2                             | -1               | 0                | 1                | 2             | 3                   | 4                    | Base Increment                                                                                                                                                                                                        |
+|---------------------|----------------------|--------------------------------|------------------|------------------|------------------|---------------|---------------------|----------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 30 sec              | 15 sec               | 11.25 sec                      | 7.5 sec          | 7.5 sec          | 7.5 sec          | 5.625 sec     | 3.75 sec            | 1.875 sec            | One Ounces is 7.5 Seconds. There are 8 Ounces in a Minute. There are 120 ounces in a Puncti. This is the time an action takes place in simulated play and in when players are reacting in Storytelling mode (7.5 Sec) |
+| 4 min               | 2 min                | 1 min 30 sec                   | 1 min            | 1 min            | 1 min            | 45 sec        | 30 sec              | 15 sec               | One Minute. This is generally the time an action takes place in Storytelling mode (1 min)                                                                                                                             |
+| 60 min              | 30 min               | 22 min 30 sec                  | 15 min           | 15 min           | 15 min           | 11 min 15 sec | 7 min 30 sec        | 3 min 45 sec         | One Puncti is 15 minutes or half a Bell. This is generally the time an action takes place in Storytelling mode (15 min)                                                                                               |
+| 120 min             | 60 min               | 45 min                         | 30 min           | 30 min           | 30 min           | 22 min 30 sec | 15 min              | 7 min 30 sec         | One Bell is half an hour or half an hourglass and there are 8 bells per watch (30 min)                                                                                                                                |
+| 240 min             | 120 min              | 90 min                         | 60 min           | 60 min           | 60 min           | 45 min        | 30 min              | 15 min               | One Hourglass is one quarter of a Watch (1 hour)                                                                                                                                                                      |
+| 16 hours            | 8 hours              | 6 hours                        | 4 hours          | 4 hours          | 4 hours          | 3 hours       | 2 hours             | 1 hour               | One Watch is one sixth of a day (4 hours).                                                                                                                                                                            |
+| 96 hours (4 days)   | 48 Hours (2 days)    | 36 hours (3 days)              | 24 hours (1 day) | 24 hours (1 day) | 24 hours (1 day) | 18 hours      | 12 hours            | 6 hours              | One Day is 24 hours. (24 hours)                                                                                                                                                                                       |
+| 28 days             | 14 days              | 10.5 days                      | 7 days           | 7 days           | 7 days           | 5.25 days     | 3.5 days (84 Hours) | 1.75 days (42 Hours) | One Week (7 days)                                                                                                                                                                                                     |
+| 120 days (4 months) | 60 days (2 Months)   | 45 days (1.5 Months)           | 1 Month          | 1 Month          | 1 Month          | 3 weeks       | 2 weeks             | 1 week               | One Month (30-31 days)                                                                                                                                                                                                |
+| 1 year              | 2 seasons (6 Months) | 1.5 seasons (4 Months 2 weeks) | 1 season         | 1 season         | 1 season         | 9 weeks       | 6 weeks             | 3 weeks              | One Season (3 months)                                                                                                                                                                                                 |
 
 ##### Aiding Another
 
@@ -723,16 +1026,14 @@ Sometimes characters work together and help each other out. In this
 case, one character (usually the one with the highest total of modifiers
 on the check) is considered the leader of the effort and makes the check
 normally, while each helper makes the same check. The Effect of a
-helper's check result can provide either a bonus (DM+1 with a successful
-result, DM+2 with an Exceptional Success) or a penalty (DM-1 with a
-failed result, DM-2 with an Exceptional Failure) to the leader's check
-result. In many cases, outside help isn't beneficial, or only a limited
-number of helpers can aid someone at once. The Referee limits aid as
+helper's check result can provide either a bonus (⚅+1 with a successful
+result, ⚅+2 with an Exceptional Success) or a penalty (⚅-1 with a failed
+result, ⚅-2 with an Exceptional Failure) to the leader's check result.
+In many cases, outside help isn't beneficial, or only a limited number
+of helpers can aid someone at once. The Referee limits aid as
 appropriate for the task and conditions.
 
 ##### Task Chaining 
-
-TASK CHAINS
 
 Often, players will find themselves performing a series of interlinked
 tasks or working as a group.
@@ -780,7 +1081,7 @@ danger. Otherwise, the group stumbles into one of these hazards.
 Sometimes a special ability or spell tells you that you have advantage
 or disadvantage on an ability check, a saving throw, or an attack roll.
 When that happens, you roll a second set of dice when you make the roll.
-Use the higher of the two rolls if you have advantage, and use the lower
+Use the higher of the two rolls if you have advantage and use the lower
 roll if you have disadvantage. For example, if you have disadvantage and
 roll a 17 and a 5, you use the 5. If you instead have advantage and roll
 those numbers, you use the 17.
@@ -806,6 +1107,24 @@ abilities, actions, or other actions. The GM can also decide that
 circumstances influence a roll in one direction or the other and grant
 advantage or impose disadvantage as a result.
 
+##### Exploding Dice
+
+Exploding dice are fun! When rolling dice, if the maximum value on any
+dice is rolled, the dice “explodes.” Roll any such dice one additional
+time and add their value to the previous total. Any rerolled dice may
+also explode. For example, you roll 2d6 for damage and roll a 3 and a 6.
+You reroll one dice, getting another 6. You then reroll that dice,
+getting a 4. This brings your total damage to 3 + 6 + 6 + 4, or 19.
+
+The humble d4 is very prone to explosions. Just try it! It's not
+unthinkable to get an explosion sequence like 4 + 4 + 3 after about a
+dozen tries.
+
+Theoretically, a die can keep exploding forever. In practice, that
+doesn't really happen. Even if you keep rolling 4s on that d4, after
+several explosions you'll likely won't bother anymore, the result so far
+is good enough.
+
 ##### The Dice Chain
 
 One of the most fun aspects of using funky dice in a rules set is
@@ -830,7 +1149,7 @@ chain.
 
 The dice chain is represented as follows:
 
-d3–d4–d5–d6–d7–d8–d10–d12–d14–d16–d20–d24–d30
+d3 – d4 – d5 – d6 – d7 – d8 – d10 – d12 – d14 – d16 – d20 – d24 – d30
 
 ##### Technology Level
 
@@ -845,11 +1164,11 @@ the player needs to add a negative DM for each difference.
 > For Example, a Player who was raised in the Bronze age comes across a
 > iPhone and they attempt to use it. The Technology Level of the iPhone
 > is TL8 and the TL of the Bronze Age High Priest is TL1. This means the
-> player adds a DM-7 to their die roll do this activity. Another player
+> player adds a ⚅-7 to their die roll do this activity. Another player
 > whose character is from our day and age is shown a bronze age carved
 > tablet where the laws of their society are written. The modern-day man
 > learned at TL8 and is attempting to use a TL1 object. This is still a
-> DM-7 to try to understand the laws written on the stone tablets on
+> ⚅-7 to try to understand the laws written on the stone tablets on
 > display in front of the tent of worship in the center of the nomadic
 > encampment.
 
@@ -871,75 +1190,331 @@ the player needs to add a negative DM for each difference.
 | 11 (B) | Early Stellar   |                                     | The first primitive (non-creative) artificial intelligences become possible in the form of “low autonomous” interfaces, as computers begin to model synaptic networks.          |
 | 12 (C) | Average Stellar |                                     | Weather control revolutionizes terraforming and agriculture.                                                                                                                    |
 | 13 (D) | Average Stellar |                                     | The battle dress appears on the battlefield in response to the new weapons. “High autonomous” interfaces allow computers to become self-actuating and self-teaching.            |
-| 14 (E) | Average Stellar |                                     | Fusion weapons become man-portable.                                                                                                                                             |
+| 14 (E) | Average Stellar |                                     | Fusion weapons become man portable.                                                                                                                                             |
 | 15 (F) | High Stellar    |                                     | Black globe generators suggest a new direction for defensive technologies, while the development of synthetic anagathics means that the human lifespan is now vastly increased. |
 
 Higher Technology Levels exist and may appear in some Märchen Engine
 universes.
 
-# Actions
+###### Availability of Technology at higher or lower levels
 
-## Annual Actions
+| Tech Level     | Basic Idea                                                                                                            |
+|----------------|-----------------------------------------------------------------------------------------------------------------------|
+| Tech Level - 4 | The Idea exists in art, but the mechanics are not understood. Basic Principals are left to Technobabble or Magic      |
+| Tech Level - 3 | The Idea exists in art with a basic understanding of how the object works. Details are left to Technobabble or Magic. |
+| Tech Level - 2 | The life work of a group or individual. Prototypes only exist in secret.                                              |
+| Tech Level - 1 | Prototypes exist in the public                                                                                        |
+| Tech Level 0   | General availability of the item                                                                                      |
+| Tech Level + 1 | Automated Production                                                                                                  |
+| Tech Level + 2 | Optimized and Mass production                                                                                         |
+| Tech Level + 3 | Consolidated into another Technology                                                                                  |
 
-## Seasonal Actions
+## Annual Events
 
-### Base Activities
+Annual events are not planned by the players. These are used to react
+against. The Referee may arbitrarily choose one of these events to
+drive. If there will be a random event, please use the following
+approach:
 
-| Name of the Activity | What you are doing or where you can do it               | Rules                                                                                                                                                                                     |
-|----------------------|---------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Sojourn              | When you spend time in a community.                     | See list of Sojourn activities.                                                                                                                                                           |
-| Recover              | When you spend time recovering from the trails of life. | See list of Recovery Activities                                                                                                                                                           |
-| Write your Epilogue  | When you retire from your life as an adventurer.        | Become a Patron, Sage, or other character of renown. Requires that you have completed the Name an Heir activity. You may now play as your Heir with your retired character in their role. |
-| Training             | Anywhere you have access to a trainer                   | Advance one level (Child / Commoner -\> Apprentice -\> Journeyman -\> Master -\> Grand Master -\> Apotheosis -\> Deity)                                                                   |
-| Name an Heir         | Anywhere                                                | Select and heir, Gain 1 Spiritual permanently. May only ever be selected once in a character’s lifetime.                                                                                  |
-| Court a Spouse       | Anywhere                                                | Gain a Spouse. This activity will monopolize much of the characters time as even the most common and the most elevated have cultural rituals that must be honored.                        |
+Calculate the average number of Spiritual and Social damage carried by
+The Company at the end of the year. The number (-8 thru +8 will be the
+DM to a role against the average of the parties Spiritual Aspect (-4
+thru +4).
 
-### Sojourn Activities
+| Degree of Effect | Annual Event Type                        |
+|------------------|------------------------------------------|
+| Catastrophic     | A Grim Year                              |
+| Costly           | A Grim Year                              |
+| Fail             | The Burdens of the World                 |
+| Minor Fail       | The Burdens of the World                 |
+| Fail in Style    | The Burdens of the World                 |
+| Tie              | Blessings / Well Guided and Well-Guarded |
+| Succeed          | Blessings / Well Guided and Well-Guarded |
+| Succeed In Style | Blessings / Well Guided and Well-Guarded |
+| Critical         | A Worthy Year                            |
+| Serendipitous    | A Worthy Year                            |
 
-| Name of the Activity                               | What you are doing or where you can do it | Rules                                                                                                                                                                                                                                        |
-|----------------------------------------------------|-------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Gain a new Trait/New Distinctive Feature/Specialty | Anywhere                                  | Replace old Trait with a new one.                                                                                                                                                                                                            |
-| Meet Patron                                        | Anywhere                                  | Gain counsel/aid from a patron                                                                                                                                                                                                               |
-| Open New Sanctuary                                 | Anywhere                                  | All companions must select undertaking. Current location becomes a sanctuary.                                                                                                                                                                |
-| Receive Title                                      | Anywhere you are a foreigner              | You Social Score now applies to to the culture you are in, and you are gifted with a house and / or holdings.                                                                                                                                |
-| Raise Standard of Living                           | Anywhere                                  | Spend 1 Treasure per month to raise your social score by 1 for this and the next phase, 2 Treasure per month to raise your social score by 2 for this and the next phase.                                                                    |
-| Raise Standing                                     | Home                                      | Spend Treasure to increase social score in your home culture permanently.                                                                                                                                                                    |
-| Research Lore / Search for Answers                 | Anywhere                                  | Lore roll to gain insight or information about your location or about a location your currently location has information on.                                                                                                                 |
-| Drumming up Support                                | Anywhere                                  | Raise your social score for one issue for one sixth of normal Treasure cost, for this phase and the next.                                                                                                                                    |
-| Go See a Lore-master                               | Anywhere                                  | Reveal a Wondrous Artefact’s Blessings; or a Famous Weapon or Armour’s Banes and the next hidden Quality.                                                                                                                                    |
-| Tend to a Holding                                  | Home                                      | Roll Feat die twice and choose best result when resolving effects of a Holding. If you possess an appropriate specialty, complete the Training activity.                                                                                     |
-| Visit the Treasury of your Folk                    | Home                                      | Trade an item in to raise Social Score by one and activate any of the qualities that item possess for cultures that possess such an item.                                                                                                    |
-| Write a Song                                       | Anywhere                                  | Compose a song to add to company’s list of songs.                                                                                                                                                                                            |
-| Gain a Virtue                                      | Anywhere                                  | Spend time among the people you are currently living among and gain a cultural virtue from their culture.                                                                                                                                    |
-| Gain a Cultural Virtue                             | Homeland                                  | Journey back to the homeland of your culture and spend the current phase gaining an additional cultural virtue from your own culture.                                                                                                        |
-| Influence Patron                                   | Anywhere                                  | Convince your Patron to take actions in line with what they would like to see happen in the world but haven't yet made a priority. For example, asking a local king to allow a local lord to repair the road from their town to the Capital. |
-| Confer with a Sage                                 | Anywhere                                  | Gain next Lore, Travel, Explore level at half cost in Advancement points. Or acquire one of the Sage's hobby traits.                                                                                                                         |
-| Visit the Artificer                                | Anywhere                                  | Custom Modify an item or weapon.                                                                                                                                                                                                             |
-| Guard                                              | Anywhere where guards are needed          | Roll on table see outcome.                                                                                                                                                                                                                   |
-| Patrol the Wild                                    | Anywhere with wildland                    | Gain benefits of wilderness-lore for next Adventuring phase. If you already have wilderness-lore, gain two benefits from invocation.                                                                                                         |
+### A Grim Year
 
-### Social Activities
+Dwelling at Home: When you are at home something bad has happened.
 
-| Name of the Activity                                                    | What you are doing or where you can do it                                                                                                                                                                   | Rules                                                                                                                                                        |
-|-------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Make a Connection                                                       | When you search out a new relationship or give focus to an existing relationship that you have no connection with. Create a connection by increasing the rank of that connection from unknown to connected. |                                                                                                                                                              |
-| Forge a Bond                                                            | When your relationship with a connection is ready to evolve. When you spend significant time with a person or community, stand together to face hardships, or make sacrifices for their cause               | Advance the state of a relationship with a connection by 1 rank.                                                                                             |
-| Aid a Connection                                                        | When you act in direct support of a connection.                                                                                                                                                             | Advance the state of a relationship with a connection by 2 ranks.                                                                                            |
-| Compel a Connection                                                     | When you try to persuade someone to do something or make them an offer                                                                                                                                      | Success indicates that the connection does as you request, failure indicates that you reduce the state of your relationship with that connection by 2 ranks. |
-| Test your Connection                                                    | When your bond with a connection is tested through conflict, betrayal, or circumstance                                                                                                                      | Success indicates that your relationship survives the turmoil of this phase. Failure indicates the number of ranks you will reduce this relationship by.     |
-| Hearten - When you socialize, share intimacy, or find a moment of peace | See Recovery Activities                                                                                                                                                                                     |                                                                                                                                                              |
+Sojourning Abroad:
 
-### Recover Activities
+Travelling:
 
-| Name of the Activity | What you are doing or where you can do it                                                                                                                                                     | Rules                                                                                                                                                         |
-|----------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Sojourn              | When you spend time recovering within a community.                                                                                                                                            | See Sojourn Activities.                                                                                                                                       |
-| Recovery             | Anywhere                                                                                                                                                                                      | All physical and mental damage is healed. Remove one Physical or Mental Condition.                                                                            |
-| Hearten              | When you socialize, share intimacy, or find a moment of peace                                                                                                                                 | All Social Damage is healed. Remove One Social Condition.                                                                                                     |
-| Resupply             | When you attempt to bolster your readiness.                                                                                                                                                   | Roll against your social. Add one to your Supply levels for each level of success. Failure means no supplies are available.                                   |
-| Repair               | When you make repairs to your vehicles, modules, mechanical companions, or other devices. Roll against your Intelligence. Remove one condition from your equipment for each level of success. |                                                                                                                                                               |
-| Heal Corruption      | Anywhere                                                                                                                                                                                      | Craft or Song roll. On a success, reduce Spiritual Damage by 2, by 4 on a great success, by 6 on an extraordinary success. May make two rolls in a sanctuary. |
-| There and Back Again | Home                                                                                                                                                                                          | Recover all damage at the cost of permanently burning one spiritual point.                                                                                    |
+##### A Personal Tragedy
+
+Who: The Character
+
+is accused of a terrible crime and, though innocent, has no means of
+proving it.
+
+has an old wound lingers on, never properly healing (and thus eventually
+causing a temporary reduction of Endurance).
+
+has their supplies and food stores diminished prior to the winter,
+resulting in them going on without provisions.
+
+comes down with a disease or a seemingly incurable affliction.
+
+Is injured.
+
+is poisoned.
+
+Is removed from their job.
+
+Is Banished
+
+sworn enemy discovers the whereabouts of their home.
+
+house or holding is ransacked.
+
+holding is completely lost.
+
+goods are stolen, causing the loss of Treasure points.
+
+##### A Tragedy hits Close to Home
+
+Who: a Loved One, a Relative, an Ally, or a Friend.
+
+Event:
+
+is accused of a terrible crime and, though innocent, has no means of
+proving it.
+
+has an old wound lingers on, never properly healing (and thus eventually
+causing a temporary reduction of Endurance).
+
+has their supplies and food stores diminished prior to the winter,
+resulting in them going on without provisions.
+
+comes down with a disease or a seemingly incurable affliction.
+
+Is injured.
+
+is poisoned.
+
+Dies.
+
+is slain in battle.
+
+breaks trust with the hero, abandoning them.
+
+Is killed.
+
+Is removed from their job.
+
+Is Banished
+
+house or holding is ransacked.
+
+holding is completely lost.
+
+goods are stolen, causing the loss of Treasure points.
+
+Troubling feuds occurs between allies.
+
+##### A Cultural Tragedy Occurs
+
+Who: A Patron, A Cultural Leader (King, Mayor, chieftain, governor,
+prime minister, etc…), Lore Master, Religious Leader, Political Leader)
+
+Event
+
+is accused of a terrible crime and, though innocent, has no means of
+proving it.
+
+has an old wound lingers on, never properly healing (and thus eventually
+causing a temporary reduction of Endurance).
+
+has their supplies and food stores diminished prior to the winter,
+resulting in them going on without provisions.
+
+comes down with a disease or a seemingly incurable affliction.
+
+Is injured.
+
+is poisoned.
+
+Dies.
+
+is slain in battle.
+
+breaks trust with the hero, abandoning them.
+
+Is killed.
+
+Is removed from their job.
+
+Is Banished
+
+house or holding is ransacked.
+
+holding is completely lost.
+
+goods are stolen, causing the loss of Treasure points.
+
+Troubling feuds occurs between allies.
+
+##### A Rare Natural Disaster Occurs
+
+A blight afflicts crops, resulting in a bad harvest.
+
+**A Powerful Earthquake** – Extensive damage in a 50-mile radius. Before
+and after the earthquake there are smaller tremors that cause slight
+damage. Large Cities are heavily damaged, unless the buildings are
+specifically hardened against this form of damage. Lakes, Rivers, and
+the coastlines can shift. Because the ground has moved, landslides will
+destroy trails. Underground structures can be damaged. Mountains and
+rock formations will be affected.
+
+There is a large chance (70%) chance fires will start in large cities.
+
+There is an even chance (40%) chance a plague will occur in populated
+areas.
+
+**Famine** – Drought or Poor Harvest result in a famine. Farmers and the
+people close to the land all know the signs of an impending famine.
+Crops wither without producing seed. Animals cannot find water and die.
+Poor people turn to crime or go hungry. Food prices will skyrocket up
+100x normal. Those who can no longer make an honest living will band
+together and scavenge for food. If the military cannot pay soldiers,
+they will go outlaw. The population of the area will be reduced by 5%
+per month of the famine. There is a 20% chance of this famine continuing
+as the event for the following year, especially if source of the drought
+or poor harvest is not addressed.
+
+**Fire** - An inferno sweeps across the land. If this occurs while the
+players are in a city, then over 50% of the city is consumed in the
+blaze (unless buildings are treated for fire disasters). The property of
+the players, the people they are staying with, or the place where they
+are taking shelter is also burnt (same percentage).
+
+There is a small chance a plague will break out (20%)
+
+There is a minimal chance a famine will follow (10%)
+
+The price of building materials increases 10x for the next Season.
+
+Flood – A Major Flood sweeps the region.
+
+**Plague** – A terrible disease sweeps the land. The plague lasts up to
+a year. There is a 40% chance of catching the plague each month spent in
+those lands. There is a 60% chance of catching the plague if there is
+physical contact with others who are infected. The population is reduced
+by 5% every month. Strangers are treated with suspicion by everyone.
+People from the plague lands are treated with suspicion by people
+outside the plague lands. Traders and merchants will not enter the
+plagued lands. Costs for all imports double. Plagues do not hit everyone
+all at once, they move through the population based on the movements of
+the population. There will be pockets of people who have not yet been
+infected who will keep outsiders out in order to stay healthy
+
+##### Under Attack!
+
+### The Burdens of the World
+
+Dwelling at Home
+
+Sojourning Abroad
+
+Travelling
+
+At Home: Little out of the ordinary occurs this year. A hero spends time
+with their family, meets up with old friends or undertakes small
+projects about their home, but nothing unusual comes to pass.
+
+Burdens: Problems afflict the character’s friends or loved ones and the
+hero’s absence is keenly felt. Goods are stolen, debts are called in
+early or long forgotten obligations are suddenly brought to the fore.
+Friends who have been neglected or ignored may cease to regard the
+character favorably.
+
+Without evidence that the hero values their friendship, some ‘friends’
+may actively start speaking ill of the hero, or be willing to plot
+against them in the future.
+
+##### Rumors of War
+
+##### The Current Leader Goes to War
+
+##### A Major Migration Occurs
+
+### Blessings/Well Guided and Well-Guarded
+
+**Dwelling at Home:** The hero’s sacrifices are publicly acknowledged by
+their folk. Someone who the hero helped save in a previous adventure
+seeks out the hero to thank them and bestow some personal token of
+esteem or gratitude. This Token of esteem or gratitude is either a
+possession (a handmade clock) or a benefit (The Barkeep says the hero
+may eat for free at his establishment).
+
+**A small windfall comes to the character.** Roll Degrees of Effect
+adding Spiritual DM and check the + Column for a number of treasures
+added to the character’s possession.
+
+**The character makes a new ally.** Roll Social and check the + Column
+for a number, use this number as the Final σ and check the degree of
+effect to determine the quality of the ally.
+
+**An old ally becomes a good friend.** Roll Social and check the +
+Column for a number, use this number as the Final σ and check the degree
+of effect to determine the quality of the good friend.
+
+**Sojourning Abroad:** Little out of the ordinary occurs this year. The
+hero spends time in a safe haven, meeting old friends and making new
+ones, but nothing unusual comes to pass.
+
+Travelling
+
+At Home:
+
+Not at Home: Little out of the ordinary occurs this year. The hero
+spends time in a safe haven, meeting old friends and making new ones,
+but nothing unusual comes to pass.
+
+##### An ambassador arrives.
+
+##### A New Political / Social Movement Occurs
+
+##### A New Religious Movement Starts
+
+### A Worthy Year
+
+Dwelling at Home
+
+Sojourning Abroad
+
+Travelling
+
+A loved one recovers from a lingering malady. The hero is forewarned of
+treachery or deceit. The character’s efforts on behalf of their folk are
+taken up in song. Gifts or rewards totalling 6 Treasure points are given
+to the character. The character is ‘adopted’ by a particularly clever
+beast. One of the hero’s holdings is significantly improved in some way,
+increasing its value.
+
+• The hero provides 1 additional point to the Fellowship pool for the
+length of the following Adventuring phase.
+
+• Alternatively, if the hero has a holding, he may choose to roll the
+Feat die twice keeping the best result on the next Holding Upkeep roll.
+
+##### Good Fortune
+
+The hero either sires or bears a child. The character becomes the head
+of their family or is asked to take on a more prominent role in a family
+business. The character is invited to join a power ful organisation,
+famous, clandestine, or otherwise. A new romance finds the character
+(see Courting and the Fellowship Phase opposite).The hero receives a
+large inheritance, reward or bequest, such as a new holding or even a
+Precious Object (see the Rivendell supplement).
+
+##### A Rare Natural Phenomenon Occurs
+
+##### A Leader has a child
+
+## Activities
 
 ### Interrupted Activities
 
@@ -951,137 +1526,206 @@ universes.
 | Face Duress          | When you are brought to the brink of mental exhaustion and autonomous reactions.                                                                                                                                                                      | When Mental Damage Exceeds your threshold    |
 | Overcome Destruction | When all your gear, equipment, steeds, vehicles, devices, modules, and other possessions are destroyed or irrevocably lost.                                                                                                                           | Rules TBD                                    |
 
-## Monthly Actions
+### Seasonal Activities
 
-Undertake a journey - When you travel across hazardous or unfamiliar
-lands.
+#### Base Activities
 
-Gather Information (Adventure) - When you search for clues, conduct an
-investigation, analyze evidence, or do research
+| Name of the Activity | What you are doing or where you can do it                                                 | Rules                                                                                                                                                                                     |
+|----------------------|-------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Depart               | When you travel                                                                           | See list of Travel activities.                                                                                                                                                            |
+| Sojourn              | When you spend time in a community temporarily as a guest, even if it’s your home culture | See list of Sojourn activities.                                                                                                                                                           |
+| Dwell                | Stay home and interact with the locals                                                    | See list of Dwell activities.                                                                                                                                                             |
+| Recover              | When you spend time recovering from the trails of life.                                   | See list of Recovery Activities                                                                                                                                                           |
+| Write your Epilogue  | When you retire from your life as an adventurer.                                          | Become a Patron, Sage, or other character of renown. Requires that you have completed the Name an Heir activity. You may now play as your Heir with your retired character in their role. |
+| Training             | Anywhere you have access to a trainer                                                     | Advance one level (Child / Commoner -\> Apprentice -\> Journeyman -\> Master -\> Grand Master -\> Apotheosis -\> Deity)                                                                   |
+| Name an Heir         | Anywhere                                                                                  | Select and heir, Gain 1 Spiritual permanently. May only ever be selected once in a character’s lifetime.                                                                                  |
+| Court a Spouse       | Anywhere                                                                                  | Gain a Spouse. This activity will monopolize much of the characters time as even the most common and the most elevated have cultural rituals that must be honored.                        |
 
-| Collect Herbs                  | Anywhere reasonable                      | Roll on table to gather herbs.                                                                                                                                                                                                      |
-|--------------------------------|------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Compete on the Field of Heroes | Anywhere games are held                  | Athletics, Hunting, Bows or Axe roll. Success reduces cost of increasing Standing by 3, great success by 6, extraordinary success by 12.                                                                                            |
-| Gather Firewood                | Anywhere with large forests              | Gain benefits of Firemaking for next Adventuring phase. If you already have Firemaking, gain two benefits from invocation.                                                                                                          |
-| Go Hunting                     | Anywhere with hunting grounds            | Hunting roll to roll on table.                                                                                                                                                                                                      |
-| Go to Market                   | Anywhere with a standing market          | Spend Treasure to acquire a specific item.                                                                                                                                                                                          |
-| Climb the Mountains            | Anywhere with mountains                  | Athletics roll to climb mountain and roll on table.                                                                                                                                                                                 |
-| Delve into the depths          | Anywhere with non-hostile natural caves. | First time, gain 1 Spiritual or reduce Spirit damage by 2.                                                                                                                                                                          |
-| Go Riding                      | Anywhere with Fields and Plains to ride  | Athletics roll to roll on table.                                                                                                                                                                                                    |
-| Sparring/Dueling               | Anywhere where guards are                | Athletics, Sword or Spear roll (TN 18). Success increases Social Standing among this society by by +1, +2 on great success, +3 on extraordinary success. Failure takes a of Physical and Mental Damage, but gains Experience point. |
+#### Depart Activities
 
-## Weekly Actions
+| Name of the Activity | What you are doing or where you can do it | Rules                                                 |
+|----------------------|-------------------------------------------|-------------------------------------------------------|
+|                      |                                           |                                                       |
+| Undertake a journey  |                                           | When you travel across hazardous or unfamiliar lands. |
+
+#### Dwell Activities
+
+| Name of the Activity                      | What you are doing or where you can do it | Rules                                                                                                                                                                     |
+|-------------------------------------------|-------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Raise Standard of Living                  | Anywhere                                  | Spend 1 Treasure per month to raise your social score by 1 for this and the next phase, 2 Treasure per month to raise your social score by 2 for this and the next phase. |
+| Raise Standing                            | Home                                      | Spend Treasure to increase social score in your home culture permanently.                                                                                                 |
+| Visit the Treasury of your Folk           | Home                                      | Trade an item in to raise Social Score by one and activate any of the qualities that item possess for cultures that possess such an item.                                 |
+| Tend to a Holding                         | Home                                      | Roll Feat die twice and choose best result when resolving effects of a Holding. If you possess an appropriate specialty, complete the Training activity.                  |
+| Write a Song, Book, or other Piece of Art | Anywhere                                  | Compose a song to add to company’s list of songs.                                                                                                                         |
+| Gain a Cultural Virtue                    | Homeland                                  | Journey back to the homeland of your culture and spend the current phase gaining an additional cultural virtue from your own culture.                                     |
+
+#### Sojourn Activities
+
+| Name of the Activity                               | What you are doing or where you can do it | Rules                                                                                                                                                                                                                                        |
+|----------------------------------------------------|-------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Gain a new Trait/New Distinctive Feature/Specialty | Anywhere                                  | Replace old Trait with a new one.                                                                                                                                                                                                            |
+| Meet Patron                                        | Anywhere                                  | Gain counsel/aid from a patron                                                                                                                                                                                                               |
+| Open New Sanctuary                                 | Anywhere                                  | All companions must select undertaking. Current location becomes a sanctuary.                                                                                                                                                                |
+| Receive Title                                      | Anywhere you are a foreigner              | You Social Score now applies to to the culture you are in, and you are gifted with a house and / or holdings.                                                                                                                                |
+| Research Lore / Search for Answers                 | Anywhere                                  | Lore roll to gain insight or information about your location or about a location your currently location has information on.                                                                                                                 |
+| Drumming up Support                                | Anywhere                                  | Raise your social score for one issue for one sixth of normal Treasure cost, for this phase and the next.                                                                                                                                    |
+| Go See a Lore-master                               | Anywhere                                  | Reveal a Wondrous Artefact’s Blessings; or a Famous Weapon or Armour’s Banes and the next hidden Quality.                                                                                                                                    |
+| Write a Song, Book, or other Piece of Art          | Anywhere                                  | Compose a song to add to company’s list of songs.                                                                                                                                                                                            |
+| Gain a Virtue                                      | Anywhere                                  | Spend time among the people you are currently living among and gain a cultural virtue from their culture.                                                                                                                                    |
+| Gain a Cultural Virtue                             | Homeland                                  | Journey back to the homeland of your culture and spend the current phase gaining an additional cultural virtue from your own culture.                                                                                                        |
+| Influence Patron                                   | Anywhere                                  | Convince your Patron to take actions in line with what they would like to see happen in the world but haven't yet made a priority. For example, asking a local king to allow a local lord to repair the road from their town to the Capital. |
+| Confer with a Sage                                 | Anywhere                                  | Gain next Lore, Travel, Explore level at half cost in Advancement points. Or acquire one of the Sage's hobby traits.                                                                                                                         |
+| Visit the Artificer                                | Anywhere                                  | Custom Modify an item or weapon.                                                                                                                                                                                                             |
+| Guard                                              | Anywhere where guards are needed          | Roll on table see outcome.                                                                                                                                                                                                                   |
+| Patrol the Wild                                    | Anywhere with wildland                    | Gain benefits of wilderness-lore for next Adventuring phase. If you already have wilderness-lore, gain two benefits from invocation.                                                                                                         |
+
+#### Social Activities
+
+| Name of the Activity                                                    | What you are doing or where you can do it                                                                                                                                                                   | Rules                                                                                                                                                        |
+|-------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Make a Connection                                                       | When you search out a new relationship or give focus to an existing relationship that you have no connection with. Create a connection by increasing the rank of that connection from unknown to connected. |                                                                                                                                                              |
+| Forge a Bond                                                            | When your relationship with a connection is ready to evolve. When you spend significant time with a person or community, stand together to face hardships, or make sacrifices for their cause               | Advance the state of a relationship with a connection by 1 rank.                                                                                             |
+| Aid a Connection                                                        | When you act in direct support of a connection.                                                                                                                                                             | Advance the state of a relationship with a connection by 2 ranks.                                                                                            |
+| Compel a Connection                                                     | When you try to persuade someone to do something or make them an offer                                                                                                                                      | Success indicates that the connection does as you request, failure indicates that you reduce the state of your relationship with that connection by 2 ranks. |
+| Test your Connection                                                    | When your bond with a connection is tested through conflict, betrayal, or circumstance                                                                                                                      | Success indicates that your relationship survives the turmoil of this phase. Failure indicates the number of ranks you will reduce this relationship by.     |
+| Hearten - When you socialize, share intimacy, or find a moment of peace | See Recovery Activities                                                                                                                                                                                     |                                                                                                                                                              |
+
+##### Courting and the Seasonal Activities
+
+Many adventurers consciously avoid having any close relationships, for
+they are all too aware of the dangers that they regularly face,
+especially when they stand against the Shadow. Still, friends, families
+and a cherished home give a hero something to fight for. Sometimes, a
+player may decide that their hero has taken a strong fancy to a
+Loremaster character who they’ve met during their adventures. At other
+times, perhaps it makes sense for their character to cement an alliance
+with a marriage. In either case, a player may decide that the time has
+come for their hero to marry.
+
+A player who wishes to engage their character into a relationship,
+romantic or otherwise, should discuss it with their Loremaster and
+introduce it in the Seasonal phase. If marriage is their intention, they
+will have to court the Loremaster character they fancy. Courting is a
+formal practice that effectively declares a character’s interest in
+taking the courted person as a spouse. The various cultures each have
+their own customs about such things. Some require lavish gifts, others
+only that both parties wish to get married. Those from noble houses or
+who have a sworn lord generally have to ask their lord’s permission in
+order to wed.
+
+It usually takes a bit of time and patience to successfully court
+someone, especially since the potential partner will doubtless need to
+take the hero’s dangerous ‘profession’ into consideration before
+deciding.
+
+#### Recover Activities
+
+| Name of the Activity | What you are doing or where you can do it                                                                                                                                                     | Rules                                                                                                                                                         |
+|----------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Sojourn              | When you spend time recovering within a community.                                                                                                                                            | See Sojourn Activities.                                                                                                                                       |
+| Recovery             | Anywhere                                                                                                                                                                                      | All physical and mental damage is healed. Remove one Physical or Mental Condition.                                                                            |
+| Hearten              | When you socialize, share intimacy, or find a moment of peace                                                                                                                                 | All Social Damage is healed. Remove One Social Condition.                                                                                                     |
+| Resupply             | When you attempt to bolster your readiness.                                                                                                                                                   | Roll against your social. Add one to your Supply levels for each level of success. Failure means no supplies are available.                                   |
+| Repair               | When you make repairs to your vehicles, modules, mechanical companions, or other devices. Roll against your Intelligence. Remove one condition from your equipment for each level of success. |                                                                                                                                                               |
+| Heal Corruption      | Anywhere                                                                                                                                                                                      | Craft or Song roll. On a success, reduce Spiritual Damage by 2, by 4 on a great success, by 6 on an extraordinary success. May make two rolls in a sanctuary. |
+| There and Back Again | Home                                                                                                                                                                                          | Recover all damage at the cost of permanently burning one spiritual point.                                                                                    |
+
+### Monthly Activities – 4 Weeks
+
+| Name of the Activity           | What you are doing or where you can do it | Rules                                                                                                                                                                                                                               |
+|--------------------------------|-------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Collect Herbs                  | Anywhere reasonable                       | Roll on table to gather herbs.                                                                                                                                                                                                      |
+| Compete on the Field of Heroes | Anywhere games are held                   | Athletics, Hunting, Bows or Axe roll. Success reduces cost of increasing Standing by 3, great success by 6, extraordinary success by 12.                                                                                            |
+| Gather Information             |                                           | When you search for clues, investigate, analyze evidence, or do research                                                                                                                                                            |
+| Gather Firewood                | Anywhere with large forests               | Gain benefits of Firemaking for next Adventuring phase. If you already have Firemaking, gain two benefits from invocation.                                                                                                          |
+| Go Hunting                     | Anywhere with hunting grounds             | Hunting roll to roll on table.                                                                                                                                                                                                      |
+| Go to Market                   | Anywhere with a standing market           | Spend Treasure to acquire a specific item.                                                                                                                                                                                          |
+| Climb the Mountains            | Anywhere with mountains                   | Athletics roll to climb mountain and roll on table.                                                                                                                                                                                 |
+| Delve into the depths          | Anywhere with non-hostile natural caves.  | First time, gain 1 Spiritual or reduce Spirit damage by 2.                                                                                                                                                                          |
+| Go Riding                      | Anywhere with Fields and Plains to ride   | Athletics roll to roll on table.                                                                                                                                                                                                    |
+| Sparring/Dueling               | Anywhere where guards are                 | Athletics, Sword or Spear roll (TN 18). Success increases Social Standing among this society by by +1, +2 on great success, +3 on extraordinary success. Failure takes a of Physical and Mental Damage, but gains Experience point. |
+
+### Weekly Activities – 7 Days
 
 Secure an Advantage (Adventure) - When you assess a situation, make
 preparations, or attempt to gain leverage
 
-| Honoring the Fallen | Anywhere                      | When one someone close to the team has fallen, gain 1 Spiritual, even if it takes you above maximum.                                                                                           |
-|---------------------|-------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Honor your people   | Among the tombs of the people | Roll to compose and perform an adhoc song sung to your ancestors. On a success the song is performed, reduce Spiritual Damage by 3, by 6 on a great success, by 9 on an extraordinary success. |
-| Feast with the Lord | Sanctuary that has a Lord     | Gain benefits of Merry for next Adventuring phase. If you already have Merry, gain two benefits from invocation.                                                                               |
+| Name of the Activity | What you are doing or where you can do it | Rules                                                                                                                                                                                          |
+|----------------------|-------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Honoring the Fallen  | Anywhere                                  | When one someone close to the team has fallen, gain 1 Spiritual, even if it takes you above maximum.                                                                                           |
+| Honor your people    | Among the tombs of the people             | Roll to compose and perform an adhoc song sung to your ancestors. On a success the song is performed, reduce Spiritual Damage by 3, by 6 on a great success, by 9 on an extraordinary success. |
+| Feast with the Lord  | Sanctuary that has a Lord                 | Gain benefits of Merry for next Adventuring phase. If you already have Merry, gain two benefits from invocation.                                                                               |
 
-## Daily Actions – 24 hours
+### Daily Activities – 24 hours
 
-## Watch Actions – 4 hours
+### Watch Activities – 4 hours
 
-First Aid - When you treat an injury or ailment in the wild
+| First Aid              | When you treat an injury or ailment in the wild                                           |
+|------------------------|-------------------------------------------------------------------------------------------|
+| Resupply               | When you hunt, forage, or scavenge in the wild                                            |
+| Make Camp              | When you setup camp to spend some time resting and recovering in the wild                 |
+| Prowl                  | When you travel across hazardous or unfamiliar lands with special care. (1 Miles an hour) |
+| Adventure              | When you travel across hazardous or unfamiliar lands. (2 Miles an hour)                   |
+| Travel                 | When you travel across safe or familiar lands. (4 Miles an Hour)                          |
+| Reach your destination | When your journey comes to an end.                                                        |
 
-Resupply - When you hunt, forage, or scavenge in the wild
-
-Make Camp - When you setup camp to spend some time resting and
-recovering in the wild
-
-Prowl - When you travel across hazardous or unfamiliar lands with
-special care. (1 Miles an hour)
-
-Adventure - When you travel across hazardous or unfamiliar lands. (2
-Miles an hour)
-
-Travel - When you travel across safe or familiar lands. (4 Miles an
-Hour)
-
-Reach your destination - When your journey comes to an end.
-
-## Puncti Actions – 15 minutes
+### Puncti Activities – 15 minutes
 
 Story Telling Actions
 
-Face Danger (Adventure) - When you attempt something risky or react to
-an imminent threat
+| Face Danger (Adventure) | When you attempt something risky or react to an imminent threat                                        |
+|-------------------------|--------------------------------------------------------------------------------------------------------|
+| Check your Gear         | When you check to see if you have a specific helpful item or resource                                  |
+| Negotiate               | When you try to persuade someone to do something or make them an offer                                 |
+| Compel                  | When surrendering, coercing your foe to stand down, or negotiating a truce.                            |
+| Triage                  | When you attempt to stabilize someone who is injured or sick in the moment.                            |
+| Battle                  | Start a fight and it happens in a blur                                                                 |
+| Enter the Fray          | When you initiate combat or are forced into a fight and time seems to stop                             |
+| Face Danger             | When overcoming an obstacle, avoiding a hazard, fleeing, or evading an attack (without fighting back). |
+| React Under Fire        | When you are in a bad spot and take action in a fight to avoid danger or overcome an obstacle          |
+| End the Fight           | When you make a move to take decisive action, and score a strong hit                                   |
+| Companion Takes a Hit   | When your companion faces physical hardship.                                                           |
+| Aid Your Ally           | When making a move to give your ally an advantage.                                                     |
 
-Check your Gear - When you check to see if you have a specific helpful
-item or resource
+### Ounces (⏱) Activities – 7.5 Seconds
 
-Negotiate - When you try to persuade someone to do something or make
-them an offer
+When things really start happening in a Märchen Engine game, time is
+broken down into seven and a half second segments called Ounces (⏱),
+rounds, or combat rounds, since they're most often used in fights. A
+Ounce (⏱) isn't very much time, just long enough for a character to do
+something. The types of actions your character can perform during a
+round are significant actions, minor actions, extended actions, free
+actions, and reactions. During a Ounces (⏱) you can do one of the
+following:
 
-Compel - When surrendering, coercing your foe to stand down, or
-negotiating a truce.
+- Initiate or continue an extended action.
 
-Triage – When you attempt to stabilize someone who is injured or sick in
-the moment.
+- Take a significant action and a minor action.
 
-Battle – Start a fight and it happens in a blur.
+- Take three minor actions and forego taking a significant action this
+  turn.
 
-Enter the Fray - When you initiate combat or are forced into a fight.
+You can perform as many free actions and reactions in a round as you
+wish, although the Referee may choose to limit them to a reasonable
+number to keep the game moving. See **Chapter 5: Personal Combat** for
+more information.
 
-Face Danger - When overcoming an obstacle, avoiding a hazard, fleeing,
-or evading an attack (without fighting back).
-
-React Under Fire - When you are in a bad spot and take action in a fight
-to avoid danger or overcome an obstacle
-
-End the Fight - When you make a move to take decisive action, and score
-a strong hit
-
-Companion Takes a Hit - When your companion faces physical hardship.
-
-Aid Your Ally - When making a move to give your ally an advantage.
-
-## Ounces Actions – 7.5 Seconds
-
-Strike - When you have initiative and attack in close quarters. When you
-are in control and assault a foe at close quarters, or when you attack
-at a distance
-
-Gain Ground - When you are in control and take action in a fight to
-reinforce your position or move toward an objective
-
-Secure an Advantage - When acting to outwit or outmaneuver your foe, or
-setting up another move.
-
-Take Defensive Action - When you seize an objective in a fight
-
-Clash - When your foe has initiative and you fight with them in close
-quarters, roll +iron. When you exchange a volley at range, or shoot at
-an advancing foe, roll +edge. When you are in a bad spot and fight back
-against a foe at close quarters, or when you exchange fire at a distance
-
-Turn the Tide - when you risk it all, you may steal initiative from your
-foe to make a move (once per fight)
-
-Face Defeat - When you abandon or are deprived of an objective
-
-Pay the Price - When suffering the outcome of a move.
-
-Lose Momentum - When you are delayed or disadvantaged
-
-Endure Harm - When you face physical injury, fatigue, or illness
-
-Endure Stress - When you face mental strain, shock, or despair
-
-Endure Embarrassment - When you face social humiliation, awkwardness, or
-a lack of social graces
-
-Endure Hopelessness - When you face spiritual anguish, gloom, or misery
-
-Sacrifice a Resource - When you lose or consume resources
-
-Withstand Damage - When your gear, vehicle, or other physical
-possessions faces a damaging situation or environment
-
-
-# Bringing it all Together
+| Strike                | When you have initiative and attack in close quarters. When you are in control and assault a foe at close quarters, or when you attack at a distance                                                                                                                                  |
+|-----------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Gain Ground           | When you are in control and take action in a fight to reinforce your position or move toward an objective                                                                                                                                                                             |
+| Secure an Advantage   | When acting to outwit or outmaneuver your foe, or setting up another move.                                                                                                                                                                                                            |
+| Take Defensive Action | When you seize an objective in a fight                                                                                                                                                                                                                                                |
+| Clash                 | When your foe has initiative and you fight with them in close quarters, roll +iron. When you exchange a volley at range, or shoot at an advancing foe, roll +edge. When you are in a bad spot and fight back against a foe at close quarters, or when you exchange fire at a distance |
+| Turn the Tide         | when you risk it all, you may steal initiative from your foe to make a move (once per fight)                                                                                                                                                                                          |
+| Face Defeat           | When you abandon or are deprived of an objective                                                                                                                                                                                                                                      |
+| Pay the Price         | When suffering the outcome of a move.                                                                                                                                                                                                                                                 |
+| Lose Momentum         | When you are delayed or disadvantaged                                                                                                                                                                                                                                                 |
+| Endure Harm           | When you face physical injury, fatigue, or illness                                                                                                                                                                                                                                    |
+| Endure Stress         | When you face mental strain, shock, or despair                                                                                                                                                                                                                                        |
+| Endure Embarrassment  | When you face social humiliation, awkwardness, or a lack of social graces                                                                                                                                                                                                             |
+| Endure Hopelessness   | When you face spiritual anguish, gloom, or misery                                                                                                                                                                                                                                     |
+| Sacrifice a Resource  | When you lose or consume resources                                                                                                                                                                                                                                                    |
+| Withstand Damage      | When your gear, vehicle, or other physical possessions faces a damaging situation or environment                                                                                                                                                                                      |
 
 ## Bringing it all Together
 
@@ -1114,7 +1758,7 @@ Typical Tasks and their Difficulty Modifiers
 | Routine           | Fire a shot at someone who is pinned against a wall or corner                                               |
 | Average           | Fire a shot at someone who is standing down range                                                           |
 | Difficult         | Fire a warning shot at someone's feet                                                                       |
-| Very Difficult    | Fire a shot at someone on riding on an animal or in a vehicle                                               |
+| Very Difficult    | Fire a shot at someone on riding on an animal or in a vehicle                                               |
 | Formidable        | Fire into a group of people where you have the chance for friendly fire                                     |
 | Heroic            | Fire at someone in the dark                                                                                 |
 | Nearly Impossible | Fire at someone who is behind full cover through a crack in that cover                                      |
@@ -1134,19 +1778,19 @@ Scuba, and Zero G
 
 Typical Tasks and their Difficulty Modifiers
 
-| Skill             | Athletics                                                                                                                                                                                                                                                                                  |
-|-------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Trivial           | Lift up an object half your weight above your head                                                                                                                                                                                                                                         |
-| Simple            | Climb a tree with many limbs                                                                                                                                                                                                                                                               |
-| Easy              | Swim while wearing clothing or cloth based armor                                                                                                                                                                                                                                           |
-| Routine           | Jump over a pit wearing non-metallic/encumbering armor                                                                                                                                                                                                                                     |
-| Average           | Row a boat and keeping it in the middle of the current. Climb a rope that is anchored on both sides. Swim in still water. Break through an normal door.                                                                                                                                    |
-| Difficult         | Row a boat through rapids. Climb a free hanging rope. Swim in Rough water. Swim upstream against a mild current. Break through an iron reinforced door. Hang onto the reins of a horse, while being drug.                                                                                  |
-| Very Difficult    | Push an object 3 times your weight. Climb a wall that has few handholds. Leap from the roof of a building and grab a closeline. Swim against a strong current. Remain above water during a raging storm. Topple a statue. Break through a barred / locked door.                            |
-| Formidable        | Pull a stuck carriage out of the river with the aid of others and draft animals. Climb a shear wall. Swim in stormy waters. Leap across a 30-foot chasm. Break through a reinforced door such as one found in a prison. Hold a door shut while the room behind the door fills with water.  |
-| Heroic            | Climb a shear surface or wall                                                                                                                                                                                                                                                              |
-| Nearly Impossible | Swim in rough waters while wearing full metal armor                                                                                                                                                                                                                                        |
-| Godly             | Swim upstream in rough waters while wearing full metal armor while pulling a rowboat without capsizing the passengers in the rowboat.                                                                                                                                                      |
+| Skill             | Athletics                                                                                                                                                                                                                                                                                 |
+|-------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Trivial           | Lift up an object half your weight above your head                                                                                                                                                                                                                                        |
+| Simple            | Climb a tree with many limbs                                                                                                                                                                                                                                                              |
+| Easy              | Swim while wearing clothing or cloth based armor                                                                                                                                                                                                                                          |
+| Routine           | Jump over a pit wearing non-metallic/encumbering armor                                                                                                                                                                                                                                    |
+| Average           | Row a boat and keeping it in the middle of the current. Climb a rope that is anchored on both sides. Swim in still water. Break through an normal door.                                                                                                                                   |
+| Difficult         | Row a boat through rapids. Climb a free hanging rope. Swim in Rough water. Swim upstream against a mild current. Break through an iron reinforced door. Hang onto the reins of a horse, while being drug.                                                                                 |
+| Very Difficult    | Push an object 3 times your weight. Climb a wall that has few handholds. Leap from the roof of a building and grab a closeline. Swim against a strong current. Remain above water during a raging storm. Topple a statue. Break through a barred / locked door.                           |
+| Formidable        | Pull a stuck carriage out of the river with the aid of others and draft animals. Climb a shear wall. Swim in stormy waters. Leap across a 30-foot chasm. Break through a reinforced door such as one found in a prison. Hold a door shut while the room behind the door fills with water. |
+| Heroic            | Climb a shear surface or wall                                                                                                                                                                                                                                                             |
+| Nearly Impossible | Swim in rough waters while wearing full metal armor                                                                                                                                                                                                                                       |
+| Godly             | Swim upstream in rough waters while wearing full metal armor while pulling a rowboat without capsizing the passengers in the rowboat.                                                                                                                                                     |
 
 ##### Melee Combat Skill
 
@@ -1171,7 +1815,7 @@ Tonfa, Two-Handed Axe/Mace, Two-Handed Flail, Two-Handed Sword, and Whip
 | Routine           | Use a weapon as a tool. Flank foes that you outnumber.                                                                                            |
 | Average           | Use a heavy hammer or axe to bash a door down. Fight with someone who they are evenly matched with                                                |
 | Difficult         | Purposefully break a melee weapon out of combat. Strike someone in the fog, mist, or smoke                                                        |
-| Very Difficult    | Dig a hole through a clay wall or in the ground with a weapon. Parry a heavy and larger weapon with a smaller weapon (two handed axe vs. cudgel.) |
+| Very Difficult    | Dig a hole through a clay wall or in the ground with a weapon. Parry a heavy and larger weapon with a smaller weapon (two handed axe vs. cudgel.) |
 | Formidable        | Scavenge an abandoned weapon and return it to working order.                                                                                      |
 | Heroic            | Hit someone in the dark                                                                                                                           |
 | Nearly Impossible | Break metal armor with a common one-handed weapon                                                                                                 |
@@ -1196,10 +1840,10 @@ Typical Specializations: Shadowing, and Forward Observer
 | Trivial           | Hide and seek games as kids. For example, hide under a bridge while the others are not watching.   |
 | Simple            | Move quietly enough not to awaken a sleeping human                                                 |
 | Easy              | Follow someone through a busy market                                                               |
-| Routine           | Lose a tail from the average beat cop.                                                             |
+| Routine           | Lose a tail from the average beat cop.                                                             |
 | Average           | Find and set up a good place to ambush the stagecoach                                              |
 | Difficult         | Shadow an animal through the woods                                                                 |
-| Very Difficult    | Find and set up a good place to ambush the stagecoach on an open road in the middle of the desert. |
+| Very Difficult    | Find and set up a good place to ambush the stagecoach on an open road in the middle of the desert. |
 | Formidable        | Shadow a predator through its preferred terrain.                                                   |
 | Heroic            | Hide in plain sight                                                                                |
 | Nearly Impossible | Blend in and disappear while the center of attention on stage                                      |
@@ -1225,7 +1869,7 @@ Acrobatics, Aerobatics, Aquabatics, Escape, Gymnastics, Contortionist
 | Routine           | Juggle common objects                                                                                                                                   |
 | Average           | Avoid getting burnt from a raging campfire. Walk along a narrow ledge. Swing from one side of the road to another on a close line and land on your feet |
 | Difficult         | Copy the movements of a religious ceremony or a social dance. Cross a rope bridge swinging wildly.                                                      |
-| Very Difficult    | Contort your body into a small space. Walk across a tightrope in a circus. Leap over and slide under an enemy in combat.                                |
+| Very Difficult    | Contort your body into a small space. Walk across a tightrope in a circus. Leap over and slide under an enemy in combat.                                |
 | Formidable        | Escape manacles by contorting your wrists                                                                                                               |
 | Heroic            | Dodge a melee attack without any combat training.                                                                                                       |
 | Nearly Impossible | Walk across a thin rope                                                                                                                                 |
@@ -1250,7 +1894,7 @@ Panhandling, Pickpocket, Holdout
 | Routine           | Disable a simple wire trap                                                                                                                              |
 | Average           | Pick the pocket of someone on a busy street. Pick a regular lock. Disarm the average trap. Escape from tight ropes. Secure a prisoner                   |
 | Difficult         | Pick the lock found on a strong box. Disarm a complex trap                                                                                              |
-| Very Difficult    | Pick the pocket of someone on a near-empty street. Pick a lock made by a master locksmith. Disarm a trap made by a Master. Escape high quality manacles |
+| Very Difficult    | Pick the pocket of someone on a near-empty street. Pick a lock made by a master locksmith. Disarm a trap made by a Master. Escape high quality manacles |
 | Formidable        | Palm an object off a merchants table into your bag while being watched                                                                                  |
 | Heroic            | Playing the Cup and Ball game with Glass cups and glowing balls and still fooling the victim.                                                           |
 | Nearly Impossible | Remove a money pouch from a money belt that is worn under the victims small-cloths.                                                                     |
@@ -1277,16 +1921,16 @@ Teamster
 | Skill             | Drive / Ride / Pilot                                                                                                                                                                                                                |
 |-------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Trivial           | Get on your mount in a hurry. Sail a river boat down a placid river. Drive a cart down a quiet road.                                                                                                                                |
-| Simple            | Ride your mount as it swims, flies, or otherwise travels through a medium that is not its primary medium of travel. Maintain your vehicle or mount. Drive overland in a vehicle with no adverse weather conditions.                 |
+| Simple            | Ride your mount as it swims, flies, or otherwise travels through a medium that is not its primary medium of travel. Maintain your vehicle or mount. Drive overland in a vehicle with no adverse weather conditions.                 |
 | Easy              | Ride your vehicle or mount for extended periods of time. Pilot a ship on calm seas. Drive a vehicle through bushes or a low hedge.                                                                                                  |
 | Routine           | Transition from moving quickly into chasing or charging. Pilot a boat through rapids. Travel overland during adverse weather conditions.                                                                                            |
 | Average           | Perform simple tricks. Regain control of a vehicle after it has spun out of control and is no longer being affected by the thing causing you to lose control. Race a chariot.                                                       |
 | Difficult         | Jump from a height onto or into your seat on your mount / vehicle. Pilot your vehicle in stormy conditions at sea. Drive a vehicle off road.                                                                                        |
-| Very Difficult    | Perform tricks, jumps, and abrupt maneuvers while moving quickly. Secure cargo for rough transport. Control a vehicle to ensure that cargo remains secure during transport. Jump a motorcycle from the freeway to an offramp below. |
+| Very Difficult    | Perform tricks, jumps, and abrupt maneuvers while moving quickly. Secure cargo for rough transport. Control a vehicle to ensure that cargo remains secure during transport. Jump a motorcycle from the freeway to an offramp below. |
 | Formidable        | Take control and ride another vehicle or animal that is not under control or that is untamed. Escape a whirlpool or rogue wave. Cross a deep river with a strong current in a cart or wagon.                                        |
 | Heroic            | Saddle an intelligent animal or vehicle that does not want to be saddled. Drive a coach across a deep body of water (by converting it to a boat)                                                                                    |
 | Nearly Impossible | Sail or pilot a vehicle on treacherous terrain it wasn't made for (a rowboat in a storm or a 2 wheel drive passenger vehicle in a swamp).                                                                                           |
-| Godly             | Sail or pilot a vehicle on terrain that doesn't make sense. For example, Row a boat up a hill. Drive a 2 wheeled passenger vehicle under a lake.                                                                                    |
+| Godly             | Sail or pilot a vehicle on terrain that doesn't make sense. For example, Row a boat up a hill. Drive a 2 wheeled passenger vehicle under a lake.                                                                                    |
 
 ##### Ruggedness Skill 
 
@@ -1306,7 +1950,7 @@ Typical Specializations:
 | Routine           | Withstand the effects of one dose of poison.                                                                                                                                                                                                                  |
 | Average           | Requires a bit more competence to accomplish. Can be completed more often than not by a character if they have received exposure to the skill and are not encumbered in any way. This is the work of an apprentice or someone with exceptional latent talent. |
 | Difficult         | Resist the effects of a venereal disease, if exposed.                                                                                                                                                                                                         |
-| Very Difficult    | Withstand Snake Venom                                                                                                                                                                                                                                         |
+| Very Difficult    | Withstand Snake Venom                                                                                                                                                                                                                                         |
 | Formidable        | Remain sober after drinking hard alcohol for an extended period or after drinking a portion of an exceptionally strong drink designed to inebriate people                                                                                                     |
 | Heroic            | Remain upright and stick your landing in a ready position to react after tumbling down the side of a steep incline.                                                                                                                                           |
 | Nearly Impossible | Win a drinking contest and then find your way home safely without first resting                                                                                                                                                                               |
@@ -1328,7 +1972,7 @@ Wrestling
 | Routine           | Flank foes that you outnumber. Use your arms and legs to break branches or pieces of wood.                                                                                                                                                                    |
 | Average           | Requires a bit more competence to accomplish. Can be completed more often than not by a character if they have received exposure to the skill and are not encumbered in any way. This is the work of an apprentice or someone with exceptional latent talent. |
 | Difficult         | Wrestle with someone who they are evenly matched with.                                                                                                                                                                                                        |
-| Very Difficult    | Purposefully break someone's arm out of combat. Strike someone in the fog, mist, or smoke                                                                                                                                                                     |
+| Very Difficult    | Purposefully break someone's arm out of combat. Strike someone in the fog, mist, or smoke                                                                                                                                                                     |
 | Formidable        | Parry a bladed weapon with your hands while only taking minimal damage.                                                                                                                                                                                       |
 | Heroic            | Hit someone in the dark                                                                                                                                                                                                                                       |
 | Nearly Impossible | Break metallic armor with a punch or kick.                                                                                                                                                                                                                    |
@@ -1363,7 +2007,7 @@ Psychology, Sociology, Theology, Smuggling, Writing
 | Routine           | Identify a landmark and its importance                                                                                                                                                                                                                        |
 | Average           | Requires a bit more competence to accomplish. Can be completed more often than not by a character if they have received exposure to the skill and are not encumbered in any way. This is the work of an apprentice or someone with exceptional latent talent. |
 | Difficult         | Recall the legends from history. Recall more obscure or specific information; identify uncommon people, places, objects, or symbols                                                                                                                           |
-| Very Difficult    | Recall truly esoteric or precise information; identify rare people, places, objects, or symbols                                                                                                                                                               |
+| Very Difficult    | Recall truly esoteric or precise information; identify rare people, places, objects, or symbols                                                                                                                                                               |
 | Formidable        | Identify a famous person using by their burial marker, tombstone, or other obscure information about them. Recall information that is known only by a privileged few; identify exceedingly rare people, places, objects, or symbols                           |
 | Heroic            | Forecast the weather based on historical patterns                                                                                                                                                                                                             |
 | Nearly Impossible | Understand the lineage and ethnicity of someone based on observation only                                                                                                                                                                                     |
@@ -1389,7 +2033,7 @@ Naturalist, Paleontology, Herbal Pharmacy, and Forensics
 | Routine           | Stabilize and treat an injury so normal healing may begin                                                                                                                                                                                                     |
 | Average           | Requires a bit more competence to accomplish. Can be completed more often than not by a character if they have received exposure to the skill and are not encumbered in any way. This is the work of an apprentice or someone with exceptional latent talent. |
 | Difficult         | Recall more obscure or specific information; identify uncommon fauna or flora                                                                                                                                                                                 |
-| Very Difficult    | Treat an average virtual, bacteria or other germ agent disease. Know about rare local plants and animals and how to identify them. Recall truly esoteric or precise information; identify rare fauna, or flora                                                |
+| Very Difficult    | Treat an average virtual, bacteria or other germ agent disease. Know about rare local plants and animals and how to identify them. Recall truly esoteric or precise information; identify rare fauna, or flora                                                |
 | Formidable        | Treat someone with the Bubonic Plague or another difficult germ agent. Recall information that is known only by a privileged few; identify exceedingly rare fauna, or flora                                                                                   |
 | Heroic            | Perform CPR on someone who has been unconscious for seven minutes. Treat someone with an extremely hazardous germ agent such as Ebola.                                                                                                                        |
 | Nearly Impossible | Attend to someone in critical condition who has died of physical body trauma                                                                                                                                                                                  |
@@ -1419,7 +2063,7 @@ Survival, Tracking, Weather Sense, Forensics, Streetwise, Urban Survival
 | Routine           | Build a shelter out of tree limbs, grass, and leaves                                                                                                                                                                                                          |
 | Average           | Requires a bit more competence to accomplish. Can be completed more often than not by a character if they have received exposure to the skill and are not encumbered in any way. This is the work of an apprentice or someone with exceptional latent talent. |
 | Difficult         | Construct an improvised weapon                                                                                                                                                                                                                                |
-| Very Difficult    | Track a small animal                                                                                                                                                                                                                                          |
+| Very Difficult    | Track a small animal                                                                                                                                                                                                                                          |
 | Formidable        | Track the passing of a single person through wild                                                                                                                                                                                                             |
 | Heroic            | Find a source of water in the deep desert                                                                                                                                                                                                                     |
 | Nearly Impossible | Construct a fire in a blizzard                                                                                                                                                                                                                                |
@@ -1456,8 +2100,8 @@ Smith, Traps, Typing, Vacc Suit, and Woodworking
 | Routine           | Requires a bit more competence to accomplish. Can be completed more often than not by a character with natural aptitude.                                                                                                                                                                                                                        |
 | Average           | Requires a bit more competence to accomplish. Can be completed more often than not by a character if they have received exposure to the skill and are not encumbered in any way. This is the work of an apprentice or someone with exceptional latent talent.                                                                                   |
 | Difficult         | Generally anything that takes actual training. This is the skilled work of a professional doing what they are paid to do. Include anything beyond the capabilities of the average person without aid or exceptional talent. Even with a bit of training and skill you still need some luck to pull it off (or maybe some specialized training). |
-| Very Difficult    | Even with a bit of training and skill you still need some luck to pull it off (or maybe some specialized training). Include anything beyond the capabilities of the average person without specialized aid or exceptional talent.                                                                                                               |
-| Formidable        | Achievable only by especially talented individuals. Nobody else should even bother trying. This is on the level of superstars.                                                                                                                                                                                                                  |
+| Very Difficult    | Even with a bit of training and skill you still need some luck to pull it off (or maybe some specialized training). Include anything beyond the capabilities of the average person without specialized aid or exceptional talent.                                                                                                               |
+| Formidable        | Achievable only by especially talented individuals. Nobody else should even bother trying. This is on the level of superstars.                                                                                                                                                                                                                  |
 | Heroic            | Achievable only by the most trained, experienced, and talented superstars, and they probably still need help to pull it off. This is a once or twice in a lifetime feet. You are the best at this in the world.                                                                                                                                 |
 | Nearly Impossible | An epic feat on which legendary tales are based on. The named masters of a skill come from acts such as these. You will be in the history books.                                                                                                                                                                                                |
 | Godly             | Can't be done without assistance unless you're basically a demigod.                                                                                                                                                                                                                                                                             |
@@ -1479,8 +2123,8 @@ Typical Specializations:
 | Routine           | Requires a bit more competence to accomplish. Can be completed more often than not by a character with natural aptitude.                                                                                                                                                                                                                        |
 | Average           | Requires a bit more competence to accomplish. Can be completed more often than not by a character if they have received exposure to the skill and are not encumbered in any way. This is the work of an apprentice or someone with exceptional latent talent.                                                                                   |
 | Difficult         | Generally anything that takes actual training. This is the skilled work of a professional doing what they are paid to do. Include anything beyond the capabilities of the average person without aid or exceptional talent. Even with a bit of training and skill you still need some luck to pull it off (or maybe some specialized training). |
-| Very Difficult    | Even with a bit of training and skill you still need some luck to pull it off (or maybe some specialized training). Include anything beyond the capabilities of the average person without specialized aid or exceptional talent.                                                                                                               |
-| Formidable        | Achievable only by especially talented individuals. Nobody else should even bother trying. This is on the level of superstars.                                                                                                                                                                                                                  |
+| Very Difficult    | Even with a bit of training and skill you still need some luck to pull it off (or maybe some specialized training). Include anything beyond the capabilities of the average person without specialized aid or exceptional talent.                                                                                                               |
+| Formidable        | Achievable only by especially talented individuals. Nobody else should even bother trying. This is on the level of superstars.                                                                                                                                                                                                                  |
 | Heroic            | Achievable only by the most trained, experienced, and talented superstars, and they probably still need help to pull it off. This is a once or twice in a lifetime feat. You are the best at this in the world.                                                                                                                                 |
 | Nearly Impossible | An epic feat on which legendary tales are based on. The named masters of a skill come from acts such as these. You will be in the history books.                                                                                                                                                                                                |
 | Godly             | Can't be done without assistance unless you're basically a demigod.                                                                                                                                                                                                                                                                             |
@@ -1501,7 +2145,7 @@ cause it to collapse.
 | Routine           | Requires a bit more competence to accomplish. Can be completed more often than not by a character with natural aptitude.                                                                                                                                      |
 | Average           | Requires a bit more competence to accomplish. Can be completed more often than not by a character if they have received exposure to the skill and are not encumbered in any way. This is the work of an apprentice or someone with exceptional latent talent. |
 | Difficult         | Identify a typical trap, determine time, or cause of death of a recently deceased creature, estimate the material worth of an item, discover the true nature of a standard farce or illusion.                                                                 |
-| Very Difficult    | Identify a well-hidden trap, object, or area. Forge a document or identify a forged document. Discover the true nature of a well planned and skilled misdirection or illusion                                                                                 |
+| Very Difficult    | Identify a well-hidden trap, object, or area. Forge a document or identify a forged document. Discover the true nature of a well planned and skilled misdirection or illusion                                                                                 |
 | Formidable        | Identify a magically-hidden trap, object, or area. Discern the purpose and process of a complicated device or system. Determine the integrity of a structure, construct, or formation and identify any exploitable weak points                                |
 | Heroic            | Achievable only by the most trained, experienced, and talented superstars, and they probably still need help to pull it off. This is a once or twice in a lifetime feet. You are the best at this in the world.                                               |
 | Nearly Impossible | An epic feat on which legendary tales are based on. The named masters of a skill come from acts such as these. You will be in the history books.                                                                                                              |
@@ -1522,8 +2166,8 @@ conflicts in their understanding by pushing themselves mentally.
 | Routine           | Requires a bit more competence to accomplish. Can be completed more often than not by a character with natural aptitude.                                                                                                                                                                                                                        |
 | Average           | Requires a bit more competence to accomplish. Can be completed more often than not by a character if they have received exposure to the skill and are not encumbered in any way. This is the work of an apprentice or someone with exceptional latent talent.                                                                                   |
 | Difficult         | Generally anything that takes actual training. This is the skilled work of a professional doing what they are paid to do. Include anything beyond the capabilities of the average person without aid or exceptional talent. Even with a bit of training and skill you still need some luck to pull it off (or maybe some specialized training). |
-| Very Difficult    | Even with a bit of training and skill you still need some luck to pull it off (or maybe some specialized training). Include anything beyond the capabilities of the average person without specialized aid or exceptional talent.                                                                                                               |
-| Formidable        | Achievable only by especially talented individuals. Nobody else should even bother trying. This is on the level of superstars.                                                                                                                                                                                                                  |
+| Very Difficult    | Even with a bit of training and skill you still need some luck to pull it off (or maybe some specialized training). Include anything beyond the capabilities of the average person without specialized aid or exceptional talent.                                                                                                               |
+| Formidable        | Achievable only by especially talented individuals. Nobody else should even bother trying. This is on the level of superstars.                                                                                                                                                                                                                  |
 | Heroic            | Achievable only by the most trained, experienced, and talented superstars, and they probably still need help to pull it off. This is a once or twice in a lifetime feet. You are the best at this in the world.                                                                                                                                 |
 | Nearly Impossible | An epic feat on which legendary tales are based on. The named masters of a skill come from acts such as these. You will be in the history books.                                                                                                                                                                                                |
 | Godly             | Can't be done without assistance unless you're basically a demigod.                                                                                                                                                                                                                                                                             |
@@ -1555,7 +2199,7 @@ of that other skill formally.
 | Routine           | Play and win chess, go, or other game against someone of the same mental acuity and skill level as you.                                                                                                                                                       |
 | Average           | Requires a bit more competence to accomplish. Can be completed more often than not by a character if they have received exposure to the skill and are not encumbered in any way. This is the work of an apprentice or someone with exceptional latent talent. |
 | Difficult         | Guess the number of marbles in a jar                                                                                                                                                                                                                          |
-| Very Difficult    | Fix the outcome of a boxing match                                                                                                                                                                                                                             |
+| Very Difficult    | Fix the outcome of a boxing match                                                                                                                                                                                                                             |
 | Formidable        | Play and fix a game of chance against someone who has considerably more mental acuity and skill then you.                                                                                                                                                     |
 | Heroic            | Guess the next card to be drawn in a deck                                                                                                                                                                                                                     |
 | Nearly Impossible | An epic feat on which legendary tales are based on. The named masters of a skill come from acts such as these. You will be in the history books.                                                                                                              |
@@ -1583,8 +2227,8 @@ some sort of cultural artifact.
 | Routine           | Requires a bit more competence to accomplish. Can be completed more often than not by a character with natural aptitude.                                                                                                                                                                                                                        |
 | Average           | Requires a bit more competence to accomplish. Can be completed more often than not by a character if they have received exposure to the skill and are not encumbered in any way. This is the work of an apprentice or someone with exceptional latent talent.                                                                                   |
 | Difficult         | Generally anything that takes actual training. This is the skilled work of a professional doing what they are paid to do. Include anything beyond the capabilities of the average person without aid or exceptional talent. Even with a bit of training and skill you still need some luck to pull it off (or maybe some specialized training). |
-| Very Difficult    | Even with a bit of training and skill you still need some luck to pull it off (or maybe some specialized training). Include anything beyond the capabilities of the average person without specialized aid or exceptional talent.                                                                                                               |
-| Formidable        | Achievable only by especially talented individuals. Nobody else should even bother trying. This is on the level of superstars.                                                                                                                                                                                                                  |
+| Very Difficult    | Even with a bit of training and skill you still need some luck to pull it off (or maybe some specialized training). Include anything beyond the capabilities of the average person without specialized aid or exceptional talent.                                                                                                               |
+| Formidable        | Achievable only by especially talented individuals. Nobody else should even bother trying. This is on the level of superstars.                                                                                                                                                                                                                  |
 | Heroic            | Achievable only by the most trained, experienced, and talented superstars, and they probably still need help to pull it off. This is a once or twice in a lifetime feet. You are the best at this in the world.                                                                                                                                 |
 | Nearly Impossible | An epic feat on which legendary tales are based on. The named masters of a skill come from acts such as these. You will be in the history books.                                                                                                                                                                                                |
 | Godly             | Can't be done without assistance unless you're basically a demigod.                                                                                                                                                                                                                                                                             |
@@ -1603,8 +2247,8 @@ entertainment.
 | Routine           | Retell a famous story in front of an audience                                                                                                                                                                                                                                                                                                   |
 | Average           | Requires a bit more competence to accomplish. Can be completed more often than not by a character if they have received exposure to the skill and are not encumbered in any way. This is the work of an apprentice or someone with exceptional latent talent.                                                                                   |
 | Difficult         | Generally anything that takes actual training. This is the skilled work of a professional doing what they are paid to do. Include anything beyond the capabilities of the average person without aid or exceptional talent. Even with a bit of training and skill you still need some luck to pull it off (or maybe some specialized training). |
-| Very Difficult    | Even with a bit of training and skill you still need some luck to pull it off (or maybe some specialized training). Include anything beyond the capabilities of the average person without specialized aid or exceptional talent.                                                                                                               |
-| Formidable        | Achievable only by especially talented individuals. Nobody else should even bother trying. This is on the level of superstars.                                                                                                                                                                                                                  |
+| Very Difficult    | Even with a bit of training and skill you still need some luck to pull it off (or maybe some specialized training). Include anything beyond the capabilities of the average person without specialized aid or exceptional talent.                                                                                                               |
+| Formidable        | Achievable only by especially talented individuals. Nobody else should even bother trying. This is on the level of superstars.                                                                                                                                                                                                                  |
 | Heroic            | Achievable only by the most trained, experienced, and talented superstars, and they probably still need help to pull it off. This is a once or twice in a lifetime feet. You are the best at this in the world.                                                                                                                                 |
 | Nearly Impossible | An epic feat on which legendary tales are based on. The named masters of a skill come from acts such as these. You will be in the history books.                                                                                                                                                                                                |
 | Godly             | Can't be done without assistance unless you're basically a demigod.                                                                                                                                                                                                                                                                             |
@@ -1622,10 +2266,10 @@ person.
 | Routine           | Socially interact with people and leave a pleasant impression without backgrounds / social standing getting in the way.                                                                                                                                       |
 | Average           | Requires a bit more competence to accomplish. Can be completed more often than not by a character if they have received exposure to the skill and are not encumbered in any way. This is the work of an apprentice or someone with exceptional latent talent. |
 | Difficult         | Socially interact with people and leave a pleasant impression even though they know your background / social standing demands other reactions.                                                                                                                |
-| Very Difficult    | Entice and convince someone of a given proposition outside your Social Class even though they know your baackground / social standing demands other reacitons.                                                                                                |
-| Formidable        | Achievable only by especially talented individuals. Nobody else should even bother trying. This is on the level of superstars.                                                                                                                                |
+| Very Difficult    | Entice and convince someone of a given proposition outside your Social Class even though they know your baackground / social standing demands other reacitons.                                                                                                |
+| Formidable        | Achievable only by especially talented individuals. Nobody else should even bother trying. This is on the level of superstars.                                                                                                                                |
 | Heroic            | Achievable only by the most trained, experienced, and talented superstars, and they probably still need help to pull it off. This is a once or twice in a lifetime feet. You are the best at this in the world.                                               |
-| Nearly Impossible | Seduce someone who knows you don't share compatible sexual values.                                                                                                                                                                                            |
+| Nearly Impossible | Seduce someone who knows you don't share compatible sexual values.                                                                                                                                                                                            |
 | Godly             | Can't be done without assistance unless you're basically a demigod.                                                                                                                                                                                           |
 
 #### Personality Characteristics
@@ -1648,10 +2292,10 @@ straight face while telling a blatant lie.
 | Trivial           | Lie to your spouse and make them believe it                                                                                                                                                                                                                   |
 | Simple            | Bluster and blather your way out of responsibility                                                                                                                                                                                                            |
 | Easy              | Use innuendo to say one thing and mean another thing                                                                                                                                                                                                          |
-| Routine           | Engage in Wordplay to appear smarter                                                                                                                                                                                                                          |
+| Routine           | Engage in Wordplay to appear smarter                                                                                                                                                                                                                          |
 | Average           | Requires a bit more competence to accomplish. Can be completed more often than not by a character if they have received exposure to the skill and are not encumbered in any way. This is the work of an apprentice or someone with exceptional latent talent. |
 | Difficult         | Blend into a crowd                                                                                                                                                                                                                                            |
-| Very Difficult    | Bluff your way into a dinner party                                                                                                                                                                                                                            |
+| Very Difficult    | Bluff your way into a dinner party                                                                                                                                                                                                                            |
 | Formidable        | Understand secret languages without training in the skill                                                                                                                                                                                                     |
 | Heroic            | Appear innocent in front of a professional interrogator                                                                                                                                                                                                       |
 | Nearly Impossible | Lie to your parents and make them believe it                                                                                                                                                                                                                  |
@@ -1667,19 +2311,19 @@ Examples of persuading others include convincing a chamberlain to let
 your party see the king, negotiating peace between warring tribes, or
 inspiring a crowd of townsfolk.
 
-| Skill             | Persuasion                                                                                                                                                                                                                                                                                |
-|-------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Trivial           | Convince a hungry person to eat food you bought for them.                                                                                                                                                                                                                                 |
-| Simple            | Convince a child to take candy from you                                                                                                                                                                                                                                                   |
-| Easy              | Calm a troubled person. Persuade a city guard to do their job well. Convince a governmental official you want to help them.                                                                                                                                                               |
-| Routine           | Requires a bit more competence to accomplish. Can be completed more often than not by a character with natural aptitude.                                                                                                                                                                  |
-| Average           | Requires a bit more competence to accomplish. Can be completed more often than not by a character if they have received exposure to the skill and are not encumbered in any way. This is the work of an apprentice or someone with exceptional latent talent.                             |
-| Difficult         | Convince someone that you are of another caste / social class then the one you actually are. convince a group of thugs to leave you in peace. Convince a friend your idea is better than their idea.                                                                                      |
-| Very Difficult    | Convince a group of people to use a limited resource the way you want them to. Talk your way past a steward to talk to the property owner. Inspire a group of townsfolk who are milling about. Negotiate peace between warring parties that want peace, but don't know how to proceed.    |
-| Formidable        | Stir up slaves or plebs to revolt against their task masters (not all will listen). Convince a mob boss you are worth more alive than dead. Convince someone to share a secret they are not to share with you.                                                                            |
-| Heroic            | Stir up the villagers or slaves to revolt against their task masters and have all of them form an angry mob that marches on the plantation owner’s home. Convince guards that even though you don't have an invitation and you are not on their list, you are suspose to be at the party. |
-| Nearly Impossible | Convince the Greek kings to make war on Troy now that Paris has stolen Helen of Sparta. Convince King Priam and Queen Hecuba of Troy that Alexander / Paris's idea of stealing Helena was a good idea and support him.                                                                    |
-| Godly             | Convince a spirit to share their true name with you. Convince a dragon to tell you the secret location of its horde                                                                                                                                                                       |
+| Skill             | Persuasion                                                                                                                                                                                                                                                                                  |
+|-------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Trivial           | Convince a hungry person to eat food you bought for them.                                                                                                                                                                                                                                   |
+| Simple            | Convince a child to take candy from you                                                                                                                                                                                                                                                     |
+| Easy              | Calm a troubled person. Persuade a city guard to do their job well. Convince a governmental official you want to help them.                                                                                                                                                                 |
+| Routine           | Requires a bit more competence to accomplish. Can be completed more often than not by a character with natural aptitude.                                                                                                                                                                    |
+| Average           | Requires a bit more competence to accomplish. Can be completed more often than not by a character if they have received exposure to the skill and are not encumbered in any way. This is the work of an apprentice or someone with exceptional latent talent.                               |
+| Difficult         | Convince someone that you are of another caste / social class then the one you actually are. convince a group of thugs to leave you in peace. Convince a friend your idea is better than their idea.                                                                                        |
+| Very Difficult    | Convince a group of people to use a limited resource the way you want them to. Talk your way past a steward to talk to the property owner. Inspire a group of townsfolk who are milling about. Negotiate peace between warring parties that want peace, but don't know how to proceed.      |
+| Formidable        | Stir up slaves or plebs to revolt against their task masters (not all will listen). Convince a mob boss you are worth more alive than dead. Convince someone to share a secret they are not to share with you.                                                                              |
+| Heroic            | Stir up the villagers or slaves to revolt against their task masters and have all of them form an angry mob that marches on the plantation owner’s home. Convince guards that even though you don't have an invitation and you are not on their list, you are suspose to be at The Company. |
+| Nearly Impossible | Convince the Greek kings to make war on Troy now that Paris has stolen Helen of Sparta. Convince King Priam and Queen Hecuba of Troy that Alexander / Paris's idea of stealing Helena was a good idea and support him.                                                                      |
+| Godly             | Convince a spirit to share their true name with you. Convince a dragon to tell you the secret location of its horde                                                                                                                                                                         |
 
 ##### Intimidation Skill
 
@@ -1698,7 +2342,7 @@ reconsider a decision.
 | Routine           | Cause innocent people to cow before you in a public place                                                                                                                                                                                                     |
 | Average           | Requires a bit more competence to accomplish. Can be completed more often than not by a character if they have received exposure to the skill and are not encumbered in any way. This is the work of an apprentice or someone with exceptional latent talent. |
 | Difficult         | Shove or push someone out of your way. Get information out of an uncooperative captive. Convince thugs to back down.                                                                                                                                          |
-| Very Difficult    | Convince the police to look the other way this time. Make a government functionary sign an arbitrary document.                                                                                                                                                |
+| Very Difficult    | Convince the police to look the other way this time. Make a government functionary sign an arbitrary document.                                                                                                                                                |
 | Formidable        | Make a threatening gesture to force a guard to abandon their post. Stop a mob in their tracks. Cause a creature who is larger and stronger to flee.                                                                                                           |
 | Heroic            | Force an undefeated rival to kneel before you to kiss your boots                                                                                                                                                                                              |
 | Nearly Impossible | Force a king or high priest to abandon their post for their crimes                                                                                                                                                                                            |
@@ -1725,7 +2369,7 @@ structures of a corporation or social group.
 | Routine           | Requires a bit more competence to accomplish. Can be completed more often than not by a character with natural aptitude.                                                                                                                                      |
 | Average           | Requires a bit more competence to accomplish. Can be completed more often than not by a character if they have received exposure to the skill and are not encumbered in any way. This is the work of an apprentice or someone with exceptional latent talent. |
 | Difficult         | Identify the standard or banner of a house, region or faction                                                                                                                                                                                                 |
-| Very Difficult    | Translate ancient writings into the common tongue                                                                                                                                                                                                             |
+| Very Difficult    | Translate ancient writings into the common tongue                                                                                                                                                                                                             |
 | Formidable        | Write a strongly-worded letter to the chief-magistrate of your region about poor living conditions in your village.                                                                                                                                           |
 | Heroic            | Achievable only by the most trained, experienced, and talented superstars, and they probably still need help to pull it off. This is a once or twice in a lifetime feet. You are the best at this in the world.                                               |
 | Nearly Impossible | An epic feat on which legendary tales are based on. The named masters of a skill come from acts such as these. You will be in the history books.                                                                                                              |
@@ -1747,7 +2391,7 @@ maneuver.
 | Routine           | Rustle up a flock of sheep without a sheepdog                                                                                                                                                                                                                 |
 | Average           | Requires a bit more competence to accomplish. Can be completed more often than not by a character if they have received exposure to the skill and are not encumbered in any way. This is the work of an apprentice or someone with exceptional latent talent. |
 | Difficult         | Calm a frightened horse. Calm a wild but otherwise peaceful animal, intuit an animal’s emotional state, set a broken bone, perform a complex maneuver while mounted, stabilize a dying creature in the middle of combat, diagnose an uncommon ailment         |
-| Very Difficult    | Break a young domesticated horse. Intuit a hostile animal’s next action, control an untrained mount, diagnose a rare ailment                                                                                                                                  |
+| Very Difficult    | Break a young domesticated horse. Intuit a hostile animal’s next action, control an untrained mount, diagnose a rare ailment                                                                                                                                  |
 | Formidable        | Calm a frightened stampede of kine. Calm a dangerous wild animal, diagnose magical and divine ailments                                                                                                                                                        |
 | Heroic            | Break a wild horse for riding                                                                                                                                                                                                                                 |
 | Nearly Impossible | Groom an undomesticated wild beast                                                                                                                                                                                                                            |
@@ -1766,7 +2410,7 @@ of themselves.
 | Routine           | Use Inspiring others in combat while you are obviously Wounded                                                                                                                                                                                                |
 | Average           | Requires a bit more competence to accomplish. Can be completed more often than not by a character if they have received exposure to the skill and are not encumbered in any way. This is the work of an apprentice or someone with exceptional latent talent. |
 | Difficult         | Convince your flock to change their principles in the name of their god                                                                                                                                                                                       |
-| Very Difficult    | Command a military campaign to besiege a stronghold                                                                                                                                                                                                           |
+| Very Difficult    | Command a military campaign to besiege a stronghold                                                                                                                                                                                                           |
 | Formidable        | Uplift a congregation who’ve lost their faith in their god                                                                                                                                                                                                    |
 | Heroic            | Convince Humanoids who were once your enemies to fight alongside you                                                                                                                                                                                          |
 | Nearly Impossible | Incite peasants to violence in the wake of a miracle                                                                                                                                                                                                          |
